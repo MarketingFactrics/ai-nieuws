@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Avondeditie</title>
+<meta name="description" content="Rustig bijblijven met Claude en Claude Code, elke avond.">
+<meta name="theme-color" content="#16130f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Avondeditie">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="eyebrow" id="edition-label">Avondeditie</p>
+    <h1 id="edition-date">&nbsp;</h1>
+    <p class="meta" id="edition-meta"></p>
+    <div class="progress" id="progress" hidden><span id="progress-bar"></span></div>
+  </div>
+</header>
+
+<main>
+  <section class="view" id="view-tonight" aria-label="Vanavond"></section>
+  <section class="view" id="view-saved" aria-label="Bewaard" hidden></section>
+  <section class="view" id="view-archive" aria-label="Eerder" hidden></section>
+</main>
+
+<nav class="tabbar" aria-label="Navigatie">
+  <button class="tab is-active" data-view="tonight" aria-current="page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+    <span>Vanavond</span>
+  </button>
+  <button class="tab" data-view="saved">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4z"/></svg>
+    <span>Bewaard <b class="badge" id="saved-count" hidden></b></span>
+  </button>
+  <button class="tab" data-view="archive">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h10"/></svg>
+    <span>Eerder</span>
+  </button>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "keywords": ["claude", "anthropic", "sonnet", "opus", "haiku", "mcp", "agent skill", "skills", "subagent"],
+  "article_keywords": ["claude", "sonnet", "opus", "haiku", "mcp", "skill", "agent", "code", "model", "api"],
+  "youtube": [
+    {"name": "Anthropic", "id": "UCrDwWp7EBBv4NwvScIpBDOA", "official": true},
+    {"name": "Claude", "id": "UCV03SRZXJEz-hchIAogeJOg", "official": true},
+    {"name": "IndyDevDan", "id": "UC_x36zCEGilGpB1m-V4gmjg"},
+    {"name": "All About AI", "id": "UCR9j1jqqB5Rse69wjUnbYwA"},
+    {"name": "Cole Medin", "id": "UCMwVTLZIRRUyyVrkjDpn4pA"},
+    {"name": "Greg Isenberg", "id": "UCPjNBjflYl0-HQtUvOx0Ibw"},
+    {"name": "Sam Witteveen", "id": "UC55ODQSvARtgSyc8ThfiepQ"},
+    {"name": "AICodeKing", "id": "UC0m81bQuthaQZmFbXEY9QSw"},
+    {"name": "Matthew Berman", "id": "UCawZsQWqfGSbCI5yjkdVkTA"},
+    {"name": "Wes Roth", "id": "UCqcbQf6yw5KzRoDDcZ_wBSw"},
+    {"name": "Nate Herk", "id": "UC2ojq-nuP8ceeHqiroeKhBA"},
+    {"name": "Matt Wolfe", "id": "UChpleBmo18P08aKCIgti38g"}
+  ],
+  "github_releases": ["anthropics/claude-code"],
+  "sitemaps": [
+    {"name": "Anthropic", "kind": "anthropic", "url": "https://www.anthropic.com/sitemap.xml", "prefix": "https://www.anthropic.com/news/", "filter": true},
+    {"name": "Claude blog", "kind": "claude-blog", "url": "https://claude.com/sitemap.xml", "prefix": "https://claude.com/resources/articles/", "filter": false}
+  ],
+  "simon_feed": "https://simonwillison.net/tags/claude.atom",
+  "hn_min_points": 80,
+  "reddit": ["ClaudeAI", "ClaudeCode"]
+}
