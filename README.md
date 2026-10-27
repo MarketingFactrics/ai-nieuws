@@ -8,6 +8,10 @@ Rustig bijblijven met Claude en Claude Code, in plaats van doomscrollen. Elke av
 - De GitHub Action `.github/workflows/ai-nieuws.yml` draait dit elke dag om 16:30 UTC (17:30 winter / 18:30 zomer) en commit het resultaat.
 - GitHub Pages serveert de app (`index.html`, `app.js`, `styles.css`). Bewaarde items staan in de opslag van je iPhone (localStorage).
 
+## Nederlandse vertaling
+
+Titels, samenvattingen en releasenotes worden met Claude (Opus 5.5, lage effort) naar het Nederlands vertaald. Daarvoor is een repository-secret `ANTHROPIC_API_KEY` nodig (Settings → Secrets and variables → Actions). Zonder sleutel werkt alles gewoon, maar in het Engels. Kosten: enkele centen per avond.
+
 ## Op je iPhone
 
 Open de Pages-link in **Safari** → deelknop → **Zet op beginscherm**. Gebruik daarna altijd het icoon op je beginscherm (die heeft z'n eigen opslag voor je bewaarde items).

@@ -291,6 +291,85 @@ def build_edition(candidates, seen_ids, window_start):
     return mixed
 
 
+# ---------- vertalen ----------
+
+TRANSLATE_PROMPT = """Je vertaalt items voor een rustige Nederlandse nieuwsapp over Claude en Claude Code.
+
+Voor elk item:
+- title: een natuurlijke Nederlandse titel. Geen clickbait of hoofdletters-schreeuwen; rustig en informatief.
+- summary: 1 à 2 zinnen in eenvoudig Nederlands over waar het over gaat en waarom het interessant is. \
+Bij een video: wat je ervan leert. Verzin niets dat niet in de brontekst staat; is die mager, houd het dan kort.
+- bullets: vertaal elk punt (zelfde volgorde en aantal). Lege lijst als er geen punten zijn.
+
+Laat productnamen, functienamen, commando's, opties en code onvertaald (Claude Code, MCP, skills, subagents, `--flag`, enz.).
+Geef het id ongewijzigd terug.
+
+Items (JSON):
+"""
+
+TRANSLATE_SCHEMA = {
+    "type": "object",
+    "properties": {"items": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"id": {"type": "string"}, "title": {"type": "string"},
+                       "summary": {"type": "string"}, "bullets": {"type": "array", "items": {"type": "string"}}},
+        "required": ["id", "title", "summary", "bullets"],
+        "additionalProperties": False}}},
+    "required": ["items"],
+    "additionalProperties": False,
+}
+
+
+def translate(items):
+    """Vertaalt titels, samenvattingen en releasepunten naar het Nederlands met Claude.
+
+    Zonder ANTHROPIC_API_KEY (of bij een fout) blijven de items gewoon Engels.
+    """
+    todo = [i for i in items if i.get("lang") != "nl"]
+    if not todo:
+        return
+    try:
+        import anthropic
+        client = anthropic.Anthropic()
+    except Exception as e:
+        print("  vertalen overgeslagen:", e, file=sys.stderr)
+        return
+    payload = [{"id": i["id"], "soort": i["kind"], "bron": i["source"], "title": i["title"],
+                "summary": i.get("summary", ""), "bullets": i.get("bullets", [])} for i in todo]
+    try:
+        response = client.beta.messages.create(
+            model="claude-opus-5-5",
+            max_tokens=16000,
+            betas=["server-side-fallback-2026-07-01"],
+            fallbacks="default",
+            output_config={"effort": "low", "format": {"type": "json_schema", "schema": TRANSLATE_SCHEMA}},
+            messages=[{"role": "user", "content": TRANSLATE_PROMPT + json.dumps(payload, ensure_ascii=False)}],
+        )
+    except anthropic.APIError as e:
+        print("  vertalen mislukt:", e, file=sys.stderr)
+        return
+    if response.stop_reason in ("refusal", "max_tokens"):
+        print("  vertalen gestopt:", response.stop_reason, file=sys.stderr)
+        return
+    text = next((b.text for b in response.content if b.type == "text"), "")
+    try:
+        translated = {t["id"]: t for t in json.loads(text)["items"]}
+    except (ValueError, KeyError) as e:
+        print("  vertaling onleesbaar:", e, file=sys.stderr)
+        return
+    for i in todo:
+        t = translated.get(i["id"])
+        if not t:
+            continue
+        i["titleOriginal"] = i["title"]
+        i["title"] = t["title"].strip() or i["title"]
+        i["summary"] = t["summary"].strip()
+        if i.get("bullets") and len(t["bullets"]) == len(i["bullets"]):
+            i["bullets"] = t["bullets"]
+        i["lang"] = "nl"
+    print("  vertaald: %d van %d items" % (sum(1 for i in todo if i.get("lang") == "nl"), len(todo)))
+
+
 def main():
     with open(SOURCES_PATH) as f:
         cfg = json.load(f)
@@ -331,6 +410,9 @@ def main():
         existing["items"] += edition_items[:room]
     elif edition_items:
         feed["editions"].insert(0, {"date": today, "items": edition_items})
+    # Nieuwste editie vertalen (vangt ook items op die eerder onvertaald bleven)
+    if feed["editions"]:
+        translate(feed["editions"][0]["items"])
     cutoff = (NOW - timedelta(days=KEEP_DAYS)).date().isoformat()
     feed["editions"] = [e for e in feed["editions"] if e["date"] >= cutoff]
 

@@ -7,74 +7,86 @@
      "id": "gh:anthropics/claude-code:v2.1.311",
      "kind": "release",
      "source": "claude-code",
-     "title": "claude-code: 7 nieuwe versies (v2.1.305 → v2.1.311)",
+     "title": "Claude Code: zeven nieuwe versies (v2.1.305 tot v2.1.311)",
      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
      "published": "2026-10-26T21:51:23+00:00",
-     "summary": "Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running · Added a tip for the Explanatory output style, shown when you ask Claude for explanations · Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item",
+     "summary": "Een reeks updates met nieuwe opties voor `self-hosted-runner`, een tip voor de Explanatory-uitvoerstijl en veel oplossingen voor vastlopers, compaction en MCP-tools in subagents.",
      "bullets": [
-      "Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running",
-      "Added a tip for the Explanatory output style, shown when you ask Claude for explanations",
-      "Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item",
-      "Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloading",
-      "Fixed standard-context sessions stopping with \"Usage credits required for 1M context\" when a request ran over 200K tokens; Claude Code now compacts the…",
-      "Fixed Write and Edit stalling for up to 5 seconds after they ran, and reporting 0 lines changed, when changing thousands of lines in a file",
-      "Fixed subagents being unable to use MCP tools from servers that finish connecting after the subagent starts",
-      "Fixed Claude seeing stale MEMORY.md and CLAUDE.md content right after automatic compaction when those files were edited earlier in the session",
-      "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are…",
-      "Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude…",
-      "Fixed background cleanup deleting some recent files, such as pasted images, when `cleanupPeriodDays` is set to a very large value",
-      "Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail…"
-     ]
+      "`--hold-idle-file` en `--max-hold-min` toegevoegd aan `self-hosted-runner`, om een inactieve sessie aan te houden terwijl je host processen meldt die nog actief zijn",
+      "Tip toegevoegd voor de Explanatory-uitvoerstijl, getoond wanneer je Claude om uitleg vraagt",
+      "Lange vastlopers opgelost bij het opstarten en na het lezen of bewerken van bestanden wanneer een CLAUDE.md-bestand een heel lang lijstitem bevat",
+      "Opgelost dat het onderbreken van Claude pas na een timeout werkte terwijl een MCP-server nog niet had gereageerd op het lezen van een resource of een skill nog aan het downloaden was",
+      "Opgelost dat sessies met standaardcontext stopten met \"Usage credits required for 1M context\" wanneer een verzoek boven de 200K tokens uitkwam; Claude Code compacteert nu de…",
+      "Opgelost dat Write en Edit na afloop tot 5 seconden bleven hangen en 0 gewijzigde regels meldden bij het wijzigen van duizenden regels in een bestand",
+      "Opgelost dat subagents geen MCP-tools konden gebruiken van servers die pas klaar waren met verbinden nadat de subagent was gestart",
+      "Opgelost dat Claude verouderde inhoud van MEMORY.md en CLAUDE.md zag direct na automatische compaction, als die bestanden eerder in de sessie waren bewerkt",
+      "De Monitor-tool en plugin-monitors toegevoegd op Bedrock, Vertex en Foundry, en wanneer telemetrie of niet-essentieel verkeer is uitgeschakeld; lange sleeps op de voorgrond worden…",
+      "Opgelost dat verzoeken mislukten achter sommige gateways en compatibele servers die de beta-waarde `effort-2025-11-24` of systeemberichten midden in een gesprek weigeren; Claude…",
+      "Opgelost dat de opschoning op de achtergrond sommige recente bestanden, zoals geplakte afbeeldingen, verwijderde wanneer `cleanupPeriodDays` op een zeer grote waarde staat",
+      "Opgelost dat compaction na een \"Prompt is too long\"-fout te veel bewaarde van een gesprek met compacte tekst, zoals base64 of SVG, waardoor het volgende verzoek kon mislukken…"
+     ],
+     "titleOriginal": "claude-code: 7 nieuwe versies (v2.1.305 → v2.1.311)",
+     "lang": "nl"
     },
     {
      "id": "web:https://claude.com/resources/articles/unified-claude-enterprise",
      "kind": "claude-blog",
      "source": "Claude blog",
-     "title": "Claude Cowork and chat come together for Enterprise",
+     "title": "Claude Cowork en chat samengevoegd voor Enterprise",
      "url": "https://claude.com/resources/articles/unified-claude-enterprise",
      "published": "2026-10-23T00:00:00+00:00",
-     "summary": "Chat and Cowork first came together for Pro and Max plans in September. The same unified experience is now generally available for Claude Enterprise plans.",
-     "image": "https://claude.com/resources/articles/unified-claude-enterprise/opengraph-image/og"
+     "summary": "Chat en Cowork werden in september al samengevoegd voor Pro- en Max-abonnementen. Diezelfde gecombineerde ervaring is nu algemeen beschikbaar voor Claude Enterprise.",
+     "image": "https://claude.com/resources/articles/unified-claude-enterprise/opengraph-image/og",
+     "titleOriginal": "Claude Cowork and chat come together for Enterprise",
+     "lang": "nl"
     },
     {
      "id": "yt:N9TUbGO6Kr4",
      "kind": "video-official",
      "source": "Claude",
-     "title": "How an Anthropic engineer uses Claude Docs",
+     "title": "Hoe een engineer bij Anthropic Claude Docs gebruikt",
      "url": "https://www.youtube.com/watch?v=N9TUbGO6Kr4",
      "published": "2026-10-26T17:24:59+00:00",
-     "summary": "Most docs at work are shared, so Claude Docs is built for a team. Claude works in the doc alongside everyone: it pulls the numbers, checks your claims, and picks up questions in the comments. Doug, a product engineer at Anthropic, shares how he uses it for standups and launch…",
+     "summary": "Claude Docs is gemaakt voor teams: Claude werkt mee in het document, haalt cijfers op, controleert beweringen en pakt vragen in de opmerkingen op. Productengineer Doug laat zien hoe hij het gebruikt voor standups en lanceringen.",
      "image": "https://i.ytimg.com/vi/N9TUbGO6Kr4/hqdefault.jpg",
-     "videoId": "N9TUbGO6Kr4"
+     "videoId": "N9TUbGO6Kr4",
+     "titleOriginal": "How an Anthropic engineer uses Claude Docs",
+     "lang": "nl"
     },
     {
      "id": "simon:https://simonwillison.net/2026/Oct/24/battledrones/",
      "kind": "simon",
      "source": "Simon Willison",
-     "title": "battledrones v14: Compass Rose, a four player map",
+     "title": "Battledrones v14: Compass Rose, een kaart voor vier spelers",
      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
      "published": "2026-10-24T03:59:57+00:00",
-     "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works…"
+     "summary": "Simon Willison voegde een online modus voor vier spelers toe aan Battledrones; eerdere kaarten waren beperkt tot twee. Hij deelt de prompt waarmee hij begon.",
+     "titleOriginal": "battledrones v14: Compass Rose, a four player map",
+     "lang": "nl"
     },
     {
      "id": "simon:https://simonwillison.net/2026/Oct/20/battledrones/",
      "kind": "simon",
      "source": "Simon Willison",
-     "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+     "title": "Battle Drones: een gevibecodeerd RTS-spel met multiplayer via audio",
      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
      "published": "2026-10-20T19:34:19+00:00",
-     "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to…"
+     "summary": "Simon Willison bouwde met vibe coding een realtime strategiespel in de stijl van Command & Conquer. Anders dan zijn eerdere experimenten is dit spel echt leuk om te spelen, en hij vertelt hoe Claude daarbij hielp.",
+     "titleOriginal": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+     "lang": "nl"
     },
     {
      "id": "yt:0XQele28q0w",
      "kind": "video",
      "source": "AICodeKing",
-     "title": "CLI-Anything: Turn ANY App into a CLI for Claude Code & Codex (GIMP, Blender, LibreOffice & More!)",
+     "title": "CLI-Anything: maak van elke app een CLI voor Claude Code en Codex",
      "url": "https://www.youtube.com/watch?v=0XQele28q0w",
      "published": "2026-10-25T09:15:02+00:00",
-     "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/@aicodeking/join In this video, I'll show you CLI-Anything, an open-source project from HKUDS at the University of Hong Kong that gives any piece of software a command line interface your AI agent can use.…",
+     "summary": "De video laat CLI-Anything zien, een opensourceproject van HKUDS (Universiteit van Hongkong) dat elke software, zoals GIMP, Blender en LibreOffice, een commandoregelinterface geeft die je AI-agent kan gebruiken.",
      "image": "https://i.ytimg.com/vi/0XQele28q0w/hqdefault.jpg",
-     "videoId": "0XQele28q0w"
+     "videoId": "0XQele28q0w",
+     "titleOriginal": "CLI-Anything: Turn ANY App into a CLI for Claude Code & Codex (GIMP, Blender, LibreOffice & More!)",
+     "lang": "nl"
     },
     {
      "id": "hn:50242939",
@@ -83,9 +95,11 @@
      "title": "Anthropic S-1",
      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
      "published": "2026-10-26T13:04:50+00:00",
-     "summary": "1666 punten · 1605 reacties",
+     "summary": "Veelbesproken discussie op Hacker News: 1666 punten en 1605 reacties.",
      "discussion": "https://news.ycombinator.com/item?id=50242939",
-     "score": 1666
+     "score": 1666,
+     "titleOriginal": "Anthropic S-1",
+     "lang": "nl"
     },
     {
      "id": "hn:50186037",
@@ -94,53 +108,63 @@
      "title": "Claude Duet",
      "url": "https://claude.com/product/claude-duet",
      "published": "2026-10-21T19:14:01+00:00",
-     "summary": "567 punten · 536 reacties",
+     "summary": "Discussie op Hacker News met 567 punten en 536 reacties.",
      "discussion": "https://news.ycombinator.com/item?id=50186037",
-     "score": 567
+     "score": 567,
+     "titleOriginal": "Claude Duet",
+     "lang": "nl"
     },
     {
      "id": "yt:Xm_Sf2qxRW4",
      "kind": "video",
      "source": "AICodeKing",
-     "title": "Here's how I do Real Engineering with Opus 5.5 (Workflow w/ Tools)",
+     "title": "Zo doe ik echt engineeringwerk met Opus 5.5 (workflow en tools)",
      "url": "https://www.youtube.com/watch?v=Xm_Sf2qxRW4",
      "published": "2026-10-23T10:00:33+00:00",
-     "summary": "Star PandaCode on GitHub: https://github.com/aicodeking/pandacode Join this channel to get access to perks: https://www.youtube.com/channel/@aicodeking/join In this video, I'll show you how I engineer with Claude Opus 5.5 on long-running tasks, using real examples from…",
+     "summary": "De maker laat aan de hand van echte voorbeelden zien hoe hij met Claude Opus 5.5 werkt aan langlopende taken.",
      "image": "https://i.ytimg.com/vi/Xm_Sf2qxRW4/hqdefault.jpg",
-     "videoId": "Xm_Sf2qxRW4"
+     "videoId": "Xm_Sf2qxRW4",
+     "titleOriginal": "Here's how I do Real Engineering with Opus 5.5 (Workflow w/ Tools)",
+     "lang": "nl"
     },
     {
      "id": "reddit:t3_1xganwd",
      "kind": "reddit",
      "source": "r/ClaudeAI",
-     "title": "Claude throwing punches out here",
+     "title": "Claude deelt rake klappen uit",
      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
      "published": "2026-10-26T22:02:56+00:00",
-     "summary": "Damn claude. I thought we were tight Claude just woke up and chose violence submitted by /u/tradelydev [link] [comments]",
+     "summary": "Een luchtige Reddit-post over een opvallend scherp antwoord van Claude.",
      "image": "https://preview.redd.it/kb0l1qvowvxh1.jpeg?width=640&crop=smart&auto=webp&s=2f6bc43cbcd82a46b68ce224d3fb9dfed54ddfb2",
-     "score": 100
+     "score": 100,
+     "titleOriginal": "Claude throwing punches out here",
+     "lang": "nl"
     },
     {
      "id": "yt:DSS1Yqb6-qE",
      "kind": "video",
      "source": "Nate Herk",
-     "title": "/roast-room: How I Use Claude to Think Like the Top 1%",
+     "title": "/roast-room: hoe ik Claude gebruik om te denken als de top 1%",
      "url": "https://www.youtube.com/watch?v=DSS1Yqb6-qE",
      "published": "2026-10-22T14:18:13+00:00",
-     "summary": "Try Fish Audio today: https://fish.audio/invite/?fpr=nateh Fish Audio’s Drama 3 is Open Weight – self host at https://huggingface.co/fishaudio/drama-3 My FREE resources:…",
+     "summary": "Nate Herk laat zien hoe hij Claude inzet met een /roast-room-aanpak om zijn denkwerk scherper te maken.",
      "image": "https://i.ytimg.com/vi/DSS1Yqb6-qE/hqdefault.jpg",
-     "videoId": "DSS1Yqb6-qE"
+     "videoId": "DSS1Yqb6-qE",
+     "titleOriginal": "/roast-room: How I Use Claude to Think Like the Top 1%",
+     "lang": "nl"
     },
     {
      "id": "yt:GnFFcLnmWuQ",
      "kind": "video",
      "source": "Nate Herk",
-     "title": "Claude has completely changed how I edit videos",
+     "title": "Claude heeft mijn manier van video's monteren volledig veranderd",
      "url": "https://www.youtube.com/watch?v=GnFFcLnmWuQ",
      "published": "2026-10-22T13:18:04+00:00",
-     "summary": "",
+     "summary": "Nate Herk vertelt hoe hij Claude gebruikt bij het monteren van video's.",
      "image": "https://i.ytimg.com/vi/GnFFcLnmWuQ/hqdefault.jpg",
-     "videoId": "GnFFcLnmWuQ"
+     "videoId": "GnFFcLnmWuQ",
+     "titleOriginal": "Claude has completely changed how I edit videos",
+     "lang": "nl"
     }
    ]
   }
@@ -893,7 +917,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-27T15:21:51.896333+00:00"
+  "last_run": "2026-10-27T15:23:30.765703+00:00"
  },
- "generated": "2026-10-27T15:21:51.896333+00:00"
+ "generated": "2026-10-27T15:23:30.765703+00:00"
 }
