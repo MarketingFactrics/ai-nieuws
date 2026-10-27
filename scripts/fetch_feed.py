@@ -10,6 +10,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -293,81 +294,44 @@ def build_edition(candidates, seen_ids, window_start):
 
 # ---------- vertalen ----------
 
-TRANSLATE_PROMPT = """Je vertaalt items voor een rustige Nederlandse nieuwsapp over Claude en Claude Code.
-
-Voor elk item:
-- title: een natuurlijke Nederlandse titel. Geen clickbait of hoofdletters-schreeuwen; rustig en informatief.
-- summary: 1 à 2 zinnen in eenvoudig Nederlands over waar het over gaat en waarom het interessant is. \
-Bij een video: wat je ervan leert. Verzin niets dat niet in de brontekst staat; is die mager, houd het dan kort.
-- bullets: vertaal elk punt (zelfde volgorde en aantal). Lege lijst als er geen punten zijn.
-
-Laat productnamen, functienamen, commando's, opties en code onvertaald (Claude Code, MCP, skills, subagents, `--flag`, enz.).
-Geef het id ongewijzigd terug.
-
-Items (JSON):
-"""
-
-TRANSLATE_SCHEMA = {
-    "type": "object",
-    "properties": {"items": {"type": "array", "items": {
-        "type": "object",
-        "properties": {"id": {"type": "string"}, "title": {"type": "string"},
-                       "summary": {"type": "string"}, "bullets": {"type": "array", "items": {"type": "string"}}},
-        "required": ["id", "title", "summary", "bullets"],
-        "additionalProperties": False}}},
-    "required": ["items"],
-    "additionalProperties": False,
-}
+def google_translate(texts):
+    """Gratis vertaling via het adres van Google's Chrome-vertaalextensie (geen sleutel nodig)."""
+    query = urllib.parse.urlencode([("client", "dict-chrome-ex"), ("sl", "en"), ("tl", "nl")]
+                                   + [("q", t) for t in texts])
+    data = json.loads(get("https://clients5.google.com/translate_a/t?" + query))
+    if isinstance(data, str):
+        data = [data]
+    # Google voegt soms onzichtbare tekens (zero-width spaces) toe
+    return [re.sub("[\u200b\u200c\u200d]", "", t).strip() for t in data]
 
 
 def translate(items):
-    """Vertaalt titels, samenvattingen en releasepunten naar het Nederlands met Claude.
+    """Vertaalt titels, samenvattingen en releasepunten naar het Nederlands.
 
-    Zonder ANTHROPIC_API_KEY (of bij een fout) blijven de items gewoon Engels.
+    Mislukt de vertaling (Google weigert of is onbereikbaar), dan blijft het item Engels.
     """
+    done = 0
     todo = [i for i in items if i.get("lang") != "nl"]
-    if not todo:
-        return
-    try:
-        import anthropic
-        client = anthropic.Anthropic()
-    except Exception as e:
-        print("  vertalen overgeslagen:", e, file=sys.stderr)
-        return
-    payload = [{"id": i["id"], "soort": i["kind"], "bron": i["source"], "title": i["title"],
-                "summary": i.get("summary", ""), "bullets": i.get("bullets", [])} for i in todo]
-    try:
-        response = client.beta.messages.create(
-            model="claude-opus-5-5",
-            max_tokens=16000,
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
-            output_config={"effort": "low", "format": {"type": "json_schema", "schema": TRANSLATE_SCHEMA}},
-            messages=[{"role": "user", "content": TRANSLATE_PROMPT + json.dumps(payload, ensure_ascii=False)}],
-        )
-    except anthropic.APIError as e:
-        print("  vertalen mislukt:", e, file=sys.stderr)
-        return
-    if response.stop_reason in ("refusal", "max_tokens"):
-        print("  vertalen gestopt:", response.stop_reason, file=sys.stderr)
-        return
-    text = next((b.text for b in response.content if b.type == "text"), "")
-    try:
-        translated = {t["id"]: t for t in json.loads(text)["items"]}
-    except (ValueError, KeyError) as e:
-        print("  vertaling onleesbaar:", e, file=sys.stderr)
-        return
     for i in todo:
-        t = translated.get(i["id"])
-        if not t:
+        # Eén verzoek per item: titel, samenvatting en releasepunten samen
+        parts = [i["title"], i.get("summary") or " "] + i.get("bullets", [])
+        try:
+            out = google_translate(parts)
+        except Exception as e:
+            print("  vertalen mislukt:", e, file=sys.stderr)
+            continue
+        if len(out) != len(parts):
             continue
         i["titleOriginal"] = i["title"]
-        i["title"] = t["title"].strip() or i["title"]
-        i["summary"] = t["summary"].strip()
-        if i.get("bullets") and len(t["bullets"]) == len(i["bullets"]):
-            i["bullets"] = t["bullets"]
+        i["title"] = out[0] or i["title"]
+        i["summary"] = out[1] if i.get("summary") else ""
+        if i.get("bullets"):
+            i["bullets"] = out[2:]
         i["lang"] = "nl"
-    print("  vertaald: %d van %d items" % (sum(1 for i in todo if i.get("lang") == "nl"), len(todo)))
+        done += 1
+        time.sleep(0.5)
+    if todo:
+        print("  vertaald: %d van %d items" % (done, len(todo)))
 
 
 def main():

@@ -10,7 +10,7 @@ Rustig bijblijven met Claude en Claude Code, in plaats van doomscrollen. Elke av
 
 ## Nederlandse vertaling
 
-Titels, samenvattingen en releasenotes worden met Claude (Opus 5.5, lage effort) naar het Nederlands vertaald. Daarvoor is een repository-secret `ANTHROPIC_API_KEY` nodig (Settings → Secrets and variables → Actions). Zonder sleutel werkt alles gewoon, maar in het Engels. Kosten: enkele centen per avond.
+Titels, samenvattingen en releasenotes worden gratis vertaald via Google Translate (zonder sleutel). Lukt dat een keer niet, dan blijft dat item Engels.
 
 ## Op je iPhone
 
