@@ -85,7 +85,7 @@ main { padding: 8px 16px 0; }
   display: flex; align-items: center; gap: 8px;
   font-size: 13px; color: var(--ink-3); margin-bottom: 6px;
 }
-.kicker .tag {
+.tag {
   font-size: 11px; letter-spacing: .08em; text-transform: uppercase; font-weight: 600;
   padding: 2px 8px; border-radius: 99px; background: var(--paper-2); color: var(--amber);
 }
@@ -159,6 +159,51 @@ code { font: 14px ui-monospace, "SF Mono", Menlo, monospace; background: var(--p
 .backup { display: flex; gap: 8px; justify-content: center; margin: 28px 0 8px; flex-wrap: wrap; }
 .backup .action { border: 1px solid var(--line); }
 
+/* ---------- skills ---------- */
+.tag.k-official { color: var(--clay); }
+.tag.k-marketplace { color: var(--amber); }
+.tag.k-community { color: var(--ink-2); }
+.tag.k-verified { color: var(--sage); }
+.tag.k-new { color: var(--bg); background: var(--amber); }
+.tag.k-skill { color: var(--sage); }
+.spotlight { border-color: rgba(226,169,101,.45); background: linear-gradient(180deg, rgba(226,169,101,.08), var(--paper) 140px); }
+.spotlight .eyebrow { margin-bottom: 4px; }
+.spotlight h2 { font-size: 26px; }
+.spotlight .kicker { flex-wrap: wrap; }
+.summary.is-full { display: block; -webkit-line-clamp: unset; overflow: visible; color: var(--ink); }
+.deep p { margin: 0 0 10px; color: var(--ink-2); font-size: 16px; overflow-wrap: anywhere; }
+.deep.is-collapsed p:nth-child(n+3) { display: none; }
+.install { margin: 14px 0 6px; padding: 12px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); }
+.install-title { margin: 0 0 8px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+.install-line { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.install-line code { flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; padding: 6px 8px; }
+.copy-btn { flex: none; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 10px; color: var(--ink-2); }
+.copy-btn:active { background: var(--paper-2); }
+.copy-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.install-hint { margin: 4px 0 0; font-size: 14px; color: var(--ink-3); }
+.section-title { font: 600 22px/1.3 var(--serif); margin: 32px 4px 12px; }
+.search {
+  width: 100%; min-height: 46px; padding: 0 14px; border-radius: 12px;
+  background: var(--paper); color: var(--ink); border: 1px solid var(--line); font: 16px var(--sans);
+}
+.search:focus, .select:focus { outline: 2px solid var(--amber); outline-offset: 1px; border-color: transparent; }
+.search::placeholder { color: var(--ink-3); }
+.filter-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 10px 0 4px; }
+.select {
+  min-height: 40px; max-width: 62%; padding: 0 12px; border-radius: 10px;
+  background: var(--paper); color: var(--ink); border: 1px solid var(--line); font: 15px var(--sans);
+}
+.count { color: var(--ink-3); font-size: 14px; }
+.skill { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; margin: 10px 0; overflow: hidden; }
+.skill summary { list-style: none; cursor: pointer; padding: 14px 16px; }
+.skill summary::-webkit-details-marker { display: none; }
+.skill-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.skill-head b { font: 600 18px/1.3 var(--serif); margin-right: 4px; overflow-wrap: anywhere; }
+.skill-desc { margin: 6px 0 0; color: var(--ink-2); font-size: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+.skill[open] .skill-desc { display: block; -webkit-line-clamp: unset; color: var(--ink); }
+.skill-body { padding: 0 16px; }
+.more-skills { display: block; margin: 16px auto; }
+
 /* ---------- archive ---------- */
 .day { margin: 12px 0; border-bottom: 1px solid var(--line); }
 .day summary {
@@ -179,7 +224,7 @@ code { font: 14px ui-monospace, "SF Mono", Menlo, monospace; background: var(--p
   border-top: 1px solid var(--line);
 }
 .tab {
-  flex: 1; max-width: 160px; min-height: 52px;
+  flex: 1; max-width: 120px; min-height: 52px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
   color: var(--ink-3); font-size: 12px; border-radius: 12px;
 }

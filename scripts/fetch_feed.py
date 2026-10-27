@@ -302,7 +302,14 @@ def google_translate(texts):
     if isinstance(data, str):
         data = [data]
     # Google voegt soms onzichtbare tekens (zero-width spaces) toe
-    return [re.sub("[\u200b\u200c\u200d]", "", t).strip() for t in data]
+    out = []
+    for t in data:
+        t = re.sub("[\u200b\u200c\u200d]", "", t).strip()
+        # Vakterm "skill" niet vertalen
+        t = re.sub(r"\b([Vv])aardigheden\b", lambda m: "Skills" if m.group(1) == "V" else "skills", t)
+        t = re.sub(r"\b([Vv])aardigheid\b", lambda m: "Skill" if m.group(1) == "V" else "skill", t)
+        out.append(t)
+    return out
 
 
 def translate(items):
