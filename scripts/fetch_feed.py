@@ -324,8 +324,12 @@ def main():
     edition_items = build_edition(candidates, seen_ids, window_start)
 
     today = NOW.astimezone(timezone(timedelta(hours=1))).date().isoformat()
-    feed["editions"] = [e for e in feed["editions"] if e["date"] != today]
-    if edition_items:
+    existing = next((e for e in feed["editions"] if e["date"] == today), None)
+    if existing:
+        # Tweede run op dezelfde dag: aanvullen, niet vervangen
+        room = max(0, MAX_PER_EDITION - len(existing["items"]))
+        existing["items"] += edition_items[:room]
+    elif edition_items:
         feed["editions"].insert(0, {"date": today, "items": edition_items})
     cutoff = (NOW - timedelta(days=KEEP_DAYS)).date().isoformat()
     feed["editions"] = [e for e in feed["editions"] if e["date"] >= cutoff]
