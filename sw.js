@@ -1,5 +1,5 @@
 // App-shell offline beschikbaar; de feed altijd eerst vers van het netwerk.
-const CACHE = "ai-nieuws-v1";
+const CACHE = "ai-nieuws-v2";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
