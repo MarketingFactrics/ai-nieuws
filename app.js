@@ -172,7 +172,7 @@ function renderTonight() {
   }
   const ed = editions[0];
   const isToday = ed.date === todayISO();
-  $("#edition-label").textContent = isToday ? "Avondeditie van vanavond" : "Laatste avondeditie";
+  $("#edition-label").textContent = isToday ? "AI Nieuws · vanavond" : "AI Nieuws · laatste editie";
   $("#edition-date").textContent = longDate(ed.date);
   $("#edition-meta").textContent = `${ed.items.length} dingen · ongeveer ${minutes(ed.items)} minuten`;
 

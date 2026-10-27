@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEED_PATH = os.path.join(ROOT, "data", "feed.json")
 SOURCES_PATH = os.path.join(ROOT, "sources.json")
 
-UA = "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 Chrome/130 Safari/537.36 AvondEditie/1.0"
+UA = "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 Chrome/130 Safari/537.36 AINieuws/1.0"
 NOW = datetime.now(timezone.utc)
 KEEP_DAYS = 21          # zo lang blijven edities in de app staan
 FIRST_RUN_DAYS = 7      # eerste keer: haal de afgelopen week op

@@ -1,6 +1,6 @@
 {
-  "name": "Avondeditie",
-  "short_name": "Avondeditie",
+  "name": "AI Nieuws",
+  "short_name": "AI Nieuws",
   "description": "Rustig bijblijven met Claude en Claude Code, elke avond.",
   "lang": "nl",
   "start_url": "./",
