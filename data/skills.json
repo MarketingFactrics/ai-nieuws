@@ -547,15 +547,15 @@
   },
   {
    "id": "marketplace:apollo",
-   "name": "Apollo",
+   "name": "apollo",
    "origin": "marketplace",
-   "description": "3 vooraf gebouwde skills die meerdere Apollo API's aan elkaar koppelen tot complete verkoopworkflows - geen handmatige stappen, geen schakelen tussen tabbladen",
-   "category": "Marketing & business",
+   "description": "Prospecteer, verrijk leads, laad outreachreeksen en vraag verkoopanalyses op met Apollo.io: MCP-serverintegratie met één klik voor Claude Code en Cowork.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/apollo",
    "source": "https://github.com/apolloio/apollo-mcp-plugin",
    "verified": true,
    "installs": 1462,
-   "maker": "Apollo.io",
+   "maker": "",
    "about": [
     "The Apollo plugin offers 3 pre-built skills that chain multiple Apollo APIs into complete sales workflows — no manual steps, no tab switching. Enrich any contact from a name, email, or LinkedIn URL. Prospect by describing your ICP in plain English and get ranked leads. Find, enrich, and load contacts into a sequence in one shot.",
     "\"Who is the CEO of Figma?\" — Apollo returns a full contact card with email, phone, title, location, and company details in seconds, even for fuzzy lookups where an exact match isn't available.",
@@ -563,7 +563,7 @@
     "\"Find and enroll decision-makers at my top 10 target accounts into my Q1 outbound sequence.\" — Apollo finds the contacts, enriches them, deduplicates, and bulk-loads them into your sequence with a full enrollment summary before and after enrollment."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "3 pre-built skills that chain multiple Apollo APIs into complete sales workflows — no manual steps, no tab switching"
+   "descriptionOriginal": "Prospect, enrich leads, load outreach sequences, and query sales analytics with Apollo.io — one-click MCP server integration for Claude Code and Cowork."
   },
   {
    "id": "marketplace:apollo-skills",
@@ -716,8 +716,8 @@
     "CLI tool for terminal-based Airflow interaction, enabling commands like listing DAGs, triggering runs, inspecting task logs, and checking environment health — all without leaving your coding session.",
     "Skills are invoked automatically based on your prompts, or you can trigger them directly. Try prompts like:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Apache Airflow/Astronomer: author DAGs, debug failures, trace lineage, profile tables, migrate 2→3, manage deployments"
+   "descriptionOriginal": "Apache Airflow/Astronomer: author DAGs, debug failures, trace lineage, profile tables, migrate 2→3, manage deployments",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:atlan",
@@ -1161,8 +1161,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "The BigID plugin includes the official BigID MCP connector with a set of optimized skills to help explore, manage, and action your data"
+   "descriptionOriginal": "The BigID plugin includes the official BigID MCP connector with a set of optimized skills to help explore, manage, and action your data",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:bigquery-data-analytics",
@@ -1439,8 +1439,8 @@
     "\"Scrape https://example.com as markdown\"",
     "to fetch any webpage as clean text,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Web scraping, Google search, data extraction & MCP via Bright Data. Bot detection, CAPTCHA bypass, 40+ sites, 7 skills"
+   "descriptionOriginal": "Web scraping, Google search, data extraction & MCP via Bright Data. Bot detection, CAPTCHA bypass, 40+ sites, 7 skills",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:browser-use",
@@ -2082,8 +2082,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access ClinicalTrials.gov data. The Clinical Trials Connector gives Claude access to ClinicalTrials.gov, the NIH/NLM registry of FDA-regulated clinical studies conducted worldwide."
+   "descriptionOriginal": "Access ClinicalTrials.gov data. The Clinical Trials Connector gives Claude access to ClinicalTrials.gov, the NIH/NLM registry of FDA-regulated clinical studies conducted worldwide.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:cloud-sql-mysql",
@@ -2282,13 +2282,13 @@
    "id": "marketplace:coderabbit",
    "name": "CodeRabbit",
    "origin": "marketplace",
-   "description": "CodeRabbit: AI-codebeoordeling met meer dan 40 analysers, AST-parsing, veiligheidscontroles en automatisch geïntegreerde projectrichtlijnen.",
-   "category": "Security",
+   "description": "AI-aangedreven codebeoordeling in Claude Code, mogelijk gemaakt door CodeRabbit",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/coderabbit",
-   "source": "https://github.com/coderabbitai/claude-plugin",
-   "verified": false,
+   "source": "https://github.com/coderabbitai/skills",
+   "verified": true,
    "installs": 32361,
-   "maker": "CodeRabbit AI",
+   "maker": "",
    "about": [
     "CodeRabbit brings AI-powered code review directly into Claude Code. It provides external validation using a specialized AI architecture and 40+ integrated static analyzers, offering a different perspective that catches bugs, security vulnerabilities, logic errors, and edge cases. The plugin performs context-aware analysis via AST parsing and codegraph relationships, and automatically incorporates your CLAUDE.md and project coding guidelines into reviews.",
     "Reviews are organized by severity level: Critical findings (security issues and bugs), Suggestions (code improvements), and Positive feedback (code strengths). The plugin can automatically apply recommended fixes when code generation instructions are available.",
@@ -2296,7 +2296,7 @@
     "Requires installing and authenticating the CodeRabbit CLI before use. The plugin is free to use and works within any Git repository."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CodeRabbit: AI code review with 40+ analyzers, AST parsing, security checks, and auto-integrated project guidelines."
+   "descriptionOriginal": "AI-powered code review in Claude Code, powered by CodeRabbit"
   },
   {
    "id": "marketplace:codspeed",
@@ -2342,8 +2342,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Reviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they're missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read."
+   "descriptionOriginal": "Reviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they're missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:commit-commands",
@@ -2621,8 +2621,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ready-made Claude Skills for partnership and go-to-market teams. Brings partner overlap, co-sell context, and ecosystem signals from Crossbeam into revenue workflows — co-sell plays, ecosystem-qualified prospecting, account briefs, pipeline prioritization, and partner outreach."
+   "descriptionOriginal": "Ready-made Claude Skills for partnership and go-to-market teams. Brings partner overlap, co-sell context, and ecosystem signals from Crossbeam into revenue workflows — co-sell plays, ecosystem-qualified prospecting, account briefs, pipeline prioritization, and partner outreach.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:crowdsec",
@@ -3022,15 +3022,15 @@
   },
   {
    "id": "marketplace:deploy-on-aws",
-   "name": "Deploy on AWS",
+   "name": "deploy-on-aws",
    "origin": "marketplace",
-   "description": "Implementeer applicaties op AWS met architectuuraanbevelingen, kostenramingen en IaC-implementatie.",
+   "description": "Implementeer applicaties op AWS met architectuuraanbevelingen, kostenramingen en IaC-implementatie. Genereer gevalideerde AWS-architectuurdiagrammen als draw.io XML.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/deploy-on-aws",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/deploy-on-aws",
+   "verified": true,
    "installs": 10426,
-   "maker": "Amazon Web Services",
+   "maker": "",
    "about": [
     "Deploy applications to AWS through a guided five-stage workflow: analyze your codebase, receive service recommendations, get monthly cost estimates, generate Infrastructure as Code (CDK/CloudFormation), and execute deployments — all without leaving your editor. The plugin defaults to dev-sized configurations and makes straightforward decisions automatically, only prompting you when choices are genuinely ambiguous.",
     "Three MCP servers power the experience:",
@@ -3038,7 +3038,7 @@
     "for real-time cost calculations, and"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment."
+   "descriptionOriginal": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment. Generate validated AWS architecture diagrams as draw.io XML."
   },
   {
    "id": "marketplace:descope",
@@ -3506,15 +3506,15 @@
   },
   {
    "id": "marketplace:explanatory-output-style",
-   "name": "Explanatory Output Style",
+   "name": "explanatory-output-style",
    "origin": "marketplace",
-   "description": "Voegt educatieve inzichten toe over implementatiekeuzes en codebasispatronen (bootst de verouderde uitlegstijl na)",
+   "description": "Voegt educatieve inzichten toe over implementatiekeuzes en codebasispatronen (bootst de verouderde verklarende uitvoerstijl na)",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/explanatory-output-style",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/explanatory-output-style",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/41f619d61b999adec1a1c8deb97d1a5b6ac35bb6/plugins/explanatory-output-style",
    "verified": true,
    "installs": 64377,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "This plugin adds educational insights about implementation choices and codebase patterns to Claude's responses. It recreates the functionality of the deprecated \"Explanatory\" output style as a session hook that activates automatically when you start a new session.",
     "When enabled, Claude will provide 2-3 key educational points about your codebase as you work, formatted in a distinctive insight box. These insights focus on implementation choices specific to your codebase, pattern conventions, and design trade-offs — not generic programming concepts.",
@@ -3522,7 +3522,7 @@
     "★ Insight ─────────────────────────────────────"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Adds educational insights on implementation choices and codebase patterns (mimics deprecated Explanatory style)"
+   "descriptionOriginal": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)"
   },
   {
    "id": "marketplace:expo",
@@ -3780,22 +3780,22 @@
   },
   {
    "id": "marketplace:firebase",
-   "name": "Firebase",
+   "name": "firebase",
    "origin": "marketplace",
-   "description": "Firebase MCP-integratie. Beheer Firestore, authenticatie, functies, hosting en opslag vanuit uw ontwikkelingsworkflow.",
-   "category": "Ontwikkeling",
+   "description": "Google Firebase MCP-integratie. Beheer Firestore-databases, authenticatie, cloudfuncties, hosting en opslag. Bouw en beheer uw Firebase-backend rechtstreeks vanuit uw ontwikkelingsworkflow.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/firebase",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/firebase",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1aa8f02ec8327f513686934f458a620f83db91ed/external_plugins/firebase",
+   "verified": true,
    "installs": 26168,
-   "maker": "Google",
+   "maker": "",
    "about": [
     "Connect Claude Code directly to Google Firebase for seamless backend management. This plugin enables you to work with Firestore databases, manage authentication users, deploy cloud functions, configure hosting, and access storage—all without leaving your development environment.",
     "Key capabilities include Firestore document operations (get, delete, query), user authentication management, Cloud Functions log retrieval, Cloud Messaging for sending notifications, Remote Config template management, Crashlytics issue tracking, and Realtime Database read/write operations. The plugin also provides security rules validation and project configuration tools.",
     "Once installed, Claude Code gains access to Firebase tools automatically. Try prompts like \"Query all users from my Firestore collection\", \"Show me the latest Cloud Functions logs\", \"Send a test notification via Cloud Messaging\", \"Get the Crashlytics issues from the last 24 hours\", or \"Deploy my Firebase hosting configuration\". You can also use built-in prompts like"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Firebase MCP integration. Manage Firestore, authentication, functions, hosting, and storage from your development workflow."
+   "descriptionOriginal": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow."
   },
   {
    "id": "marketplace:firecrawl",
@@ -4173,8 +4173,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Glean to search your company's knowledge, chat with Glean Assistant, and discover and use the skills and connected tools available to your organization."
+   "descriptionOriginal": "Use Glean to search your company's knowledge, chat with Glean Assistant, and discover and use the skills and connected tools available to your organization.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:glean-dev-docs",
@@ -4188,8 +4188,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Search the public Glean developer documentation — APIs, SDKs, MCP, and integration guides for building with Glean."
+   "descriptionOriginal": "Search the public Glean developer documentation — APIs, SDKs, MCP, and integration guides for building with Glean.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:gopls-lsp",
@@ -4419,8 +4419,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Claude skills for Handsontable (JavaScript data grid component) and HyperFormula (headless spreadsheet calculation engine)"
+   "descriptionOriginal": "Claude skills for Handsontable (JavaScript data grid component) and HyperFormula (headless spreadsheet calculation engine)",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:helius",
@@ -4513,15 +4513,15 @@
   },
   {
    "id": "marketplace:huggingface-skills",
-   "name": "Hugging Face Skills",
+   "name": "huggingface-skills",
    "origin": "marketplace",
-   "description": "Bouw, train, evalueer en gebruik open source AI-modellen, datasets en ruimtes.",
+   "description": "Kernactiviteiten van Hugging Face Hub via de hf CLI, inclusief installatie van skills, repositorybeheer, banen, datasets, modellen, Spaces en ontdekking.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/huggingface-skills",
    "source": "https://github.com/huggingface/skills",
-   "verified": false,
+   "verified": true,
    "installs": 34575,
-   "maker": "Hugging Face",
+   "maker": "",
    "about": [
     "Hugging Face Skills provides a comprehensive suite of AI/ML capabilities for working with the Hugging Face ecosystem. Train and fine-tune language models using TRL with cloud GPU infrastructure, create and manage datasets with SQL-based querying, run model evaluations, track experiments, and publish research papers—all without leaving Claude Code.",
     "The plugin includes 8 specialized skills: model training (SFT, DPO, GRPO, Reward Modeling), dataset creation and management, model evaluation, compute job execution, experiment tracking with Trackio, research paper publishing, reusable tool building, and Hub operations via the HF CLI.",
@@ -4529,7 +4529,7 @@
     "to fine-tune LLMs on cloud GPUs,"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, train, evaluate, and use open source AI models, datasets, and spaces."
+   "descriptionOriginal": "Core Hugging Face Hub operations through the hf CLI, including skill installation, repo management, jobs, datasets, models, Spaces, and discovery."
   },
   {
    "id": "marketplace:human-resources",
@@ -4788,8 +4788,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Inspect and manage IONOS CLOUD infrastructure via MCP"
+   "descriptionOriginal": "Inspect and manage IONOS CLOUD infrastructure via MCP",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:ios-simulator",
@@ -4941,8 +4941,8 @@
    "about": [
     "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform"
+   "descriptionOriginal": "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:kotlin-lsp",
@@ -5319,8 +5319,8 @@
    "about": [
     "LSP integration for Shopify Liquid templates via the Shopify CLI theme language server."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "LSP integration for Shopify Liquid templates via the Shopify CLI theme language server."
+   "descriptionOriginal": "LSP integration for Shopify Liquid templates via the Shopify CLI theme language server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:liquid-skills",
@@ -5745,8 +5745,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Turn Grain meeting recordings into answers, follow-ups, prep, patterns, and shareable work product. Catch up on what changed, find the source behind a claim or decision, recover commitments, prepare for meetings, spot patterns across conversations, and draft evidence-backed briefs, updates, and emails."
+   "descriptionOriginal": "Turn Grain meeting recordings into answers, follow-ups, prep, patterns, and shareable work product. Catch up on what changed, find the source behind a claim or decision, recover commitments, prepare for meetings, spot patterns across conversations, and draft evidence-backed briefs, updates, and emails.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:meeting-prep-agent",
@@ -6126,8 +6126,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to MongoDB Atlas clusters only through the Atlas Managed MCP Server. Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access. If you are running a different MongoDB deployment or want to run a local MongoDB MCP Server, install the MongoDB (Self-Managed MCP) plugin instead."
+   "descriptionOriginal": "Connect to MongoDB Atlas clusters only through the Atlas Managed MCP Server. Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access. If you are running a different MongoDB deployment or want to run a local MongoDB MCP Server, install the MongoDB (Self-Managed MCP) plugin instead.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:monta",
@@ -6254,16 +6254,16 @@
    "id": "marketplace:netsuite-finance-analyst",
    "name": "NetSuite Finance Analyst",
    "origin": "marketplace",
-   "description": "Financiële analyse op directeursniveau van live NetSuite-gegevens: financiële rapportage, periodeafsluiting, variantie-, ouderdoms- en afstemmingsbeoordelingen, kasrapportage en kant-en-klare verhalen voor het bestuur.",
-   "category": "Code review & testen",
+   "description": "Lever financiële analyses op directieniveau op basis van live NetSuite-gegevens.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/netsuite-finance-analyst",
-   "source": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
-   "verified": false,
+   "source": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/23793a10a9bb557c684c5cb8a97f926eb3463f12/anthropic/netsuite-finance-analyst",
+   "verified": true,
    "installs": 0,
-   "maker": "Oracle NetSuite",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Director-level finance analysis on live NetSuite data: financial reporting, period close, variance, aging and reconciliation reviews, cash reporting, and board-ready narratives."
+   "descriptionOriginal": "Deliver Director-level finance analysis on live NetSuite data."
   },
   {
    "id": "marketplace:netsuite-suiteskills",
@@ -6326,8 +6326,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Expose local services, route and secure traffic, receive webhooks, and more."
+   "descriptionOriginal": "Expose local services, route and secure traffic, receive webhooks, and more.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:nightvision",
@@ -6430,8 +6430,8 @@
    "about": [
     "NVIDIA agent skills for accelerated-computing workflows — starting with cuOpt vehicle-routing optimization (VRP, TSP, PDP) via the cuOpt Python API."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "NVIDIA agent skills for accelerated-computing workflows — starting with cuOpt vehicle-routing optimization (VRP, TSP,..."
+   "descriptionOriginal": "NVIDIA agent skills for accelerated-computing workflows — starting with cuOpt vehicle-routing optimization (VRP, TSP,...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:oak-national-academy",
@@ -6445,8 +6445,8 @@
    "installs": 0,
    "maker": "Oak National Academy",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Free, national curriculum-aligned Oak teaching resources."
+   "descriptionOriginal": "Free, national curriculum-aligned Oak teaching resources.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:onesignal",
@@ -6716,8 +6716,8 @@
     "Outputs a structured risk assessment with a 0-5 score, incident context, structural risk signals, and actionable recommendations. Requires a PagerDuty API key.",
     "before committing changes to a production service. The plugin checks if there are active P1/P2 incidents on your service and warns you if your changes touch code related to the ongoing incident, helping you avoid making things worse during an outage."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Score pre-commit diffs against PagerDuty incident history and surface deployment risk before you ship."
+   "descriptionOriginal": "Score pre-commit diffs against PagerDuty incident history and surface deployment risk before you ship.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:pandadoc",
@@ -6826,22 +6826,22 @@
   },
   {
    "id": "marketplace:php-lsp",
-   "name": "PHP LSP",
+   "name": "php-lsp",
    "origin": "marketplace",
-   "description": "PHP-taalserver (Intelefense) voor code-intelligentie",
+   "description": "PHP-taalserver (Intelephense) voor Claude Code, die code-intelligentie en diagnostiek levert.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/php-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/php-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/php-lsp",
    "verified": true,
    "installs": 32856,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "PHP LSP integrates Intelephense, a high-performance PHP language server, into Claude Code. This plugin enables intelligent PHP development with features like code completion, signature help, go to definition, find all references, symbol search, and real-time diagnostics for .php files.",
     "The plugin provides hover information, code formatting, syntax highlighting, and advanced type support out of the box. It helps Claude better understand your PHP codebase structure and navigate between files, classes, and methods with precision.",
     "After installing the plugin, Claude automatically gains enhanced PHP intelligence. Simply work with your PHP files as normal - Claude will leverage the language server for better code understanding, accurate suggestions, and reliable refactoring assistance. The plugin requires Intelephense to be installed globally via"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "PHP language server (Intelephense) for code intelligence"
+   "descriptionOriginal": "PHP language server (Intelephense) for Claude Code, providing code intelligence and diagnostics."
   },
   {
    "id": "marketplace:pigment",
@@ -7000,22 +7000,22 @@
   },
   {
    "id": "marketplace:plugin-dev",
-   "name": "Plugin Developer Toolkit",
+   "name": "plugin-dev",
    "origin": "marketplace",
-   "description": "Claude Code plugin toolkit: 7 expertvaardigheden voor hooks, MCP, commando's, agenten, validatie en best practices.",
+   "description": "Toolkit voor plug-inontwikkeling met skills voor het maken van agents, opdrachten, hooks, MCP-integraties en uitgebreide richtlijnen voor de plug-instructuur",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/plugin-dev",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ad30d62cd52ad0d0af1beda1eab7f61c601045d0/plugins/plugin-dev",
    "verified": true,
    "installs": 67663,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "A comprehensive development toolkit for building Claude Code plugins. Features 7 specialized skills covering hook development (PreToolUse, PostToolUse, Stop, and 6 other event types), MCP server integration (stdio, SSE, HTTP, WebSocket), plugin structure and settings, slash command creation, agent development, and skill authoring. Includes 12+ working examples, 6 production-ready validation scripts, and approximately 21,000 words of documentation.",
     "The toolkit emphasizes security-first development, portable configurations using environment variables, and progressive disclosure patterns that balance context efficiency with comprehensive guidance when needed.",
     "to start an 8-phase guided workflow that walks you through discovery, planning, design, implementation, validation, testing, and documentation. Ask questions like \"how do I create a PreToolUse hook?\", \"how do I set up an MCP server?\", or \"what's the best plugin structure?\" to load the relevant skill automatically."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Claude Code plugin toolkit: 7 expert skills for hooks, MCP, commands, agents, validation, and best practices."
+   "descriptionOriginal": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance"
   },
   {
    "id": "community:postgres",
@@ -7031,15 +7031,15 @@
   },
   {
    "id": "marketplace:posthog",
-   "name": "PostHog",
+   "name": "posthog",
    "origin": "marketplace",
-   "description": "Verbind Claude Code met PostHog. Voer analyses uit, beheer vlaggen, voer A/B-tests uit, spoor fouten op en analyseer LLM-kosten via natuurlijke taal. 10+ opdrachten, OAuth, EU/VS/zelf gehost.",
-   "category": "Code review & testen",
+   "description": "Krijg rechtstreeks toegang tot PostHog-analyses, functievlaggen, experimenten, foutopsporing en inzichten vanuit uw AI-coderingstool. Leg optioneel Claude Code-sessies vast in PostHog LLM Analytics.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/posthog",
-   "source": "https://github.com/PostHog/posthog-for-claude",
-   "verified": false,
+   "source": "https://github.com/posthog/ai-plugin",
+   "verified": true,
    "installs": 13453,
-   "maker": "PostHog",
+   "maker": "",
    "about": [
     "Connect Claude Code directly to your PostHog analytics platform. This plugin gives you access to 27+ PostHog tools for querying insights, managing feature flags, running A/B experiments, tracking errors, and analyzing LLM costs—all through natural language. Ask questions like \"What are my top errors this week?\" or \"Create a feature flag for 50% of users\" and Claude handles the API calls for you.",
     "The plugin includes 12 slash commands for streamlined workflows:",
@@ -7047,7 +7047,7 @@
     ", then authenticate via OAuth using the"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude Code to PostHog. Query analytics, manage flags, run A/B tests, track errors, analyze LLM costs via natural language. 10+ commands, OAuth, EU/US/self-hosted."
+   "descriptionOriginal": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from your AI coding tool. Optionally capture Claude Code sessions to PostHog LLM Analytics."
   },
   {
    "id": "marketplace:postiz",
@@ -8536,22 +8536,22 @@
   },
   {
    "id": "marketplace:slack",
-   "name": "Slack",
+   "name": "slack",
    "origin": "marketplace",
-   "description": "Officiële Slack MCP-server voor interactieve en collaboratieve workflows. Ontdek inzichten, stel berichten op en betrek teams rechtstreeks binnen Slack van Claude Cowork.",
+   "description": "Slack AI-tools voor gebruikers en ontwikkelaars: communiceer met uw werkruimte via de Slack MCP-server en gebruik skills om Slack-apps te ontwikkelen.",
    "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/slack",
-   "source": "https://github.com/anthropics/knowledge-work-plugins",
+   "source": "https://github.com/slackapi/slack-mcp-plugin",
    "verified": true,
    "installs": 92287,
-   "maker": "Slack by Salesforce",
+   "maker": "",
    "about": [
     "The Slack plugin connects Claude Cowork directly to your Slack workspace through the official Slack MCP server. Surface insights from live conversations, synthesize channel activity, and draft structured updates directly within your team's collaboration environment. Analyze discussions, identify key themes, and turn Slack context into shared, actionable communication without leaving your workflow.",
     "Key capabilities include generating channel summaries and digests, surfacing discussions, drafting announcements and standups, and composing and editing messages to be sent to Slack. By embedding Slack-native search and messaging intelligence, the plugin transforms Slack into the interactive layer where agent insights become team-visible work.",
     "After connecting your Slack workspace, interact naturally with your channels and conversations. Try prompts like \"Summarize the latest activity in #product\", \"Find discussions about Q3 planning\", \"Draft an announcement about the new release\", \"Generate my standup update from yesterday's activity\", or \"Create a digest of #eng and #sales this week\". The plugin handles authentication, permissions, and Slack formatting automatically."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Slack MCP server for interactive and collaborative workflows. Surface insights, draft messages, and engage teams directly within Slack from Claude Cowork."
+   "descriptionOriginal": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps."
   },
   {
    "id": "community:slack-gif-creator",
@@ -9744,8 +9744,8 @@
    "about": [
     "Skills for building data integrations using the Versori platform and versori-run SDK. Claude can bootstrap projects, configure systems and connections, generate type-safe TypeScript workflows, run local validation via Deno, and deploy to production — with a research-first approach that grounds code generation in gathered API documentation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for building data integrations using the Versori platform and versori-run SDK. Claude can bootstrap projects, ..."
+   "descriptionOriginal": "Skills for building data integrations using the Versori platform and versori-run SDK. Claude can bootstrap projects, ...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:vibe-prospecting",
@@ -9979,13 +9979,13 @@
    "description": "Gebruik Workday Developer Agent om Workday Extend-apps te bouwen vanuit de Claude Code CLI.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/workday-developer-agent-for-claude",
-   "source": "https://github.com/Workday/WorkdayDeveloperAgentForClaude",
+   "source": "https://github.com/workday/workdaydeveloperagentforclaude",
    "verified": true,
    "installs": 0,
-   "maker": "Workday",
+   "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Workday Developer Agent to build Workday Extend apps from the Claude Code CLI."
+   "descriptionOriginal": "Use Workday Developer Agent to build Workday Extend apps from the Claude Code CLI.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:workiom",
@@ -10119,8 +10119,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Xweather Weather API, Raster Maps, MapsGL, and Webhooks — build and run Weather API request URLs, generate static map images and tile URLs, work with the MapsGL JavaScript, Apple-platform, and Android SDKs, and set up push data delivery."
+   "descriptionOriginal": "Xweather Weather API, Raster Maps, MapsGL, and Webhooks — build and run Weather API request URLs, generate static map images and tile URLs, work with the MapsGL JavaScript, Apple-platform, and Android SDKs, and set up push data delivery.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:youdotcom-agent-skills",
@@ -10258,13 +10258,13 @@
    "id": "marketplace:zyte-web-data",
    "name": "Zyte Web Data",
    "origin": "marketplace",
-   "description": "Webscraping-skills voor Claude Code, mogelijk gemaakt door de Zyte API - sites schrapen, Scrapy-spiders genereren en uitvoeren, e...",
+   "description": "Zyte-webgegevens voor Claude Code",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/zyte-web-data",
    "source": "https://github.com/zytedata/claude-skills",
-   "verified": false,
+   "verified": true,
    "installs": 182,
-   "maker": "Zyte",
+   "maker": "",
    "about": [
     "Turn plain-English prompts into production-ready Scrapy spiders. This plugin provides an end-to-end web scraping workflow powered by the Zyte API — from schema definition and site exploration to code generation, testing, and deployment. It automatically discovers extractable fields from target websites, generates web-poet page objects with pytest test suites, and wires everything into standard Scrapy projects you can run independently.",
     "The plugin handles the full scraping lifecycle: it analyzes target pages (supporting both static HTML and JavaScript-rendered content via Zyte API), builds typed extraction schemas through an interactive approval loop, generates maintainable page objects and navigation spiders, and validates everything with automated test crawls. Projects are scaffolded with all necessary dependencies including scrapy-poet, scrapy-zyte-api, and web-poet.",
@@ -10272,13 +10272,13 @@
     "/scrape https://books.toscrape.com extract book titles, prices, and ratings"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Web scraping skills for Claude Code powered by the Zyte API — scrape sites, generate and run Scrapy spiders, define e..."
+   "descriptionOriginal": "Zyte Web Data for Claude Code"
   }
  ],
  "history": [
   "official:doc-coauthoring"
  ],
- "updated": "2026-10-27T15:48:42.944382+00:00",
+ "updated": "2026-10-27T20:51:03.452482+00:00",
  "tonight": {
   "date": "2026-10-27",
   "id": "official:doc-coauthoring",

@@ -633,6 +633,7 @@
     "https://claude.com/resources/articles/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
     "https://claude.com/resources/articles/how-to-configure-hooks",
     "https://claude.com/resources/articles/how-to-create-skills-key-steps-limitations-and-examples",
+    "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
     "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects",
     "https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude",
     "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering",
@@ -735,6 +736,7 @@
    "gh:anthropics/claude-code:v2.1.309",
    "gh:anthropics/claude-code:v2.1.310",
    "gh:anthropics/claude-code:v2.1.311",
+   "gh:anthropics/claude-code:v2.1.312",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -746,6 +748,7 @@
    "hn:50236102",
    "hn:50242939",
    "hn:50246238",
+   "hn:50260814",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -758,6 +761,7 @@
    "reddit:t3_1xganwd",
    "reddit:t3_1xgbwlg",
    "reddit:t3_1xgdi6i",
+   "reddit:t3_1xgfgp5",
    "reddit:t3_1xghkdy",
    "reddit:t3_1xghz2t",
    "reddit:t3_1xgimyc",
@@ -766,6 +770,14 @@
    "reddit:t3_1xgmyh0",
    "reddit:t3_1xgosdv",
    "reddit:t3_1xgppju",
+   "reddit:t3_1xgsh9k",
+   "reddit:t3_1xgtghe",
+   "reddit:t3_1xgu73u",
+   "reddit:t3_1xguw7r",
+   "reddit:t3_1xgvsoh",
+   "reddit:t3_1xgxv58",
+   "reddit:t3_1xh0t6s",
+   "reddit:t3_1xh1a8s",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -796,6 +808,7 @@
    "simon:https://simonwillison.net/2026/Sep/26/kakapo-party/",
    "simon:https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
    "simon:https://simonwillison.net/2026/Sep/7/video-compressor/",
+   "web:https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
    "web:https://claude.com/resources/articles/organization-skills-and-directory",
    "web:https://claude.com/resources/articles/preparing-your-security-program-for-ai-accelerated-offense",
    "web:https://claude.com/resources/articles/preview-review-and-merge-with-claude-code",
@@ -903,6 +916,7 @@
    "yt:iF5IWjOWcA4",
    "yt:idJQMJwHtyM",
    "yt:j2knrqAzYVY",
+   "yt:jeUgtyvvkfs",
    "yt:jouKaJ4qlAg",
    "yt:k3t3catymeM",
    "yt:kSo_1IqhLjQ",
@@ -917,7 +931,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-27T15:23:30.765703+00:00"
+  "last_run": "2026-10-27T20:50:54.786056+00:00"
  },
- "generated": "2026-10-27T15:23:30.765703+00:00"
+ "generated": "2026-10-27T20:50:54.786056+00:00"
 }
