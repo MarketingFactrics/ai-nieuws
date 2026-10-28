@@ -1,6 +1,97 @@
 {
  "editions": [
   {
+   "date": "2026-10-28",
+   "items": [
+    {
+     "id": "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "IDC brengt Quanta naar Claude en adopteert Claude door het hele bedrijf",
+     "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+     "published": "2026-10-28T00:00:00+00:00",
+     "summary": "IDC integreerde Claude als onderdeel van zijn Quanta-platform en heeft Claude uitgerold binnen zijn eigen bedrijf",
+     "image": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company/opengraph-image/og",
+     "titleOriginal": "IDC brings Quanta into Claude and adopts Claude across the company",
+     "lang": "nl"
+    },
+    {
+     "id": "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "Introductie van artefacten voor juridisch werk met Claude",
+     "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+     "published": "2026-10-28T00:00:00+00:00",
+     "summary": "De nieuwe juridische artefacten en connectoren van Anthropic helpen juridische teams hun werk gedaan te krijgen met Claude.",
+     "image": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work/opengraph-image/og",
+     "titleOriginal": "Introducing artifacts for legal work with Claude",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:fdtkh30oFA8",
+     "kind": "video",
+     "source": "AICodeKing",
+     "title": "Claude Code schrapt SUB-AGENTS?",
+     "url": "https://www.youtube.com/watch?v=fdtkh30oFA8",
+     "published": "2026-10-28T09:15:07+00:00",
+     "summary": "Word lid van dit kanaal om toegang te krijgen tot de voordelen: https://www.youtube.com/channel/@aicodeking/join In deze video begeleid ik je door het nieuwe artikel van Claude, \"Agenten bouwen: wanneer moet je subagenten in je hoofdagentloop vouwen\", in duidelijke woorden: waarom zou je je organigram in subagenten kopiëren...",
+     "image": "https://i.ytimg.com/vi/fdtkh30oFA8/hqdefault.jpg",
+     "videoId": "fdtkh30oFA8",
+     "titleOriginal": "Claude Code is getting rid of SUB-AGENTS?",
+     "lang": "nl"
+    },
+    {
+     "id": "simon:https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+     "kind": "simon",
+     "source": "Simon Willison",
+     "title": "Het keerpunt in oktober voor de ontwikkeling van vibe-games",
+     "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+     "published": "2026-10-28T13:55:15+00:00",
+     "summary": "Ik heb eerder geschreven over hoe november 2025 een keerpunt was voor codeeragenten - het punt waarop Opus 4.5 en GPT-5.1 een omslagpunt kruisten dat betekende dat hun respectieve codeeragenten betrouwbare dagelijkse stuurprogramma's voor software-ingenieurs werden. Ik denk dat we een nieuw punt hebben bereikt...",
+     "titleOriginal": "The October inflection point for vibe game development",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50265609",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Vroege vooruitgang bij het versnellen van de ontwikkeling van geneesmiddelen met Claude",
+     "url": "https://www.anthropic.com/research/early-progress-drug-development",
+     "published": "2026-10-27T20:50:42+00:00",
+     "summary": "316 punten · 323 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50265609",
+     "score": 316,
+     "titleOriginal": "Early progress on accelerating drug development with Claude",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xhl5cb",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Het gebeurde, mijn projectmanager had net een PR met Claude gemaakt.",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhl5cb/it_happened_my_project_manager_just_made_a_pr/",
+     "published": "2026-10-28T11:10:58+00:00",
+     "summary": "Ja, ze heeft absoluut geen idee wat er aan de hand is, ze zei gewoon \"Claude, doe dit\" en toen deed Claude een pull-verzoek en Claude beoordeelde het en zei dat het OK was en nu zijn er een aantal van ons die erbovenop een menselijke beoordeling moeten doen (standaardprocedure voor alle door AI gemaakte PR's...",
+     "score": 100,
+     "titleOriginal": "It happened, my project manager just made a PR with Claude.",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xhu9ez",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Google introduceerde Gemini 4 Carbon, naar verluidt het meest grensverleggende model.",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xhu9ez/google_introduced_gemini_4_carbon_allegedly_the/",
+     "published": "2026-10-28T17:17:02+00:00",
+     "summary": "Wordt de tabel afgedekt door simpelweg Astra beter te plaatsen dan Opus 5.5? ingediend door /u/Ok-Patient116 [link] [opmerkingen]",
+     "image": "https://preview.redd.it/ylm2yy5gr8yh1.jpeg?width=640&crop=smart&auto=webp&s=6c949ee85918c309e7cba8ad51c001412f2ce10f",
+     "score": 99,
+     "titleOriginal": "Google introduced Gemini 4 Carbon, allegedly the most frontier model.",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-10-27",
    "items": [
     {
@@ -323,6 +414,7 @@
     "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
     "https://www.anthropic.com/news/expanding-global-operations-to-india",
     "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+    "https://www.anthropic.com/news/expanding-partnership-gsa",
     "https://www.anthropic.com/news/expanding-project-glasswing",
     "https://www.anthropic.com/news/expanding-support-for-scientists",
     "https://www.anthropic.com/news/fable-mythos-access",
@@ -636,12 +728,14 @@
     "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
     "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects",
     "https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude",
+    "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
     "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering",
     "https://claude.com/resources/articles/improving-frontend-design-through-skills",
     "https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills",
     "https://claude.com/resources/articles/integrate-apis-seamlessly",
     "https://claude.com/resources/articles/integrations",
     "https://claude.com/resources/articles/interactive-tools-in-claude",
+    "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
     "https://claude.com/resources/articles/introducing-citations-api",
     "https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code",
     "https://claude.com/resources/articles/introducing-routines-in-claude-code",
@@ -683,6 +777,7 @@
     "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
     "https://claude.com/resources/articles/skills",
     "https://claude.com/resources/articles/skills-explained",
+    "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
     "https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more",
     "https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform",
     "https://claude.com/resources/articles/subagents-in-claude-code",
@@ -749,6 +844,7 @@
    "hn:50242939",
    "hn:50246238",
    "hn:50260814",
+   "hn:50265609",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -778,6 +874,16 @@
    "reddit:t3_1xgxv58",
    "reddit:t3_1xh0t6s",
    "reddit:t3_1xh1a8s",
+   "reddit:t3_1xh6h7d",
+   "reddit:t3_1xh73xd",
+   "reddit:t3_1xh7um7",
+   "reddit:t3_1xha250",
+   "reddit:t3_1xhd34v",
+   "reddit:t3_1xhi21l",
+   "reddit:t3_1xhl5cb",
+   "reddit:t3_1xhp4o7",
+   "reddit:t3_1xhsy44",
+   "reddit:t3_1xhu9ez",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -795,6 +901,7 @@
    "simon:https://simonwillison.net/2026/Oct/16/code-review/",
    "simon:https://simonwillison.net/2026/Oct/20/battledrones/",
    "simon:https://simonwillison.net/2026/Oct/24/battledrones/",
+   "simon:https://simonwillison.net/2026/Oct/28/vibe-game-development/",
    "simon:https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
    "simon:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
    "simon:https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
@@ -809,6 +916,8 @@
    "simon:https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
    "simon:https://simonwillison.net/2026/Sep/7/video-compressor/",
    "web:https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
+   "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+   "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
    "web:https://claude.com/resources/articles/organization-skills-and-directory",
    "web:https://claude.com/resources/articles/preparing-your-security-program-for-ai-accelerated-offense",
    "web:https://claude.com/resources/articles/preview-review-and-merge-with-claude-code",
@@ -829,6 +938,7 @@
    "web:https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
    "web:https://claude.com/resources/articles/skills",
    "web:https://claude.com/resources/articles/skills-explained",
+   "web:https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
    "web:https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more",
    "web:https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform",
    "web:https://claude.com/resources/articles/subagents-in-claude-code",
@@ -849,6 +959,7 @@
    "web:https://claude.com/resources/articles/unified-claude-enterprise",
    "web:https://claude.com/resources/articles/upgraded-anthropic-console",
    "web:https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context",
+   "web:https://www.anthropic.com/news/expanding-partnership-gsa",
    "web:https://www.anthropic.com/news/projects",
    "web:https://www.anthropic.com/news/prompting-long-context",
    "web:https://www.anthropic.com/news/protecting-well-being-of-users",
@@ -911,6 +1022,7 @@
    "yt:eBszYxzE2dk",
    "yt:en0GuyhieQk",
    "yt:ezCmuRCAVXY",
+   "yt:fdtkh30oFA8",
    "yt:gNMN-7D9130",
    "yt:i2TQy33mYhE",
    "yt:iF5IWjOWcA4",
@@ -931,7 +1043,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-27T20:50:54.786056+00:00"
+  "last_run": "2026-10-28T21:15:34.629766+00:00"
  },
- "generated": "2026-10-27T20:50:54.786056+00:00"
+ "generated": "2026-10-28T21:15:34.629766+00:00"
 }
