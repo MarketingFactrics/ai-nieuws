@@ -1,6 +1,87 @@
 {
  "editions": [
   {
+   "date": "2026-10-29",
+   "items": [
+    {
+     "id": "simon:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+     "kind": "simon",
+     "source": "Simon Willison",
+     "title": "Bouw een multiplayer-gamewereld met autonome modellen uit de Fable-klasse",
+     "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+     "published": "2026-10-29T17:00:26+00:00",
+     "summary": "Hoe ik het meest AI-gepilde bedrijf ter wereld heb opgebouwd Laat je niet afschrikken door de clickbait-kop: dit stuk van Jacob Sansbury dat beschrijft hoe ze Spawn bouwen, is een fascinerende verkenning van de allernieuwste dingen van wat mogelijk is met agentic engineering tegen grensverleggende...",
+     "titleOriginal": "Building a multiplayer game world with autonomous Fable-class models",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50284255",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Claude Code stuurt regelmatig het transcript van elke achtergrondagent naar zijn model",
+     "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+     "published": "2026-10-29T03:33:42+00:00",
+     "summary": "553 punten · 223 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50284255",
+     "score": 553,
+     "titleOriginal": "Claude Code regularly sends each background agent’s transcript to its model",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:SkpwzfR4A1E",
+     "kind": "video-official",
+     "source": "Claude",
+     "title": "Claude's nieuwe mobiele app-updates zijn hier",
+     "url": "https://www.youtube.com/watch?v=SkpwzfR4A1E",
+     "published": "2026-10-29T18:02:37+00:00",
+     "summary": "Een paar upgrades voor de mobiele Claude-apps deze week. • Op iPad en iPhone Duo wordt wat Claude maakt geopend naast de chat • Je kunt ingelogd blijven op meer dan één account op iOS en Android • Op Chromebooks en opvouwbare apparaten werkt Claude op Android als een laptop-app • Spraakmodus…",
+     "image": "https://i.ytimg.com/vi/SkpwzfR4A1E/hqdefault.jpg",
+     "videoId": "SkpwzfR4A1E",
+     "titleOriginal": "Claude's new mobile app updates are here",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xiixew",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Voldoe aan de normen van Claude... of anders.",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xiixew/meet_claudes_standards_or_else/",
+     "published": "2026-10-29T12:43:17+00:00",
+     "summary": "ingediend door /u/Puzzleheaded-King584 [link] [opmerkingen]",
+     "image": "https://preview.redd.it/vztcl9tjjeyh1.png?width=640&crop=smart&auto=webp&s=36a253c2946821a534e8c2946f6a8cfb50e98a47",
+     "score": 100,
+     "titleOriginal": "Meet Claude's standards... or else.",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xigpgr",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "We hebben Claude gebruikt om een volledige PS2-emulator in een browsertabblad te laten draaien: TabStationToo",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xigpgr/we_used_claude_to_get_a_full_ps2_emulator_running/",
+     "published": "2026-10-29T10:52:51+00:00",
+     "summary": "Mijn vriend u/aegyptiacus11 en ik hebben aan een leuk zijproject gewerkt, TabStationToo, een PS2-emulator die rechtstreeks in je browser draait. Het is gebouwd op PCSX2 (GPL-3.0). We hebben de kern ervan genomen, deze in de browser laten draaien en er een nieuwe pagina omheen gebouwd. U opent de pagina, kiest uw BIOS...",
+     "image": "https://external-preview.redd.it/MTU1OGwzdWh6ZHloMVQcmCS5mMpHTnm2bhAD8W90KwX25in2Oims4u9df0Xa.png?width=640&crop=smart&auto=webp&s=15dad6678e5cade5ce8fb41318b99243ac9b82c7",
+     "score": 99,
+     "titleOriginal": "We used Claude to get a full PS2 emulator running in a browser tab: TabStationToo",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:T2sogF_YacI",
+     "kind": "video",
+     "source": "AICodeKing",
+     "title": "Qwen Audio Agent + Claude Code: Dit maakt Claude Code in feite een MENS!",
+     "url": "https://www.youtube.com/watch?v=T2sogF_YacI",
+     "published": "2026-10-29T09:15:07+00:00",
+     "summary": "In deze video verbind ik Qwen Audio Agent met Claude Code, zodat ik een spraakgesprek gaande kan houden terwijl het codeerwerk op de achtergrond wordt uitgevoerd. Eerst leg ik uit hoe de voice frontend, de lokale gateway en de Claude Code backend in elkaar passen, en installeer het vervolgens met npm, ...",
+     "image": "https://i.ytimg.com/vi/T2sogF_YacI/hqdefault.jpg",
+     "videoId": "T2sogF_YacI",
+     "titleOriginal": "Qwen Audio Agent + Claude Code: This Basically makes Claude Code a HUMAN!",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-10-28",
    "items": [
     {
@@ -277,6 +358,7 @@
     "https://www.anthropic.com/news/activating-asl3-protections",
     "https://www.anthropic.com/news/advancing-claude-for-education",
     "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
     "https://www.anthropic.com/news/ai-for-science-program",
     "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
     "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
@@ -845,6 +927,7 @@
    "hn:50246238",
    "hn:50260814",
    "hn:50265609",
+   "hn:50284255",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -884,6 +967,16 @@
    "reddit:t3_1xhp4o7",
    "reddit:t3_1xhsy44",
    "reddit:t3_1xhu9ez",
+   "reddit:t3_1xi1yek",
+   "reddit:t3_1xi5fwh",
+   "reddit:t3_1xi7j4z",
+   "reddit:t3_1xi8549",
+   "reddit:t3_1xid1o2",
+   "reddit:t3_1xigpgr",
+   "reddit:t3_1xiixew",
+   "reddit:t3_1xiks9w",
+   "reddit:t3_1xin15e",
+   "reddit:t3_1xin646",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -902,6 +995,7 @@
    "simon:https://simonwillison.net/2026/Oct/20/battledrones/",
    "simon:https://simonwillison.net/2026/Oct/24/battledrones/",
    "simon:https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+   "simon:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
    "simon:https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
    "simon:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
    "simon:https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
@@ -1007,6 +1101,8 @@
    "yt:ROF2Nv_KjOM",
    "yt:S_QdQ1G4GlU",
    "yt:SkFmiMHDN38",
+   "yt:SkpwzfR4A1E",
+   "yt:T2sogF_YacI",
    "yt:TD0VZSWmUoQ",
    "yt:UxJZrCFzTHY",
    "yt:VXTpCssys10",
@@ -1043,7 +1139,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-28T21:15:34.629766+00:00"
+  "last_run": "2026-10-29T21:20:21.911717+00:00"
  },
- "generated": "2026-10-28T21:15:34.629766+00:00"
+ "generated": "2026-10-29T21:20:21.911717+00:00"
 }

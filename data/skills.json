@@ -258,18 +258,18 @@
    "id": "marketplace:airtable",
    "name": "airtable",
    "origin": "marketplace",
-   "description": "Airtable is de database- en operationele laag voor uw agenten – of ze nu product-, marketing-, verkoop-, operationele-, HR- of...",
-   "category": "Data & analyse",
+   "description": "Airtable is de database- en operationele laag voor uw agenten, of ze nu product-, marketing-, verkoop-, operationele, HR- of een aangepaste zakelijke app uitvoeren. Het combineert gestructureerde gegevens met visuele multiplayer-oppervlakken (raster, kanban, kalender, galerij, tijdlijn) die mensen en agenten delen – plus synchronisatie-integraties met Jira, Salesforce, Zendesk, Google Drive en Databricks. Maakt Claude vloeiend in Airtable: bases en schema, records en gebruikersinterface voor samenwerking. Bundles the official Airtable MCP server.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/airtable",
-   "source": "https://github.com/Airtable/skills",
-   "verified": false,
+   "source": "https://github.com/airtable/skills/tree/812ee67f1fd3d76fb45ff8df40afaa0448602ba8/plugins/airtable",
+   "verified": true,
    "installs": 1355,
-   "maker": "Airtable",
+   "maker": "",
    "about": [
     "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, Databricks, and the rest of your stack, all backed by enterprise governance. This plugin makes Claude fluent in Airtable: creating bases and schema, working with records, and sharing UI for collaboration. Bundles the official Airtable MCP server."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, o..."
+   "descriptionOriginal": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, and Databricks. Makes Claude fluent in Airtable: bases and schema, records, and collaboration UI. Bundles the official Airtable MCP server."
   },
   {
    "id": "marketplace:airwallex",
@@ -1325,20 +1325,20 @@
   },
   {
    "id": "marketplace:box",
-   "name": "box",
+   "name": "Box",
    "origin": "marketplace",
-   "description": "Werk rechtstreeks vanuit Claude Code met uw Box-inhoud: zoek bestanden, orden mappen, werk samen met uw team, en...",
-   "category": "Marketing & business",
+   "description": "Werk rechtstreeks vanuit Claude Code met uw Box-inhoud: zoek bestanden, organiseer mappen, werk samen met uw team en gebruik Box AI om vragen te beantwoorden, documenten samen te vatten en gegevens te extraheren zonder uw workflow te verlaten.",
+   "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/box",
-   "source": "https://github.com/box/box-for-ai",
-   "verified": false,
+   "source": "https://github.com/box/skills",
+   "verified": true,
    "installs": 1408,
    "maker": "",
    "about": [
     "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, an..."
+   "descriptionOriginal": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow."
   },
   {
    "id": "community:brainstorming",
@@ -1667,18 +1667,18 @@
    "id": "marketplace:cds-mcp",
    "name": "cds-mcp",
    "origin": "marketplace",
-   "description": "AI-ondersteunde ontwikkeling van SAP Cloud Application Programming Model (CAP)-projecten. Zoek CDS-modellen en CAP-document...",
-   "category": "Documenten",
+   "description": "Model Context Protocol (MCP)-server voor AI-ondersteunde ontwikkeling van CAP-applicaties.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/cds-mcp",
    "source": "https://github.com/cap-js/mcp-server",
-   "verified": false,
+   "verified": true,
    "installs": 1296,
    "maker": "",
    "about": [
     "AI-assisted development of SAP Cloud Application Programming Model (CAP) projects. Search CDS models and CAP documentation."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI-assisted development of SAP Cloud Application Programming Model (CAP) projects. Search CDS models and CAP document..."
+   "descriptionOriginal": "Model Context Protocol (MCP) server for AI-assisted development of CAP applications."
   },
   {
    "id": "marketplace:celigo",
@@ -1707,8 +1707,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Cerebrium agent skills and hosted docs MCP: deploy and operate real-time AI workloads on serverless GPU and CPU (REST, streaming, WebSocket and async endpoints), with verified cerebrium.toml, hardware and autoscaling guidance."
+   "descriptionOriginal": "Official Cerebrium agent skills and hosted docs MCP: deploy and operate real-time AI workloads on serverless GPU and CPU (REST, streaming, WebSocket and async endpoints), with verified cerebrium.toml, hardware and autoscaling guidance.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:changelog-generator",
@@ -1749,8 +1749,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Checkly skills for creating, testing, and managing monitoring checks with AI coding agents."
+   "descriptionOriginal": "Checkly skills for creating, testing, and managing monitoring checks with AI coding agents.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:chembl",
@@ -1843,8 +1843,8 @@
    "about": [
     "Ship stablecoin apps faster. Best-practice skills for USDC payments, cross-chain transfers, wallets, and smart contracts — plus Circle's MCP server for real-time SDK and documentation guidance."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ship stablecoin apps faster. Best-practice skills for USDC payments, cross-chain transfers, wallets, and smart contracts — plus Circle's MCP server for real-time SDK and documentation guidance."
+   "descriptionOriginal": "Ship stablecoin apps faster. Best-practice skills for USDC payments, cross-chain transfers, wallets, and smart contracts — plus Circle's MCP server for real-time SDK and documentation guidance.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:circleback",
@@ -2347,15 +2347,15 @@
   },
   {
    "id": "marketplace:commit-commands",
-   "name": "Commit Commands",
+   "name": "commit-commands",
    "origin": "marketplace",
-   "description": "Commando's voor git commit-workflows, inclusief commit, push en PR-creatie",
+   "description": "Stroomlijn je git-workflow met eenvoudige opdrachten voor het committen, pushen en maken van pull-aanvragen",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/commit-commands",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/commit-commands",
    "verified": true,
    "installs": 171244,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Streamline your git workflow with intelligent commands for committing, pushing, and creating pull requests. This plugin automates common git operations with AI-powered commit message generation that matches your repository's existing style conventions.",
     "Key features include automatic analysis of staged and unstaged changes, smart commit message generation based on recent commit history, comprehensive PR descriptions with summaries and test plan checklists, and protection against accidentally committing sensitive files like",
@@ -2363,7 +2363,7 @@
     "for a complete workflow that commits, pushes to a feature branch, and creates a pull request in one step. Run"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Commands for git commit workflows including commit, push, and PR creation"
+   "descriptionOriginal": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests"
   },
   {
    "id": "marketplace:common-room",
@@ -2544,8 +2544,8 @@
    "about": [
     "Convex backend skill for building reactive, type-safe, production-grade backends. Helps Claude design schemas, server functions, auth, file storage, scheduled jobs, and real-time multiplayer features on Convex."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Convex backend skill for building reactive, type-safe, production-grade backends. Helps Claude design schemas, server..."
+   "descriptionOriginal": "Convex backend skill for building reactive, type-safe, production-grade backends. Helps Claude design schemas, server...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:corporate-legal",
@@ -2814,8 +2814,8 @@
    "about": [
     "OpenTelemetry observability for Claude Code sessions. Captures tool calls, LLM invocations, token usage, and errors as OTel traces. Send telemetry to Dash0 or any OpenTelemetry-compatible backend."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "OpenTelemetry observability for Claude Code sessions. Captures tool calls, LLM invocations, token usage, and errors a..."
+   "descriptionOriginal": "OpenTelemetry observability for Claude Code sessions. Captures tool calls, LLM invocations, token usage, and errors a...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:data",
@@ -2871,25 +2871,25 @@
    "about": [
     "Specialized suite of skills for data engineers on Google Cloud — architect data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across BigQuery, Spanner, BigLake, and Dataproc."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Specialized suite of skills for data engineers on Google Cloud — architect data pipelines, transform data with dbt, w..."
+   "descriptionOriginal": "Specialized suite of skills for data engineers on Google Cloud — architect data pipelines, transform data with dbt, w...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:databases-on-aws",
    "name": "databases-on-aws",
    "origin": "marketplace",
-   "description": "Deskundige databasebegeleiding voor het AWS-databaseportfolio. Ontwerp schema's, voer query's uit, handel migraties af en kies...",
+   "description": "Deskundige databasebegeleiding voor het AWS-databaseportfolio. Ontwerp schema's, voer query's uit, handel migraties af en kies de juiste database voor uw werklast.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/databases-on-aws",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/databases-on-aws",
+   "verified": true,
    "installs": 2495,
    "maker": "",
    "about": [
     "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choo..."
+   "descriptionOriginal": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload."
   },
   {
    "id": "marketplace:databricks",
@@ -2944,18 +2944,18 @@
    "id": "marketplace:datahub-skills",
    "name": "datahub-skills",
    "origin": "marketplace",
-   "description": "DataHub-ontwikkelings- en interactietoolkit met connectorplanning, PR-beoordeling, zoeken in catalogi, metadataverrijking, ...",
+   "description": "DataHub-ontwikkelings- en interactietoolkit met connectorplanning, PR-beoordeling, zoeken in catalogi, verrijking van metagegevens, tracering van afstammingen, beheer van gegevenskwaliteit en skills voor het opzetten van verbindingen",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/datahub-skills",
    "source": "https://github.com/datahub-project/datahub-skills",
-   "verified": false,
+   "verified": true,
    "installs": 569,
-   "maker": "DataHub",
+   "maker": "",
    "about": [
     "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, lineage tracing, data quality management, and connection setup skills"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, ..."
+   "descriptionOriginal": "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, lineage tracing, data quality management, and connection setup skills"
   },
   {
    "id": "marketplace:dataproc",
@@ -2976,20 +2976,20 @@
   },
   {
    "id": "marketplace:datarobot-agent-skills",
-   "name": "datarobot-agent-skills",
+   "name": "DataRobot Agent Skills",
    "origin": "marketplace",
-   "description": "DataRobot-skills voor AI/ML-workflows - modeltraining, implementatie, voorspellingen, feature-engineering, monitoring, verkenning...",
+   "description": "DataRobot-skills voor AI/ML-workflows: modeltraining, implementatie, voorspellingen, feature-engineering, monitoring, uitlegbaarheid, gegevensvoorbereiding, App Framework CI/CD en monitoring van externe agenten.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/datarobot-agent-skills",
    "source": "https://github.com/datarobot-oss/datarobot-agent-skills",
-   "verified": false,
+   "verified": true,
    "installs": 1271,
-   "maker": "DataRobot",
+   "maker": "",
    "about": [
     "DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, explainability, data preparation, App Framework CI/CD, and external agent monitoring."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, expl..."
+   "descriptionOriginal": "DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, explainability, data preparation, App Framework CI/CD, and external agent monitoring."
   },
   {
    "id": "community:deep-research",
@@ -3245,18 +3245,18 @@
    "description": "De Dropbox-plug-in voor Claude verbindt je Dropbox-bestanden rechtstreeks met Claude, zodat je gegenereerde inhoud kunt zoeken, ordenen, opslaan en deellinks kunt maken zonder van tool te wisselen. Het respecteert je bestaande Dropbox-machtigingen en Claude werkt alleen met bestanden waartoe je al toegang hebt.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/dropbox",
-   "source": "https://github.com/dropbox/dropbox-ai-plugins",
+   "source": "https://github.com/dropbox/dropbox-ai-plugins/tree/ec1a5264a88081a6161d984d87705ce65535fbe0/claude",
    "verified": true,
    "installs": 220,
-   "maker": "Dropbox",
+   "maker": "",
    "about": [
     "The Dropbox plugin connects Claude to your Dropbox account so you can find, inspect, organize, share, and clean up content without leaving Claude, and it works only with files you already have access to and respects your existing Dropbox permissions.",
     "Search files and folders by name, keyword, type, or location, and browse folder and file metadata.",
     "Read and summarize supported file content.",
     "Save generated content and outputs directly back to Dropbox."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "The Dropbox plugin for Claude connects your Dropbox files directly to Claude, so you can search, organize, save generated content, and create sharing links without switching tools. It respects your existing Dropbox permissions, and Claude only works with files you already have access to."
+   "descriptionOriginal": "The Dropbox plugin for Claude connects your Dropbox files directly to Claude, so you can search, organize, save generated content, and create sharing links without switching tools. It respects your existing Dropbox permissions, and Claude only works with files you already have access to.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:duckdb-skills",
@@ -3411,16 +3411,16 @@
    "id": "marketplace:engineering",
    "name": "Engineering",
    "origin": "marketplace",
-   "description": "Stroomlijn stand-ups, codebeoordeling, architectuurbeslissingen, incidentrespons en technische documenten",
+   "description": "Stroomlijn technische workflows: stand-ups, codebeoordeling, architectuurbeslissingen, incidentrespons en technische documentatie. Works with your existing tools or standalone.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/engineering",
-   "source": "https://github.com/anthropics/knowledge-work-plugins",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/engineering",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Streamline standups, code review, architecture decisions, incident response, and technical docs"
+   "descriptionOriginal": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone."
   },
   {
    "id": "marketplace:enterprise-search",
@@ -3733,8 +3733,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prep for client meetings, handle follow-up, and pull briefs together from the tools you already use."
+   "descriptionOriginal": "Prep for client meetings, handle follow-up, and pull briefs together from the tools you already use.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:financial-analysis",
@@ -3799,15 +3799,15 @@
   },
   {
    "id": "marketplace:firecrawl",
-   "name": "Firecrawl",
+   "name": "firecrawl",
    "origin": "marketplace",
-   "description": "Firecrawl: Converteer websites naar LLM-ready markdown/data. Pagina's schrapen, sites crawlen, op internet zoeken, gestructureerde informatie extraheren. Inclusief AI-agent voor autonome gegevensverzameling.",
-   "category": "Data & analyse",
+   "description": "Schraap, zoek, crawl en breng het internet in kaart met één enkele opdracht.",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/firecrawl",
    "source": "https://github.com/firecrawl/firecrawl-claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 39279,
-   "maker": "Firecrawl",
+   "maker": "",
    "about": [
     "Turn any website into clean, LLM-ready markdown or structured data. Firecrawl integrates powerful web scraping, crawling, and search capabilities directly into Claude Code. Scrape single pages, crawl entire sites, map site structures, and search the web — all with automatic JavaScript rendering, anti-bot handling, and proxy rotation built in.",
     "The plugin includes an AI agent for autonomous multi-source data gathering. Just describe the data you need in plain language and the agent finds, navigates, and extracts it across multiple websites — no URLs required. Results can be returned as markdown, HTML, screenshots, links, or structured data matching a custom schema.",
@@ -3815,7 +3815,7 @@
     "— Extract a single webpage as clean markdown."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Firecrawl: Convert websites to LLM-ready markdown/data. Scrape pages, crawl sites, search web, extract structured info. Includes AI agent for autonomous data gathering."
+   "descriptionOriginal": "Scrape, search, crawl, and map the web with a single command."
   },
   {
    "id": "marketplace:firestore-native",
@@ -3851,8 +3851,8 @@
     "to add OpenTelemetry instrumentation to Node.js, Python, Go, or Rust projects with framework-specific templates and automatic credential management.",
     "Create autonomous monitoring agents with"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Claude Code plugin for Firetiger observability workflows and MCP-powered investigations."
+   "descriptionOriginal": "Claude Code plugin for Firetiger observability workflows and MCP-powered investigations.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:fiscal-ai",
@@ -3933,8 +3933,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "freee API を MCP 経由で操作するためのスキル。詳細なAPIリファレンスと freee-mcp を使用した API 呼び出しガイドを提供。"
+   "descriptionOriginal": "freee API を MCP 経由で操作するためのスキル。詳細なAPIリファレンスと freee-mcp を使用した API 呼び出しガイドを提供。",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:frontend-design",
@@ -3969,8 +3969,8 @@
     "Key design areas include thoughtful typography with unexpected font pairings, orchestrated motion and scroll-triggered interactions, spatial composition with asymmetry and grid-breaking elements, and visual depth through gradients, textures, and layered effects.",
     "Simply ask Claude to build frontend interfaces and this skill activates automatically. Try prompts like \"Create a dashboard for a music streaming app\", \"Build a landing page for an AI security startup\", or \"Design a settings panel with dark mode support\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Frontend design skill for UI/UX implementation"
+   "descriptionOriginal": "Frontend design skill for UI/UX implementation",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:full-page-screenshot",
@@ -3986,20 +3986,20 @@
   },
   {
    "id": "marketplace:fullstory",
-   "name": "fullstory",
+   "name": "Fullstory",
    "origin": "marketplace",
    "description": "Verbind Claude met Fullstory om gedragsanalyses, herhalingen van sessies en inzichten in klantervaringen op te vragen.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/fullstory",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/fullstorydev/fullstory-skills",
+   "verified": true,
    "installs": 266,
-   "maker": "Fullstory",
+   "maker": "",
    "about": [
     "Connect Claude to Fullstory to query behavioral analytics, session replays, and customer experience insights."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude to Fullstory to query behavioral analytics, session replays, and customer experience insights."
+   "descriptionOriginal": "Connect Claude to Fullstory to query behavioral analytics, session replays, and customer experience insights.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:functionize-mcp",
@@ -4249,35 +4249,18 @@
    "description": "MCP-server voor AI-ondersteund Grafana-dashboard, gegevensbron, waarschuwingen en incidentbeheer.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/grafana-mcp",
-   "source": "https://github.com/grafana/ai-marketplace",
-   "verified": false,
+   "source": "https://github.com/grafana/ai-marketplace/tree/12be5634a492f73c189d466c5449d09b853ad7a4/plugins/grafana-mcp",
+   "verified": true,
    "installs": 821,
-   "maker": "Grafana Labs",
+   "maker": "",
    "about": [
     "Connects Claude Code to a live Grafana instance via the official Grafana MCP server, adding 40+ tools for AI-assisted observability workflows. Manage dashboards, datasources, alerting rules, incidents, and on-call schedules directly from your editor. Query Prometheus metrics and Loki logs, create and patch dashboards, manage contact points, and deep-link to specific panels — all through natural language.",
     "Docker image and covers nine major tool categories: Dashboards (search, summarize, patch), Datasources (list, retrieve), Prometheus (query execution, metric exploration), Loki (log and metric analysis), Alerting (rule and contact point management), Incidents (creation and activity tracking), OnCall (schedule and shift visibility), Navigation (deep linking), and Annotations (CRUD and tag management).",
     "Requires Docker and a Grafana service account token. Viewer role provides read access; Editor role enables write operations. Works with both self-hosted Grafana and Grafana Cloud instances.",
     "After installing and configuring your Grafana URL and service account token, try prompts like:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management."
-  },
-  {
-   "id": "marketplace:grafana-assistant",
-   "name": "grafana-assistant",
-   "origin": "marketplace",
-   "description": "Skills en regels voor het ontwikkelen en gebruiken van de Grafana Assistant-app en CLI.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/grafana-assistant",
-   "source": "https://github.com/grafana/ai-marketplace",
-   "verified": false,
-   "installs": 344,
-   "maker": "Grafana",
-   "about": [
-    "Skills and rules for developing and using the Grafana Assistant app and CLI."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills and rules for developing and using the Grafana Assistant app and CLI."
+   "descriptionOriginal": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:grafana-cloud-mcp",
@@ -4478,15 +4461,15 @@
   },
   {
    "id": "marketplace:hostinger",
-   "name": "Hostinger",
+   "name": "Hostinger Connector",
    "origin": "marketplace",
-   "description": "Beheer Hostinger-services: websites, domeinen, e-commerce, e-mail, abonnementen, VPS. OAuth- of API-tokenverificatie.",
-   "category": "Schrijven & communicatie",
+   "description": "Implementeer, beheer en monitor Hostinger-services: websites, domeinen en DNS, e-commerce, e-mail, e-mailmarketing, WordPress, abonnementen en betalingen en VPS. Draait als een externe MCP-server met browseraanmelding (OAuth) - er hoeft niets lokaal te worden geïnstalleerd.",
+   "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/hostinger",
    "source": "https://github.com/hostinger/claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 345,
-   "maker": "Hostinger",
+   "maker": "",
    "about": [
     "Deploy, manage and monitor your Hostinger services directly from Claude Code. The plugin connects Claude to Hostinger’s remote MCP server, so you can ship sites and apps, manage domains and DNS, run WordPress and operate VPS servers without leaving your coding environment. There’s nothing to install on your machine: no Node.js, no npm, no local server.",
     "Key features include one-prompt deployments for static sites, Node.js apps (built on Hostinger), full WordPress site imports, and WordPress plugins and themes, plus static and PHP sites on the Agency Plan. Beyond deployments, Claude can search and register domains, edit DNS records and snapshots, check build logs, and manage mailboxes, online stores, email marketing contacts, subscriptions and orders. It can also control VPS firewalls, snapshots and monitoring. Sign in through your browser (OAuth) on first use, or set a",
@@ -4494,7 +4477,7 @@
     "”, “create an A record pointing"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage Hostinger services: Websites, Domains, Ecommerce, Email, Subscriptions, VPS. OAuth or API token authentication."
+   "descriptionOriginal": "Deploy, manage and monitor Hostinger services — Websites, Domains & DNS, Ecommerce, Email, Email Marketing, WordPress, Subscriptions & Payments, and VPS. Runs as a remote MCP server with browser (OAuth) sign-in — nothing to install locally."
   },
   {
    "id": "marketplace:hubspot-sales",
@@ -4668,8 +4651,8 @@
    "installs": 0,
    "maker": "Informatica",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Governed catalog discovery for Informatica Intelligent Data Management Cloud."
+   "descriptionOriginal": "Governed catalog discovery for Informatica Intelligent Data Management Cloud.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:intercom",
@@ -4946,15 +4929,15 @@
   },
   {
    "id": "marketplace:kotlin-lsp",
-   "name": "Kotlin LSP",
+   "name": "kotlin-lsp",
    "origin": "marketplace",
-   "description": "Kotlin-taalserver voor code-intelligentie",
+   "description": "Kotlin-taalserver voor Claude Code, die code-intelligentie, refactoring en analyse biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/kotlin-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/kotlin-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/kotlin-lsp",
    "verified": true,
    "installs": 24127,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "The Kotlin LSP plugin brings advanced Kotlin language intelligence to Claude Code, powered by JetBrains' official Kotlin Language Server. It provides IDE-quality code intelligence for Kotlin source files (.kt) and Kotlin script files (.kts), leveraging technology from IntelliJ IDEA.",
     "Key features include semantic highlighting, code completion, on-the-fly diagnostics, navigation to Kotlin and Java sources, code actions with quickfixes and inspections, import organization, rename refactoring, and documentation hovers. The plugin is optimized for JVM-only Kotlin Gradle projects.",
@@ -4962,7 +4945,7 @@
     "brew install JetBrains/utils/kotlin-lsp"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Kotlin language server for code intelligence"
+   "descriptionOriginal": "Kotlin language server for Claude Code, providing code intelligence, refactoring, and analysis."
   },
   {
    "id": "marketplace:kowalah",
@@ -5233,8 +5216,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment."
+   "descriptionOriginal": "Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:legal-clinic",
@@ -5445,22 +5428,22 @@
   },
   {
    "id": "marketplace:lua-lsp",
-   "name": "Lua LSP",
+   "name": "lua-lsp",
    "origin": "marketplace",
-   "description": "Lua-taalserver voor code-intelligentie",
+   "description": "Lua-taalserver voor Claude Code, die code-intelligentie en diagnostiek biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/lua-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/lua-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1aa8f02ec8327f513686934f458a620f83db91ed/plugins/lua-lsp",
    "verified": true,
    "installs": 15595,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Lua LSP integrates the Lua Language Server with Claude Code, providing intelligent code assistance for Lua development. It supports Lua 5.1 through 5.5 and LuaJIT, offering features like go-to-definition, code completion, type checking, diagnostics, and hover documentation.",
     "The plugin enables Claude to understand your Lua codebase with full language server capabilities including reference finding, symbol renaming, code formatting, and syntax validation with over 20 supported annotations for documentation.",
     "Once installed, the language server activates automatically when working with .lua files. Ask Claude to help with Lua code and it will leverage the language server for accurate completions, error detection, and navigation. For example: \"Find all references to this function\" or \"What's wrong with this Lua code?\""
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Lua language server for code intelligence"
+   "descriptionOriginal": "Lua language server for Claude Code, providing code intelligence and diagnostics."
   },
   {
    "id": "marketplace:lumen",
@@ -5483,18 +5466,18 @@
    "id": "marketplace:lusha",
    "name": "Lusha",
    "origin": "marketplace",
-   "description": "Krijg toegang tot geverifieerde B2B-contact- en bedrijfsgegevens, koperssignalen en verrijking voor verkoop, marketing en RevOps.",
-   "category": "Data & analyse",
+   "description": "Prospecteer, verrijk en stel call-ready leadlijsten samen met behulp van het B2B-intelligentieplatform van Lusha: geverifieerde telefoonnummers, bedrijfssignalen en lookalike targeting.",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/lusha",
    "source": "https://github.com/lusha-oss/lusha-mcp-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 275,
-   "maker": "Lusha",
+   "maker": "",
    "about": [
     "Connect Lusha to Claude to access verified B2B data, contact data, and company data without leaving your chat. Lusha is a B2B database and sales intelligence platform with 300M+ verified contacts, direct emails, phone numbers, and mobile numbers, plus actionable buyer signals - used for prospecting, data enrichment, and lead enrichment across sales, marketing, and RevOps workflows. Backed by GDPR, CCPA, SOC 2 Type II, and ISO 27701 compliance. It is perfect for building prospect lists, researching accounts before a call, qualifying inbound leads, and natural language prospecting inside Claude."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access verified B2B contact and company data, buyer signals, and enrichment for sales, marketing, and RevOps."
+   "descriptionOriginal": "Prospect, enrich, and build call-ready lead lists using Lusha's B2B intelligence platform — verified phone numbers, company signals, and lookalike targeting."
   },
   {
    "id": "marketplace:lusha-talent-sourcing",
@@ -5559,13 +5542,13 @@
    "id": "marketplace:marketing",
    "name": "Marketing",
    "origin": "marketplace",
-   "description": "Creëer inhoud, plan campagnes en analyseer de prestaties via marketingkanalen.",
-   "category": "Marketing & business",
+   "description": "Creëer inhoud, plan campagnes en analyseer de prestaties via marketingkanalen. Behoud de consistentie van de merkstem, volg concurrenten en rapporteer wat werkt.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/marketing",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/marketing",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Marketing covers content creation, campaign planning, brand voice management, competitive analysis, and performance reporting. Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with",
     "— get objectives, channel strategy, content calendars, and success metrics. Review any content against your brand voice and style guide with",
@@ -5573,7 +5556,7 @@
     "Build marketing performance reports with"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create content, plan campaigns, and analyze performance across marketing channels."
+   "descriptionOriginal": "Create content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what's working."
   },
   {
    "id": "community:master-claude-for-legal",
@@ -5591,18 +5574,18 @@
    "id": "marketplace:math-olympiad",
    "name": "math-olympiad",
    "origin": "marketplace",
-   "description": "Los competitiewiskunde op (IMO, Putnam, USAMO) met vijandige verificatie die opvangt wat zelfverificatie mist....",
+   "description": "Los concurrentiewiskunde op (IMO, Putnam, USAMO) met vijandige verificatie die opvangt wat zelfverificatie mist. Nieuwe-contextverificateurs vallen bewijzen aan met specifieke foutpatronen. Calibrated abstention over bluffing.",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/math-olympiad",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/math-olympiad",
    "verified": true,
    "installs": 3392,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses...."
+   "descriptionOriginal": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing."
   },
   {
    "id": "marketplace:mattpocock-skills",
@@ -5903,8 +5886,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Business verification, orders, and instant risk signals from Middesk, via Middesk's hosted MCP server."
+   "descriptionOriginal": "Business verification, orders, and instant risk signals from Middesk, via Middesk's hosted MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:migration-to-aws",
@@ -6141,8 +6124,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Operate EV charging infrastructure through the Monta API. Connects Claude to Monta's hosted MCP server so you can list sites and charge points, inspect charges and their cost breakdowns, pull charger and utilisation reports, investigate failed or stuck sessions, and manage teams, price groups, and webhooks. Requires Monta API credentials (Client ID and Client Secret) created in Monta Hub. Run /monta:setup after installing."
+   "descriptionOriginal": "Operate EV charging infrastructure through the Monta API. Connects Claude to Monta's hosted MCP server so you can list sites and charge points, inspect charges and their cost breakdowns, pull charger and utilisation reports, investigate failed or stuck sessions, and manage teams, price groups, and webhooks. Requires Monta API credentials (Client ID and Client Secret) created in Monta Hub. Run /monta:setup after installing.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:month-end-closer",
@@ -6598,18 +6581,18 @@
    "id": "marketplace:oracle-ai-data-platform-workbench-spark-connectors",
    "name": "oracle-ai-data-platform-workbench-spark-connectors",
    "origin": "marketplace",
-   "description": "Oracle AI Data Platform Workbench Spark-connectoren voor Claude Code. 18 connectorvaardigheden voor elke gegevensbron waar...",
-   "category": "Data & analyse",
+   "description": "Oracle AI Data Platform Workbench Spark-connectoren voor Claude Code. 26 connectorvaardigheden voor Oracle, OCI, SaaS, JDBC, objectopslag, streaming, REST, Excel en multi-cloud gegevensbronnen, inclusief speciale DB2- en Azure SQL-richtlijnen.",
+   "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/oracle-ai-data-platform-workbench-spark-connectors",
-   "source": "https://github.com/oracle-samples/oracle-aidp-samples",
-   "verified": false,
+   "source": "https://github.com/oracle-samples/oracle-aidp-samples/tree/90b42d6c24d4e5da784842c21234a750f7e55fef/ai/claude-code-plugins/oracle-ai-data-platform-workbench-spark-connectors",
+   "verified": true,
    "installs": 907,
-   "maker": "Oracle",
+   "maker": "",
    "about": [
     "Oracle AI Data Platform Workbench Spark connectors for Claude Code. 18 connector skills covering every data source workbench customers commonly need: Oracle Autonomous DB family (ALH/ADW/ATP) via wallet/IAM-DB-Token/API-key, ExaCS, Fusion ERP REST, Fusion BICC, EPM Cloud Planning, Essbase 21c, OCI Streaming (Kafka), OCI Object Storage, Apache Iceberg, plus external systems (PostgreSQL, MySQL/HeatWave, SQL Server, Snowflake, Azure ADLS Gen2, AWS S3, generic REST, custom JDBC, Excel). Live-validated on the workbench `tpcds` cluster (Spark 3.5.0): 17 PASS / 4 ship-as-is out of 21 test rows."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Oracle AI Data Platform Workbench Spark connectors for Claude Code. 18 connector skills covering every data source wo..."
+   "descriptionOriginal": "Oracle AI Data Platform Workbench Spark connectors for Claude Code. 26 connector skills covering Oracle, OCI, SaaS, JDBC, object storage, streaming, REST, Excel, and multi-cloud data sources, including dedicated DB2 and Azure SQL guidance."
   },
   {
    "id": "marketplace:oracledb",
@@ -6696,8 +6679,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Interact with AI agents built for biology. Owkin build AI agents for biology to accelerate drug discovery and de-risk clinical trials. The Owkin connector currently powers HistoPLUS, an agent that transforms H&E slides from the TCGA database into granular, queryable insights. Researchers can use it to quantify distinct cell types, analyze complex spatial tumor microenvironments, and validate hypotheses through cohort-level survival analysis."
+   "descriptionOriginal": "Interact with AI agents built for biology. Owkin build AI agents for biology to accelerate drug discovery and de-risk clinical trials. The Owkin connector currently powers HistoPLUS, an agent that transforms H&E slides from the TCGA database into granular, queryable insights. Researchers can use it to quantify distinct cell types, analyze complex spatial tumor microenvironments, and validate hypotheses through cohort-level survival analysis.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:pagerduty",
@@ -6862,15 +6845,15 @@
   },
   {
    "id": "marketplace:pinecone",
-   "name": "Pinecone",
+   "name": "pinecone",
    "origin": "marketplace",
-   "description": "Pinecone-vectordatabase-integratie voor het beheren van indexen, query's en rapid prototyping met slash-opdrachten en MCP-serverondersteuning.",
-   "category": "Data & analyse",
+   "description": "Pinecone vector database integration. Stroomlijn uw Pinecone-ontwikkeling met krachtige tools voor het beheren van vectorindexen, het opvragen van gegevens en rapid prototyping. Gebruik slash-opdrachten zoals /quickstart om AGENTS.md-bestanden te genereren en Python-projecten te initialiseren en /query om indexen snel te verkennen. Krijg toegang tot de Pinecone MCP-server voor het maken, beschrijven, upsen en opvragen van indexen met Claude. Perfect voor ontwikkelaars die semantisch zoeken, RAG-applicaties, aanbevelingssystemen en andere functies bouwen",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/pinecone",
    "source": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 10334,
-   "maker": "Pinecone",
+   "maker": "",
    "about": [
     "Integrate Pinecone vector database directly into your Claude Code workflow. This plugin provides a complete toolkit for managing vector indexes, querying data with natural language, and rapidly prototyping semantic search applications—all without leaving your editor.",
     "The MCP server gives you access to seven powerful tools: list-indexes, describe-index, describe-index-stats, search-records, create-index-for-model, upsert-records, and rerank-documents. Build RAG applications, recommendation systems, and semantic search features with full control over your vector data.",
@@ -6878,7 +6861,7 @@
     "to search your indexes interactively—specify an index name, namespace, and optional reranker. Run"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Pinecone vector database integration for managing indexes, querying, and rapid prototyping with slash commands and MCP server support."
+   "descriptionOriginal": "Pinecone vector database integration. Streamline your Pinecone development with powerful tools for managing vector indexes, querying data, and rapid prototyping. Use slash commands like /quickstart to generate AGENTS.md files and initialize Python projects and /query to quickly explore indexes. Access the Pinecone MCP server for creating, describing, upserting and querying indexes with Claude. Perfect for developers building semantic search, RAG applications, recommendation systems, and other ve"
   },
   {
    "id": "marketplace:pitch-agent",
@@ -7014,8 +6997,8 @@
     "The toolkit emphasizes security-first development, portable configurations using environment variables, and progressive disclosure patterns that balance context efficiency with comprehensive guidance when needed.",
     "to start an 8-phase guided workflow that walks you through discovery, planning, design, implementation, validation, testing, and documentation. Ask questions like \"how do I create a PreToolUse hook?\", \"how do I set up an MCP server?\", or \"what's the best plugin structure?\" to load the relevant skill automatically."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance"
+   "descriptionOriginal": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:postgres",
@@ -7136,20 +7119,20 @@
   },
   {
    "id": "marketplace:preset-cli-skills",
-   "name": "preset-cli-skills",
+   "name": "Preset CLI Skills",
    "origin": "marketplace",
-   "description": "CLI-skills voor shell, scripting, CI/CD via `sup` CLI (PyPI: superset-sup). Alleen CLI-workflows; niet voor MCP- of API-aanroepen.",
+   "description": "Vooraf ingestelde CLI-skills voor expliciete shell-, scripting- en CI/CD-workflows, aangestuurd door de `sup` CLI (PyPI-pakket `superset-sup`). Alleen gebruiken voor CLI-workflows; niet gebruiken voor MCP-only werk of als vervanging voor directe API-aanroepen wanneer de gebruiker HTTP/SDK-code wil.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/preset-cli-skills",
-   "source": "https://github.com/preset-io/agent-skills",
-   "verified": false,
+   "source": "https://github.com/preset-io/agent-skills/tree/838f0a408dc1a50adc94175b387550c81371554e/plugins/preset-cli-skills",
+   "verified": true,
    "installs": 301,
-   "maker": "Preset",
+   "maker": "",
    "about": [
     "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). Use only for CLI workflows; do not use for MCP-only work or as a substitute for direct API calls when the user wants HTTP/SDK code."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CLI skills for shell, scripting, CI/CD via `sup` CLI (PyPI: superset-sup). CLI workflows only; not for MCP or API calls."
+   "descriptionOriginal": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). Use only for CLI workflows; do not use for MCP-only work or as a substitute for direct API calls when the user wants HTTP/SDK code."
   },
   {
    "id": "marketplace:prisma",
@@ -7268,8 +7251,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks."
+   "descriptionOriginal": "Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:productivity",
@@ -7532,8 +7515,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agentic QA quality-intelligence for Qase: coverage gaps, failure triage and root-cause, flakiness vs. regression, release-readiness gating, a visual quality pulse for any period, and branch impact analysis with a regression checklist — driven through the Qase MCP server, with Qase as the system of record."
+   "descriptionOriginal": "Agentic QA quality-intelligence for Qase: coverage gaps, failure triage and root-cause, flakiness vs. regression, release-readiness gating, a visual quality pulse for any period, and branch impact analysis with a regression checklist — driven through the Qase MCP server, with Qase as the system of record.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:quarkus-agent",
@@ -7966,8 +7949,23 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Runpod agent skills and MCP server — run Runpod tasks (pods, serverless, templates, volumes) with runpodctl and flash, plus conceptual guidance and worked golden paths."
+   "descriptionOriginal": "Official Runpod agent skills and MCP server — run Runpod tasks (pods, serverless, templates, volumes) with runpodctl and flash, plus conceptual guidance and worked golden paths.",
+   "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:runway-dev",
+   "name": "Runway Dev",
+   "origin": "marketplace",
+   "description": "Krijg begeleiding voor het integreren van video-, beeld- en audiogeneratie met de Runway API en officiële SDK's. Maak verbinding met uw Runway Dev-account om beschikbare modellen en taakfouten te inspecteren, Modelrouters en bestaande realtime avatars te beheren en vastgelegde routebeslissingen te inspecteren.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/runway-dev",
+   "source": "https://github.com/runwayml/skills/tree/fe79eab0b996df90ff58383077df986b423bc75b/claude",
+   "verified": true,
+   "installs": 0,
+   "maker": "Runway",
+   "about": [],
+   "firstSeen": "2026-10-29",
+   "descriptionOriginal": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs. Connect to your Runway Dev account to inspect available models and task errors, manage Model Routers and existing real-time avatars, and inspect recorded routing decisions."
   },
   {
    "id": "marketplace:runway-api",
@@ -8332,15 +8330,15 @@
   },
   {
    "id": "marketplace:sentry",
-   "name": "Sentry",
+   "name": "sentry",
    "origin": "marketplace",
-   "description": "Sentry-foutbewaking: krijg toegang tot foutrapporten, analyseer stacktraces, zoekproblemen en debug productiefouten in uw IDE.",
+   "description": "Sentry-plug-in voor Claude Code om te helpen bij het opsporen van fouten, inclusief MCP- en vaardigheidsmogelijkheden.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/sentry",
-   "source": "https://github.com/getsentry/sentry-for-claude",
-   "verified": false,
+   "source": "https://github.com/getsentry/plugin-claude",
+   "verified": true,
    "installs": 38810,
-   "maker": "Sentry",
+   "maker": "",
    "about": [
     "The Sentry plugin brings powerful error monitoring and debugging capabilities directly into Claude Code. Connect to your Sentry environment to analyze production errors, investigate stack traces, and identify patterns across issues—all through natural language queries. The plugin provides real-time access to your error data with severity indicators, user impact metrics, and direct links to Sentry issues.",
     "Key features include the issue-summarizer agent for parallel analysis of multiple issues, automatic pattern detection across error types, and root cause investigation with actionable fix suggestions. The plugin quantifies user impact and prioritizes issues by severity, helping you focus on what matters most.",
@@ -8348,7 +8346,7 @@
     "to retrieve recent issues from a specific project. The sentry-code-review skill automatically analyzes and fixes detected bugs in GitHub Pull Requests."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sentry error monitoring: Access error reports, analyze stack traces, search issues, and debug production errors in your IDE."
+   "descriptionOriginal": "Sentry Plugin for Claude Code to help with debugging including MCP and skill capabilities."
   },
   {
    "id": "marketplace:sentry-cli",
@@ -8420,18 +8418,18 @@
    "id": "marketplace:session-report",
    "name": "session-report",
    "origin": "marketplace",
-   "description": "Genereer een verkenbaar HTML-rapport van het sessiegebruik van Claude Code: tokens, cache-efficiëntie, subagenten, skills en de...",
-   "category": "Ontwikkeling",
+   "description": "Installeer binnen",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/session-report",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/session-report",
    "verified": true,
    "installs": 11694,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and th..."
+   "descriptionOriginal": "Install in"
   },
   {
    "id": "community:ship-learn-next",
@@ -8478,6 +8476,21 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation sear..."
+  },
+  {
+   "id": "marketplace:signalwire",
+   "name": "SignalWire",
+   "origin": "marketplace",
+   "description": "Bouw SignalWire-spraak-, berichten-, video- en AI-agenttoepassingen: SWML-oproepstromen, REST API's, de Server- en Browser SDK's, SWAIG-functies en foutopsporing, met productiepatronen en de valkuilen die moeten worden vermeden.",
+   "category": "Code review & testen",
+   "url": "https://claude.com/marketplace/plugins/signalwire",
+   "source": "https://github.com/signalwire/signalwire-claude",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "firstSeen": "2026-10-29",
+   "descriptionOriginal": "Build SignalWire voice, messaging, video, and AI agent applications: SWML call flows, REST APIs, the Server and Browser SDKs, SWAIG functions, and debugging, with production patterns and the traps to avoid."
   },
   {
    "id": "community:skill-creator",
@@ -9098,16 +9111,31 @@
    "id": "marketplace:synthflow",
    "name": "Synthflow",
    "origin": "marketplace",
-   "description": "Verbind Claude met het AI-stemagentplatform van Synthflow, met skills voor het beoordelen van oproepen en het controleren van agentenprompts.",
+   "description": "Verbindt Claude Code met het Synthflow AI-stemagentplatform via de gehoste MCP-server, met skills voor het beoordelen van oproepen en het controleren van agentprompts, plus een connector voor het zoeken naar documenten.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/synthflow",
-   "source": "https://github.com/SynthFlowAI/AnthropicPlugin",
-   "verified": false,
+   "source": "https://github.com/synthflowai/anthropicplugin/tree/205871ee83508502d2c982ee1bb7e65a2a29190b/plugins/synthflow",
+   "verified": true,
    "installs": 0,
-   "maker": "Synthflow",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude to Synthflow's AI voice-agent platform, with skills for reviewing calls and auditing agent prompts."
+   "descriptionOriginal": "Connects Claude Code to the Synthflow AI voice-agent platform through its hosted MCP server, with skills for reviewing calls and auditing agent prompts, plus a docs-search connector."
+  },
+  {
+   "id": "marketplace:tableau",
+   "name": "Tableau",
+   "origin": "marketplace",
+   "description": "Verken Tableau-inhoud en genereer/wijzig Tableau-werkmappen via de gehoste Tableau MCP-server.",
+   "category": "Marketing & business",
+   "url": "https://claude.com/marketplace/plugins/tableau",
+   "source": "https://github.com/tableau/tableau-plugin/tree/099c6abdafb177466ee5256ac0beccdde64099da/plugins/tableau",
+   "verified": true,
+   "installs": 0,
+   "maker": "Salesforce, Inc.",
+   "about": [],
+   "firstSeen": "2026-10-29",
+   "descriptionOriginal": "Explore Tableau content and generate/modify Tableau workbooks through the hosted Tableau MCP server."
   },
   {
    "id": "community:tailored-resume-generator",
@@ -9283,8 +9311,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "ThoughtSpot developer documentation — search Visual Embed SDK, REST API v2, and developer guides"
+   "descriptionOriginal": "ThoughtSpot developer documentation — search Visual Embed SDK, REST API v2, and developer guides",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:threat-hunting-with-sigma-rules",
@@ -9728,8 +9756,8 @@
     "to push your application to production,",
     "to fetch and analyze deployment logs, or"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build and deploy web apps and agents"
+   "descriptionOriginal": "Build and deploy web apps and agents",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:versori-skills",
@@ -10062,8 +10090,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude to your Wyatt workspace to work with documents, tasks, context, and background agents."
+   "descriptionOriginal": "Connect Claude to your Wyatt workspace to work with documents, tasks, context, and background agents.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:xata",
@@ -10154,20 +10182,20 @@
   },
   {
    "id": "marketplace:zapier",
-   "name": "zapier",
+   "name": "Zapier",
    "origin": "marketplace",
    "description": "Verbind meer dan 8.000 apps met uw AI-workflow. Ontdek, activeer en voer Zapier-acties rechtstreeks vanuit uw klant uit.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/zapier",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/zapier/zapier-mcp/tree/54a12277a12c60df51ec16cf4e4ef0b27b166649/plugins/zapier",
+   "verified": true,
    "installs": 3302,
    "maker": "",
    "about": [
     "Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client."
+   "descriptionOriginal": "Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:zilliz",
@@ -10183,8 +10211,8 @@
    "about": [
     "Zilliz Cloud management plugin with 14 skills covering cluster lifecycle, collection schema, vector search, index tuning, bulk import, RBAC, backups, and monitoring."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Zilliz Cloud management plugin with 14 skills covering cluster lifecycle, collection schema, vector search, index tun..."
+   "descriptionOriginal": "Zilliz Cloud management plugin with 14 skills covering cluster lifecycle, collection schema, vector search, index tun...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:zocks-advisor-intelligence",
@@ -10278,31 +10306,38 @@
  ],
  "history": [
   "official:doc-coauthoring",
-  "official:pptx"
+  "official:pptx",
+  "official:web-artifacts-builder"
  ],
- "updated": "2026-10-28T21:16:02.396274+00:00",
+ "updated": "2026-10-29T21:20:46.292431+00:00",
  "tonight": {
-  "date": "2026-10-28",
-  "id": "official:pptx",
+  "date": "2026-10-29",
+  "id": "official:web-artifacts-builder",
   "text": [
-   "PPTX maken, bewerken en analyseren",
-   "Een `.pptx` is een ZIP-archief van XML-bestanden. Kies uw aanpak per taak:",
-   "Paden zijn relatief ten opzichte van de directory van deze skill. Al het andere is gewoon Python, `node` of shell.",
-   "Creëren met pptxgenjs — gotchas",
-   "`pptxgenjs` is vooraf geïnstalleerd — voer `npm install` niet eerst uit; schrijf het script en `require('pptxgenjs')` direct. Alleen als dat niet lukt: `npm install pptxgenjs`. Het model kent de API; dit zijn de voetwapens:",
-   "Stel `pres.layout` in voordat u dia's toevoegt. Het standaard canvas is `LAYOUT_16x9` = 10\" × 5,625\", niet 13,3\" breed. Coördinaten voorbij de rand worden geschreven, niet vastgeklemd - de vorm staat gewoon niet op de dia. (`LAYOUT_WIDE` is 13,3\" × 7,5\".) Hexkleuren: nooit `#`, nooit 8 cijfers. `kleur: \"FF0000\"`. Beide `\"#FF0000\"` en alpha ingebakken in de hex (\"00000020\"`) beschadigen het bestand. Voor doorschijnendheid: `transparantie: 0-100` op vullingen en afbeeldingen, `opacity: 0.0-1.0` op schaduwen - elk wordt stilzwijgend genegeerd op de andere pptxgenjs muteert optieobjecten op hun plaats (converteert waarden naar EMU bij het eerste gebruik).…",
-   "Bestaande decks en sjablonen bewerken",
-   "Kies eerst de lay-out: `python scripts/thumbnail.py template.pptx template-thumbs` schrijft een gelabeld raster van elke dia en drukt de bestanden af die het heeft gemaakt - `template-thumbs.jpg`, opgesplitst in `template-thumbs-N.jpg` voorbij 12 dia's. Geef altijd dat tweede argument door, genoemd naar het kaartspel. Het is standaard ingesteld op 'thumbnails', dus twee decks met thumbnails in één map overschrijven stilzwijgend elkaars rasters - de eerste decks zijn gewoon verdwenen (alleen sjabloonanalyse - visuele QA heeft de weergaven met volledige resolutie nodig van Converteren naar afbeeldingen; het accepteert alleen '.pptx', dus kopieer een '.potx' naar..."
+   "Om krachtige frontend claude.ai-artefacten te bouwen, volgt u deze stappen: Initialiseer de frontend-opslagplaats met `scripts/init-artifact.sh` Ontwikkel uw artefact door de gegenereerde code te bewerken Bundel alle code in één HTML-bestand met behulp van `scripts/bundle-artifact.sh` Geef het artefact aan de gebruiker weer (optioneel) Test het artefact",
+   "Stapel: React 18 + TypeScript + Vite + Parcel (bundeling) + Tailwind CSS + shadcn/ui",
+   "ZEER BELANGRIJK: Om te vermijden wat vaak \"AI-slop\" wordt genoemd, vermijd het gebruik van overmatig gecentreerde lay-outs, paarse kleurverlopen, uniforme afgeronde hoeken en Inter-lettertype.",
+   "Voer het initialisatiescript uit om een nieuw React-project te maken:",
+   "Hierdoor ontstaat een volledig geconfigureerd project met: ✅ React + TypeScript (via Vite) ✅ Tailwind CSS 3.4.1 met shadcn/ui-themasysteem ✅ Padaliassen (`@/`) geconfigureerd ✅ 40+ shadcn/ui-componenten vooraf geïnstalleerd ✅ Alle Radix UI-afhankelijkheden inbegrepen ✅ Pakket geconfigureerd voor bundeling (via .parcelrc) ✅ Knooppunt 18+ compatibiliteit (auto-detecteert en pint Vite-versie)",
+   "Bewerk de gegenereerde bestanden om het artefact te bouwen. Zie Algemene ontwikkelingstaken hieronder voor richtlijnen.",
+   "Stap 3: Bundel tot één HTML-bestand",
+   "Om de React-app te bundelen in één enkel HTML-artefact:",
+   "Hierdoor ontstaat `bundle.html` - een op zichzelf staand artefact met alle JavaScript, CSS en afhankelijkheden inline. Dit bestand kan als artefact rechtstreeks worden gedeeld in Claude-gesprekken.",
+   "Vereisten: Uw project moet een `index.html` in de hoofdmap hebben.",
+   "Wat het script doet: Installeert bundelafhankelijkheden (parcel, @parcel/config-default, packet-resolver-tspaths, html-inline) Creëert `.parcelrc`-configuratie met ondersteuning voor padalias Bouwt met Parcel (geen brontoewijzingen) Inlineert alle assets in enkele HTML met behulp van html-inline"
   ],
   "textOriginal": [
-   "PPTX creation, editing, and analysis",
-   "A `.pptx` is a ZIP archive of XML files. Choose your approach by task:",
-   "Paths are relative to this skill's directory. Everything else is plain Python, `node`, or shell.",
-   "Creating with pptxgenjs — gotchas",
-   "`pptxgenjs` is preinstalled — do not run `npm install` first; write the script and `require('pptxgenjs')` directly. Only if that require fails: `npm install pptxgenjs`. The model knows the API; these are the footguns:",
-   "Set `pres.layout` before adding slides. The default canvas is `LAYOUT_16x9` = 10\" × 5.625\", not 13.3\" wide. Coordinates past the edge are written, not clamped — the shape just isn't on the slide. (`LAYOUT_WIDE` is 13.3\" × 7.5\".) Hex colors: never `#`, never 8 digits. `color: \"FF0000\"`. Both `\"#FF0000\"` and alpha baked into the hex (`\"00000020\"`) corrupt the file. For translucency: `transparency: 0-100` on fills and images, `opacity: 0.0-1.0` on shadows — each is silently ignored on the other. pptxgenjs mutates option objects in place (converts values to EMU on first use).…",
-   "Editing existing decks and templates",
-   "Pick layouts first: `python scripts/thumbnail.py template.pptx template-thumbs` writes a labeled grid of every slide and prints the file(s) it created — `template-thumbs.jpg`, split into `template-thumbs-N.jpg` past 12 slides. Always pass that second argument, named after the deck. It defaults to `thumbnails`, so two decks thumbnailed in one directory silently overwrite each other's grids — the first deck's are simply gone (template analysis only — visual QA needs the full-resolution renders from Converting to Images; it only accepts `.pptx`, so copy a `.potx` to…"
+   "To build powerful frontend claude.ai artifacts, follow these steps: Initialize the frontend repo using `scripts/init-artifact.sh` Develop your artifact by editing the generated code Bundle all code into a single HTML file using `scripts/bundle-artifact.sh` Display artifact to user (Optional) Test the artifact",
+   "Stack: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui",
+   "VERY IMPORTANT: To avoid what is often referred to as \"AI slop\", avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.",
+   "Run the initialization script to create a new React project:",
+   "This creates a fully configured project with: ✅ React + TypeScript (via Vite) ✅ Tailwind CSS 3.4.1 with shadcn/ui theming system ✅ Path aliases (`@/`) configured ✅ 40+ shadcn/ui components pre-installed ✅ All Radix UI dependencies included ✅ Parcel configured for bundling (via .parcelrc) ✅ Node 18+ compatibility (auto-detects and pins Vite version)",
+   "To build the artifact, edit the generated files. See Common Development Tasks below for guidance.",
+   "Step 3: Bundle to Single HTML File",
+   "To bundle the React app into a single HTML artifact:",
+   "This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in Claude conversations as an artifact.",
+   "Requirements: Your project must have an `index.html` in the root directory.",
+   "What the script does: Installs bundling dependencies (parcel, @parcel/config-default, parcel-resolver-tspaths, html-inline) Creates `.parcelrc` config with path alias support Builds with Parcel (no source maps) Inlines all assets into single HTML using html-inline"
   ]
  }
 }
