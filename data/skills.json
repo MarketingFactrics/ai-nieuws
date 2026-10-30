@@ -204,20 +204,20 @@
   },
   {
    "id": "marketplace:ai-firstify",
-   "name": "ai-firstify",
+   "name": "AI-Firstify",
    "origin": "marketplace",
-   "description": "AI-first auditor & re-engineer gebaseerd op 9 ontwerpprincipes & 7 patronen (TechWolf)",
+   "description": "AI-first projectauditor en re-engineer gebaseerd op de 9 ontwerpprincipes en 7 ontwerppatronen uit het TechWolf AI-First Bootcamp",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/ai-firstify",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/techwolf-ai/ai-first-toolkit/tree/2ee78415674eaaead2082a55691b68ffb1003e87/plugins/ai-firstify",
+   "verified": true,
    "installs": 1604,
    "maker": "",
    "about": [
     "AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI-first auditor & re-engineer based on 9 design principles & 7 patterns (TechWolf)"
+   "descriptionOriginal": "AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp"
   },
   {
    "id": "marketplace:ai-governance-legal",
@@ -886,13 +886,13 @@
    "id": "marketplace:aws-startup-advisor",
    "name": "AWS Startup Advisor",
    "origin": "marketplace",
-   "description": "AI-aangedreven bouw- en migratiebegeleiding van AWS, gebouwd voor startups in elk stadium.",
-   "category": "Design & media",
+   "description": "Gepersonaliseerde AWS-begeleiding gebaseerd op patronen van meer dan 350.000 startups: architectuur, kosten, beveiliging en migratie, van het instellen van een account vanaf de eerste dag tot een productieklare infrastructuur. Migreer naar AWS vanuit GCP of Heroku, inclusief uw volledige AI-stack: OpenAI/Gemini/Anthropic SDK herschrijft naar Amazon Bedrock, agentische systemen (LangChain, CrewAI, AutoGen) naar AWS-native runtimes en tijdelijke werkers. Inclusief geschiktheid voor AWS Activate-credits en meer dan 60 exclusieve opstartaanbiedingen. Gebouwd door AWS Startup Solutions Archi",
+   "category": "Security",
    "url": "https://claude.com/marketplace/plugins/aws-startup-advisor",
-   "source": "https://github.com/awslabs/startups",
-   "verified": false,
+   "source": "https://github.com/awslabs/startups/tree/dd7096bd634649bc89b6511d61cff16f58623284/advisor/plugins/aws-startup-advisor",
+   "verified": true,
    "installs": 873,
-   "maker": "Amazon Web Services",
+   "maker": "",
    "about": [
     "Personalized architecture, cost, security, and migration guidance for startups. From day-one account setup and security baselines to production-ready infrastructure, cost optimization, and beyond. Includes AWS Activate Credits eligibility, 60+ exclusive startup offers, and multi-account multi-region support. Built on expertise from AWS Startup Solutions Architects and patterns from 350,000+ startups.",
     "Vetted prompts for startups at every stage:",
@@ -900,7 +900,7 @@
     "Scaffold a production architecture for your stack"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI-powered build and migrate guidance from AWS, built for startups at any stage."
+   "descriptionOriginal": "Personalized AWS guidance built on patterns from 350,000+ startups—architecture, cost, security, and migration, from day-one account setup to production-ready infrastructure. Migrate to AWS from GCP or Heroku—including your entire AI stack: OpenAI/Gemini/Anthropic SDK rewrites to Amazon Bedrock, agentic systems (LangChain, CrewAI, AutoGen) to AWS-native runtimes, and Temporal workers. Includes AWS Activate credits eligibility and 60+ exclusive startup offers. Built by AWS Startup Solutions Archi"
   },
   {
    "id": "marketplace:aws-transform",
@@ -1492,20 +1492,20 @@
   },
   {
    "id": "marketplace:buildkite",
-   "name": "buildkite",
+   "name": "Buildkite",
    "origin": "marketplace",
-   "description": "Officiële Buildkite-skills voor Claude Code, Cursor en andere AI-codeermiddelen - pijplijnen, migratie, preflight, agent...",
+   "description": "Officiële Buildkite-skills voor Claude Code, Cursor en andere AI-codeeragenten: pijplijnen, migratie, preflight, agentruntime, CLI en API",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/buildkite",
    "source": "https://github.com/buildkite/skills",
-   "verified": false,
+   "verified": true,
    "installs": 590,
-   "maker": "Buildkite",
+   "maker": "",
    "about": [
     "Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agent runtime, CLI, and API"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agen..."
+   "descriptionOriginal": "Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agent runtime, CLI, and API"
   },
   {
    "id": "marketplace:csharp-lsp",
@@ -1529,23 +1529,23 @@
   },
   {
    "id": "marketplace:canva",
-   "name": "Canva",
+   "name": "canva",
    "origin": "marketplace",
    "description": "Creëer, bewerk, beoordeel, wijzig het formaat en controleer Canva-ontwerpen met de Canva MCP-server.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/canva",
-   "source": "https://github.com/canva-sdks/canva-skills",
-   "verified": false,
+   "source": "https://github.com/canva-sdks/canva-skills/tree/906e8e0b0808e7146b998a48179abef281be57ca/plugins/canva",
+   "verified": true,
    "installs": 1094,
-   "maker": "Canva",
+   "maker": "",
    "about": [
     "Bring your Canva design workflow into Claude. This plugin connects to Canva's MCP server to let you create, edit, review, resize, and brand-check designs through natural conversation. It includes six specialized skills: edit existing designs with a safe transaction-based protocol, resize designs for Facebook, Instagram, and LinkedIn in one step, bulk-create designs from spreadsheet data using brand templates, run brand-kit compliance checks for colors, fonts, and logo usage, get structured design feedback on visual hierarchy and accessibility, and automatically implement comment feedback on your designs.",
     "All edits go through a preview-and-approve flow before being committed, so you stay in control. The brand-check skill audits designs across five dimensions — color palette, typography, logo treatment, copy tone, and overall consistency — and flags issues as on-brand, off-brand, or unverifiable. The resize skill handles all major social platforms in parallel with exact pixel specifications.",
     "Once installed, just describe what you want in plain language. Try prompts like",
     "Check this Canva design against my brand kit"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server."
+   "descriptionOriginal": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:canvas-design",
@@ -1596,6 +1596,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:carta-cap-table",
+   "name": "Carta cap table",
+   "origin": "marketplace",
+   "description": "Carta Cap Table-plug-in — skills en hooks voor het opvragen van cap-tabellen, subsidies, SAFE's, 409A-waarderingen, financieringsrondes en meer",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/carta-cap-table",
+   "source": "https://github.com/carta/plugins/tree/033e432cf59958c6413137843c98f97a773463bb/plugins/carta-cap-table",
+   "verified": true,
+   "installs": 501,
+   "maker": "",
+   "about": [
+    "Carta Cap Table plugin — skills and hooks for querying cap tables, grants, SAFEs, 409A valuations, waterfall scenarios, and more"
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Carta Cap Table plugin — skills and hooks for querying cap tables, grants, SAFEs, 409A valuations, financing rounds, and more"
+  },
+  {
    "id": "marketplace:carta-crm",
    "name": "Carta CRM",
    "origin": "marketplace",
@@ -1613,38 +1630,21 @@
    "descriptionOriginal": "Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server"
   },
   {
-   "id": "marketplace:carta-cap-table",
-   "name": "carta-cap-table",
-   "origin": "marketplace",
-   "description": "Carta Cap Table-plug-in — skills en hooks voor het opvragen van cap-tabellen, subsidies, SAFE's, 409A-waarderingen, watervalscenario...",
-   "category": "Design & media",
-   "url": "https://claude.com/marketplace/plugins/carta-cap-table",
-   "source": "https://github.com/carta/plugins",
-   "verified": false,
-   "installs": 501,
-   "maker": "Carta Engineering",
-   "about": [
-    "Carta Cap Table plugin — skills and hooks for querying cap tables, grants, SAFEs, 409A valuations, waterfall scenarios, and more"
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Carta Cap Table plugin — skills and hooks for querying cap tables, grants, SAFEs, 409A valuations, waterfall scenario..."
-  },
-  {
    "id": "marketplace:carta-investors",
-   "name": "carta-investors",
+   "name": "Carta investors",
    "origin": "marketplace",
-   "description": "Carta Investors-plug-in — skills voor het opvragen van beleggersgegevens, prestatiebenchmarks, wettelijke rapportage, AGM-deckge...",
+   "description": "Carta Investors-plug-in - skills met schrijfmogelijkheden voor het opvragen en bijwerken van beleggersgegevens, prestatiebenchmarks, rapportage over regelgeving, het genereren van AGM-decks, merkextractie en meer via de Carta MCP-server",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/carta-investors",
-   "source": "https://github.com/carta/plugins",
-   "verified": false,
+   "source": "https://github.com/carta/plugins/tree/033e432cf59958c6413137843c98f97a773463bb/plugins/carta-investors",
+   "verified": true,
    "installs": 484,
-   "maker": "Carta Engineering",
+   "maker": "",
    "about": [
     "Carta Investors plugin — skills for querying investor data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP Server."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Carta Investors plugin — skills for querying investor data, performance benchmarks, regulatory reporting, AGM deck ge..."
+   "descriptionOriginal": "Carta Investors plugin — write-capable skills for querying and updating investors data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP server"
   },
   {
    "id": "marketplace:catalyst-by-zoho",
@@ -1882,27 +1882,27 @@
     "Ask Claude to help with any CKEditor task and the plugin will guide the process. Try prompts like:",
     "Set up CKEditor with premium features in my Next.js project"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Install, configure, and integrate CKEditor 5 (free and premium) in any JavaScript project."
+   "descriptionOriginal": "Install, configure, and integrate CKEditor 5 (free and premium) in any JavaScript project.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:clangd-lsp",
-   "name": "Clangd LSP",
+   "name": "clangd-lsp",
    "origin": "marketplace",
-   "description": "C/C++ taalserver (clangd) voor code-intelligentie",
+   "description": "C/C++ taalserver (clangd) voor Claude Code, die code-intelligentie, diagnostiek en opmaak biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/clangd-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/clangd-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/clangd-lsp",
    "verified": true,
    "installs": 29851,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Integrates clangd, the official LLVM/Clang language server, into Claude Code to provide intelligent C and C++ code assistance. Get real-time error detection, code completion, and automatic formatting for your C/C++ projects. Supports all common file extensions including .c, .h, .cpp, .cc, .cxx, .hpp, and .hxx.",
     "Code intelligence with IntelliSense and symbol navigation, real-time diagnostics and linting, automatic code formatting, and background indexing for improved performance on large codebases.",
     "Once installed, the language server activates automatically when you open C or C++ files. Claude will have access to enhanced code understanding, allowing you to ask questions like \"What's wrong with this function?\" or \"Find all references to this struct.\" The plugin requires clangd to be installed on your system — use"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "C/C++ language server (clangd) for code intelligence"
+   "descriptionOriginal": "C/C++ language server (clangd) for Claude Code, providing code intelligence, diagnostics, and formatting."
   },
   {
    "id": "marketplace:claude-code-setup",
@@ -2013,8 +2013,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5."
+   "descriptionOriginal": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:claude-md-management",
@@ -2312,8 +2312,8 @@
    "about": [
     "CodSpeed is the all-in-one performance testing toolkit. Dive into benchmarking results, flamegraphs, and performance comparisons — give Claude granular profiling context to pinpoint bottlenecks and autonomously iterate on performance via the CodSpeed MCP server."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CodSpeed is the all-in-one performance testing toolkit. Dive into benchmarking results, flamegraphs, and performance ..."
+   "descriptionOriginal": "CodSpeed is the all-in-one performance testing toolkit. Dive into benchmarking results, flamegraphs, and performance ...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:cognee-memory",
@@ -2490,8 +2490,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Content studio for managing thought leadership content with a visual editor, Claude Code skills, and utility scripts."
+   "descriptionOriginal": "Content studio for managing thought leadership content with a visual editor, Claude Code skills, and utility scripts.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:context7",
@@ -4058,8 +4058,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Safety for Agents - Agent Detection & Response (ADR) for AI agents"
+   "descriptionOriginal": "Safety for Agents - Agent Detection & Response (ADR) for AI agents",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:git-pushing",
@@ -4531,20 +4531,20 @@
   },
   {
    "id": "marketplace:hunter",
-   "name": "hunter",
+   "name": "Hunter",
    "origin": "marketplace",
-   "description": "Vind en verifieer professionele e-mailadressen, zoek contacten op domein en verrijk bedrijfsgegevens - rechtstreeks in Claude.",
+   "description": "Vind en verifieer professionele e-mailadressen, zoek contacten op domein, verrijk bedrijfs- en persoonsgegevens, organiseer leads en lijsten, voer outreach-reeksen uit en push naar uw CRM - rechtstreeks in Claude.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/hunter",
    "source": "https://github.com/hunter-io/claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 758,
-   "maker": "Hunter.io",
+   "maker": "",
    "about": [
     "Find and verify professional email addresses, search contacts by domain, and enrich company data -- directly in Claude."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Find and verify professional email addresses, search contacts by domain, and enrich company data -- directly in Claude."
+   "descriptionOriginal": "Find and verify professional email addresses, search contacts by domain, enrich company and person data, organize leads and lists, run outreach sequences, and push to your CRM -- directly in Claude."
   },
   {
    "id": "marketplace:hyperframes",
@@ -4944,8 +4944,8 @@
     "Install the Kotlin LSP CLI with",
     "brew install JetBrains/utils/kotlin-lsp"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Kotlin language server for Claude Code, providing code intelligence, refactoring, and analysis."
+   "descriptionOriginal": "Kotlin language server for Claude Code, providing code intelligence, refactoring, and analysis.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:kowalah",
@@ -5058,8 +5058,8 @@
     ", giving Claude direct access to your Laravel application's structure and capabilities. This enables real-time assistance with Laravel's conventions and best practices while you code.",
     "Ask Claude to help with Laravel-specific tasks such as \"generate a migration for a posts table with title and content columns\", \"create an Eloquent model with relationships\", \"set up API routes for a resource controller\", or \"run artisan commands to clear cache and optimize the application\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation."
+   "descriptionOriginal": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:launchdarkly",
@@ -5188,13 +5188,13 @@
    "id": "marketplace:legal",
    "name": "Legal",
    "origin": "marketplace",
-   "description": "Versnel contractbeoordeling, NDA-triage en compliance-workflows voor interne juridische teams.",
+   "description": "Versnel contractbeoordeling, NDA-triage en compliance-workflows voor interne juridische teams. Stel juridische instructies op, organiseer precedentonderzoek en beheer institutionele kennis.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/legal",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/legal",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/legal",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Legal automates contract review, NDA triage, compliance workflows, legal briefings, and templated responses — all configurable to your organization's playbook and risk tolerances. Built for commercial counsel, product counsel, privacy/compliance, and litigation support teams.",
     "to review contracts clause-by-clause against your configured negotiation playbook, with GREEN/YELLOW/RED flags and specific redline suggestions. Use",
@@ -5202,7 +5202,7 @@
     "Check vendor agreement status with"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Speed up contract review, NDA triage, and compliance workflows for in-house legal teams."
+   "descriptionOriginal": "Speed up contract review, NDA triage, and compliance workflows for in-house legal teams. Draft legal briefs, organize precedent research, and manage institutional knowledge."
   },
   {
    "id": "marketplace:legal-builder-hub",
@@ -6139,8 +6139,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Accruals, roll-forwards, variance commentary"
+   "descriptionOriginal": "Accruals, roll-forwards, variance commentary",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:morningstar",
@@ -6249,6 +6249,23 @@
    "descriptionOriginal": "Deliver Director-level finance analysis on live NetSuite data."
   },
   {
+   "id": "marketplace:netsuite-suitecloud",
+   "name": "NetSuite SuiteCloud",
+   "origin": "marketplace",
+   "description": "Ontwikkel NetSuite SuiteCloud-oplossingen met SuiteScript, SDF en best practices.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/netsuite-suitecloud",
+   "source": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/23793a10a9bb557c684c5cb8a97f926eb3463f12/anthropic/netsuite-suitecloud",
+   "verified": true,
+   "installs": 1102,
+   "maker": "",
+   "about": [
+    "This plug-in is compatible with Claude. It includes skills that support key areas of SuiteCloud development, such as SuiteScript, SDF, UIF SPAs, security, permissions, documentation, modernization, and SAFE Guide best practices. It helps SuiteCloud developers and SuiteApp teams create accurate, secure, and maintainable code and project artifacts."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Develop NetSuite SuiteCloud solutions with SuiteScript, SDF, and best practices."
+  },
+  {
    "id": "marketplace:netsuite-suiteskills",
    "name": "NetSuite SuiteSkills",
    "origin": "marketplace",
@@ -6262,23 +6279,6 @@
    "about": [],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "NetSuite skills for insights and workflows across your business."
-  },
-  {
-   "id": "marketplace:netsuite-suitecloud",
-   "name": "netsuite-suitecloud",
-   "origin": "marketplace",
-   "description": "Ontwikkel NetSuite SuiteCloud-oplossingen met SuiteScript, SDF en best practices: SuiteScript-records en -upgrades, SDF-objecten, rollen en machtigingen, UIF-apps met één pagina, beveiligde OWASP-codering, projectdocumentatie en de SAFE-handleiding.",
-   "category": "Security",
-   "url": "https://claude.com/marketplace/plugins/netsuite-suitecloud",
-   "source": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud",
-   "verified": false,
-   "installs": 1102,
-   "maker": "Oracle NetSuite",
-   "about": [
-    "This plug-in is compatible with Claude. It includes skills that support key areas of SuiteCloud development, such as SuiteScript, SDF, UIF SPAs, security, permissions, documentation, modernization, and SAFE Guide best practices. It helps SuiteCloud developers and SuiteApp teams create accurate, secure, and maintainable code and project artifacts."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Develop NetSuite SuiteCloud solutions with SuiteScript, SDF, and best practices: SuiteScript records and upgrades, SDF objects, roles and permissions, UIF single-page apps, OWASP secure coding, project documentation, and the SAFE Guide."
   },
   {
    "id": "marketplace:newrelic",
@@ -6789,8 +6789,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "View, annotate, and sign PDFs in a live interactive viewer. Mark up contracts, fill forms with visual feedback, stamp approvals, and place signatures — then download the annotated copy."
+   "descriptionOriginal": "View, annotate, and sign PDFs in a live interactive viewer. Mark up contracts, fill forms with visual feedback, stamp approvals, and place signatures — then download the annotated copy.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:phished",
@@ -7131,8 +7131,8 @@
    "about": [
     "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). Use only for CLI workflows; do not use for MCP-only work or as a substitute for direct API calls when the user wants HTTP/SDK code."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). Use only for CLI workflows; do not use for MCP-only work or as a substitute for direct API calls when the user wants HTTP/SDK code."
+   "descriptionOriginal": "Preset CLI skills for explicit shell, scripting, and CI/CD workflows driven by the `sup` CLI (PyPI package `superset-sup`). Use only for CLI workflows; do not use for MCP-only work or as a substitute for direct API calls when the user wants HTTP/SDK code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:prisma",
@@ -7397,22 +7397,22 @@
   },
   {
    "id": "marketplace:pyright-lsp",
-   "name": "Pyright LSP",
+   "name": "pyright-lsp",
    "origin": "marketplace",
-   "description": "Python-taalserver (Pyright) voor typecontrole en code-intelligentie",
+   "description": "Python-taalserver (Pyright) voor Claude Code, die statische typecontrole en code-intelligentie biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/pyright-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pyright-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/pyright-lsp",
    "verified": true,
    "installs": 109778,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Pyright LSP integrates Microsoft's high-performance Python static type checker into Claude Code. It provides real-time type checking, error detection, and code intelligence for Python projects of any size, including support for both",
     "Key features include static type analysis without runtime execution, real-time type error detection and reporting, code diagnostics and quality feedback, and type inference for unannotated code. Pyright is designed for performance and can efficiently analyze large Python codebases.",
     "Once installed, the language server activates automatically when you open Python files. Claude will use Pyright diagnostics to identify type errors and provide more accurate code suggestions. You can ask Claude things like \"check this file for type errors\" or \"what type issues are in my Python code\" to leverage the type checking capabilities."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Python language server (Pyright) for type checking and code intelligence"
+   "descriptionOriginal": "Python language server (Pyright) for Claude Code, providing static type checking and code intelligence."
   },
   {
    "id": "marketplace:qdrant-skills",
@@ -7428,8 +7428,8 @@
    "about": [
     "Agent skills for Qdrant vector search covering scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, and Java."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agent skills for Qdrant vector search covering scaling, performance optimization, search quality, monitoring, deploym..."
+   "descriptionOriginal": "Agent skills for Qdrant vector search covering scaling, performance optimization, search quality, monitoring, deploym...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:qodo",
@@ -8067,8 +8067,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sales workflows for account executives and sales leaders, including account research, call prep, follow-up, pipeline review, forecasting, deal-slippage scenarios, lead triage, outreach drafting, approval-gated Salesforce updates and much more. Both the plugin and the Salesforce connector are Beta services, their use is governed by the [Beta terms](https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/beta-agreements/Beta-Services-Agreement.pdf)."
+   "descriptionOriginal": "Sales workflows for account executives and sales leaders, including account research, call prep, follow-up, pipeline review, forecasting, deal-slippage scenarios, lead triage, outreach drafting, approval-gated Salesforce updates and much more. Both the plugin and the Salesforce connector are Beta services, their use is governed by the [Beta terms](https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/beta-agreements/Beta-Services-Agreement.pdf).",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:salesforce-development",
@@ -8325,8 +8325,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Sent plugin for SMS, WhatsApp, RCS, scheduled template sends, Sender Profiles, SMS compliance, authorized feedback, contacts, analytics, API integration, webhooks, routing, and migration."
+   "descriptionOriginal": "Official Sent plugin for SMS, WhatsApp, RCS, scheduled template sends, Sender Profiles, SMS compliance, authorized feedback, contacts, analytics, API integration, webhooks, routing, and migration.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sentry",
@@ -8345,8 +8345,8 @@
     "followed by natural language queries like \"What are the top errors in the last 24 hours?\" or \"Show me unresolved issues assigned to me.\" Run",
     "to retrieve recent issues from a specific project. The sentry-code-review skill automatically analyzes and fixes detected bugs in GitHub Pull Requests."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sentry Plugin for Claude Code to help with debugging including MCP and skill capabilities."
+   "descriptionOriginal": "Sentry Plugin for Claude Code to help with debugging including MCP and skill capabilities.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sentry-cli",
@@ -9134,8 +9134,8 @@
    "installs": 0,
    "maker": "Salesforce, Inc.",
    "about": [],
-   "firstSeen": "2026-10-29",
-   "descriptionOriginal": "Explore Tableau content and generate/modify Tableau workbooks through the hosted Tableau MCP server."
+   "descriptionOriginal": "Explore Tableau content and generate/modify Tableau workbooks through the hosted Tableau MCP server.",
+   "firstSeen": "2026-10-29"
   },
   {
    "id": "community:tailored-resume-generator",
@@ -9169,17 +9169,17 @@
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/tavily",
    "source": "https://github.com/tavily-ai/skills",
-   "verified": false,
+   "verified": true,
    "installs": 403,
-   "maker": "Tavily",
+   "maker": "",
    "about": [
     "Tavily brings real-time web intelligence into Claude Code through a suite of search, extraction, crawling, and research skills powered by the Tavily CLI. Search the web with LLM-optimized results, extract clean content from URLs (including JavaScript-rendered pages), crawl entire websites into local markdown files, discover all URLs on a site with the map skill, and run comprehensive AI-powered research that synthesizes multiple sources into cited reports.",
     "Key features include domain and time-range filtering, multiple search depths (ultra-fast to advanced), topic-specialized queries (general, news, finance), semantic content filtering for crawls, and research reports with configurable citation formats (numbered, MLA, APA, Chicago). Results are structured as JSON for easy downstream processing.",
     "Ask Claude to search the web and it will use Tavily automatically — try prompts like \"search for the latest developments in quantum computing\", \"extract the content from this URL\", \"crawl the docs at docs.example.com and save them locally\", \"map all the URLs on example.com\", or \"research the competitive landscape for AI code editors and cite your sources\". You can also use the skills directly:",
     "Requires a Tavily API key from tavily.com. After installing, authenticate with the Tavily CLI to get started."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs."
+   "descriptionOriginal": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:teamcity-cli",
@@ -9574,13 +9574,13 @@
    "description": "Unity's officiële plug-in voor Claude Code, met samengestelde skills voor game-ontwikkeling, het genereren van inkomsten en prestatie-optimalisatie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/unity",
-   "source": "https://github.com/Unity-Technologies/unity-agent-plugin",
-   "verified": false,
+   "source": "https://github.com/unity-technologies/unity-agent-plugin",
+   "verified": true,
    "installs": 0,
-   "maker": "Unity Technologies",
+   "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization."
+   "descriptionOriginal": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:unleash-feature-flags",
@@ -9946,8 +9946,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Scholar Gateway MCP server by Wiley for accessing academic research and publications"
+   "descriptionOriginal": "Scholar Gateway MCP server by Wiley for accessing academic research and publications",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:windsor-ai",
@@ -9983,15 +9983,15 @@
   },
   {
    "id": "marketplace:wix",
-   "name": "Wix",
+   "name": "wix",
    "origin": "marketplace",
-   "description": "Bouw, beheer en implementeer Wix-sites en -apps. CLI-ontwikkelvaardigheden voor dashboardextensies, backend-API's, sitebreed...",
+   "description": "Bouw, beheer en implementeer Wix-sites en -apps. Inclusief CLI-ontwikkelvaardigheden en Wix MCP-server voor sitebeheer, e-commerce, CMS, dashboardextensies en meer.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/wix",
    "source": "https://github.com/wix/skills",
-   "verified": false,
+   "verified": true,
    "installs": 3442,
-   "maker": "Wix",
+   "maker": "",
    "about": [
     "Build, manage, and deploy Wix sites and apps with AI-assisted development. This plugin provides 16 specialized skills covering the full Wix CLI development workflow — from dashboard extensions and backend APIs to site widgets, service plugins, and CMS data collections. An intelligent orchestrator skill automatically determines the right extension type for your use case, spawns implementation sub-agents, and validates the result.",
     "The plugin includes deep knowledge of the Wix Design System (WDS) component library for building polished admin interfaces, reference-driven API discovery for Wix SDKs, and a built-in MCP server that connects to Wix's platform for direct site management, eCommerce, and CMS operations.",
@@ -9999,7 +9999,7 @@
     "\"Create a dashboard page for managing customer orders\" · \"Add a backend API endpoint for handling form submissions\" · \"Build a site widget that displays a product carousel\" · \"Add a service plugin for custom shipping rate calculations\" · \"Set up a data collection for storing user reviews\" · \"Create a dashboard modal for editing product details\""
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site wid..."
+   "descriptionOriginal": "Build, manage, and deploy Wix sites and apps. Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more."
   },
   {
    "id": "marketplace:workday-developer-agent-for-claude",
@@ -10075,8 +10075,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "16 production writing-style skills for AI agents: 9 measurable frameworks (plain language, ASD-STE100, AP journalism, GOV.UK, Orwell's rules) and 7 character voices, as portable SKILL.md files."
+   "descriptionOriginal": "16 production writing-style skills for AI agents: 9 measurable frameworks (plain language, ASD-STE100, AP journalism, GOV.UK, Orwell's rules) and 7 character voices, as portable SKILL.md files.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:wyatt",
@@ -10300,44 +10300,45 @@
     "followed by a URL and a description of what you want to extract — for example,",
     "/scrape https://books.toscrape.com extract book titles, prices, and ratings"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Zyte Web Data for Claude Code"
+   "descriptionOriginal": "Zyte Web Data for Claude Code",
+   "firstSeen": "2000-01-01"
   }
  ],
  "history": [
   "official:doc-coauthoring",
   "official:pptx",
-  "official:web-artifacts-builder"
+  "official:web-artifacts-builder",
+  "official:canvas-design"
  ],
- "updated": "2026-10-29T21:20:46.292431+00:00",
+ "updated": "2026-10-30T20:59:06.377258+00:00",
  "tonight": {
-  "date": "2026-10-29",
-  "id": "official:web-artifacts-builder",
+  "date": "2026-10-30",
+  "id": "official:canvas-design",
   "text": [
-   "Om krachtige frontend claude.ai-artefacten te bouwen, volgt u deze stappen: Initialiseer de frontend-opslagplaats met `scripts/init-artifact.sh` Ontwikkel uw artefact door de gegenereerde code te bewerken Bundel alle code in één HTML-bestand met behulp van `scripts/bundle-artifact.sh` Geef het artefact aan de gebruiker weer (optioneel) Test het artefact",
-   "Stapel: React 18 + TypeScript + Vite + Parcel (bundeling) + Tailwind CSS + shadcn/ui",
-   "ZEER BELANGRIJK: Om te vermijden wat vaak \"AI-slop\" wordt genoemd, vermijd het gebruik van overmatig gecentreerde lay-outs, paarse kleurverlopen, uniforme afgeronde hoeken en Inter-lettertype.",
-   "Voer het initialisatiescript uit om een nieuw React-project te maken:",
-   "Hierdoor ontstaat een volledig geconfigureerd project met: ✅ React + TypeScript (via Vite) ✅ Tailwind CSS 3.4.1 met shadcn/ui-themasysteem ✅ Padaliassen (`@/`) geconfigureerd ✅ 40+ shadcn/ui-componenten vooraf geïnstalleerd ✅ Alle Radix UI-afhankelijkheden inbegrepen ✅ Pakket geconfigureerd voor bundeling (via .parcelrc) ✅ Knooppunt 18+ compatibiliteit (auto-detecteert en pint Vite-versie)",
-   "Bewerk de gegenereerde bestanden om het artefact te bouwen. Zie Algemene ontwikkelingstaken hieronder voor richtlijnen.",
-   "Stap 3: Bundel tot één HTML-bestand",
-   "Om de React-app te bundelen in één enkel HTML-artefact:",
-   "Hierdoor ontstaat `bundle.html` - een op zichzelf staand artefact met alle JavaScript, CSS en afhankelijkheden inline. Dit bestand kan als artefact rechtstreeks worden gedeeld in Claude-gesprekken.",
-   "Vereisten: Uw project moet een `index.html` in de hoofdmap hebben.",
-   "Wat het script doet: Installeert bundelafhankelijkheden (parcel, @parcel/config-default, packet-resolver-tspaths, html-inline) Creëert `.parcelrc`-configuratie met ondersteuning voor padalias Bouwt met Parcel (geen brontoewijzingen) Inlineert alle assets in enkele HTML met behulp van html-inline"
+   "Dit zijn instructies voor het creëren van ontwerpfilosofieën - esthetische bewegingen die vervolgens VISUEEL UITGEDRUKT worden. Voer alleen .md-bestanden, .pdf-bestanden en .png-bestanden uit.",
+   "Voltooi dit in twee stappen: Design Philosophy Creation (.md-bestand) Express door het op een canvas te maken (.pdf-bestand of .png-bestand)",
+   "Creëer om te beginnen een VISUELE FILOSOFIE (geen lay-outs of sjablonen) die zal worden geïnterpreteerd via: Vorm, ruimte, kleur, compositie Afbeeldingen, afbeeldingen, vormen, patronen Minimale tekst als visueel accent",
+   "HET KRITIEKE BEGRIP Wat wordt ontvangen: Een aantal subtiele input of instructies van de gebruiker waarmee rekening moet worden gehouden, maar die als basis moeten worden gebruikt; het mag de creatieve vrijheid niet beperken. Wat er ontstaat: Een ontwerpfilosofie/esthetische beweging. Wat er vervolgens gebeurt: Vervolgens ontvangt dezelfde versie de filosofie en DRUKT HET VISUEEL UIT - waardoor artefacten worden gecreëerd die voor 90% uit visueel ontwerp bestaan en voor 10% uit essentiële tekst.",
+   "Overweeg deze aanpak: Schrijf een manifest voor een kunststroming De volgende fase omvat het maken van het kunstwerk",
+   "De filosofie moet de nadruk leggen op: Visuele expressie. Ruimtelijke communicatie. Artistieke interpretatie. Minimale woorden.",
+   "HOE JE EEN VISUELE FILOSOFIE GENEREERT",
+   "Noem de beweging (1-2 woorden): \"Brutalist Joy\" / \"Chromatic Silence\" / \"Metabolist Dreams\"",
+   "Formuleer de filosofie (4-6 paragrafen - beknopt maar volledig):",
+   "Om de VISUELE essentie vast te leggen, drukt u uit hoe de filosofie zich manifesteert door: Ruimte en vorm Kleur en materiaal Schaal en ritme Compositie en balans Visuele hiërarchie",
+   "KRITISCHE RICHTLIJNEN: Vermijd redundantie: elk ontwerpaspect moet één keer worden vermeld. Vermijd het herhalen van punten over kleurentheorie, ruimtelijke relaties of typografische principes, tenzij er nieuwe diepte aan wordt toegevoegd. Benadruk vakmanschap HERHAALD: De filosofie MOET meerdere keren benadrukken dat het uiteindelijke werk eruit moet zien alsof het talloze uren heeft gekost om het te maken, dat er met zorg aan is gewerkt en dat het afkomstig is van iemand die aan de absolute top van zijn vakgebied staat. Deze kadering is essentieel: herhaal zinnen als ‘zorgvuldig vervaardigd’, ‘het product van diepgaande expertise’, ‘nauwgezette aandacht’, ‘masterniveau…"
   ],
   "textOriginal": [
-   "To build powerful frontend claude.ai artifacts, follow these steps: Initialize the frontend repo using `scripts/init-artifact.sh` Develop your artifact by editing the generated code Bundle all code into a single HTML file using `scripts/bundle-artifact.sh` Display artifact to user (Optional) Test the artifact",
-   "Stack: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui",
-   "VERY IMPORTANT: To avoid what is often referred to as \"AI slop\", avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.",
-   "Run the initialization script to create a new React project:",
-   "This creates a fully configured project with: ✅ React + TypeScript (via Vite) ✅ Tailwind CSS 3.4.1 with shadcn/ui theming system ✅ Path aliases (`@/`) configured ✅ 40+ shadcn/ui components pre-installed ✅ All Radix UI dependencies included ✅ Parcel configured for bundling (via .parcelrc) ✅ Node 18+ compatibility (auto-detects and pins Vite version)",
-   "To build the artifact, edit the generated files. See Common Development Tasks below for guidance.",
-   "Step 3: Bundle to Single HTML File",
-   "To bundle the React app into a single HTML artifact:",
-   "This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in Claude conversations as an artifact.",
-   "Requirements: Your project must have an `index.html` in the root directory.",
-   "What the script does: Installs bundling dependencies (parcel, @parcel/config-default, parcel-resolver-tspaths, html-inline) Creates `.parcelrc` config with path alias support Builds with Parcel (no source maps) Inlines all assets into single HTML using html-inline"
+   "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
+   "Complete this in two steps: Design Philosophy Creation (.md file) Express by creating it on a canvas (.pdf file or .png file)",
+   "To begin, create a VISUAL PHILOSOPHY (not layouts or templates) that will be interpreted through: Form, space, color, composition Images, graphics, shapes, patterns Minimal text as visual accent",
+   "THE CRITICAL UNDERSTANDING What is received: Some subtle input or instructions by the user that should be taken into account, but used as a foundation; it should not constrain creative freedom. What is created: A design philosophy/aesthetic movement. What happens next: Then, the same version receives the philosophy and EXPRESSES IT VISUALLY - creating artifacts that are 90% visual design, 10% essential text.",
+   "Consider this approach: Write a manifesto for an art movement The next phase involves making the artwork",
+   "The philosophy must emphasize: Visual expression. Spatial communication. Artistic interpretation. Minimal words.",
+   "HOW TO GENERATE A VISUAL PHILOSOPHY",
+   "Name the movement (1-2 words): \"Brutalist Joy\" / \"Chromatic Silence\" / \"Metabolist Dreams\"",
+   "Articulate the philosophy (4-6 paragraphs - concise but complete):",
+   "To capture the VISUAL essence, express how the philosophy manifests through: Space and form Color and material Scale and rhythm Composition and balance Visual hierarchy",
+   "CRITICAL GUIDELINES: Avoid redundancy: Each design aspect should be mentioned once. Avoid repeating points about color theory, spatial relationships, or typographic principles unless adding new depth. Emphasize craftsmanship REPEATEDLY: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like \"meticulously crafted,\" \"the product of deep expertise,\" \"painstaking attention,\" \"master-level…"
   ]
  }
 }

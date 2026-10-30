@@ -1,6 +1,123 @@
 {
  "editions": [
   {
+   "date": "2026-10-30",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.314",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.314",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+     "published": "2026-10-30T01:06:26+00:00",
+     "summary": "`permissions.blockWritesOutsideWorkingDirectories` toegevoegd: schrijf-, bewerkings- en NotebookEdit-weigerpaden buiten de werkmappen in elke toestemmingsmodus · Een optionele `groepen`-lijst toegevoegd aan de upstreams van de Claude-appsgateway: alleen ontwikkelaars in de vermelde IdP-groepen worden naar...",
+     "bullets": [
+      "`permissions.blockWritesOutsideWorkingDirectories` toegevoegd: Schrijven, Bewerken en NotebookEdit weigeren paden buiten de werkmappen in elke toestemmingsmodus",
+      "Een optionele 'groepen'-lijst toegevoegd aan de upstreams van de Claude-apps-gateway: alleen ontwikkelaars in de vermelde IdP-groepen worden naar die upstream gestuurd, ook bij failover",
+      "'guardrail_trace' toegevoegd aan Claude apps gateway Bedrock upstreams, om te loggen welk Amazon Bedrock guardrail filter op een verzoek heeft afgevuurd, zonder de overeenkomende tekst",
+      "Inactieve compactie toegevoegd aan het tabblad Code van VS Code en Claude Desktop: een gesprek van meer dan 200K+ tokens dat inactief is gebleven, wordt samengevat en de samenvatting wordt gebruikt bij uw volgende...",
+      "Probleem opgelost dat sessies beurt na beurt mislukten met \"Ongeldig inspanningsniveau\" wanneer de beheerder van een organisatie de inspanning van een model beperkt: Claude Code verlaagt nu de inspanning,...",
+      "Probleem opgelost waarbij `claude -p` werd afgesloten met code 0 en geen uitvoer wanneer het opstarten mislukte; het drukt nu de fout af en verlaat 1",
+      "Probleem opgelost met Bedrock-sessies waarbij veel afbeeldingen elke beurt mislukten en `/compact` met \"400 Input is te lang.\" in plaats van oudere afbeeldingen te verwijderen en te comprimeren",
+      "Probleem opgelost dat Microsoft Foundry-sessies mislukken wanneer de bron geen implementatie heeft voor het standaard Sonnet-, Opus- of Haiku-model: Claude Code valt nu terug op een ..."
+     ],
+     "titleOriginal": "claude-code v2.1.314",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50302334",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Achterdeurtjes in officiële Claude Code-extensies",
+     "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+     "published": "2026-10-30T11:05:53+00:00",
+     "summary": "648 punten · 17 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50302334",
+     "score": 648,
+     "titleOriginal": "Backdoors in official Claude Code extensions",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:5tnMvn6nvtM",
+     "kind": "video-official",
+     "source": "Claude",
+     "title": "Claude's nieuwe mobiele app-updates zijn hier",
+     "url": "https://www.youtube.com/watch?v=5tnMvn6nvtM",
+     "published": "2026-10-30T14:25:12+00:00",
+     "summary": "Een paar upgrades voor de mobiele Claude-apps deze week. • Op iPad en iPhone Duo wordt wat Claude maakt geopend naast de chat • Je kunt ingelogd blijven op meer dan één account op iOS en Android • Op Chromebooks en opvouwbare apparaten werkt Claude op Android als een laptop-app • Spraakmodus…",
+     "image": "https://i.ytimg.com/vi/5tnMvn6nvtM/hqdefault.jpg",
+     "videoId": "5tnMvn6nvtM",
+     "titleOriginal": "Claude's new mobile app updates are here",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50300683",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Backdoor in Claude Code voor VS Code-extensie op de Cursor Marketplace",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "published": "2026-10-30T07:09:12+00:00",
+     "summary": "626 punten · 417 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50300683",
+     "score": 626,
+     "titleOriginal": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xjlvlc",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Anthropic hernoemt Max5 en Max20 en verwijdert de limieten van 5 uur voor Max20",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjlvlc/anthropic_renames_max5_and_max20_and_removes_5h/",
+     "published": "2026-10-30T17:34:41+00:00",
+     "summary": "ja ingediend door /u/Pyros-SD-Models [link] [opmerkingen]",
+     "image": "https://preview.redd.it/vw14lxtg4nyh1.png?width=640&crop=smart&auto=webp&s=eeeda2c7b9302687896f0ed1b4b6eb2f547a1352",
+     "score": 100,
+     "titleOriginal": "Anthropic renames Max5 and Max20 and removes 5h limits for Max20",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:sUsfO3dm8m4",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Welke AI-tool gebruikt u het meest? Claude versus al het andere",
+     "url": "https://www.youtube.com/watch?v=sUsfO3dm8m4",
+     "published": "2026-10-30T13:35:41+00:00",
+     "summary": "Claude versus al het andere. Ik vroeg mensen bij Oracle AI World welke AI-tool ze het meest gebruiken.",
+     "image": "https://i.ytimg.com/vi/sUsfO3dm8m4/hqdefault.jpg",
+     "videoId": "sUsfO3dm8m4",
+     "titleOriginal": "Which AI tool do you use the most? Claude vs everything else",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xiz1vy",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Claude gebruiken om alle mondiale wetten in Git te zetten",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xiz1vy/using_claude_to_put_all_global_law_into_git/",
+     "published": "2026-10-29T23:00:29+00:00",
+     "summary": "Deze stond gisteren op nummer 1 op HN (je kunt veel discussies lezen op https://news.ycombinator.com/item?id=50268380). Waarom zou ik dit willen doen? Het idee is om alle wetten semantisch te maken, te voorzien van versies, gemakkelijk toewijsbaar en opvraagbaar door agenten. Ik ben ook van mening dat deze informatie...",
+     "image": "https://external-preview.redd.it/0KXT1DX6IZ2xf5yZo2X4_kgb4KNwgGgYqks_zFGkogw.png?width=640&crop=smart&auto=webp&s=065e977353a755d10647cc09871e3493d3566f49",
+     "score": 99,
+     "titleOriginal": "Using Claude to put all Global Law into Git",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:DByAR5Su1Yw",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Ik zei tegen Claude dat hij het honderd keer beter moest maken (het ging te ver)",
+     "url": "https://www.youtube.com/watch?v=DByAR5Su1Yw",
+     "published": "2026-10-30T00:45:46+00:00",
+     "summary": "GRATIS Scrollcraft-websiteontwerpvaardigheid: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=make-it-better&sl=yt_make-it-better Hoe ik een AI-bureau opbouwde van 0 tot meer dan $ 1 miljoen per jaar:…",
+     "image": "https://i.ytimg.com/vi/DByAR5Su1Yw/hqdefault.jpg",
+     "videoId": "DByAR5Su1Yw",
+     "titleOriginal": "I Told Claude to \"Make it better\" 100 Times (It Went Too Far)",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-10-29",
    "items": [
     {
@@ -914,6 +1031,7 @@
    "gh:anthropics/claude-code:v2.1.310",
    "gh:anthropics/claude-code:v2.1.311",
    "gh:anthropics/claude-code:v2.1.312",
+   "gh:anthropics/claude-code:v2.1.314",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -928,6 +1046,12 @@
    "hn:50260814",
    "hn:50265609",
    "hn:50284255",
+   "hn:50292727",
+   "hn:50300683",
+   "hn:50301983",
+   "hn:50302334",
+   "hn:50304358",
+   "hn:50307219",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -977,6 +1101,16 @@
    "reddit:t3_1xiks9w",
    "reddit:t3_1xin15e",
    "reddit:t3_1xin646",
+   "reddit:t3_1xixhv8",
+   "reddit:t3_1xiz1vy",
+   "reddit:t3_1xj3qdv",
+   "reddit:t3_1xj783x",
+   "reddit:t3_1xja4vw",
+   "reddit:t3_1xjgb5p",
+   "reddit:t3_1xjk9x0",
+   "reddit:t3_1xjko2l",
+   "reddit:t3_1xjlvlc",
+   "reddit:t3_1xjmtad",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -1079,11 +1213,13 @@
    "yt:-OH1y7CjIew",
    "yt:0XQele28q0w",
    "yt:3b0U4_02bAE",
+   "yt:5tnMvn6nvtM",
    "yt:8nh1dcH4uJU",
    "yt:9GtcbnmldcY",
    "yt:AQl5Q-0l7FQ",
    "yt:BQJRLZ2q_Ns",
    "yt:D4XTefP3Lsc",
+   "yt:DByAR5Su1Yw",
    "yt:DSS1Yqb6-qE",
    "yt:DdCEmlAydcw",
    "yt:Fb-68zqcSVs",
@@ -1135,11 +1271,12 @@
    "yt:omihvjf0A2k",
    "yt:qh4vLlit97I",
    "yt:rKV5JcALQoQ",
+   "yt:sUsfO3dm8m4",
    "yt:uVS88gnaxcg",
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-29T21:20:21.911717+00:00"
+  "last_run": "2026-10-30T20:58:38.038599+00:00"
  },
- "generated": "2026-10-29T21:20:21.911717+00:00"
+ "generated": "2026-10-30T20:58:38.038599+00:00"
 }
