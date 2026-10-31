@@ -1,6 +1,109 @@
 {
  "editions": [
   {
+   "date": "2026-10-31",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.316",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.316",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+     "published": "2026-10-31T01:01:35+00:00",
+     "summary": "`CLAUDE_CODE_DISABLE_ULTRATHINK` toegevoegd, waardoor het trefwoord `ultrathink` wordt uitgeschakeld · Gebundelde groepsbudgetten toegevoegd aan de Claude apps-gateway: één maandelijks budget dat de leden van een groep delen, bovenop de eigen limiet van elk lid, ingesteld met... · Toegevoegd...",
+     "bullets": [
+      "`CLAUDE_CODE_DISABLE_ULTRATHINK` toegevoegd, waardoor het trefwoord `ultrathink` wordt uitgeschakeld",
+      "Gebundelde groepsbudgetten toegevoegd aan de Claude Apps-gateway: één maandelijks budget dat de leden van een groep delen, bovenop de eigen limiet van elk lid, ingesteld met...",
+      "`CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` toegevoegd om systeemkruiscertificaten te behouden die elkaar in een lus certificeren, voor servers waarvan de privé-CA er één nodig heeft",
+      "`CLAUDE_CODE_SUBAGENT_EFFORT` toegevoegd om het inspanningsniveau in te stellen waarop subagenten worden uitgevoerd als niets anders er één noemt, in plaats van de sessie over te nemen",
+      "`managed.policy_mode: layered` toegevoegd aan de Claude-apps-gateway: elk beleid dat overeenkomt met een ontwikkelaar is van toepassing, elk samengevoegd met het beleid eronder, niet...",
+      "`guardrail.input_tagging` toegevoegd aan de Claude-apps-gateway Bedrock upstreams, die prompts in de invoertags verpakt die de prompt van een Amazon Bedrock guardrail...",
+      "Verouderde snelle modus voor Opus 4.8 vanaf 30 oktober 2026; het wordt verwijderd op 30 november 2026. Na verwijdering retourneren snelle modusverzoeken op Opus 4.8 een ...",
+      "Probleem opgelost dat shell-opdrachten op macOS en Linux actief bleven wanneer Claude Code vanzelf afsluit, bijvoorbeeld wanneer inloggegevens worden geweigerd of een cloudsessie wordt..."
+     ],
+     "titleOriginal": "claude-code v2.1.316",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50311311",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Anthropic krijgt na beursintroductie een hoge 'junk'-rating van kredietagentschappen",
+     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+     "published": "2026-10-30T23:08:12+00:00",
+     "summary": "98 punten · 72 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50311311",
+     "score": 98,
+     "titleOriginal": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:BlbxhsItZPg",
+     "kind": "video",
+     "source": "Cole Medin",
+     "title": "Nieuw onderzoek van Anthropic: je hebt niet zoveel controle over AI als je denkt",
+     "url": "https://www.youtube.com/watch?v=BlbxhsItZPg",
+     "published": "2026-10-31T16:51:47+00:00",
+     "summary": "Open een Revolut Business-account en ontvang een welkomstbonus van $ 200: https://get.revolut.com/Kjth/nn8ax572 Hoeveel controle heb je werkelijk als AI je helpt bij het nemen van beslissingen? Het nieuwe onderzoek van Anthropic laat zien hoe sterk de aanbevelingen van een agent het oordeel van een deskundige kunnen beïnvloeden, en het zorgde ervoor dat ik...",
+     "image": "https://i.ytimg.com/vi/BlbxhsItZPg/hqdefault.jpg",
+     "videoId": "BlbxhsItZPg",
+     "titleOriginal": "Anthropic's New Study: You're Not Controlling AI as Much as You Think You Are",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xjqyv2",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Claude geeft nu alles wat hij schrijft van een watermerk, en jij bent degene die het niet kan controleren",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjqyv2/claude_now_watermarks_everything_it_writes_and/",
+     "published": "2026-10-30T20:48:43+00:00",
+     "summary": "Vanaf 3 november breidt Anthropic zijn onzichtbare tekstwatermerk uit naar Mythos 5, Opus 4.7, Opus 4.6 en Sonnet 4.6. Elk model dat sinds augustus is uitgebracht, heeft het al. Het geldt wereldwijd, niet alleen in de EU, en betalende gebruikers kunnen zich niet afmelden. Dit is wat dat in de praktijk betekent: Gebruik...",
+     "score": 100,
+     "titleOriginal": "Claude now watermarks everything it writes, and you're the one who can't check",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xjxl4s",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Claude Opus 5.5 kan afbeeldingen genereren, ook al zal het in eerste instantie zeggen dat dit niet kan.",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjxl4s/claude_opus_55_can_generate_images_even_though_it/",
+     "published": "2026-10-31T01:36:26+00:00",
+     "summary": "ingediend door /u/mothh9 [link] [opmerkingen]",
+     "image": "https://preview.redd.it/gmm66fhbipyh1.jpeg?width=640&crop=smart&auto=webp&s=11aae6a0e19baa307755e30265d28321f8a2a07a",
+     "score": 99,
+     "titleOriginal": "Claude Opus 5.5 can generate images even though it will initially say it can't.",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:Wbb5g_fJ9Pg",
+     "kind": "video",
+     "source": "AICodeKing",
+     "title": "Ik heb Deepseek Stack gebouwd waardoor DS 4.1 Flash presteert als Opus!",
+     "url": "https://www.youtube.com/watch?v=Wbb5g_fJ9Pg",
+     "published": "2026-10-31T09:15:21+00:00",
+     "summary": "Word lid van dit kanaal om toegang te krijgen tot voordelen: https://www.youtube.com/channel/@aicodeking/join DeepSeek Stack op GitHub: https://github.com/aicodeking/deepseek-stack PandaCode: https://github.com/aicodeking/pandacode Cline Desktop: https://cline.gg/desktop-aick ClinePass:…",
+     "image": "https://i.ytimg.com/vi/Wbb5g_fJ9Pg/hqdefault.jpg",
+     "videoId": "Wbb5g_fJ9Pg",
+     "titleOriginal": "I Built Deepseek Stack that makes DS 4.1 Flash perform like Opus!",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:tcb5q_6jwvY",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Elk Claude 2.0-concept uitgelegd voor niet-programmeurs",
+     "url": "https://www.youtube.com/watch?v=tcb5q_6jwvY",
+     "published": "2026-10-30T23:25:18+00:00",
+     "summary": "Mijn GRATIS AI OS-cursus: https://www.skool.com/ai-automation-society/about?el=every-claude-concept-explained&hcategory=youtube-videos&utm_campaign=free-group Hoe ik een AI-bureau opbouwde van 0 naar meer dan $1 miljoen per jaar:…",
+     "image": "https://i.ytimg.com/vi/tcb5q_6jwvY/hqdefault.jpg",
+     "videoId": "tcb5q_6jwvY",
+     "titleOriginal": "Every Claude 2.0 Concept Explained for Non-Coders",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-10-30",
    "items": [
     {
@@ -1032,6 +1135,7 @@
    "gh:anthropics/claude-code:v2.1.311",
    "gh:anthropics/claude-code:v2.1.312",
    "gh:anthropics/claude-code:v2.1.314",
+   "gh:anthropics/claude-code:v2.1.316",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -1052,6 +1156,7 @@
    "hn:50302334",
    "hn:50304358",
    "hn:50307219",
+   "hn:50311311",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -1111,6 +1216,16 @@
    "reddit:t3_1xjko2l",
    "reddit:t3_1xjlvlc",
    "reddit:t3_1xjmtad",
+   "reddit:t3_1xjqyv2",
+   "reddit:t3_1xjr0ht",
+   "reddit:t3_1xjtdo0",
+   "reddit:t3_1xjxl4s",
+   "reddit:t3_1xk2mk2",
+   "reddit:t3_1xk6172",
+   "reddit:t3_1xk8apo",
+   "reddit:t3_1xkdcto",
+   "reddit:t3_1xkdxwo",
+   "reddit:t3_1xkg97u",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -1218,6 +1333,7 @@
    "yt:9GtcbnmldcY",
    "yt:AQl5Q-0l7FQ",
    "yt:BQJRLZ2q_Ns",
+   "yt:BlbxhsItZPg",
    "yt:D4XTefP3Lsc",
    "yt:DByAR5Su1Yw",
    "yt:DSS1Yqb6-qE",
@@ -1242,6 +1358,7 @@
    "yt:TD0VZSWmUoQ",
    "yt:UxJZrCFzTHY",
    "yt:VXTpCssys10",
+   "yt:Wbb5g_fJ9Pg",
    "yt:Xd2oJ5Sog24",
    "yt:Xm_Sf2qxRW4",
    "yt:Y9Wz2PV404E",
@@ -1272,11 +1389,12 @@
    "yt:qh4vLlit97I",
    "yt:rKV5JcALQoQ",
    "yt:sUsfO3dm8m4",
+   "yt:tcb5q_6jwvY",
    "yt:uVS88gnaxcg",
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-30T20:58:38.038599+00:00"
+  "last_run": "2026-10-31T20:11:05.251426+00:00"
  },
- "generated": "2026-10-30T20:58:38.038599+00:00"
+ "generated": "2026-10-31T20:11:05.251426+00:00"
 }

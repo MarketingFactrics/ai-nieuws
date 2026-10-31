@@ -285,8 +285,8 @@
    "about": [
     "Airwallex CLI plugin for Claude — skills for payments, billing, invoicing, beneficiary creation, card provisioning, and cashflow management."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Airwallex CLI plugin for Claude — skills for payments, billing, invoicing, beneficiary creation, card provisioning, a..."
+   "descriptionOriginal": "Airwallex CLI plugin for Claude — skills for payments, billing, invoicing, beneficiary creation, card provisioning, a...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:airwallex-agentos",
@@ -365,8 +365,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Query blockchain data across 135+ chains with Allium. Search schemas, run SQL, read live prices and balances, and build Explorer queries, charts, and dashboards."
+   "descriptionOriginal": "Query blockchain data across 135+ chains with Allium. Search schemas, run SQL, read live prices and balances, and build Explorer queries, charts, and dashboards.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:alloydb",
@@ -458,18 +458,18 @@
    "id": "marketplace:amd-skills",
    "name": "amd-skills",
    "origin": "marketplace",
-   "description": "AMD Agent-skills: Ryzen AI voor afbeeldingen/audio, Instinct GPU's voor LLM's via vLLM, GPU-kernel en PyTorch-trace-analyse.",
-   "category": "Design & media",
+   "description": "Installeer binnen",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/amd-skills",
-   "source": "https://github.com/amd/skills",
-   "verified": false,
+   "source": "https://github.com/amd/skills/tree/6916fb371d1cba40757b223cf16b4cd4912b202f/skills",
+   "verified": true,
    "installs": 92,
-   "maker": "AMD",
+   "maker": "",
    "about": [
     "AMD's verified Agent Skills in one plugin: route image/audio through local AI on Ryzen AI, serve LLMs on AMD Instinct GPUs with vLLM, and analyze GPU kernel and PyTorch trace performance."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AMD Agent Skills: Ryzen AI for images/audio, Instinct GPUs for LLMs via vLLM, GPU kernel & PyTorch trace analysis."
+   "descriptionOriginal": "Install in"
   },
   {
    "id": "marketplace:amplitude",
@@ -1031,8 +1031,8 @@
    "about": [
     "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to move beyond generic advice. It enables Claude to perform real-world tasks: listing resources, validating deployments, diagnosing infrastructure issues, and optimizing costs across 50+ Azure services."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to mo..."
+   "descriptionOriginal": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to mo...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:azure-cosmos-db-assistant",
@@ -1283,15 +1283,15 @@
    "description": "Voorspel structuren, screen moleculen en eiwitten en ontwerp bindmiddelen met Boltz van Claude Code.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/boltz",
-   "source": "https://github.com/boltz-bio/boltz-api-skills",
-   "verified": false,
+   "source": "https://github.com/boltz-bio/boltz-api-skills/tree/beafb3c16236347ab10fb54f78a5da49cbf7c7bb/plugins/boltz",
+   "verified": true,
    "installs": 197,
-   "maker": "Boltz",
+   "maker": "",
    "about": [
     "Predict structures, screen molecules and proteins, and design binders with Boltz from Claude Code."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Predict structures, screen molecules and proteins, and design binders with Boltz from Claude Code."
+   "descriptionOriginal": "Predict structures, screen molecules and proteins, and design binders with Boltz from Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:bonusly",
@@ -1305,8 +1305,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Bonusly recognition, rewards, and reporting tools for Claude Code."
+   "descriptionOriginal": "Bonusly recognition, rewards, and reporting tools for Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:botify",
@@ -1444,20 +1444,20 @@
   },
   {
    "id": "marketplace:browser-use",
-   "name": "browser-use",
+   "name": "Browser Use",
    "origin": "marketplace",
-   "description": "Geef Claude een echte browser: uw Chrome of een browser. Gebruik een cloudbrowser. Gebruik het wanneer een taak betrekking heeft op een website of...",
-   "category": "Ontwikkeling",
+   "description": "Geef Claude een echte browser: uw Chrome of een browser. Gebruik een cloudbrowser. Gebruik het wanneer een taak een website of webapp betreft: browsen, scrapen en gegevensextractie, formulieren invullen, sites testen, schermafbeeldingen maken, webworkflows automatiseren.",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/browser-use",
-   "source": "https://github.com/browser-use/plugins",
-   "verified": false,
+   "source": "https://github.com/browser-use/plugins/tree/4749bcbfe456e5384b98281a8a66119352197f59/browser-use",
+   "verified": true,
    "installs": 930,
-   "maker": "Browser Use",
+   "maker": "",
    "about": [
     "Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or..."
+   "descriptionOriginal": "Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows."
   },
   {
    "id": "marketplace:build-with-wordpress",
@@ -1504,8 +1504,8 @@
    "about": [
     "Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agent runtime, CLI, and API"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agent runtime, CLI, and API"
+   "descriptionOriginal": "Official Buildkite skills for Claude Code, Cursor, and other AI coding agents — pipelines, migration, preflight, agent runtime, CLI, and API",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:csharp-lsp",
@@ -1784,8 +1784,8 @@
     "Inspect network requests, read console messages with source-mapped stack traces, capture screenshots, take DOM snapshots, and execute JavaScript in the page context. A slim mode is available for lighter, basic browser tasks.",
     "Ask Claude to interact with your running application in Chrome. Example prompts: \"Open my app at localhost:3000 and click the login button\", \"Record a performance trace while I scroll the page and tell me what's slow\", \"Take a screenshot of the homepage on a mobile viewport\", \"Check the console for errors after submitting the form\", \"Run a Lighthouse audit on this page and summarize the results\", \"List all network requests made when the dashboard loads\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests..."
+   "descriptionOriginal": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:chrome-relay",
@@ -2730,18 +2730,18 @@
    "id": "marketplace:cwc-makers",
    "name": "cwc-makers",
    "origin": "marketplace",
-   "description": "Aan boord van een Code-with-Claude Makers Cardputer met één /maker-setup commando - kloont de build-with-claude repository, flashe...",
+   "description": "Naadloze onboarding voor de Code-with-Claude Makers Cardputer: één /maker-setup-opdracht kloont de build-with-claude-repository, flasht UIFlow-firmware en installeert de Claude Buddy-appbundel op een nieuw aangesloten M5Stack Cardputer-Adv.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/cwc-makers",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/cwc-makers",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/cwc-makers",
    "verified": true,
    "installs": 731,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Onboard a Code-with-Claude Makers Cardputer with one /maker-setup command — clones the build-with-claude repo, flashes UIFlow firmware, and installs the Claude Buddy app bundle."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Onboard a Code-with-Claude Makers Cardputer with one /maker-setup command — clones the build-with-claude repo, flashe..."
+   "descriptionOriginal": "Seamless onboarding for the Code-with-Claude Makers Cardputer: one /maker-setup command clones the build-with-claude repo, flashes UIFlow firmware, and installs the Claude Buddy app bundle onto a freshly-plugged-in M5Stack Cardputer-Adv."
   },
   {
    "id": "marketplace:cypress",
@@ -2922,8 +2922,8 @@
    "about": [
     "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation. This plugin is in preview."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboar..."
+   "descriptionOriginal": "Use Datadog directly in Claude Code through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboar...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:datahub-cloud",
@@ -3052,8 +3052,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Descope authentication skills: integration, Auth0/Okta/WorkOS/Stytch/PingOne migration, Terraform, FGA authorization schemas, security review, and BYOS custom UI"
+   "descriptionOriginal": "Descope authentication skills: integration, Auth0/Okta/WorkOS/Stytch/PingOne migration, Terraform, FGA authorization schemas, security review, and BYOS custom UI",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:design",
@@ -3272,8 +3272,8 @@
    "about": [
     "DuckDB-powered skills for Claude Code: read any data file, attach and query DuckDB databases, search DuckDB/DuckLake docs, search past session logs, and install/update DuckDB extensions."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DuckDB-powered skills for Claude Code: read any data file, attach and query DuckDB databases, search DuckDB/DuckLake ..."
+   "descriptionOriginal": "DuckDB-powered skills for Claude Code: read any data file, attach and query DuckDB databases, search DuckDB/DuckLake ...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:duende-skills",
@@ -3484,8 +3484,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for partner-relationship managers (customer-admin scope) that orchestrate the EULER MCP: generate a Quarterly Business Review, pre-meeting partner briefings, a whole-portfolio pulse, and approvals triage. Self-contained HTML output styled with the EULER design system."
+   "descriptionOriginal": "Skills for partner-relationship managers (customer-admin scope) that orchestrate the EULER MCP: generate a Quarterly Business Review, pre-meeting partner briefings, a whole-portfolio pulse, and approvals triage. Self-contained HTML output styled with the EULER design system.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:exa",
@@ -3511,7 +3511,7 @@
    "description": "Voegt educatieve inzichten toe over implementatiekeuzes en codebasispatronen (bootst de verouderde verklarende uitvoerstijl na)",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/explanatory-output-style",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/41f619d61b999adec1a1c8deb97d1a5b6ac35bb6/plugins/explanatory-output-style",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/explanatory-output-style",
    "verified": true,
    "installs": 64377,
    "maker": "",
@@ -3521,8 +3521,8 @@
     "Simply install the plugin and it activates automatically on each new session. Claude will include educational insights as it writes code, helping you learn about the codebase while completing tasks. Note that this plugin increases token usage due to the additional instructional output.",
     "★ Insight ─────────────────────────────────────"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)"
+   "descriptionOriginal": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:expo",
@@ -3866,8 +3866,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Source-linked public-company financial data and research through the production Fiscal.ai MCP."
+   "descriptionOriginal": "Source-linked public-company financial data and research through the production Fiscal.ai MCP.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:flint",
@@ -3918,8 +3918,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Form.io MCP server + skill library. Bundles the Form.io MCP server and a skill library covering every endpoint in the Form.io API, plus form JSON schema guidance for generating and editing Form.io forms and resources."
+   "descriptionOriginal": "Form.io MCP server + skill library. Bundles the Form.io MCP server and a skill library covering every endpoint in the Form.io API, plus form JSON schema guidance for generating and editing Form.io forms and resources.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:freee",
@@ -4129,22 +4129,22 @@
   },
   {
    "id": "marketplace:gitlab",
-   "name": "GitLab",
+   "name": "gitlab",
    "origin": "marketplace",
-   "description": "GitLab-integratie voor opslagplaatsen, samenvoegverzoeken, CI/CD-pijplijnen, problemen en wiki's met volledige toegang tot de DevOps-levenscyclus.",
+   "description": "GitLab DevOps-platformintegratie. Beheer opslagplaatsen, samenvoegverzoeken, CI/CD-pijplijnen, problemen en wiki's. Volledige toegang tot de uitgebreide DevOps-levenscyclustools van GitLab.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gitlab",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/gitlab",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/external_plugins/gitlab",
+   "verified": true,
    "installs": 40805,
-   "maker": "GitLab",
+   "maker": "",
    "about": [
     "Connect Claude Code directly to your GitLab instance for seamless DevOps integration. This plugin provides full access to GitLab's comprehensive platform, enabling you to manage repositories, work with merge requests, monitor CI/CD pipelines, track issues, and edit wiki documentation—all from within your Claude Code workflow.",
     "Key capabilities include browsing and managing Git repositories, creating and reviewing merge requests, viewing pipeline status and job logs, managing project issues and milestones, and working with project wikis. The integration uses GitLab's official MCP API for reliable, native access to the platform.",
     "Once installed and authenticated with your GitLab account, you can interact with your GitLab projects naturally. Try prompts like \"show me open merge requests in my project,\" \"what's the status of the latest pipeline,\" \"create an issue for the authentication bug,\" or \"list recent commits on the main branch.\" The plugin works with both GitLab.com and self-managed GitLab instances."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "GitLab integration for repositories, merge requests, CI/CD pipelines, issues, and wikis with full DevOps lifecycle access."
+   "descriptionOriginal": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools."
   },
   {
    "id": "marketplace:gl-reconciler",
@@ -4387,8 +4387,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Plugin source"
+   "descriptionOriginal": "Plugin source",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:handsontable-skills",
@@ -4419,8 +4419,8 @@
    "about": [
     "Build on Solana with Helius — live blockchain tools, expert coding patterns, and autonomous account signup"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build on Solana with Helius — live blockchain tools, expert coding patterns, and autonomous account signup"
+   "descriptionOriginal": "Build on Solana with Helius — live blockchain tools, expert coding patterns, and autonomous account signup",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:honeycomb",
@@ -4511,8 +4511,8 @@
     "Invoke skills with natural language prompts like \"Train a model on my dataset using SFT\", \"Create a new dataset for instruction tuning\", \"Run evaluations on my model and update the model card\", or \"Query this Hugging Face dataset with SQL\". Use",
     "to fine-tune LLMs on cloud GPUs,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Core Hugging Face Hub operations through the hf CLI, including skill installation, repo management, jobs, datasets, models, Spaces, and discovery."
+   "descriptionOriginal": "Core Hugging Face Hub operations through the hf CLI, including skill installation, repo management, jobs, datasets, models, Spaces, and discovery.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:human-resources",
@@ -4892,8 +4892,8 @@
    "installs": 0,
    "maker": "Keenable",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Web search and clean page extraction through Keenable's hosted MCP server, with skills for everyday web research and cited multi-source research. Keyless: no signup or API key."
+   "descriptionOriginal": "Web search and clean page extraction through Keenable's hosted MCP server, with skills for everyday web research and cited multi-source research. Keyless: no signup or API key.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:knock",
@@ -5014,20 +5014,20 @@
   },
   {
    "id": "marketplace:langfuse-observability",
-   "name": "Langfuse-Observability",
+   "name": "Langfuse Observability",
    "origin": "marketplace",
-   "description": "Langfuse-observatieplug-in voor Claude Code - legt sporen, reeksen en sessietelemetrie vast van Claude Code naar Langfuse voor LLM-monitoring, debugging en evaluatie",
-   "category": "Code review & testen",
+   "description": "De Langfuse x Claude Code Observability-plug-in",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/langfuse-observability",
    "source": "https://github.com/langfuse/claude-observability-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 575,
-   "maker": "Langfuse",
+   "maker": "",
    "about": [
     "Instruments Claude Code sessions with OpenTelemetry-compatible tracing and sends trace data to Langfuse, enabling visibility into model calls, token usage, latency, and agent execution flow"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Langfuse observability plugin for Claude Code — captures and exports traces, spans, and session telemetry from Claude Code to Langfuse for LLM monitoring, debugging, and evaluation"
+   "descriptionOriginal": "The Langfuse x Claude Code Observability Plugin"
   },
   {
    "id": "community:langsmith-fetch",
@@ -5535,8 +5535,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sector or theme to industry overview, competitive landscape, peer comps, and ideas shortlist"
+   "descriptionOriginal": "Sector or theme to industry overview, competitive landscape, peer comps, and ideas shortlist",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:marketing",
@@ -6245,8 +6245,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deliver Director-level finance analysis on live NetSuite data."
+   "descriptionOriginal": "Deliver Director-level finance analysis on live NetSuite data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:netsuite-suitecloud",
@@ -6574,8 +6574,8 @@
    "about": [
     "Oracle AI Data Platform (AIDP) Workbench engineer agent for Claude Code — a 37-skill agent that operates the full Spark/Delta lakehouse in natural language. Discovers your catalog into a grounding cache, turns plain English into accurate Spark SQL, and runs the lifecycle (CREATE/INSERT/UPDATE/DELETE/MERGE, OPTIMIZE/VACUUM, time-travel). Ingests files, profiles data and sets quality rules, authors and repairs pipelines, provisions clusters, and debugs via the Spark UI. Governs the platform (roles, credential store, Delta Sharing, audit logs), plus native Git, bundles, and MLOps/MLflow. Runs via the official Oracle aidp CLI."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "37-skill Oracle AIDP agent for Claude Code: Spark/Delta lakehouse in natural language."
+   "descriptionOriginal": "37-skill Oracle AIDP agent for Claude Code: Spark/Delta lakehouse in natural language.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:oracle-ai-data-platform-workbench-spark-connectors",
@@ -6734,20 +6734,20 @@
   },
   {
    "id": "marketplace:paypal",
-   "name": "paypal",
+   "name": "PayPal",
    "origin": "marketplace",
-   "description": "PayPal-ontwikkelingsplug-in voor Claude - integreer betalingen, abonnementen, facturen, geschillen en meer met behulp van PayPal's...",
+   "description": "PayPal-ontwikkelingsplug-in voor Claude — integreer betalingen, abonnementen, facturen, geschillen en meer met behulp van PayPal's API's en MCP-server",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/paypal",
-   "source": "https://github.com/paypal/AI-Toolkit",
-   "verified": false,
+   "source": "https://github.com/paypal/ai-toolkit",
+   "verified": true,
    "installs": 11,
-   "maker": "PayPal",
+   "maker": "",
    "about": [
     "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's..."
+   "descriptionOriginal": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server"
   },
   {
    "id": "official:pdf",
@@ -7181,8 +7181,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach"
+   "descriptionOriginal": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:privco-data",
@@ -7236,8 +7236,8 @@
     "/product-tracking-business-case",
     "to generate a stakeholder-ready justification, then"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI agents making SaaS products data-ready—scan codebase, build tracking plan, generate code"
+   "descriptionOriginal": "AI agents making SaaS products data-ready—scan codebase, build tracking plan, generate code",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:product-legal",
@@ -7483,8 +7483,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Optional Qodo rules discovery and standards administration workflows."
+   "descriptionOriginal": "Optional Qodo rules discovery and standards administration workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:qt-development-skills",
@@ -7534,6 +7534,21 @@
    ],
    "descriptionOriginal": "MCP server for AI coding agents to create, manage, and interact with Quarkus applications. Provides tools for project...",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:quickbooks-labs",
+   "name": "QuickBooks Labs",
+   "origin": "marketplace",
+   "description": "QuickBooks-boekhouding voor kleine bedrijven: bankfeeds, afstemming en rapporten.",
+   "category": "Overig",
+   "url": "https://claude.com/marketplace/plugins/quickbooks-labs",
+   "source": "https://github.com/intuit/intuit-plugins-official/tree/b3999397662f8379ec7db273946afab835bcaeec/plugins/quickbooks-labs",
+   "verified": true,
+   "installs": 0,
+   "maker": "Intuit",
+   "about": [],
+   "firstSeen": "2026-10-31",
+   "descriptionOriginal": "QuickBooks bookkeeping for small businesses: bank feeds, reconciliation, and reports."
   },
   {
    "id": "community:raffle-winner-picker",
@@ -7902,20 +7917,20 @@
   },
   {
    "id": "marketplace:rootly",
-   "name": "rootly",
+   "name": "Rootly",
    "origin": "marketplace",
-   "description": "Incidentbeheer over de hele levenscyclus: inzet van veiligheid, incidentrespons, oproepbeheer en retrospectives.",
+   "description": "Incidentbeheer gedurende de hele levenscyclus vanuit uw IDE. Voorkom incidenten voordat u deze inzet, reageer in realtime en leer van postmortems - mogelijk gemaakt door Rootly.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/rootly",
-   "source": "https://github.com/Rootly-AI-Labs/rootly-claude-plugin",
-   "verified": false,
+   "source": "https://github.com/rootly-ai-labs/claude-rootly-plugin",
+   "verified": true,
    "installs": 572,
-   "maker": "Rootly",
+   "maker": "",
    "about": [
     "Full-lifecycle incident management: deploy safety, incident response, on-call management, and retrospectives."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Full-lifecycle incident management: deploy safety, incident response, on-call management, and retrospectives."
+   "descriptionOriginal": "Full-lifecycle incident management from your IDE. Prevent incidents before deploy, respond in real-time, and learn from post-mortems -- powered by Rootly."
   },
   {
    "id": "marketplace:ruby-lsp",
@@ -7966,23 +7981,6 @@
    "about": [],
    "firstSeen": "2026-10-29",
    "descriptionOriginal": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs. Connect to your Runway Dev account to inspect available models and task errors, manage Model Routers and existing real-time avatars, and inspect recorded routing decisions."
-  },
-  {
-   "id": "marketplace:runway-api",
-   "name": "runway-api",
-   "origin": "marketplace",
-   "description": "Videogeneratie op schaal. Genereer video's, afbeeldingen en audio met Runway's API - batchadvertentiecampagnes, productvideo's,...",
-   "category": "Design & media",
-   "url": "https://claude.com/marketplace/plugins/runway-api",
-   "source": "https://github.com/runwayml/skills",
-   "verified": false,
-   "installs": 874,
-   "maker": "Runway",
-   "about": [
-    "Video generation at scale. Generate videos, images, and audio with Runway's API — batch ad campaigns, product videos, multishot stories, and creative iteration. Supports seedance2, gen4.5, veo3, Nano, Banana Pro, and more."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Video generation at scale. Generate videos, images, and audio with Runway's API — batch ad campaigns, product videos,..."
   },
   {
    "id": "marketplace:rust-analyzer-lsp",
@@ -8039,13 +8037,13 @@
    "id": "marketplace:sales",
    "name": "Sales",
    "origin": "marketplace",
-   "description": "Prospecteer, creëer bereik en bouw een dealstrategie op. Bereid gesprekken voor en beheer uw pijplijn.",
-   "category": "Marketing & business",
+   "description": "Bereid telefoongesprekken voor, vat ze samen en volg ze op, onderzoek accounts, bekijk deals en pijplijn, en schrijf de prognose, met behulp van de CRM-, e-mail-, agenda- en chattools die uw team al gebruikt, of geüploade bestanden. Werkt documenten bij, stelt e-mail op of verzendt deze, plaatst berichten in de chat en boekt vergaderingen wanneer u daarom vraagt.",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/sales",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/sales",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/sales",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Sales helps with prospecting, outreach, pipeline management, call preparation, and deal strategy. Every command works standalone with web search and your input, and gets supercharged when you connect your CRM, email, and other tools.",
     "to process call notes or transcripts into structured summaries with action items and draft follow-ups. Use",
@@ -8053,7 +8051,7 @@
     "to analyze pipeline health, flag risks like stale deals, and get a weekly action plan."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prospect, craft outreach, and build deal strategy. Prep for calls and manage your pipeline."
+   "descriptionOriginal": "Prep calls, summarize and follow up, research accounts, review deals and pipeline, and write the forecast, using the CRM, email, calendar and chat tools your team already uses, or uploaded files. Updates records, drafts or sends email, posts to chat and books meetings when you ask."
   },
   {
    "id": "marketplace:sales-cloud",
@@ -8205,8 +8203,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI agent skills for integrating the Scandit Data Capture SDK — product selection, documentation, and implementation guides for barcode scanning, ID capture, and smart label capture."
+   "descriptionOriginal": "AI agent skills for integrating the Scandit Data Capture SDK — product selection, documentation, and implementation guides for barcode scanning, ID capture, and smart label capture.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:scrimba-explain",
@@ -9063,22 +9061,22 @@
   },
   {
    "id": "marketplace:swift-lsp",
-   "name": "Swift LSP",
+   "name": "swift-lsp",
    "origin": "marketplace",
-   "description": "Swift-taalserver (SourceKit-LSP) voor code-intelligentie",
+   "description": "Swift-taalserver (SourceKit-LSP) voor Claude Code, die code-intelligentie levert voor Swift-projecten.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/swift-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/swift-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/swift-lsp",
    "verified": true,
    "installs": 23378,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Swift LSP integrates Apple's SourceKit-LSP language server with Claude Code, providing powerful code intelligence for Swift development. It enables features like code completion, jump-to-definition, find references, and real-time diagnostics for .swift files.",
     "The plugin works with Swift Package Manager projects and provides cross-language support for Swift and C-based languages. SourceKit-LSP comes bundled with the Swift toolchain, so no separate installation is required beyond having Swift installed on your system.",
     "Simply install Swift on your system (via Xcode on macOS or from swift.org on Linux), then open any Swift project. The language server activates automatically when you work with .swift files, providing intelligent code assistance as you develop."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Swift language server (SourceKit-LSP) for code intelligence"
+   "descriptionOriginal": "Swift language server (SourceKit-LSP) for Claude Code, providing code intelligence for Swift projects."
   },
   {
    "id": "community:swiftui-design-skill",
@@ -9549,8 +9547,8 @@
    "installs": 0,
    "maker": "UKG",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "UKG Bryte for Claude — Bring your HR and workforce data into Claude via the public UKG MCP server. Skills: UKG Directory (read-only employee directory, employment details, work location, email, and org-chart/reporting views), and Time Off & Accruals (check balances, submit and track time-off requests, review accrual history, and manager time-off/schedule views). Beta Early Access: UKG customer administrators can apply for access here: https://forms.cloud.microsoft/r/YW9VYAREkN"
+   "descriptionOriginal": "UKG Bryte for Claude — Bring your HR and workforce data into Claude via the public UKG MCP server. Skills: UKG Directory (read-only employee directory, employment details, work location, email, and org-chart/reporting views), and Time Off & Accruals (check balances, submit and track time-off requests, review accrual history, and manager time-off/schedule views). Beta Early Access: UKG customer administrators can apply for access here: https://forms.cloud.microsoft/r/YW9VYAREkN",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:unbounce-landing-page-builder",
@@ -9736,8 +9734,8 @@
     "The Vanta plugin brings your trust program directly into Claude. You can ask questions about your compliance status, understand which tests need attention, and draft infrastructure fixes without leaving where you work. Vanta remains your source of truth, while Claude becomes a powerful orchestrator for your security and compliance workflows. The plugin includes two specialized skills to start. List Tests prioritizes failures by framework, cloud provider, or status so you know what to tackle first. Fix Test writes targeted IaC remediation against your local code and opens a pull request when you're ready.",
     "After installation, ask questions in plain language. Try \"What's my SOC 2 completion status?\", \"Show all my most important failing tests\", \"Draft a PR to fix my infrastructure misconfigurations within this repo\", or \"Summarize our gaps ahead of the audit\". Go to the"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "The Vanta plugin connects Claude to Vanta's security and compliance platform through the Vanta MCP server. List failing compliance tests, get test-specific remediation context, and fix failing tests with code changes — directly from your Claude session."
+   "descriptionOriginal": "The Vanta plugin connects Claude to Vanta's security and compliance platform through the Vanta MCP server. List failing compliance tests, get test-specific remediation context, and fix failing tests with code changes — directly from your Claude session.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:vercel",
@@ -9978,8 +9976,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment — then onboard contractors and log payments as drafts, with a preview before anything is written."
+   "descriptionOriginal": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment — then onboard contractors and log payments as drafts, with a preview before anything is written.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:wix",
@@ -10308,37 +10306,30 @@
   "official:doc-coauthoring",
   "official:pptx",
   "official:web-artifacts-builder",
-  "official:canvas-design"
+  "official:canvas-design",
+  "official:claude-api"
  ],
- "updated": "2026-10-30T20:59:06.377258+00:00",
+ "updated": "2026-10-31T20:11:34.673109+00:00",
  "tonight": {
-  "date": "2026-10-30",
-  "id": "official:canvas-design",
+  "date": "2026-10-31",
+  "id": "official:claude-api",
   "text": [
-   "Dit zijn instructies voor het creëren van ontwerpfilosofieën - esthetische bewegingen die vervolgens VISUEEL UITGEDRUKT worden. Voer alleen .md-bestanden, .pdf-bestanden en .png-bestanden uit.",
-   "Voltooi dit in twee stappen: Design Philosophy Creation (.md-bestand) Express door het op een canvas te maken (.pdf-bestand of .png-bestand)",
-   "Creëer om te beginnen een VISUELE FILOSOFIE (geen lay-outs of sjablonen) die zal worden geïnterpreteerd via: Vorm, ruimte, kleur, compositie Afbeeldingen, afbeeldingen, vormen, patronen Minimale tekst als visueel accent",
-   "HET KRITIEKE BEGRIP Wat wordt ontvangen: Een aantal subtiele input of instructies van de gebruiker waarmee rekening moet worden gehouden, maar die als basis moeten worden gebruikt; het mag de creatieve vrijheid niet beperken. Wat er ontstaat: Een ontwerpfilosofie/esthetische beweging. Wat er vervolgens gebeurt: Vervolgens ontvangt dezelfde versie de filosofie en DRUKT HET VISUEEL UIT - waardoor artefacten worden gecreëerd die voor 90% uit visueel ontwerp bestaan en voor 10% uit essentiële tekst.",
-   "Overweeg deze aanpak: Schrijf een manifest voor een kunststroming De volgende fase omvat het maken van het kunstwerk",
-   "De filosofie moet de nadruk leggen op: Visuele expressie. Ruimtelijke communicatie. Artistieke interpretatie. Minimale woorden.",
-   "HOE JE EEN VISUELE FILOSOFIE GENEREERT",
-   "Noem de beweging (1-2 woorden): \"Brutalist Joy\" / \"Chromatic Silence\" / \"Metabolist Dreams\"",
-   "Formuleer de filosofie (4-6 paragrafen - beknopt maar volledig):",
-   "Om de VISUELE essentie vast te leggen, drukt u uit hoe de filosofie zich manifesteert door: Ruimte en vorm Kleur en materiaal Schaal en ritme Compositie en balans Visuele hiërarchie",
-   "KRITISCHE RICHTLIJNEN: Vermijd redundantie: elk ontwerpaspect moet één keer worden vermeld. Vermijd het herhalen van punten over kleurentheorie, ruimtelijke relaties of typografische principes, tenzij er nieuwe diepte aan wordt toegevoegd. Benadruk vakmanschap HERHAALD: De filosofie MOET meerdere keren benadrukken dat het uiteindelijke werk eruit moet zien alsof het talloze uren heeft gekost om het te maken, dat er met zorg aan is gewerkt en dat het afkomstig is van iemand die aan de absolute top van zijn vakgebied staat. Deze kadering is essentieel: herhaal zinnen als ‘zorgvuldig vervaardigd’, ‘het product van diepgaande expertise’, ‘nauwgezette aandacht’, ‘masterniveau…"
+   "LLM-aangedreven applicaties bouwen met Claude",
+   "Deze skill helpt je bij het bouwen van LLM-aangedreven applicaties met Claude. Kies het juiste oppervlak op basis van uw behoeften, detecteer de projecttaal en lees vervolgens de relevante taalspecifieke documentatie.",
+   "Scan het doelbestand (of, als er geen doelbestand is, de prompt en het project) op niet-antropische providermarkeringen - `import openai`, `from openai`, `langchain_openai`, `OpenAI(`, `gpt-4`, `gpt-5`, bestandsnamen zoals `agent-openai.py` of `*-generic.py`, of een expliciete instructie om de codeprovider neutraal te houden. Als u er een vindt, stop dan en vertel de gebruiker dat deze skill oplevert Claude/Anthropic SDK-code; vraag of ze het bestand naar Claude willen overschakelen of een niet-Claude-implementatie willen. Bewerk geen niet-Anthropic SDK-aanroepen.",
+   "Wanneer de gebruiker u vraagt een Claude-functie toe te voegen, te wijzigen of te implementeren, moet uw code Claude aanroepen via een van:",
+   "De officiële Anthropic SDK voor de taal van het project (`anthropic`, `@anthropic-ai/sdk`, `com.anthropic.*`, etc.). Dit is de standaardwaarde wanneer er een ondersteunde SDK voor het project bestaat. Raw HTTP (`curl`, `requests`, `fetch`, `httpx`, etc.) - alleen wanneer de gebruiker expliciet om cURL/REST/raw HTTP vraagt, is het project een shell/cURL-project, of heeft de taal geen officiële SDK.",
+   "Combineer deze twee nooit - grijp niet naar `requests`/`fetch` in een Python- of TypeScript-project alleen maar omdat het lichter aanvoelt. Val nooit meer terug op OpenAI-compatibele shims.",
+   "Raad nooit het SDK-gebruik. Functienamen, klassenamen, naamruimten, methodehandtekeningen en importpaden moeten afkomstig zijn uit expliciete documentatie - ofwel de `{lang}/`-bestanden in deze skill of de officiële SDK-opslagplaatsen of documentatielinks vermeld in `shared/live-sources.md`. Als de binding die u nodig hebt niet expliciet is gedocumenteerd in de vaardigheidsbestanden, haalt WebFetch de relevante SDK-opslagplaats op uit `shared/live-sources.md` voordat u code schrijft. Leid Ruby/Java/Go/PHP/C# API's niet af van cURL-vormen of van de SDK van een andere taal."
   ],
   "textOriginal": [
-   "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
-   "Complete this in two steps: Design Philosophy Creation (.md file) Express by creating it on a canvas (.pdf file or .png file)",
-   "To begin, create a VISUAL PHILOSOPHY (not layouts or templates) that will be interpreted through: Form, space, color, composition Images, graphics, shapes, patterns Minimal text as visual accent",
-   "THE CRITICAL UNDERSTANDING What is received: Some subtle input or instructions by the user that should be taken into account, but used as a foundation; it should not constrain creative freedom. What is created: A design philosophy/aesthetic movement. What happens next: Then, the same version receives the philosophy and EXPRESSES IT VISUALLY - creating artifacts that are 90% visual design, 10% essential text.",
-   "Consider this approach: Write a manifesto for an art movement The next phase involves making the artwork",
-   "The philosophy must emphasize: Visual expression. Spatial communication. Artistic interpretation. Minimal words.",
-   "HOW TO GENERATE A VISUAL PHILOSOPHY",
-   "Name the movement (1-2 words): \"Brutalist Joy\" / \"Chromatic Silence\" / \"Metabolist Dreams\"",
-   "Articulate the philosophy (4-6 paragraphs - concise but complete):",
-   "To capture the VISUAL essence, express how the philosophy manifests through: Space and form Color and material Scale and rhythm Composition and balance Visual hierarchy",
-   "CRITICAL GUIDELINES: Avoid redundancy: Each design aspect should be mentioned once. Avoid repeating points about color theory, spatial relationships, or typographic principles unless adding new depth. Emphasize craftsmanship REPEATEDLY: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like \"meticulously crafted,\" \"the product of deep expertise,\" \"painstaking attention,\" \"master-level…"
+   "Building LLM-Powered Applications with Claude",
+   "This skill helps you build LLM-powered applications with Claude. Choose the right surface based on your needs, detect the project language, then read the relevant language-specific documentation.",
+   "Scan the target file (or, if no target file, the prompt and project) for non-Anthropic provider markers - `import openai`, `from openai`, `langchain_openai`, `OpenAI(`, `gpt-4`, `gpt-5`, file names like `agent-openai.py` or `*-generic.py`, or any explicit instruction to keep the code provider-neutral. If you find any, stop and tell the user that this skill produces Claude/Anthropic SDK code; ask whether they want to switch the file to Claude or want a non-Claude implementation. Do not edit a non-Anthropic file with Anthropic SDK calls. (Exception: the `prompt-audit` subcommand is…",
+   "When the user asks you to add, modify, or implement a Claude feature, your code must call Claude through one of:",
+   "The official Anthropic SDK for the project's language (`anthropic`, `@anthropic-ai/sdk`, `com.anthropic.*`, etc.). This is the default whenever a supported SDK exists for the project. Raw HTTP (`curl`, `requests`, `fetch`, `httpx`, etc.) - only when the user explicitly asks for cURL/REST/raw HTTP, the project is a shell/cURL project, or the language has no official SDK.",
+   "Never mix the two - don't reach for `requests`/`fetch` in a Python or TypeScript project just because it feels lighter. Never fall back to OpenAI-compatible shims.",
+   "Never guess SDK usage. Function names, class names, namespaces, method signatures, and import paths must come from explicit documentation - either the `{lang}/` files in this skill or the official SDK repositories or documentation links listed in `shared/live-sources.md`. If the binding you need is not explicitly documented in the skill files, WebFetch the relevant SDK repo from `shared/live-sources.md` before writing code. Do not infer Ruby/Java/Go/PHP/C# APIs from cURL shapes or from another language's SDK."
   ]
  }
 }
