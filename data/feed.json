@@ -1,6 +1,89 @@
 {
  "editions": [
   {
+   "date": "2026-11-01",
+   "items": [
+    {
+     "id": "hn:50319358",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Anthropic blokkeert gebruikers voor alles wat te maken heeft met het trainen van grotere modellen",
+     "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+     "published": "2026-10-31T19:39:19+00:00",
+     "summary": "439 punten · 247 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50319358",
+     "score": 439,
+     "titleOriginal": "Anthropic blocks users for anything touching training larger models",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50320255",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Anthropic onderneemt stappen om Claude ervan te weerhouden videogames te reverse-engineeren",
+     "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+     "published": "2026-10-31T21:07:58+00:00",
+     "summary": "176 punten · 110 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50320255",
+     "score": 176,
+     "titleOriginal": "Anthropic takes steps to block Claude from reverse-engineering video games",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:Xa0Zhl8ljPY",
+     "kind": "video",
+     "source": "AICodeKing",
+     "title": "Ik heb een klein lokaal model gebouwd dat beter presteert dan Opus! (door gebruik te maken van Orchestration)",
+     "url": "https://www.youtube.com/watch?v=Xa0Zhl8ljPY",
+     "published": "2026-11-01T10:00:41+00:00",
+     "summary": "PandaCode: https://github.com/aicodeking/pandacode PandaOrchestrator: https://github.com/aicodeking/PandaOrchestrator In deze video laat ik je PandaOrchestrator en Panda Router zien, een klein lokaal model dat ik heb gebouwd om te beslissen welk model elke medewerker in een agentteam moet gebruiken. Ziek…",
+     "image": "https://i.ytimg.com/vi/Xa0Zhl8ljPY/hqdefault.jpg",
+     "videoId": "Xa0Zhl8ljPY",
+     "titleOriginal": "I Built a Tiny Local Model That Outperforms Opus! (by using Orchestration)",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xl47f5",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Het model uit de Mythos-klasse van Anthropic zou zijn gelekt op Hugging Face 💀",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xl47f5/anthropics_mythosclass_model_allegedly_leaked_on/",
+     "published": "2026-11-01T14:18:38+00:00",
+     "summary": "Een Hugging Face-repo genaamd Burner22/numbat beweert een intern trainingscontrolepunt van de Anthropic Mythos-klasse te bevatten. Geclaimde specificaties: 14 biljoen parameters 1.224 MoE-experts 7,72 TB aan gewichten 772 gewichtsscherven Hybride GDN + MLA-architectuur De repo vermeldt ook modelarchitectuur…",
+     "image": "https://preview.redd.it/v1oi9pv0f0zh1.png?width=640&crop=smart&auto=webp&s=0307eadf5a50dd552b672c01c1b0ce5b674189cc",
+     "score": 100,
+     "titleOriginal": "Anthropic's Mythos-class model allegedly leaked on Hugging Face 💀",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xkxsca",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Ik gaf Claude toegang tot verre telescopen. Nu boekt ze elke nacht de hemel.",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkxsca/i_gave_claude_access_to_remote_telescopes_now_she/",
+     "published": "2026-11-01T08:22:37+00:00",
+     "summary": "Sinds vorige maand beheert Claude (ik noem haar Annie) echte telescopen voor mij. Robotica die je per uur huurt op StellarDock, in Chili, Spanje en Utah. Ik raak niets aan. Ze kiest het doel, controleert waar de maan is en hoe hoog het ding wordt, stelt de filters in...",
+     "image": "https://preview.redd.it/j8afqqp5nyyh1.jpeg?width=140&height=93&auto=webp&s=c892b5d23de6281dde1ce08d9223991cb4080815",
+     "score": 99,
+     "titleOriginal": "I gave Claude access to remote telescopes. Now she books the sky every night.",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:V0PzEBcnAdk",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Claude-codemods zijn krankzinnig. Steel deze 3.",
+     "url": "https://www.youtube.com/watch?v=V0PzEBcnAdk",
+     "published": "2026-10-31T22:31:03+00:00",
+     "summary": "",
+     "image": "https://i.ytimg.com/vi/V0PzEBcnAdk/hqdefault.jpg",
+     "videoId": "V0PzEBcnAdk",
+     "titleOriginal": "Claude code mods are insane. Steal these 3.",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-10-31",
    "items": [
     {
@@ -1157,6 +1240,8 @@
    "hn:50304358",
    "hn:50307219",
    "hn:50311311",
+   "hn:50319358",
+   "hn:50320255",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -1226,6 +1311,16 @@
    "reddit:t3_1xkdcto",
    "reddit:t3_1xkdxwo",
    "reddit:t3_1xkg97u",
+   "reddit:t3_1xkmzet",
+   "reddit:t3_1xkn3tc",
+   "reddit:t3_1xkn61s",
+   "reddit:t3_1xko2cs",
+   "reddit:t3_1xks0kb",
+   "reddit:t3_1xkxsca",
+   "reddit:t3_1xl47f5",
+   "reddit:t3_1xl5wab",
+   "reddit:t3_1xl7cyr",
+   "reddit:t3_1xlc0v6",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -1357,8 +1452,10 @@
    "yt:T2sogF_YacI",
    "yt:TD0VZSWmUoQ",
    "yt:UxJZrCFzTHY",
+   "yt:V0PzEBcnAdk",
    "yt:VXTpCssys10",
    "yt:Wbb5g_fJ9Pg",
+   "yt:Xa0Zhl8ljPY",
    "yt:Xd2oJ5Sog24",
    "yt:Xm_Sf2qxRW4",
    "yt:Y9Wz2PV404E",
@@ -1394,7 +1491,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-10-31T20:11:05.251426+00:00"
+  "last_run": "2026-11-01T20:43:11.438712+00:00"
  },
- "generated": "2026-10-31T20:11:05.251426+00:00"
+ "generated": "2026-11-01T20:43:11.438712+00:00"
 }

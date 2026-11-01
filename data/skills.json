@@ -451,8 +451,8 @@
    "installs": 0,
    "maker": "Amazon",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, not generic advice. Review and approve every action, without switching back to Seller Central. Currently in beta."
+   "descriptionOriginal": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, not generic advice. Review and approve every action, without switching back to Seller Central. Currently in beta.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:amd-skills",
@@ -1811,8 +1811,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Portfolio monitoring, valuations, and analytics for private capital GP teams. Portfolio-company one-pagers, fund quarterly review packs, markup/markdown briefs, TVPI attribution, and budget-vs-actuals against your Chronograph data."
+   "descriptionOriginal": "Portfolio monitoring, valuations, and analytics for private capital GP teams. Portfolio-company one-pagers, fund quarterly review packs, markup/markdown briefs, TVPI attribution, and budget-vs-actuals against your Chronograph data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:chronograph-lp",
@@ -1998,8 +1998,28 @@
    "installs": 0,
    "maker": "",
    "about": [],
+   "descriptionOriginal": "Provision direct cloud access (Vertex AI, Bedrock, Azure AI Foundry, or LLM gateway) for the Claude Office add-in. Generates the customized add-in manifest, walks through Azure admin consent, and writes per-user config via Microsoft Graph extension attributes.",
+   "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:claude-md-management",
+   "name": "claude-md-management",
+   "origin": "marketplace",
+   "description": "Hulpmiddelen voor het onderhouden en verbeteren van CLAUDE.md-bestanden: controleer de kwaliteit, leg sessie-ervaringen vast en houd het projectgeheugen actueel.",
+   "category": "Code review & testen",
+   "url": "https://claude.com/marketplace/plugins/claude-md-management",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/claude-md-management",
+   "verified": true,
+   "installs": 287247,
+   "maker": "",
+   "about": [
+    "Keep your project memory fresh and effective. This plugin provides tools to audit CLAUDE.md file quality and capture session learnings, ensuring Claude always has the context it needs to work efficiently in your codebase.",
+    "skill scans your repository for all CLAUDE.md files, evaluates them against quality criteria (commands, architecture, gotchas, conciseness), and generates a detailed quality report with scores and grades. It then proposes targeted additions based on gaps it discovers.",
+    "command helps you capture learnings at the end of a session—bash commands discovered, code patterns followed, environment quirks encountered—and suggests updates to the appropriate CLAUDE.md or .claude.local.md file.",
+    "Say \"audit my CLAUDE.md files\" or \"check if my CLAUDE.md is up to date\" to trigger the audit skill. Run"
+   ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Provision direct cloud access (Vertex AI, Bedrock, Azure AI Foundry, or LLM gateway) for the Claude Office add-in. Generates the customized add-in manifest, walks through Azure admin consent, and writes per-user config via Microsoft Graph extension attributes."
+   "descriptionOriginal": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current."
   },
   {
    "id": "marketplace:claude-opus-4-5-migration",
@@ -2015,26 +2035,6 @@
    "about": [],
    "descriptionOriginal": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5.",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:claude-md-management",
-   "name": "CLAUDE.md Management",
-   "origin": "marketplace",
-   "description": "Hulpmiddelen om CLAUDE.md te onderhouden: controleer de kwaliteit, leg lessen vast en houd het projectgeheugen actueel.",
-   "category": "Code review & testen",
-   "url": "https://claude.com/marketplace/plugins/claude-md-management",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
-   "verified": true,
-   "installs": 287247,
-   "maker": "Anthropic",
-   "about": [
-    "Keep your project memory fresh and effective. This plugin provides tools to audit CLAUDE.md file quality and capture session learnings, ensuring Claude always has the context it needs to work efficiently in your codebase.",
-    "skill scans your repository for all CLAUDE.md files, evaluates them against quality criteria (commands, architecture, gotchas, conciseness), and generates a detailed quality report with scores and grades. It then proposes targeted additions based on gaps it discovers.",
-    "command helps you capture learnings at the end of a session—bash commands discovered, code patterns followed, environment quirks encountered—and suggests updates to the appropriate CLAUDE.md or .claude.local.md file.",
-    "Say \"audit my CLAUDE.md files\" or \"check if my CLAUDE.md is up to date\" to trigger the audit skill. Run"
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Tools to maintain CLAUDE.md - audit quality, capture learnings, and keep project memory current."
   },
   {
    "id": "marketplace:clickhouse",
@@ -2190,8 +2190,8 @@
     "claude plugin install cockroachdb",
     ", then set your connection environment variables (COCKROACHDB_HOST, COCKROACHDB_PORT, COCKROACHDB_USER, COCKROACHDB_PASSWORD, COCKROACHDB_DATABASE). Try prompts like: \"List all tables in my database and describe their schemas\", \"Write an optimized query to find the top 10 customers by order volume\", \"Analyze the EXPLAIN plan for this slow query and suggest indexes\", \"Review my schema for write hotspot risks\", or \"Help me plan a multi-region deployment for this cluster\". Use the DBA agent for autonomous deep-dive diagnostics with prompts like \"Diagnose why this query is slow\" or \"Check my cluster health and recommend improvements\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CockroachDB plugin for Claude Code — explore schemas, write SQL, debug queries, manage clusters"
+   "descriptionOriginal": "CockroachDB plugin for Claude Code — explore schemas, write SQL, debug queries, manage clusters",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:cocounsel-legal",
@@ -2243,25 +2243,6 @@
    "descriptionOriginal": "AI code review with specialized agents and confidence-based filtering for pull requests"
   },
   {
-   "id": "marketplace:code-simplifier",
-   "name": "Code Simplifier",
-   "origin": "marketplace",
-   "description": "Code duidelijkheid agent: vereenvoudigt en verfijnt onlangs gewijzigde code met behoud van functionaliteit en consistentie.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/code-simplifier",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
-   "verified": true,
-   "installs": 346763,
-   "maker": "Anthropic",
-   "about": [
-    "Code Simplifier is an autonomous agent that refines and simplifies your code for improved clarity, consistency, and maintainability. It focuses on recently modified code sections, making targeted improvements while preserving all original functionality and behavior.",
-    "The agent follows established coding standards including ES modules, function declarations with explicit returns, and React best practices. It reduces nesting depth, eliminates redundant code, improves variable and function naming, and replaces nested ternaries with clearer conditional structures like switch statements.",
-    "The agent works proactively on your recently modified code. You can also ask it directly to review specific files or code sections with prompts like \"simplify this component\" or \"refine the recently changed functions for clarity.\""
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Code clarity agent: simplifies and refines recently modified code while preserving functionality and consistency."
-  },
-  {
    "id": "marketplace:code-modernization",
    "name": "code-modernization",
    "origin": "marketplace",
@@ -2277,6 +2258,25 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Modernize legacy codebases (COBOL, legacy Java/C++, monolith web apps) with a structured assess / map / extract-rules..."
+  },
+  {
+   "id": "marketplace:code-simplifier",
+   "name": "code-simplifier",
+   "origin": "marketplace",
+   "description": "Agent die code vereenvoudigt en verfijnt voor duidelijkheid, consistentie en onderhoudbaarheid, terwijl de functionaliteit behouden blijft",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/code-simplifier",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/code-simplifier",
+   "verified": true,
+   "installs": 346763,
+   "maker": "",
+   "about": [
+    "Code Simplifier is an autonomous agent that refines and simplifies your code for improved clarity, consistency, and maintainability. It focuses on recently modified code sections, making targeted improvements while preserving all original functionality and behavior.",
+    "The agent follows established coding standards including ES modules, function declarations with explicit returns, and React best practices. It reduces nesting depth, eliminates redundant code, improves variable and function naming, and replaces nested ternaries with clearer conditional structures like switch statements.",
+    "The agent works proactively on your recently modified code. You can also ask it directly to review specific files or code sections with prompts like \"simplify this component\" or \"refine the recently changed functions for clarity.\""
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality"
   },
   {
    "id": "marketplace:coderabbit",
@@ -2895,18 +2895,18 @@
    "id": "marketplace:databricks",
    "name": "databricks",
    "origin": "marketplace",
-   "description": "Databricks: CLI, apps, Lakebase, Model Serving, Lakeflow, Spark-pijplijnen, DAB's, klassieke serverloze migratie",
+   "description": "Databricks-skills voor de CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DAB's) en klassieke naar serverloze migratie.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/databricks",
-   "source": "https://github.com/databricks/databricks-agent-skills",
-   "verified": false,
+   "source": "https://github.com/databricks/databricks-agent-skills/tree/813e027f6788acfb071a1f15942d74f30b6c1f4b/plugins/databricks/claude",
+   "verified": true,
    "installs": 476,
-   "maker": "Databricks",
+   "maker": "",
    "about": [
     "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Databricks: CLI, Apps, Lakebase, Model Serving, Lakeflow, Spark pipelines, DABs, classic-serverless migration"
+   "descriptionOriginal": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration."
   },
   {
    "id": "marketplace:datadog",
@@ -2937,8 +2937,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DataHub Cloud plugin — search the catalog, trace lineage, check data quality, and write SQL grounded in real metadata via the DataHub Cloud MCP server."
+   "descriptionOriginal": "DataHub Cloud plugin — search the catalog, trace lineage, check data quality, and write SQL grounded in real metadata via the DataHub Cloud MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:datahub-skills",
@@ -3319,8 +3319,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Earnings call and filings to model update to note draft"
+   "descriptionOriginal": "Earnings call and filings to model update to note draft",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:elastic",
@@ -3426,13 +3426,13 @@
    "id": "marketplace:enterprise-search",
    "name": "Enterprise Search",
    "origin": "marketplace",
-   "description": "Zoek op één plek in alle tools van uw bedrijf: e-mail, chat, documenten en wiki's.",
+   "description": "Zoek in alle tools van uw bedrijf op één plek. Vind alles in e-mail, chat, documenten en wiki's zonder tussen apps te schakelen.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/enterprise-search",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/enterprise-search",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/enterprise-search",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Enterprise Search treats all your company's tools as one searchable knowledge base. One query searches chat, email, cloud storage, wikis, project management, CRM, and ticketing simultaneously — no more switching between apps to find the answer.",
     "Claude decomposes your natural language question into targeted searches across every connected source, then synthesizes the results into a single coherent answer with source attribution and confidence scoring based on freshness and authority.",
@@ -3440,7 +3440,7 @@
     "to generate daily or weekly activity summaries grouped by topic with action items and decisions highlighted."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Search across all of your company's tools in one place — email, chat, documents, and wikis."
+   "descriptionOriginal": "Search across all of your company's tools in one place. Find anything across email, chat, documents, and wikis without switching between apps."
   },
   {
    "id": "marketplace:eon",
@@ -3705,13 +3705,13 @@
    "id": "marketplace:finance",
    "name": "Finance",
    "origin": "marketplace",
-   "description": "Stroomlijn financiële workflows: journaalboekingen, afstemming, financiële overzichten en variantieanalyse.",
+   "description": "Stroomlijn financiële en boekhoudkundige workflows, van journaalboekingen en afstemming tot financiële overzichten en variantieanalyse. Versnel de voorbereiding van audits, de maandafsluiting en het overzichtelijk houden van uw boeken.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/finance",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/finance",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Finance supports month-end close, journal entry preparation, account reconciliation, financial statement generation, variance analysis, and SOX audit workflows. It assists with the full close cycle from booking accruals to generating the P&L.",
     "to prepare accruals, fixed asset entries, prepaids, and payroll with proper debits/credits. Use",
@@ -3719,7 +3719,7 @@
     "Generate income statements with period-over-period comparison via"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Streamline finance workflows: journal entries, reconciliation, financial statements, and variance analysis."
+   "descriptionOriginal": "Streamline finance and accounting workflows, from journal entries and reconciliation to financial statements and variance analysis. Speed up audit prep, month-end close, and keeping your books clean."
   },
   {
    "id": "marketplace:financial-advisors",
@@ -3903,8 +3903,8 @@
    "about": [
     "Cloud cost optimization for GCP infrastructure. Review changes for cost impact and auto-apply savings recommendations using the followrabbit CLI."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "GCP cost optimization: review changes for impact and auto-apply savings using followrabbit CLI."
+   "descriptionOriginal": "GCP cost optimization: review changes for impact and auto-apply savings using followrabbit CLI.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:form-io",
@@ -4560,8 +4560,8 @@
    "about": [
     "HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions, voiceovers, audio-reactive visuals, and website-to-video capture for HyperFrames."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions, voiceov..."
+   "descriptionOriginal": "HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions, voiceov...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:idmp-plugin",
@@ -4974,8 +4974,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Krea AI skills: generation workflows, marketing creative, product motion, and packaging design."
+   "descriptionOriginal": "Krea AI skills: generation workflows, marketing creative, product motion, and packaging design.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:kyc-screener",
@@ -5201,8 +5201,8 @@
     "for rapid NDA pre-screening that categorizes incoming NDAs for standard approval, counsel review, or full review.",
     "Check vendor agreement status with"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Speed up contract review, NDA triage, and compliance workflows for in-house legal teams. Draft legal briefs, organize precedent research, and manage institutional knowledge."
+   "descriptionOriginal": "Speed up contract review, NDA triage, and compliance workflows for in-house legal teams. Draft legal briefs, organize precedent research, and manage institutional knowledge.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:legal-builder-hub",
@@ -5804,8 +5804,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Generate 3D models, textures, and images, rig and animate characters, and prepare models for 3D printing with the Meshy AI API."
+   "descriptionOriginal": "Generate 3D models, textures, and images, rig and animate characters, and prepare models for 3D printing with the Meshy AI API.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:meta-vr",
@@ -6230,8 +6230,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Guide AI assistants using NetSuite AI Connector."
+   "descriptionOriginal": "Guide AI assistants using NetSuite AI Connector.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:netsuite-finance-analyst",
@@ -6334,23 +6334,23 @@
   },
   {
    "id": "marketplace:nimble",
-   "name": "Nimble Web Data",
+   "name": "Nimble",
    "origin": "marketplace",
    "description": "Nimble toolkit voor webgegevens: zoek, extraheer, breng in kaart, crawl het internet en werk met gestructureerde gegevensagenten",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/nimble",
-   "source": "https://github.com/Nimbleway/agent-skills",
-   "verified": false,
+   "source": "https://github.com/nimbleway/agent-skills",
+   "verified": true,
    "installs": 2851,
-   "maker": "Nimble",
+   "maker": "",
    "about": [
     "Nimble gives Claude the ability to fetch, search, scrape, and crawl the live web. It provides two complementary skills: a",
     "for immediate data retrieval and a reusable",
     "for creating structured extraction workflows that run at scale. The toolkit connects to Nimble's cloud infrastructure via MCP and the Nimble CLI, with pre-built agents covering 50+ popular websites for structured data extraction out of the box.",
     "The Web Expert skill handles one-off fetches, real-time lookups, and live research. It can extract content from any URL, run web searches across eight focus modes (general, coding, news, academic, shopping, social, geo, and location), discover URLs with site mapping, and bulk-crawl entire website sections. Results are returned as structured data tables with automatic render-tier escalation for difficult pages."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents"
+   "descriptionOriginal": "Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:noibu",
@@ -6477,16 +6477,16 @@
    "id": "marketplace:operations",
    "name": "Operations",
    "origin": "marketplace",
-   "description": "Optimaliseer leveranciersbeheer, procesdocumentatie, wijzigingsbeheer en compliance-tracking",
+   "description": "Optimaliseer de bedrijfsvoering: leveranciersbeheer, procesdocumentatie, wijzigingsbeheer, capaciteitsplanning en het bijhouden van naleving. Zorg ervoor dat uw organisatie efficiënt blijft draaien.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/operations",
-   "source": "https://github.com/anthropics/knowledge-work-plugins",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/operations",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Optimize vendor management, process documentation, change management, and compliance tracking"
+   "descriptionOriginal": "Optimize business operations — vendor management, process documentation, change management, capacity planning, and compliance tracking. Keep your organization running efficiently."
   },
   {
    "id": "marketplace:operations-anthropics",
@@ -6875,8 +6875,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Comps, precedents, LBO to a branded pitch deck, end to end"
+   "descriptionOriginal": "Comps, precedents, LBO to a branded pitch deck, end to end",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:pixelbin-media-generation",
@@ -6894,13 +6894,13 @@
    "id": "marketplace:pixeltable",
    "name": "Pixeltable",
    "origin": "marketplace",
-   "description": "Bouw multimodale AI-apps met Pixeltable - tabellen, berekende kolommen, insluitingen, UDF's, agenten, meer dan 25 AI-integraties.",
+   "description": "Bouw multimodale AI-applicaties met Pixeltable - tabellen, berekende kolommen, ingesloten zoekopdrachten, UDF's, tool-calling agents en meer dan 25 AI-providerintegraties.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/pixeltable",
    "source": "https://github.com/pixeltable/pixeltable-skill",
-   "verified": false,
+   "verified": true,
    "installs": 119,
-   "maker": "Pixeltable",
+   "maker": "",
    "about": [
     "Pixeltable is a plugin that helps you build multimodal AI applications using Pixeltable's declarative table framework. It provides expert guidance on tables, computed columns, embedding indexes, user-defined functions (UDFs), tool-calling agents, and integrations with 25+ AI providers including OpenAI, Anthropic, Gemini, Groq, Bedrock, Together, Fireworks, and Ollama. Instead of stitching together LangChain, pandas, and vector databases, you work with a single unified system where inserting a row automatically triggers the entire computed-column pipeline.",
     "The plugin includes two specialist agents: a",
@@ -6908,7 +6908,7 @@
     "that diagnoses failing or stale pipelines using CLI inspection and SDK validation. Both agents encode Pixeltable-specific best practices and anti-patterns so you avoid common pitfalls."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build multimodal AI apps with Pixeltable -- tables, computed columns, embeddings, UDFs, agents, 25+ AI integrations."
+   "descriptionOriginal": "Build multimodal AI applications with Pixeltable -- tables, computed columns, embedding search, UDFs, tool-calling agents, and 25+ AI provider integrations."
   },
   {
    "id": "marketplace:planetscale",
@@ -6932,15 +6932,15 @@
   },
   {
    "id": "marketplace:playground",
-   "name": "Playground",
+   "name": "playground",
    "origin": "marketplace",
-   "description": "Interactieve HTML-speeltuinen met visuele bedieningselementen, live preview en snelle uitvoer. Inclusief ontwerp-, gegevens-, conceptkaart- en kritieksjablonen.",
+   "description": "Creëert interactieve HTML-speeltuinen: op zichzelf staande verkenners van één bestand met visuele bedieningselementen, live preview en promptuitvoer met kopieerknop",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/playground",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/playground",
    "verified": true,
    "installs": 64198,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Generates interactive HTML playgrounds — self-contained single-file explorers with visual controls, a live preview panel, and a natural-language prompt output with a one-click copy button. Every playground is a single HTML file with all CSS and JavaScript inline, requiring no external dependencies.",
     "Choose from six built-in templates:",
@@ -6948,7 +6948,7 @@
     "for constructing SQL queries, API calls, and regex patterns;"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Interactive HTML playgrounds with visual controls, live preview, and prompt output. Includes design, data, concept map, and critique templates."
+   "descriptionOriginal": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button"
   },
   {
    "id": "marketplace:playwright",
@@ -7870,8 +7870,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Riskified developer tools for Claude Code — automates beacon fraud-detection integration into merchant storefronts"
+   "descriptionOriginal": "Riskified developer tools for Claude Code — automates beacon fraud-detection integration into merchant storefronts",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:riverside",
@@ -8399,18 +8399,18 @@
    "id": "marketplace:servicenow-sdk",
    "name": "servicenow-sdk",
    "origin": "marketplace",
-   "description": "Creëer, bewerk en implementeer ServiceNow-applicaties moeiteloos met de Fluent SDK via Claude AI.",
+   "description": "Creëer, bewerk en implementeer ServiceNow-applicaties moeiteloos met de Fluent SDK via Claude. Helpt ontwikkelaars bij het bouwen, uitbreiden en beheren van ServiceNow-applicaties, workflows en agents met behulp van de ServiceNow SDK.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/servicenow-sdk",
-   "source": "https://github.com/ServiceNow/sdk",
-   "verified": false,
+   "source": "https://github.com/servicenow/sdk/tree/34878453d19a134d89051ee154efb81bafb8bea4/providers/claude/plugin",
+   "verified": true,
    "installs": 1028,
-   "maker": "ServiceNow",
+   "maker": "",
    "about": [
     "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude AI."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude AI."
+   "descriptionOriginal": "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude. Helps developers build, extend, and manage ServiceNow applications, workflows, and agents using the ServiceNow SDK."
   },
   {
    "id": "marketplace:session-report",
@@ -8443,20 +8443,20 @@
   },
   {
    "id": "marketplace:shippo",
-   "name": "shippo",
+   "name": "Shippo",
    "origin": "marketplace",
-   "description": "Shippo verbindt meer dan 40 vervoerders met Claude: beoordeel winkel, koop labels, valideer adressen en volg pakketten van begin tot eind.",
-   "category": "Overig",
+   "description": "Verzend pakketten met Shippo. Winkelen met meerdere vervoerders, het genereren van labels, het volgen van pakketten, adresvalidatie, douaneaangiften en batchverwerking vanuit CSV-bestanden.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/shippo",
-   "source": "https://github.com/goshippo/ai",
-   "verified": false,
+   "source": "https://github.com/goshippo/shippo-claude-plugin",
+   "verified": true,
    "installs": 6,
-   "maker": "Shippo",
+   "maker": "",
    "about": [
     "Shippo connects you to USPS, UPS, FedEx, DHL, and 40+ carriers, so you can handle a shipment end to end right inside Claude. Compare live rates and pick the cheapest or best option, buy and print labels (domestic and international, with customs declarations), validate and standardize addresses, and track packages across carriers. Just ask in plain language: rate-shop a parcel, buy the right label, check a delivery status, or confirm an address before you ship. Whether you run a store or just need to send a package, Shippo turns a pile of carrier accounts into one simple conversation."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Shippo connects 40+ carriers to Claude—rate-shop, buy labels, validate addresses, and track packages end-to-end."
+   "descriptionOriginal": "Ship packages with Shippo. Multi-carrier rate shopping, label generation, package tracking, address validation, customs declarations, and batch processing from CSV files."
   },
   {
    "id": "marketplace:shopify-ai-toolkit",
@@ -9368,8 +9368,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Democratizing AI scientists with ToolUniverse"
+   "descriptionOriginal": "Democratizing AI scientists with ToolUniverse",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:treblle",
@@ -9673,6 +9673,23 @@
    "descriptionOriginal": "Skills and tools for building high-quality Vaadin 25 applications with Java/Flow — theming, visual design, and form layout. Includes the hosted Vaadin MCP server for current documentation and API lookup."
   },
   {
+   "id": "marketplace:valtown",
+   "name": "Val Town",
+   "origin": "marketplace",
+   "description": "Bouw en implementeer Val Town. Bundelt de Val Town MCP-server- en platformvaardigheden (HTTP-vals, cron/intervals, SQLite, e-mail, OAuth, React UI, integraties van derden, sjablonen).",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/valtown",
+   "source": "https://github.com/val-town/plugins/tree/555ff7492c9c70ada2c4e9b66d7dea9367d7ce71/plugin",
+   "verified": true,
+   "installs": 255,
+   "maker": "",
+   "about": [
+    "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates)."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates)."
+  },
+  {
    "id": "marketplace:vals",
    "name": "vals",
    "origin": "marketplace",
@@ -9686,23 +9703,6 @@
    "about": [],
    "descriptionOriginal": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite,...",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:valtown",
-   "name": "valtown",
-   "origin": "marketplace",
-   "description": "Bouw en implementeer Val Town. Bundelt de Val Town MCP server- en platformvaardigheden (HTTP vals, cron/intervals, SQLite,...",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/valtown",
-   "source": "https://github.com/val-town/plugins",
-   "verified": false,
-   "installs": 255,
-   "maker": "Val Town",
-   "about": [
-    "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates)."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite,..."
   },
   {
    "id": "marketplace:valuation-reviewer",
@@ -9885,8 +9885,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Advisor workflows for Wealthbox CRM: onboarding data orchestration, client service request tracking, recommendation and suitability records, client meeting preparation, and identifying clients affected by external changes."
+   "descriptionOriginal": "Advisor workflows for Wealthbox CRM: onboarding data orchestration, client service request tracking, recommendation and suitability records, client meeting preparation, and identifying clients affected by external changes.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:web-artifacts-builder",
@@ -10058,8 +10058,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Plugin source"
+   "descriptionOriginal": "Plugin source",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:writing-skills",
@@ -10307,29 +10307,42 @@
   "official:pptx",
   "official:web-artifacts-builder",
   "official:canvas-design",
-  "official:claude-api"
+  "official:claude-api",
+  "official:webapp-testing"
  ],
- "updated": "2026-10-31T20:11:34.673109+00:00",
+ "updated": "2026-11-01T20:43:37.663863+00:00",
  "tonight": {
-  "date": "2026-10-31",
-  "id": "official:claude-api",
+  "date": "2026-11-01",
+  "id": "official:webapp-testing",
   "text": [
-   "LLM-aangedreven applicaties bouwen met Claude",
-   "Deze skill helpt je bij het bouwen van LLM-aangedreven applicaties met Claude. Kies het juiste oppervlak op basis van uw behoeften, detecteer de projecttaal en lees vervolgens de relevante taalspecifieke documentatie.",
-   "Scan het doelbestand (of, als er geen doelbestand is, de prompt en het project) op niet-antropische providermarkeringen - `import openai`, `from openai`, `langchain_openai`, `OpenAI(`, `gpt-4`, `gpt-5`, bestandsnamen zoals `agent-openai.py` of `*-generic.py`, of een expliciete instructie om de codeprovider neutraal te houden. Als u er een vindt, stop dan en vertel de gebruiker dat deze skill oplevert Claude/Anthropic SDK-code; vraag of ze het bestand naar Claude willen overschakelen of een niet-Claude-implementatie willen. Bewerk geen niet-Anthropic SDK-aanroepen.",
-   "Wanneer de gebruiker u vraagt een Claude-functie toe te voegen, te wijzigen of te implementeren, moet uw code Claude aanroepen via een van:",
-   "De officiële Anthropic SDK voor de taal van het project (`anthropic`, `@anthropic-ai/sdk`, `com.anthropic.*`, etc.). Dit is de standaardwaarde wanneer er een ondersteunde SDK voor het project bestaat. Raw HTTP (`curl`, `requests`, `fetch`, `httpx`, etc.) - alleen wanneer de gebruiker expliciet om cURL/REST/raw HTTP vraagt, is het project een shell/cURL-project, of heeft de taal geen officiële SDK.",
-   "Combineer deze twee nooit - grijp niet naar `requests`/`fetch` in een Python- of TypeScript-project alleen maar omdat het lichter aanvoelt. Val nooit meer terug op OpenAI-compatibele shims.",
-   "Raad nooit het SDK-gebruik. Functienamen, klassenamen, naamruimten, methodehandtekeningen en importpaden moeten afkomstig zijn uit expliciete documentatie - ofwel de `{lang}/`-bestanden in deze skill of de officiële SDK-opslagplaatsen of documentatielinks vermeld in `shared/live-sources.md`. Als de binding die u nodig hebt niet expliciet is gedocumenteerd in de vaardigheidsbestanden, haalt WebFetch de relevante SDK-opslagplaats op uit `shared/live-sources.md` voordat u code schrijft. Leid Ruby/Java/Go/PHP/C# API's niet af van cURL-vormen of van de SDK van een andere taal."
+   "Om lokale webapplicaties te testen, schrijft u native Python Playwright-scripts.",
+   "Helperscripts beschikbaar: `scripts/with_server.py` - Beheert de levenscyclus van de server (ondersteunt meerdere servers)",
+   "Voer altijd eerst scripts uit met `--help` om het gebruik te zien. Lees de broncode NIET totdat u eerst het script probeert uit te voeren en ontdekt dat een oplossing op maat absoluut noodzakelijk is. Deze scripts kunnen erg groot zijn en zo uw contextvenster vervuilen. Ze bestaan om rechtstreeks als black-box-scripts te worden aangeroepen in plaats van te worden opgenomen in uw contextvenster.",
+   "Beslissingsboom: uw aanpak kiezen",
+   "Om een server te starten, voert u eerst `--help` uit en gebruikt u vervolgens de helper:",
+   "Meerdere servers (bijvoorbeeld backend + frontend):",
+   "Als u een automatiseringsscript wilt maken, neemt u alleen Playwright-logica op (servers worden automatisch beheerd):",
+   "Verkenning-dan-actiepatroon",
+   "Identificeer selectors op basis van inspectieresultaten",
+   "Voer acties uit met behulp van ontdekte selectors",
+   "❌ Inspecteer de DOM niet voordat u wacht op `networkidle` op dynamische apps ✅ Wacht op `page.wait_for_load_state('networkidle')` vóór inspectie",
+   "Gebruik gebundelde scripts als zwarte dozen - Om een taak te volbrengen, overweeg of een van de scripts die beschikbaar zijn in `scripts/` kan helpen. Deze scripts kunnen op betrouwbare wijze algemene, complexe workflows verwerken zonder het contextvenster onoverzichtelijk te maken. Gebruik `--help` om het gebruik te zien en roep vervolgens direct aan. Gebruik `sync_playwright()` voor synchrone scripts Sluit altijd de browser als u klaar bent Gebruik beschrijvende selectors: `text=`, `role=`, CSS-selectors of ID's Voeg geschikte wachttijden toe: `page.wait_for_selector()` of `page.wait_for_timeout()`",
+   "voorbeelden/ - Voorbeelden die algemene patronen laten zien: `element_discovery.py` - Knoppen, links en invoer op een pagina ontdekken `static_html_automation.py` - File:// URL's gebruiken voor lokale HTML `console_logging.py` - Consolelogboeken vastleggen tijdens automatisering"
   ],
   "textOriginal": [
-   "Building LLM-Powered Applications with Claude",
-   "This skill helps you build LLM-powered applications with Claude. Choose the right surface based on your needs, detect the project language, then read the relevant language-specific documentation.",
-   "Scan the target file (or, if no target file, the prompt and project) for non-Anthropic provider markers - `import openai`, `from openai`, `langchain_openai`, `OpenAI(`, `gpt-4`, `gpt-5`, file names like `agent-openai.py` or `*-generic.py`, or any explicit instruction to keep the code provider-neutral. If you find any, stop and tell the user that this skill produces Claude/Anthropic SDK code; ask whether they want to switch the file to Claude or want a non-Claude implementation. Do not edit a non-Anthropic file with Anthropic SDK calls. (Exception: the `prompt-audit` subcommand is…",
-   "When the user asks you to add, modify, or implement a Claude feature, your code must call Claude through one of:",
-   "The official Anthropic SDK for the project's language (`anthropic`, `@anthropic-ai/sdk`, `com.anthropic.*`, etc.). This is the default whenever a supported SDK exists for the project. Raw HTTP (`curl`, `requests`, `fetch`, `httpx`, etc.) - only when the user explicitly asks for cURL/REST/raw HTTP, the project is a shell/cURL project, or the language has no official SDK.",
-   "Never mix the two - don't reach for `requests`/`fetch` in a Python or TypeScript project just because it feels lighter. Never fall back to OpenAI-compatible shims.",
-   "Never guess SDK usage. Function names, class names, namespaces, method signatures, and import paths must come from explicit documentation - either the `{lang}/` files in this skill or the official SDK repositories or documentation links listed in `shared/live-sources.md`. If the binding you need is not explicitly documented in the skill files, WebFetch the relevant SDK repo from `shared/live-sources.md` before writing code. Do not infer Ruby/Java/Go/PHP/C# APIs from cURL shapes or from another language's SDK."
+   "To test local web applications, write native Python Playwright scripts.",
+   "Helper Scripts Available: `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)",
+   "Always run scripts with `--help` first to see usage. DO NOT read the source until you try running the script first and find that a customized solution is abslutely necessary. These scripts can be very large and thus pollute your context window. They exist to be called directly as black-box scripts rather than ingested into your context window.",
+   "Decision Tree: Choosing Your Approach",
+   "To start a server, run `--help` first, then use the helper:",
+   "Multiple servers (e.g., backend + frontend):",
+   "To create an automation script, include only Playwright logic (servers are managed automatically):",
+   "Reconnaissance-Then-Action Pattern",
+   "Identify selectors from inspection results",
+   "Execute actions using discovered selectors",
+   "❌ Don't inspect the DOM before waiting for `networkidle` on dynamic apps ✅ Do wait for `page.wait_for_load_state('networkidle')` before inspection",
+   "Use bundled scripts as black boxes - To accomplish a task, consider whether one of the scripts available in `scripts/` can help. These scripts handle common, complex workflows reliably without cluttering the context window. Use `--help` to see usage, then invoke directly. Use `sync_playwright()` for synchronous scripts Always close the browser when done Use descriptive selectors: `text=`, `role=`, CSS selectors, or IDs Add appropriate waits: `page.wait_for_selector()` or `page.wait_for_timeout()`",
+   "examples/ - Examples showing common patterns: `element_discovery.py` - Discovering buttons, links, and inputs on a page `static_html_automation.py` - Using file:// URLs for local HTML `console_logging.py` - Capturing console logs during automation"
   ]
  }
 }
