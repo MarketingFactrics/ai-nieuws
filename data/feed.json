@@ -1,6 +1,75 @@
 {
  "editions": [
   {
+   "date": "2026-11-03",
+   "items": [
+    {
+     "id": "web:https://claude.com/resources/articles/message-threads",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "Maak langlopende agenten sneller met berichtenthreads",
+     "url": "https://claude.com/resources/articles/message-threads",
+     "published": "2026-11-02T00:00:00+00:00",
+     "summary": "Nieuw in de Berichten-API: stuur uw gesprek één keer en de API ontvangt elke beurt alleen wat nieuw is.",
+     "image": "https://claude.com/resources/articles/message-threads/opengraph-image/og",
+     "titleOriginal": "Make long-running agents faster with message threads",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50339494",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Het interne AI-gebruik van Anthropic, tegen verkoopprijzen, overschrijdt nu het loon van de werknemers",
+     "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+     "published": "2026-11-02T16:40:29+00:00",
+     "summary": "276 punten · 231 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50339494",
+     "score": 276,
+     "titleOriginal": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50337439",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Anthropic rapporteert een omzet van $17 miljard in het derde kwartaal, met toezeggingen van $895 miljard in de herziene S-1",
+     "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+     "published": "2026-11-02T14:38:45+00:00",
+     "summary": "226 punten · 257 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50337439",
+     "score": 226,
+     "titleOriginal": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xlkghv",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Opus 5.5 overleeft de hele AI-releasecyclus van oktober 😂",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlkghv/opus_55_surviving_the_entire_october_ai_release/",
+     "published": "2026-11-02T01:36:54+00:00",
+     "summary": "Ik ben benieuwd wat jullie ervan vinden. Voor degenen die Claude Code regelmatig gebruiken: is Opus 5.5 nog steeds uw favoriete model? Of is uw ervaring de afgelopen maand veranderd? Credit: video gedeeld door TekonBurns op X. ingediend door /u/Disastrous-Fee9734 [link] [opmerkingen]",
+     "image": "https://external-preview.redd.it/OWdxMGJobzhzM3poMdxjX-GahTXJ19uxJOTzbS5B9K2crQer2XNiKUd00dBv.png?width=640&crop=smart&auto=webp&s=4f5c93a1fbe89f2dc190a66c9b537515483f4e7c",
+     "score": 100,
+     "titleOriginal": "Opus 5.5 surviving the entire October AI release cycle 😂",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xllzsf",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "“Repareer nu alle fouten die je hebt gemaakt”",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xllzsf/now_fix_all_mistakes_youve_made/",
+     "published": "2026-11-02T02:53:15+00:00",
+     "summary": "Maar serieus, ik begon heel voorzichtig te zijn, maar Opus5.5 blijft het goed doen, ik kan het niet helpen, maar ik vertrouw er meer op dan zou moeten. Zijn er meer mensen die in dit patroon vervallen? ingediend door /u/HarshNoiseX [link] [opmerkingen]",
+     "image": "https://external-preview.redd.it/azlhbWp1d3Q1NHpoMbFbbKwiA0QDr91GYoAKnLdpwLW6iyyRS1A9vy3WO8nh.png?width=640&crop=smart&auto=webp&s=9f32f419f11333ca4abfe156abaf8a3b5efd47ff",
+     "score": 99,
+     "titleOriginal": "“Now fix all mistakes you’ve made”",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-01",
    "items": [
     {
@@ -1134,6 +1203,7 @@
     "https://claude.com/resources/articles/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
     "https://claude.com/resources/articles/memory",
     "https://claude.com/resources/articles/message-batches-api",
+    "https://claude.com/resources/articles/message-threads",
     "https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
     "https://claude.com/resources/articles/multi-agent-coordination-patterns",
     "https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
@@ -1242,6 +1312,8 @@
    "hn:50311311",
    "hn:50319358",
    "hn:50320255",
+   "hn:50337439",
+   "hn:50339494",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -1321,6 +1393,16 @@
    "reddit:t3_1xl5wab",
    "reddit:t3_1xl7cyr",
    "reddit:t3_1xlc0v6",
+   "reddit:t3_1xlkghv",
+   "reddit:t3_1xllzsf",
+   "reddit:t3_1xlm85t",
+   "reddit:t3_1xlqmtr",
+   "reddit:t3_1xlr3u8",
+   "reddit:t3_1xls4cj",
+   "reddit:t3_1xlz6m8",
+   "reddit:t3_1xm1rhy",
+   "reddit:t3_1xm2sej",
+   "reddit:t3_1xm5vdp",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -1356,6 +1438,7 @@
    "web:https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
    "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
    "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+   "web:https://claude.com/resources/articles/message-threads",
    "web:https://claude.com/resources/articles/organization-skills-and-directory",
    "web:https://claude.com/resources/articles/preparing-your-security-program-for-ai-accelerated-offense",
    "web:https://claude.com/resources/articles/preview-review-and-merge-with-claude-code",
@@ -1491,7 +1574,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-01T20:43:11.438712+00:00"
+  "last_run": "2026-11-02T23:39:13.973516+00:00"
  },
- "generated": "2026-11-01T20:43:11.438712+00:00"
+ "generated": "2026-11-02T23:39:13.973516+00:00"
 }

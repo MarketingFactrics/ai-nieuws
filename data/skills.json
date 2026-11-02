@@ -387,7 +387,7 @@
   },
   {
    "id": "marketplace:alloydb-omni",
-   "name": "alloydb-omni",
+   "name": "AlloyDB Omni",
    "origin": "marketplace",
    "description": "Maak, maak verbinding en communiceer met een AlloyDB Omni-database en -gegevens.",
    "category": "Data & analyse",
@@ -399,25 +399,25 @@
    "about": [
     "Create, connect, and interact with an AlloyDB Omni database and data."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create, connect, and interact with an AlloyDB Omni database and data."
+   "descriptionOriginal": "Create, connect, and interact with an AlloyDB Omni database and data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:altimate-code",
-   "name": "altimate-code",
+   "name": "Altimate Code",
    "origin": "marketplace",
-   "description": "Delegeert dbt- en magazijnwerk aan altimate-code, een gespecialiseerde CLI-agent met meer dan 100 speciaal gebouwde datatools (SQL en...",
-   "category": "Data & analyse",
+   "description": "Delegeert dbt- en magazijnwerk aan altimate-code, een gespecialiseerde CLI-agent met meer dan 100 speciaal gebouwde datatools (SQL-analyse, afstamming op kolomniveau, dbt build/test/run, magazijnprofilering, FinOps, connectiviteit met Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB).",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/altimate-code",
-   "source": "https://github.com/AltimateAI/altimate-claude-plugin",
-   "verified": false,
+   "source": "https://github.com/altimateai/altimate-claude-plugin/tree/b7c8f68b3dfd303ab3ccf2f43934098811dfe2aa/plugins/altimate-code",
+   "verified": true,
    "installs": 33,
-   "maker": "AltimateAI",
+   "maker": "",
    "about": [
     "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB)."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL an..."
+   "descriptionOriginal": "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB)."
   },
   {
    "id": "marketplace:amazon-location-service",
@@ -490,7 +490,7 @@
   },
   {
    "id": "marketplace:amplitude-experimental",
-   "name": "amplitude-experimental",
+   "name": "Amplitude Experimental",
    "origin": "marketplace",
    "description": "Experimentele skills van Amplitude.",
    "category": "Overig",
@@ -500,8 +500,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Experimental skills from Amplitude."
+   "descriptionOriginal": "Experimental skills from Amplitude.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ando",
@@ -641,8 +641,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Arcjet is the runtime security platform that ships in your AI code. Detect prompt injection, authorize agent tool calls, redact sensitive data, and block bots and abuse. Real-time security building blocks you call inside your app, before an action happens."
+   "descriptionOriginal": "Arcjet is the runtime security platform that ships in your AI code. Detect prompt injection, authorize agent tool calls, redact sensitive data, and block bots and abuse. Real-time security building blocks you call inside your app, before an action happens.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:article-extractor",
@@ -1475,8 +1475,8 @@
     "The plugin includes a guided site builder that takes you from an idea to a working site. There's also a site auditor that checks accessibility, design, and performance. It fixes what it finds, then re-checks until everything passes. Skills for WooCommerce and Jetpack let you add commerce, preview, and deploy.",
     "Ask Claude to build WordPress projects and the right skills activate automatically. Try prompts like \"I need a custom block that displays team member cards,\" \"Help me plan a WooCommerce store for my bakery,\" \"I want my site to feel more modern and clean,\" or \"Check my site for accessibility and performance issues.\" Works with WordPress Studio for previews and deployment."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Craft production-grade WordPress sites and applications. Everything from themes and plugins to commerce and deployment."
+   "descriptionOriginal": "Craft production-grade WordPress sites and applications. Everything from themes and plugins to commerce and deployment.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:building-blog",
@@ -1911,17 +1911,17 @@
    "description": "Analyseer codebases en adviseer op maat gemaakte Claude Code-automatiseringen, zoals hooks, skills, MCP-servers en subagenten.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/claude-code-setup",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/claude-code-setup",
    "verified": true,
    "installs": 195067,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Claude Code Setup analyzes your codebase and recommends tailored Claude Code automations to supercharge your development workflow. It examines your project structure, dependencies, and patterns to suggest the most valuable integrations across five categories: MCP servers, skills, hooks, subagents, and slash commands.",
     "The plugin operates in read-only mode, providing expert recommendations without modifying your files. It detects your project type by examining package.json, language files, and directory structure, then generates targeted suggestions based on your specific tech stack—for example, recommending Playwright MCP for React projects or security-reviewer subagents when it detects authentication code.",
     "Invoke the automation recommender with prompts like \"recommend automations for this project\", \"help me set up Claude Code\", or \"what hooks should I use?\" The plugin will analyze your codebase and surface the top 1-2 highest-value recommendations per category. Ask for a specific type (e.g., \"what MCP servers should I use?\") to get expanded lists of 3-5 options."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents."
+   "descriptionOriginal": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:claude-code-terminal-title",
@@ -2038,20 +2038,20 @@
   },
   {
    "id": "marketplace:clickhouse",
-   "name": "clickhouse",
+   "name": "ClickHouse",
    "origin": "marketplace",
-   "description": "Verbind Claude met uw ClickHouse Cloud-databases. Blader door organisaties, services, databases en tabelschema's. Loop ...",
-   "category": "Data & analyse",
+   "description": "ClickHouse Claude Code-plug-in: skills (ClickHouse best practices), regels en MCP.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/clickhouse",
-   "source": "https://github.com/ClickHouse/clickhouse-claude-code-plugin",
-   "verified": false,
+   "source": "https://github.com/clickhouse/clickhouse-claude-code-plugin",
+   "verified": true,
    "installs": 1126,
-   "maker": "ClickHouse",
+   "maker": "",
    "about": [
     "Connect Claude to your ClickHouse Cloud databases. Browse organizations, services, databases, and table schemas. Run read-only SQL queries against your data and get instant analytical answers. Monitor service backups, review billing costs, and inspect ClickPipe configurations - all through natural conversation."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude to your ClickHouse Cloud databases. Browse organizations, services, databases, and table schemas. Run ..."
+   "descriptionOriginal": "ClickHouse Claude Code plugin: skills (ClickHouse best practices), rules and MCP."
   },
   {
    "id": "marketplace:clickhouse-best-practices",
@@ -2195,7 +2195,7 @@
   },
   {
    "id": "marketplace:cocounsel-legal",
-   "name": "cocounsel-legal",
+   "name": "CoCounsel Legal",
    "origin": "marketplace",
    "description": "CoCounsel Legal levert uitgebreide Westlaw Deep Research-rapporten met inline, gekoppelde citaten naar Westlaw- en Practical Law-bronnen.",
    "category": "Marketing & business",
@@ -2205,8 +2205,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CoCounsel Legal delivers comprehensive Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law sources."
+   "descriptionOriginal": "CoCounsel Legal delivers comprehensive Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law sources.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:codacy",
@@ -2227,20 +2227,20 @@
    "id": "marketplace:code-review",
    "name": "Code Review",
    "origin": "marketplace",
-   "description": "AI-codebeoordeling met gespecialiseerde agenten en op vertrouwen gebaseerde filtering voor pull-aanvragen",
+   "description": "Geautomatiseerde codebeoordeling voor pull-aanvragen met behulp van meerdere gespecialiseerde agenten met op vertrouwen gebaseerde scores",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/code-review",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/code-review",
    "verified": true,
    "installs": 438525,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Automates pull request code review using multiple specialized agents working in parallel. Five independent reviewers analyze your changes from different angles: CLAUDE.md compliance checking, bug detection, git history context analysis, previous PR comment review, and code comment verification. Each finding is scored on a 0-100 confidence scale, and only high-confidence issues (default threshold: 80) are posted as comments, dramatically reducing false positives and review noise.",
     "The plugin intelligently filters out PRs that don't need review—closed, draft, automated, or already-reviewed pull requests are automatically skipped. Comments include direct GitHub links with full SHA hashes and line number ranges for easy navigation to the exact code in question.",
     "on any PR branch to launch the full automated review. The system will analyze your changes, score potential issues, and post actionable feedback directly to GitHub. You can customize the confidence threshold or focus areas (security, performance, accessibility) by editing the command configuration."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI code review with specialized agents and confidence-based filtering for pull requests"
+   "descriptionOriginal": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring"
   },
   {
    "id": "marketplace:code-modernization",
@@ -2893,7 +2893,7 @@
   },
   {
    "id": "marketplace:databricks",
-   "name": "databricks",
+   "name": "Databricks",
    "origin": "marketplace",
    "description": "Databricks-skills voor de CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DAB's) en klassieke naar serverloze migratie.",
    "category": "Data & analyse",
@@ -2905,8 +2905,8 @@
    "about": [
     "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration."
+   "descriptionOriginal": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:datadog",
@@ -4788,7 +4788,7 @@
   },
   {
    "id": "marketplace:ip-legal",
-   "name": "ip-legal",
+   "name": "IP Legal",
    "origin": "marketplace",
    "description": "Voert first-pass goedkeuring van handelsmerken en triage uit over de vrijheid om te opereren, screent openbaarmakingen van uitvindingen op initiële octrooieerbaarheid, stelt concept- en triage-brieven en DMCA-verwijderingen op (verzenden en reageren), controleert de naleving van open source, beoordeelt IP-clausules en volgt registraties en verlengingsdeadlines.",
    "category": "Code review & testen",
@@ -4798,8 +4798,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines."
+   "descriptionOriginal": "Runs first-pass trademark clearance and freedom-to-operate triage, screens invention disclosures for initial patentability, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:jdtls-lsp",
@@ -4912,7 +4912,7 @@
   },
   {
    "id": "marketplace:knowledge-catalog",
-   "name": "knowledge-catalog",
+   "name": "Knowledge Catalog",
    "origin": "marketplace",
    "description": "Maak verbinding met Knowledge Catalog om gegevens en AI-artefacten op uw dataplatform te ontdekken, beheren, monitoren en beheren",
    "category": "Design & media",
@@ -5043,12 +5043,12 @@
   },
   {
    "id": "marketplace:laravel-boost",
-   "name": "laravel-boost",
+   "name": "Laravel Boost",
    "origin": "marketplace",
    "description": "Laravel ontwikkelingstoolkit MCP-server. Biedt intelligente ondersteuning voor Laravel-applicaties, waaronder Artisan-opdrachten, Eloquent-query's, routing, migraties en raamwerkspecifieke codegeneratie.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/laravel-boost",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/external_plugins/laravel-boost",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/external_plugins/laravel-boost",
    "verified": true,
    "installs": 21924,
    "maker": "",
@@ -5238,13 +5238,13 @@
    "id": "marketplace:legalzoom",
    "name": "LegalZoom",
    "origin": "marketplace",
-   "description": "AI beoordeelt juridische documenten op risico’s en adviseert wanneer u een advocaat moet inhuren. Maakt indien nodig verbinding met juridische professionals.",
+   "description": "LegalZoom Plugin - AI-aangedreven zakelijke juridische hulp met contractbeoordeling en advies van advocaten",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/legalzoom",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/legalzoom/claude-plugins/tree/f9fd8a0ca6e1421bc1aacb113a109663a7a6f6d8/plugins/legalzoom",
+   "verified": true,
    "installs": 4371,
-   "maker": "LegalZoom",
+   "maker": "",
    "about": [
     "AI-powered legal assistance for business and personal needs. The LegalZoom plugin provides contract review with automated risk assessment, identifies critical clauses and potential issues using a RED/YELLOW/GREEN risk framework, and connects you to LegalZoom's network of licensed attorneys when professional expertise is needed. All AI-generated analysis includes confidence scores and clear disclaimers that it does not constitute legal advice.",
     "command analyzes contracts in PDF, DOCX, or pasted text. It classifies the agreement type, extracts the governing jurisdiction, and evaluates key provisions — liability, IP, confidentiality, payment terms, and more — flagging clauses that need negotiation and recommending attorney review when warranted.",
@@ -5252,7 +5252,7 @@
     "Paste or attach a contract and type"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI reviews legal documents for risks and advises when to hire an attorney. Connects to legal professionals when needed."
+   "descriptionOriginal": "LegalZoom Plugin - AI-powered business legal assistance with contract review and attorney consultation"
   },
   {
    "id": "marketplace:letmewatch",
@@ -5339,7 +5339,7 @@
   },
   {
    "id": "marketplace:logfire",
-   "name": "logfire",
+   "name": "Logfire",
    "origin": "marketplace",
    "description": "Voeg Logfire-waarneembaarheid toe aan Python-applicaties met automatische instrumentatie voor FastAPI, httpx, asyncpg, SQLAlchemy, een...",
    "category": "Data & analyse",
@@ -5351,8 +5351,8 @@
    "about": [
     "Add Logfire observability to Python applications with auto-instrumentation for FastAPI, httpx, asyncpg, SQLAlchemy, and more"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Add Logfire observability to Python applications with auto-instrumentation for FastAPI, httpx, asyncpg, SQLAlchemy, a..."
+   "descriptionOriginal": "Add Logfire observability to Python applications with auto-instrumentation for FastAPI, httpx, asyncpg, SQLAlchemy, a...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:logrocket",
@@ -5395,13 +5395,13 @@
    "id": "marketplace:lovable",
    "name": "Lovable",
    "origin": "marketplace",
-   "description": "Bouw, herhaal, implementeer en beheer Lovable-apps van Claude Code. Bundelt de officiële Lovable MCP-server (op afstand,...",
-   "category": "Ontwikkeling",
+   "description": "Bouw, herhaal, implementeer en beheer Lovable-apps van Claude Code. Bundelt de officiële Lovable MCP-server (extern, OAuth 2.1) en voegt gerichte opdrachten toe voor de algemene build/iterate/database-workflows, met aanwijzingen voor krediet- en publicatieveiligheid.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/lovable",
    "source": "https://github.com/lovablelabs/mcp",
-   "verified": false,
+   "verified": true,
    "installs": 1057,
-   "maker": "Lovable",
+   "maker": "",
    "about": [
     "Build, iterate on, deploy, and manage full-stack Lovable apps without leaving Claude Code. This plugin bundles the official Lovable MCP server (remote, OAuth 2.1 — no API keys to configure) and adds focused commands for the most common workflows: creating new apps, sending change requests, managing Cloud Postgres databases, and publishing to live URLs.",
     "The plugin connects to Lovable's AI-powered app builder through three streamlined commands.",
@@ -5409,7 +5409,7 @@
     "sends change requests to an existing project, shows unified diffs for review, and lets you continue refining or publish."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, iterate on, deploy, and manage Lovable apps from Claude Code. Bundles the official Lovable MCP server (remote,..."
+   "descriptionOriginal": "Build, iterate on, deploy, and manage Lovable apps from Claude Code. Bundles the official Lovable MCP server (remote, OAuth 2.1) and adds focused commands for the common build/iterate/database workflows, with credit- and publish-safety prompts."
   },
   {
    "id": "marketplace:lseg",
@@ -6030,8 +6030,8 @@
     "The skill activates automatically when your agent works on web UI, layout, scroll/motion features, performance optimization, or Web APIs. You can also invoke it directly:",
     "Ask your agent to implement a feature — e.g.,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Keep your coding agent up to date with the latest web best practices"
+   "descriptionOriginal": "Keep your coding agent up to date with the latest web best practices",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:monday-crm",
@@ -6054,16 +6054,16 @@
    "id": "marketplace:monday-com",
    "name": "monday.com",
    "origin": "marketplace",
-   "description": "Neem uw monday.com-werk mee in elk Cowork-gesprek. Beheer taken, bekijk de projectstatus, werk samen aan documenten met live gegevens en bouw formulieren - voor werkbeheer, CRM, ontwikkeling en service. Allemaal via natuurlijke taal, beveiligd met OAuth.",
-   "category": "Data & analyse",
+   "description": "De officiële monday.com-plug-in voor Claude Cowork. Beheer borden, items, documenten en formulieren voor werkbeheer, CRM, ontwikkelaars, services en campagnes. Volledige lees- en schrijftoegang via OAuth.",
+   "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/monday-com",
    "source": "https://github.com/mondaycom/monday-claude-cowork-plugin",
    "verified": true,
    "installs": 0,
-   "maker": "monday.com",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Bring your monday.com work into every Cowork conversation. Manage tasks, surface project status, collaborate on docs with live data, and build forms - across work management, CRM, dev and service. All through natural language, secured with OAuth."
+   "descriptionOriginal": "The official monday.com plugin for Claude Cowork. Manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns. Full read and write access via OAuth."
   },
   {
    "id": "marketplace:mongodb",
@@ -6183,20 +6183,20 @@
   },
   {
    "id": "marketplace:neon",
-   "name": "neon",
+   "name": "Neon",
    "origin": "marketplace",
-   "description": "Beheer uw Neon-projecten en databases met de neon-postgres-agentvaardigheid en de Neon MCP-server.",
-   "category": "Data & analyse",
+   "description": "Beheer uw Neon-backend met de Neon-agentvaardigheden en de Neon MCP-server: Lakebase Postgres, vertakkingen, objectopslag, functies en de AI Gateway",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/neon",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/neondatabase/agent-skills/tree/bfd013c352ed31b57a573e4f60263afc5fdd7f7a/plugins/neon-postgres",
+   "verified": true,
    "installs": 4049,
    "maker": "",
    "about": [
     "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server."
+   "descriptionOriginal": "Manage your Neon backend with the Neon agent skills and the Neon MCP Server: Lakebase Postgres, branching, Object Storage, Functions, and the AI Gateway"
   },
   {
    "id": "marketplace:netlify-skills",
@@ -6596,7 +6596,7 @@
   },
   {
    "id": "marketplace:oracledb",
-   "name": "oracledb",
+   "name": "OracleDB",
    "origin": "marketplace",
    "description": "Maak verbinding, bevraag en communiceer met Oracle Databases en hun gegevens.",
    "category": "Data & analyse",
@@ -6608,8 +6608,8 @@
    "about": [
     "Connect, query, and interact with Oracle Databases and their data."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect, query, and interact with Oracle Databases and their data."
+   "descriptionOriginal": "Connect, query, and interact with Oracle Databases and their data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ory-agent-plugin",
@@ -6914,13 +6914,13 @@
    "id": "marketplace:planetscale",
    "name": "PlanetScale",
    "origin": "marketplace",
-   "description": "Een geverifieerde gehoste MCP-server die toegang heeft tot uw PlanetScale-organisaties, databases, vestigingen, schema's en ins...",
+   "description": "Een geverifieerde gehoste MCP-server die toegang heeft tot uw PlanetScale-organisaties, databases, vestigingen, schema's en Insights-gegevens. Voer zoekopdrachten uit op uw gegevens, breng langzame zoekopdrachten naar boven en verkrijg organisatie- en accountinformatie.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/planetscale",
    "source": "https://github.com/planetscale/claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 2633,
-   "maker": "PlanetScale",
+   "maker": "",
    "about": [
     "Connect Claude directly to your PlanetScale databases with an authenticated MCP server. Browse your organizations, databases, branches, and schema. Run queries against your data, surface slow queries through PlanetScale Insights, and get organizational and account information — all from within Claude Code.",
     "The plugin also includes expert database skills for MySQL, PostgreSQL, Vitess, and PlanetScale's sharded Postgres offering (Neki). These skills give Claude deep knowledge of schema design, indexing strategies, query optimization, transaction handling, sharding patterns, VSchema setup, online DDL operations, and production-safe migration workflows.",
@@ -6928,7 +6928,7 @@
     "\"List all databases in my PlanetScale organization\""
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "An authenticated hosted MCP server that accesses your PlanetScale organizations, databases, branches, schema, and Ins..."
+   "descriptionOriginal": "An authenticated hosted MCP server that accesses your PlanetScale organizations, databases, branches, schema, and Insights data. Query against your data, surface slow queries, and get organizational and account information."
   },
   {
    "id": "marketplace:playground",
@@ -6983,7 +6983,7 @@
   },
   {
    "id": "marketplace:plugin-dev",
-   "name": "plugin-dev",
+   "name": "Plugin Developer Toolkit",
    "origin": "marketplace",
    "description": "Toolkit voor plug-inontwikkeling met skills voor het maken van agents, opdrachten, hooks, MCP-integraties en uitgebreide richtlijnen voor de plug-instructuur",
    "category": "Ontwikkeling",
@@ -7520,7 +7520,7 @@
   },
   {
    "id": "marketplace:quarkus-agent",
-   "name": "quarkus-agent",
+   "name": "Quarkus Agent",
    "origin": "marketplace",
    "description": "MCP-server voor AI-codeeragenten om Quarkus-applicaties te creëren, beheren en ermee te communiceren. Biedt tools voor projecten...",
    "category": "Ontwikkeling",
@@ -7936,13 +7936,13 @@
    "id": "marketplace:ruby-lsp",
    "name": "Ruby LSP",
    "origin": "marketplace",
-   "description": "Ruby-taalserver voor code-intelligentie en -analyse",
+   "description": "Ruby-taalserver voor Claude Code, die code-intelligentie en -analyse biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/ruby-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ruby-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/ruby-lsp",
    "verified": true,
    "installs": 8903,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Integrates the Ruby Language Server into Claude Code, providing rich code intelligence and analysis for Ruby projects. Supports",
     "files with features like go-to-definition, hover documentation, code completion, signature help, and diagnostics. Built on Shopify's open-source Ruby LSP implementation, it brings a full-featured Ruby development experience directly into your workflow.",
@@ -7950,7 +7950,7 @@
     "Analysis features surface syntax errors and linting violations inline, while formatting support keeps your code consistent on save or on demand — including range formatting and on-type completion of"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ruby language server for code intelligence and analysis"
+   "descriptionOriginal": "Ruby language server for Claude Code, providing code intelligence and analysis."
   },
   {
    "id": "marketplace:runpod",
@@ -7986,20 +7986,20 @@
    "id": "marketplace:rust-analyzer-lsp",
    "name": "Rust Analyzer LSP",
    "origin": "marketplace",
-   "description": "Rust-taalserver voor code-intelligentie en -analyse",
+   "description": "Rust-taalserver voor Claude Code, die code-intelligentie en -analyse biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/rust-analyzer-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/rust-analyzer-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/rust-analyzer-lsp",
    "verified": true,
    "installs": 35933,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Rust Analyzer LSP integrates the official Rust language server with Claude Code, providing powerful code intelligence and analysis for Rust projects. It delivers IDE-quality features including go-to-definition, find-all-references, intelligent code completion, and real-time diagnostics from rustc and clippy.",
     "The plugin supports refactoring operations, integrated rustfmt formatting, and comprehensive code navigation for .rs files. It leverages the same rust-analyzer engine used by VS Code, Vim, Emacs, and other major editors.",
     "Once installed (via rustup, Homebrew, or your package manager), the plugin automatically activates when working with Rust files. Ask Claude to \"analyze this Rust code\", \"find all references to this function\", \"go to the definition of this struct\", or \"check for clippy warnings in my project\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Rust language server for code intelligence and analysis"
+   "descriptionOriginal": "Rust language server for Claude Code, providing code intelligence and analysis."
   },
   {
    "id": "marketplace:sp-global",
@@ -8293,8 +8293,8 @@
     "The plugin connects to Semgrep's MCP server, giving Claude access to Semgrep's full analysis capabilities including SAST (static application security testing), SCA (software composition analysis), and secrets detection — all powered by Semgrep's extensive rule library with minimal false positives.",
     "/semgrep-plugin:setup_semgrep_plugin"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start."
+   "descriptionOriginal": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:semgrep-guardian",
@@ -8881,7 +8881,7 @@
   },
   {
    "id": "marketplace:streaming-skills-plugin",
-   "name": "streaming-skills-plugin",
+   "name": "Streaming Skills Plugin",
    "origin": "marketplace",
    "description": "Skills voor ontwikkelaars van streamingapplicaties, waaronder Kafka- en Flink-clientbibliotheken en Schema Registry",
    "category": "Ontwikkeling",
@@ -8891,8 +8891,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry"
+   "descriptionOriginal": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:stripe",
@@ -8901,18 +8901,18 @@
    "description": "Stripe-ontwikkelingsplug-in voor Claude",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/stripe",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/stripe",
-   "verified": false,
+   "source": "https://github.com/stripe/ai/tree/b3ab9149225f837894b7de08c1b14650d7cc64eb/providers/claude/plugin",
+   "verified": true,
    "installs": 61066,
-   "maker": "Stripe",
+   "maker": "",
    "about": [
     "The Stripe plugin connects Claude to Stripe's MCP server, enabling AI-assisted payment integration development. It provides best practices guidance for implementing checkout flows, subscriptions, webhooks, and Connect platforms while helping you avoid deprecated APIs and follow Stripe's recommended patterns.",
     "Key features include error explanation with code examples in your programming language, test card references organized by scenario, and guidance on modern Stripe APIs like CheckoutSessions, PaymentIntents, and Billing APIs. The plugin steers you toward Stripe-hosted checkout and Payment Element while warning against legacy patterns like the Charges API.",
     "followed by a Stripe error code or message to get plain English explanations, common causes, and remediation code. Use",
     "to quickly access test card numbers for different scenarios like declined payments, 3D Secure, or fraud testing. Ask Claude about Stripe best practices when implementing payment flows, and it will guide you using Stripe's recommended CheckoutSessions API and modern payment methods."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Stripe development plugin for Claude"
+   "descriptionOriginal": "Stripe development plugin for Claude",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:subagent-driven-development",
@@ -9562,8 +9562,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Author and manage Unbounce landing pages through Unbounce MCP."
+   "descriptionOriginal": "Author and manage Unbounce landing pages through Unbounce MCP.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:unity",
@@ -9981,7 +9981,7 @@
   },
   {
    "id": "marketplace:wix",
-   "name": "wix",
+   "name": "Wix",
    "origin": "marketplace",
    "description": "Bouw, beheer en implementeer Wix-sites en -apps. Inclusief CLI-ontwikkelvaardigheden en Wix MCP-server voor sitebeheer, e-commerce, CMS, dashboardextensies en meer.",
    "category": "Ontwikkeling",
@@ -9996,8 +9996,8 @@
     "Ask Claude to build features for your Wix CLI app and the orchestrator skill automatically activates. Try prompts like:",
     "\"Create a dashboard page for managing customer orders\" · \"Add a backend API endpoint for handling form submissions\" · \"Build a site widget that displays a product carousel\" · \"Add a service plugin for custom shipping rate calculations\" · \"Set up a data collection for storing user reviews\" · \"Create a dashboard modal for editing product details\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, manage, and deploy Wix sites and apps. Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more."
+   "descriptionOriginal": "Build, manage, and deploy Wix sites and apps. Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:workday-developer-agent-for-claude",
@@ -10308,41 +10308,32 @@
   "official:web-artifacts-builder",
   "official:canvas-design",
   "official:claude-api",
-  "official:webapp-testing"
+  "official:webapp-testing",
+  "official:pdf"
  ],
- "updated": "2026-11-01T20:43:37.663863+00:00",
+ "updated": "2026-11-02T23:39:38.162355+00:00",
  "tonight": {
-  "date": "2026-11-01",
-  "id": "official:webapp-testing",
+  "date": "2026-11-02",
+  "id": "official:pdf",
   "text": [
-   "Om lokale webapplicaties te testen, schrijft u native Python Playwright-scripts.",
-   "Helperscripts beschikbaar: `scripts/with_server.py` - Beheert de levenscyclus van de server (ondersteunt meerdere servers)",
-   "Voer altijd eerst scripts uit met `--help` om het gebruik te zien. Lees de broncode NIET totdat u eerst het script probeert uit te voeren en ontdekt dat een oplossing op maat absoluut noodzakelijk is. Deze scripts kunnen erg groot zijn en zo uw contextvenster vervuilen. Ze bestaan om rechtstreeks als black-box-scripts te worden aangeroepen in plaats van te worden opgenomen in uw contextvenster.",
-   "Beslissingsboom: uw aanpak kiezen",
-   "Om een server te starten, voert u eerst `--help` uit en gebruikt u vervolgens de helper:",
-   "Meerdere servers (bijvoorbeeld backend + frontend):",
-   "Als u een automatiseringsscript wilt maken, neemt u alleen Playwright-logica op (servers worden automatisch beheerd):",
-   "Verkenning-dan-actiepatroon",
-   "Identificeer selectors op basis van inspectieresultaten",
-   "Voer acties uit met behulp van ontdekte selectors",
-   "❌ Inspecteer de DOM niet voordat u wacht op `networkidle` op dynamische apps ✅ Wacht op `page.wait_for_load_state('networkidle')` vóór inspectie",
-   "Gebruik gebundelde scripts als zwarte dozen - Om een taak te volbrengen, overweeg of een van de scripts die beschikbaar zijn in `scripts/` kan helpen. Deze scripts kunnen op betrouwbare wijze algemene, complexe workflows verwerken zonder het contextvenster onoverzichtelijk te maken. Gebruik `--help` om het gebruik te zien en roep vervolgens direct aan. Gebruik `sync_playwright()` voor synchrone scripts Sluit altijd de browser als u klaar bent Gebruik beschrijvende selectors: `text=`, `role=`, CSS-selectors of ID's Voeg geschikte wachttijden toe: `page.wait_for_selector()` of `page.wait_for_timeout()`",
-   "voorbeelden/ - Voorbeelden die algemene patronen laten zien: `element_discovery.py` - Knoppen, links en invoer op een pagina ontdekken `static_html_automation.py` - File:// URL's gebruiken voor lokale HTML `console_logging.py` - Consolelogboeken vastleggen tijdens automatisering"
+   "Deze handleiding behandelt essentiële PDF-verwerkingsbewerkingen met behulp van Python-bibliotheken en opdrachtregelprogramma's. Zie REFERENCE.md voor geavanceerde functies, JavaScript-bibliotheken en gedetailleerde voorbeelden. Als u een PDF-formulier moet invullen, lees dan FORMS.md en volg de instructies.",
+   "pdfplumber - Tekst- en tabelextractie",
+   "Maak een PDF met meerdere pagina's",
+   "BELANGRIJK: Gebruik nooit Unicode-subscript-/superscript-tekens (₀₁₂₃₄₅₆₇₈₉, ⁰¹²³⁴⁵⁶⁷⁸⁹) in ReportLab PDF's. De ingebouwde lettertypen bevatten deze glyphs niet, waardoor ze worden weergegeven als effen zwarte vakken.",
+   "Gebruik in plaats daarvan de XML-opmaaktags van ReportLab in Paragraafobjecten:",
+   "Voor op het canvas getekende tekst (geen alinea-objecten) past u de grootte en positie van het lettertype handmatig aan in plaats van Unicode-subscripts/superscripts te gebruiken.",
+   "Extraheer tekst uit gescande PDF's",
+   "Voor geavanceerd pypdfium2-gebruik, zie REFERENCE.md Voor JavaScript-bibliotheken (pdf-lib), zie REFERENCE.md Als u een PDF-formulier moet invullen, volgt u de instructies in FORMS.md. Zie REFERENCE.md voor handleidingen voor het oplossen van problemen"
   ],
   "textOriginal": [
-   "To test local web applications, write native Python Playwright scripts.",
-   "Helper Scripts Available: `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)",
-   "Always run scripts with `--help` first to see usage. DO NOT read the source until you try running the script first and find that a customized solution is abslutely necessary. These scripts can be very large and thus pollute your context window. They exist to be called directly as black-box scripts rather than ingested into your context window.",
-   "Decision Tree: Choosing Your Approach",
-   "To start a server, run `--help` first, then use the helper:",
-   "Multiple servers (e.g., backend + frontend):",
-   "To create an automation script, include only Playwright logic (servers are managed automatically):",
-   "Reconnaissance-Then-Action Pattern",
-   "Identify selectors from inspection results",
-   "Execute actions using discovered selectors",
-   "❌ Don't inspect the DOM before waiting for `networkidle` on dynamic apps ✅ Do wait for `page.wait_for_load_state('networkidle')` before inspection",
-   "Use bundled scripts as black boxes - To accomplish a task, consider whether one of the scripts available in `scripts/` can help. These scripts handle common, complex workflows reliably without cluttering the context window. Use `--help` to see usage, then invoke directly. Use `sync_playwright()` for synchronous scripts Always close the browser when done Use descriptive selectors: `text=`, `role=`, CSS selectors, or IDs Add appropriate waits: `page.wait_for_selector()` or `page.wait_for_timeout()`",
-   "examples/ - Examples showing common patterns: `element_discovery.py` - Discovering buttons, links, and inputs on a page `static_html_automation.py` - Using file:// URLs for local HTML `console_logging.py` - Capturing console logs during automation"
+   "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see REFERENCE.md. If you need to fill out a PDF form, read FORMS.md and follow its instructions.",
+   "pdfplumber - Text and Table Extraction",
+   "Create PDF with Multiple Pages",
+   "IMPORTANT: Never use Unicode subscript/superscript characters (₀₁₂₃₄₅₆₇₈₉, ⁰¹²³⁴⁵⁶⁷⁸⁹) in ReportLab PDFs. The built-in fonts do not include these glyphs, causing them to render as solid black boxes.",
+   "Instead, use ReportLab's XML markup tags in Paragraph objects:",
+   "For canvas-drawn text (not Paragraph objects), manually adjust font the size and position rather than using Unicode subscripts/superscripts.",
+   "Extract Text from Scanned PDFs",
+   "For advanced pypdfium2 usage, see REFERENCE.md For JavaScript libraries (pdf-lib), see REFERENCE.md If you need to fill out a PDF form, follow the instructions in FORMS.md For troubleshooting guides, see REFERENCE.md"
   ]
  }
 }
