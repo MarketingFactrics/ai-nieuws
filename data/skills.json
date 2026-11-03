@@ -10309,31 +10309,30 @@
   "official:canvas-design",
   "official:claude-api",
   "official:webapp-testing",
-  "official:pdf"
+  "official:pdf",
+  "official:xlsx"
  ],
- "updated": "2026-11-02T23:39:38.162355+00:00",
+ "updated": "2026-11-03T21:54:14.036398+00:00",
  "tonight": {
-  "date": "2026-11-02",
-  "id": "official:pdf",
+  "date": "2026-11-03",
+  "id": "official:xlsx",
   "text": [
-   "Deze handleiding behandelt essentiële PDF-verwerkingsbewerkingen met behulp van Python-bibliotheken en opdrachtregelprogramma's. Zie REFERENCE.md voor geavanceerde functies, JavaScript-bibliotheken en gedetailleerde voorbeelden. Als u een PDF-formulier moet invullen, lees dan FORMS.md en volg de instructies.",
-   "pdfplumber - Tekst- en tabelextractie",
-   "Maak een PDF met meerdere pagina's",
-   "BELANGRIJK: Gebruik nooit Unicode-subscript-/superscript-tekens (₀₁₂₃₄₅₆₇₈₉, ⁰¹²³⁴⁵⁶⁷⁸⁹) in ReportLab PDF's. De ingebouwde lettertypen bevatten deze glyphs niet, waardoor ze worden weergegeven als effen zwarte vakken.",
-   "Gebruik in plaats daarvan de XML-opmaaktags van ReportLab in Paragraafobjecten:",
-   "Voor op het canvas getekende tekst (geen alinea-objecten) past u de grootte en positie van het lettertype handmatig aan in plaats van Unicode-subscripts/superscripts te gebruiken.",
-   "Extraheer tekst uit gescande PDF's",
-   "Voor geavanceerd pypdfium2-gebruik, zie REFERENCE.md Voor JavaScript-bibliotheken (pdf-lib), zie REFERENCE.md Als u een PDF-formulier moet invullen, volgt u de instructies in FORMS.md. Zie REFERENCE.md voor handleidingen voor het oplossen van problemen"
+   "XLSX-creatie, bewerking en analyse",
+   "> `openpyxl`, `pandas` en `markitdown` zijn vooraf geïnstalleerd — voer `pip install` niet eerst uit; schrijf het script en importeer direct. Alleen als een import mislukt (of het `markitdown` commando ontbreekt): `pip install` het ontbrekende pakket.",
+   "> Onderstaande scriptpaden zijn relatief ten opzichte van de directory van deze skill.",
+   "Professioneel lettertype (Arial, Times New Roman), tenzij de gebruiker anders zegt. Geen formulefouten. Nooit verzenden terwijl `recalc.py` `errors_found` rapporteert. Als u denkt dat een fout ouder is dan u, bewijs deze dan: laad het *origineel* met `data_only=True` en kijk naar die cel. Een door u geïntroduceerde fout lijkt precies op een fout die u heeft geërfd. Gebruik formules, nooit hardgecodeerde resultaten. Schrijf `sheet['B10'] = '=SUM(B2:B9)'`, niet het door Python berekende totaal. Het blad moet opnieuw berekenen wanneer de invoer verandert. Volg de specificaties van de gebruiker letterlijk. Exacte tabbladnamen, exacte kolomkoppen en de formule...",
+   "Herberekenen (verplicht als het bestand formules bevat)",
+   "openpyxl schrijft formules als tekenreeksen zonder waarden in de cache. Totdat u opnieuw berekent, wordt elke formulecel teruggelezen als 'Geen' voor iets dat in de cache opgeslagen waarden leest - 'panda's', 'load_workbook(data_only=True)' en de meeste previewers.",
+   "LibreOffice berekent elke formule, het bestand wordt ter plekke herschreven en je krijgt JSON: `status` (`success` | `errors_found`), `total_formulas`, `total_errors`, en een `error_summary` met een naam van maximaal 100 cellen per fouttype (`locations_truncated` zegt hoeveel er is achtergehouden - vertrouw op `total_errors`, niet op de lengte van de lijst). Herstel de naam ervan en voer het opnieuw uit. JSON met een `error` sleutel in plaats van een `status` betekent dat er niets herberekend is, en alleen dat geval eindigt niet-nul - `errors_found` eindigt op 0, dus behandel een schone afsluiting nooit als een schone werkmap."
   ],
   "textOriginal": [
-   "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see REFERENCE.md. If you need to fill out a PDF form, read FORMS.md and follow its instructions.",
-   "pdfplumber - Text and Table Extraction",
-   "Create PDF with Multiple Pages",
-   "IMPORTANT: Never use Unicode subscript/superscript characters (₀₁₂₃₄₅₆₇₈₉, ⁰¹²³⁴⁵⁶⁷⁸⁹) in ReportLab PDFs. The built-in fonts do not include these glyphs, causing them to render as solid black boxes.",
-   "Instead, use ReportLab's XML markup tags in Paragraph objects:",
-   "For canvas-drawn text (not Paragraph objects), manually adjust font the size and position rather than using Unicode subscripts/superscripts.",
-   "Extract Text from Scanned PDFs",
-   "For advanced pypdfium2 usage, see REFERENCE.md For JavaScript libraries (pdf-lib), see REFERENCE.md If you need to fill out a PDF form, follow the instructions in FORMS.md For troubleshooting guides, see REFERENCE.md"
+   "XLSX creation, editing, and analysis",
+   "> `openpyxl`, `pandas`, and `markitdown` are preinstalled — do not run `pip install` first; write the script and import directly. Only if an import fails (or the `markitdown` command is missing): `pip install` the missing package.",
+   "> Script paths below are relative to this skill's directory.",
+   "Professional font (Arial, Times New Roman) throughout, unless the user says otherwise. Zero formula errors. Never ship while `recalc.py` reports `errors_found`. If you think an error predates you, prove it: load the *original* with `data_only=True` and look at that cell. An error you introduced looks exactly like one you inherited. Use formulas, never hardcoded results. Write `sheet['B10'] = '=SUM(B2:B9)'`, not the Python-computed total. The sheet must recalculate when its inputs change. Follow the user's spec literally. Exact tab names, exact column headers, and the formula…",
+   "Recalculate (mandatory whenever the file contains formulas)",
+   "openpyxl writes formulas as strings with no cached values. Until you recalculate, every formula cell reads back as `None` to anything reading cached values — `pandas`, `load_workbook(data_only=True)`, and most previewers.",
+   "LibreOffice computes every formula, the file is rewritten in place, and you get JSON: `status` (`success` | `errors_found`), `total_formulas`, `total_errors`, and an `error_summary` naming up to 100 cells per error type (`locations_truncated` says how many it withheld — trust `total_errors`, not the length of the list). Fix what it names and run it again. JSON with an `error` key instead of a `status` means nothing was recalculated, and only that case exits non-zero — `errors_found` exits 0, so never treat a clean exit as a clean workbook."
   ]
  }
 }
