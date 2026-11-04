@@ -1,6 +1,95 @@
 {
  "editions": [
   {
+   "date": "2026-11-04",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.318",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.318",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+     "published": "2026-11-04T00:01:03+00:00",
+     "summary": "Een record van uw antwoord toegevoegd wanneer Claude Code vraagt om de mods die het in een sessie schrijft in te schakelen · `assume_role` toegevoegd op `mantel` stroomopwaarts van de Claude Apps-gateway, voor een rol in een ander AWS-account en voor AWS-kostentoerekening per ontwikkelaar · Een `effort`-optie toegevoegd aan een...",
+     "bullets": [
+      "Een record van uw antwoord toegevoegd wanneer Claude Code vraagt om de mods die het in een sessie schrijft in te schakelen",
+      "`assume_role` toegevoegd aan `mantel` upstreams van de Claude apps-gateway, voor een rol in een ander AWS-account en voor AWS-kostentoeschrijving per ontwikkelaar",
+      "Een `effort` optie toegevoegd aan `$.model.fork` van een mod, zodat een snelle bijbaan op `laag` kan draaien, ongeacht de inspanning die de sessie kost; het resultaat geeft de verzonden inspanning weer",
+      "De datum waarop een opgeslagen claude.ai-aanmelding eindigt, is toegevoegd aan `claude auth status` (`loginExpiresAt`) en aan `claude -p` JSON-resultaten (`credential_expires_at`)",
+      "Een stderr-waarschuwing van één regel toegevoegd aan de tekstuitvoer `claude -p`, beginnend 10 dagen voordat een opgeslagen claude.ai-aanmelding eindigt",
+      "Probleem opgelost waarbij '--continu' soms het eerdere gesprek verloor nadat de nieuwe pogingen van een verkeerd ingedeelde tooloproep waren afgelopen (regressie in 2.1.314)",
+      "Een oplossing voor macOS-sessies waarbij veel actieve Bash-opdrachten vastliepen terwijl het geheugen groeide",
+      "Probleem opgelost dat toestemmingsprompts werden beantwoord door toetsen die werden getypt vlak na het verzenden van een bericht, of voordat een langzame prompt verscheen"
+     ],
+     "titleOriginal": "claude-code v2.1.318",
+     "lang": "nl"
+    },
+    {
+     "id": "web:https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "Nieuwe agenten en producten op Claude Marketplace",
+     "url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
+     "published": "2026-11-04T00:00:00+00:00",
+     "summary": "Ontdek nieuwe agenten en producten op Claude Marketplace die teams helpen met beveiliging, ontwikkelaarsinfrastructuur, creatief werk en productiviteit.",
+     "image": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace/opengraph-image/og",
+     "titleOriginal": "New agents and products on Claude Marketplace",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:kJA3fQnntpY",
+     "kind": "video-official",
+     "source": "Claude",
+     "title": "Werk samen aan artefacten in Claude",
+     "url": "https://www.youtube.com/watch?v=kJA3fQnntpY",
+     "published": "2026-11-04T18:18:25+00:00",
+     "summary": "Maak en deel artefacten in Claude, zodat uw team samen documenten, trackers en dashboards kan bewerken, rechtstreeks vanuit een chat. Deze walkthrough laat zien hoe u de toegangsniveaus voor elke teamgenoot kunt instellen, van kijker tot redacteur, en hoe de rollen van commentator en bijdrager werken op gedeelde trackers. Wanneer…",
+     "image": "https://i.ytimg.com/vi/kJA3fQnntpY/hqdefault.jpg",
+     "videoId": "kJA3fQnntpY",
+     "titleOriginal": "Collaborate on artifacts in Claude",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xnnqkg",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Laat me Claude Code-projecten zien die er NIET vibecoded uitzien",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
+     "published": "2026-11-04T13:06:41+00:00",
+     "summary": "aangezien iedereen hier vraagt welke tools, skills of MCP's ervoor zorgen dat de gebruikersinterface er minder \"door AI gegenereerd\" uitziet. Kunnen jullie mij voorbeelden geven van apps/websites die er dan niet zo uitzien? Wat proberen mensen zelfs hier te bereiken? Als er dit soort apps/websites zijn, waarom…",
+     "score": 100,
+     "titleOriginal": "Show me Claude Code projects that DON’T look vibecoded",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xn7jti",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Van een notitieboekjeschets tot een geanimeerde Godot-baas: 3D AI + Opus 5.5",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn7jti/from_a_notebook_sketch_to_an_animated_godot_boss/",
+     "published": "2026-11-03T22:40:11+00:00",
+     "summary": "Na mijn eerste post over After the Wind bleef ik in contact met de ontwikkelaar en vroeg hoe hij zijn personages maakt. Hij deelde het proces achter deze pinguïnbaas, van twee notitieboekjeschetsen tot een opgetuigd personage met 22 animaties. De stapel Claude Opus 5.5 + Blender —…",
+     "image": "https://external-preview.redd.it/bmd5aGR3ZGk1aHpoMXPkUATUGVmX00BplUI5h6QuJBgeJO4UfF4mxgl-gNFo.png?width=640&crop=smart&auto=webp&s=bf8760c6701ccdd7cf10915fa4557f1881c5f1e7",
+     "score": 99,
+     "titleOriginal": "From a notebook sketch to an animated Godot boss — 3D AI + Opus 5.5",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:ep4psgAFOqc",
+     "kind": "video",
+     "source": "Matt Wolfe",
+     "title": "Hoe ik Claude mijn video's laat bewerken (geen code nodig)",
+     "url": "https://www.youtube.com/watch?v=ep4psgAFOqc",
+     "published": "2026-11-04T16:40:16+00:00",
+     "summary": "Probeer vidIQ voor slechts $ 1 https://vidiq.com/mattwolfe/ Leer hoe u video's bewerkt met Claude AI, werkt met Premiere Pro en uw beeldmateriaal omzet in korte inhoud. In deze handleiding laat ik zien hoe je Claude kunt gebruiken om te helpen met videobewerking, van het werken met je bestaande beeldmateriaal...",
+     "image": "https://i.ytimg.com/vi/ep4psgAFOqc/hqdefault.jpg",
+     "videoId": "ep4psgAFOqc",
+     "titleOriginal": "How I Get Claude To Edit My Videos (No Code Needed)",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-03",
    "items": [
     {
@@ -1292,6 +1381,7 @@
     "https://claude.com/resources/articles/message-threads",
     "https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
     "https://claude.com/resources/articles/multi-agent-coordination-patterns",
+    "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
     "https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
     "https://claude.com/resources/articles/new-in-claude-managed-agents",
     "https://claude.com/resources/articles/observability-for-developers-building-connectors",
@@ -1376,6 +1466,7 @@
    "gh:anthropics/claude-code:v2.1.314",
    "gh:anthropics/claude-code:v2.1.316",
    "gh:anthropics/claude-code:v2.1.317",
+   "gh:anthropics/claude-code:v2.1.318",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -1404,6 +1495,7 @@
    "hn:50339494",
    "hn:50344919",
    "hn:50344958",
+   "hn:50350560",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -1513,6 +1605,16 @@
    "reddit:t3_1xn1rw5",
    "reddit:t3_1xn1urm",
    "reddit:t3_1xn2iq3",
+   "reddit:t3_1xn6tu3",
+   "reddit:t3_1xn7jti",
+   "reddit:t3_1xn7kpk",
+   "reddit:t3_1xnjnnx",
+   "reddit:t3_1xnk173",
+   "reddit:t3_1xnkv6c",
+   "reddit:t3_1xnnqkg",
+   "reddit:t3_1xnp02f",
+   "reddit:t3_1xnsbfn",
+   "reddit:t3_1xntyrv",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -1549,6 +1651,7 @@
    "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
    "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
    "web:https://claude.com/resources/articles/message-threads",
+   "web:https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
    "web:https://claude.com/resources/articles/organization-skills-and-directory",
    "web:https://claude.com/resources/articles/preparing-your-security-program-for-ai-accelerated-offense",
    "web:https://claude.com/resources/articles/preview-review-and-merge-with-claude-code",
@@ -1660,6 +1763,7 @@
    "yt:djVUCj5i4sw",
    "yt:eBszYxzE2dk",
    "yt:en0GuyhieQk",
+   "yt:ep4psgAFOqc",
    "yt:ezCmuRCAVXY",
    "yt:fdtkh30oFA8",
    "yt:gNMN-7D9130",
@@ -1670,6 +1774,7 @@
    "yt:jeUgtyvvkfs",
    "yt:jouKaJ4qlAg",
    "yt:k3t3catymeM",
+   "yt:kJA3fQnntpY",
    "yt:kSo_1IqhLjQ",
    "yt:kYJO0y8fVTA",
    "yt:n9WfoNW2XnE",
@@ -1684,7 +1789,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-03T21:53:39.628765+00:00"
+  "last_run": "2026-11-04T22:04:18.822478+00:00"
  },
- "generated": "2026-11-03T21:53:39.628765+00:00"
+ "generated": "2026-11-04T22:04:18.822478+00:00"
 }

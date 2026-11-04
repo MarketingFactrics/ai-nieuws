@@ -899,8 +899,8 @@
     "Day-one account setup, security baseline, least-privilege roles",
     "Scaffold a production architecture for your stack"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Personalized AWS guidance built on patterns from 350,000+ startups—architecture, cost, security, and migration, from day-one account setup to production-ready infrastructure. Migrate to AWS from GCP or Heroku—including your entire AI stack: OpenAI/Gemini/Anthropic SDK rewrites to Amazon Bedrock, agentic systems (LangChain, CrewAI, AutoGen) to AWS-native runtimes, and Temporal workers. Includes AWS Activate credits eligibility and 60+ exclusive startup offers. Built by AWS Startup Solutions Archi"
+   "descriptionOriginal": "Personalized AWS guidance built on patterns from 350,000+ startups—architecture, cost, security, and migration, from day-one account setup to production-ready infrastructure. Migrate to AWS from GCP or Heroku—including your entire AI stack: OpenAI/Gemini/Anthropic SDK rewrites to Amazon Bedrock, agentic systems (LangChain, CrewAI, AutoGen) to AWS-native runtimes, and Temporal workers. Includes AWS Activate credits eligibility and 60+ exclusive startup offers. Built by AWS Startup Solutions Archi",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:aws-transform",
@@ -1320,8 +1320,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Your work is moving into AI tools. Your Botify data should move with it. Botify MCP connects the AI assistants you already use — ChatGPT, Claude, and your own — straight to Botify, so anyone on your team can get answers and get work done without opening the platform."
+   "descriptionOriginal": "Your work is moving into AI tools. Your Botify data should move with it. Botify MCP connects the AI assistants you already use — ChatGPT, Claude, and your own — straight to Botify, so anyone on your team can get answers and get work done without opening the platform.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:box",
@@ -3223,20 +3223,20 @@
   },
   {
    "id": "marketplace:dominodatalab",
-   "name": "dominodatalab",
+   "name": "Domino Data Lab",
    "origin": "marketplace",
-   "description": "Volledige ondersteuning voor het Domino Data Lab-platform: werkruimten, banen, modelimplementatie, het volgen van experimenten, GenAI-tracering, Spark...",
+   "description": "Volledige ondersteuning voor het Domino Data Lab-platform: werkruimten, banen, modelimplementatie, het volgen van experimenten, GenAI-tracing, Spark/Ray/Dask en app-implementatie voor datawetenschapsteams",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/dominodatalab",
    "source": "https://github.com/dominodatalab/domino-claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 402,
-   "maker": "Domino Data Lab",
+   "maker": "",
    "about": [
     "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark/Ray/Dask, and app deployment for data science teams"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark..."
+   "descriptionOriginal": "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark/Ray/Dask, and app deployment for data science teams"
   },
   {
    "id": "marketplace:dropbox",
@@ -3277,20 +3277,20 @@
   },
   {
    "id": "marketplace:duende-skills",
-   "name": "duende-skills",
+   "name": "Duende Agent Skills",
    "origin": "marketplace",
-   "description": "Duende-ontwikkelingsvaardigheden en -agenten voor Claude Code - met betrekking tot OAuth/OIDC-protocollen, IdentityServer, tokenbeheer...",
+   "description": "Duende-ontwikkelingsvaardigheden en -agents voor Claude Code – met betrekking tot OAuth/OIDC-protocollen, IdentityServer, tokenbeheer, ASP.NET Core-authenticatie/-autorisatie, BFF-patronen en veilige identiteitsarchitectuur",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/duende-skills",
-   "source": "https://github.com/DuendeSoftware/duende-skills",
-   "verified": false,
+   "source": "https://github.com/duendesoftware/duende-skills",
+   "verified": true,
    "installs": 470,
-   "maker": "Duende Software",
+   "maker": "",
    "about": [
     "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token managemen..."
+   "descriptionOriginal": "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture"
   },
   {
    "id": "marketplace:dynatrace",
@@ -3674,8 +3674,8 @@
     "Share a Figma URL and ask Claude to implement the design. Use",
     "to translate Figma frames into code using your project's design system. Use"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Figma integration: access design files, extract components, read tokens, translate to code. Bridge design-development gap."
+   "descriptionOriginal": "Figma integration: access design files, extract components, read tokens, translate to code. Bridge design-development gap.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:file-organizer",
@@ -4491,12 +4491,12 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "HubSpot sales workflows: contact import, call prep, daily brief, follow-up drafting, call logging, contact lookup, and pipeline overview"
+   "descriptionOriginal": "HubSpot sales workflows: contact import, call prep, daily brief, follow-up drafting, call logging, contact lookup, and pipeline overview",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:huggingface-skills",
-   "name": "huggingface-skills",
+   "name": "Hugging Face Skills",
    "origin": "marketplace",
    "description": "Kernactiviteiten van Hugging Face Hub via de hf CLI, inclusief installatie van skills, repositorybeheer, banen, datasets, modellen, Spaces en ontdekking.",
    "category": "Data & analyse",
@@ -5428,7 +5428,7 @@
   },
   {
    "id": "marketplace:lua-lsp",
-   "name": "lua-lsp",
+   "name": "Lua LSP",
    "origin": "marketplace",
    "description": "Lua-taalserver voor Claude Code, die code-intelligentie en diagnostiek biedt.",
    "category": "Ontwikkeling",
@@ -5442,8 +5442,8 @@
     "The plugin enables Claude to understand your Lua codebase with full language server capabilities including reference finding, symbol renaming, code formatting, and syntax validation with over 20 supported annotations for documentation.",
     "Once installed, the language server activates automatically when working with .lua files. Ask Claude to help with Lua code and it will leverage the language server for accurate completions, error detection, and navigation. For example: \"Find all references to this function\" or \"What's wrong with this Lua code?\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Lua language server for Claude Code, providing code intelligence and diagnostics."
+   "descriptionOriginal": "Lua language server for Claude Code, providing code intelligence and diagnostics.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:lumen",
@@ -5476,8 +5476,8 @@
    "about": [
     "Connect Lusha to Claude to access verified B2B data, contact data, and company data without leaving your chat. Lusha is a B2B database and sales intelligence platform with 300M+ verified contacts, direct emails, phone numbers, and mobile numbers, plus actionable buyer signals - used for prospecting, data enrichment, and lead enrichment across sales, marketing, and RevOps workflows. Backed by GDPR, CCPA, SOC 2 Type II, and ISO 27701 compliance. It is perfect for building prospect lists, researching accounts before a call, qualifying inbound leads, and natural language prospecting inside Claude."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prospect, enrich, and build call-ready lead lists using Lusha's B2B intelligence platform — verified phone numbers, company signals, and lookalike targeting."
+   "descriptionOriginal": "Prospect, enrich, and build call-ready lead lists using Lusha's B2B intelligence platform — verified phone numbers, company signals, and lookalike targeting.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:lusha-talent-sourcing",
@@ -6154,8 +6154,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "The Morningstar plugin enables financial analysis using Morningstar's proprietary data and research through the Morningstar MCP server."
+   "descriptionOriginal": "The Morningstar plugin enables financial analysis using Morningstar's proprietary data and research through the Morningstar MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:move-code-quality-skill",
@@ -6195,8 +6195,8 @@
    "about": [
     "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage your Neon backend with the Neon agent skills and the Neon MCP Server: Lakebase Postgres, branching, Object Storage, Functions, and the AI Gateway"
+   "descriptionOriginal": "Manage your Neon backend with the Neon agent skills and the Neon MCP Server: Lakebase Postgres, branching, Object Storage, Functions, and the AI Gateway",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:netlify-skills",
@@ -6354,18 +6354,18 @@
   },
   {
    "id": "marketplace:noibu",
-   "name": "noibu",
+   "name": "Noibu",
    "origin": "marketplace",
-   "description": "De Noibu-plug-in verbindt Claude met e-commercegegevens en brengt inkomstenproblemen aan het licht voor geautomatiseerde actie in uw hele stapel.",
+   "description": "De Noibu-plug-in is gebouwd voor e-commerce en overbrugt de kloof tussen klantervaring en omzet door Claude rechtstreeks te verbinden met de sessie-, fout- en conversiegegevens van uw winkel via Noibu - en met de marketing-, ondersteunings- en handelsplatforms die inzicht in beweging brengen. Ga verder dan analyse: ontdek wat u omzet kost, onderneem actie in uw hele stapel, bouw workflows om het werk van begin tot eind te automatiseren.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/noibu",
-   "source": "https://github.com/Noibu/ai-plugin",
-   "verified": false,
+   "source": "https://github.com/noibu/ai-plugin/tree/fecba1fdd406288b5c4b0311317083af5aefc02f/src",
+   "verified": true,
    "installs": 0,
-   "maker": "Noibu",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Noibu plugin connects Claude to ecommerce data and surfaces revenue issues for automated action across your stack."
+   "descriptionOriginal": "Built for ecommerce, the Noibu plugin bridges the gap between customer experience and revenue by connecting Claude directly to your store's session, error, and conversion data through Noibu — and to the marketing, support, and commerce platforms that put insight into motion. Go beyond analysis: surface what's costing you revenue, take action across your stack, build workflows to automate work end-to-end."
   },
   {
    "id": "community:notebooklm-integration",
@@ -6544,6 +6544,23 @@
    "descriptionOriginal": "AI code review that catches production bugs, business logic issues & security vulnerabilities in Claude Code."
   },
   {
+   "id": "marketplace:oracle-ai-data-platform-workbench-engineer-agent",
+   "name": "Oracle AI Data Platform Workbench Engineer Agent",
+   "origin": "marketplace",
+   "description": "Oracle AIDP-agent met 37 skills voor Claude Code: Spark/Delta Lakehouse in natuurlijke taal.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/oracle-ai-data-platform-workbench-engineer-agent",
+   "source": "https://github.com/oracle-samples/oracle-aidp-samples",
+   "verified": false,
+   "installs": 207,
+   "maker": "Oracle",
+   "about": [
+    "Oracle AI Data Platform (AIDP) Workbench engineer agent for Claude Code — a 37-skill agent that operates the full Spark/Delta lakehouse in natural language. Discovers your catalog into a grounding cache, turns plain English into accurate Spark SQL, and runs the lifecycle (CREATE/INSERT/UPDATE/DELETE/MERGE, OPTIMIZE/VACUUM, time-travel). Ingests files, profiles data and sets quality rules, authors and repairs pipelines, provisions clusters, and debugs via the Spark UI. Governs the platform (roles, credential store, Delta Sharing, audit logs), plus native Git, bundles, and MLOps/MLflow. Runs via the official Oracle aidp CLI."
+   ],
+   "descriptionOriginal": "37-skill Oracle AIDP agent for Claude Code: Spark/Delta lakehouse in natural language.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:oracle-ai-data-platform-workbench-databricks-migrator",
    "name": "oracle-ai-data-platform-workbench-databricks-migrator",
    "origin": "marketplace",
@@ -6559,23 +6576,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Databricks→AIDP migration: Automate notebooks, jobs, schedules, DDL via two-pass rewrite + execute/verify with Claude."
-  },
-  {
-   "id": "marketplace:oracle-ai-data-platform-workbench-engineer-agent",
-   "name": "oracle-ai-data-platform-workbench-engineer-agent",
-   "origin": "marketplace",
-   "description": "Oracle AIDP-agent met 37 skills voor Claude Code: Spark/Delta Lakehouse in natuurlijke taal.",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/oracle-ai-data-platform-workbench-engineer-agent",
-   "source": "https://github.com/oracle-samples/oracle-aidp-samples",
-   "verified": false,
-   "installs": 207,
-   "maker": "Oracle",
-   "about": [
-    "Oracle AI Data Platform (AIDP) Workbench engineer agent for Claude Code — a 37-skill agent that operates the full Spark/Delta lakehouse in natural language. Discovers your catalog into a grounding cache, turns plain English into accurate Spark SQL, and runs the lifecycle (CREATE/INSERT/UPDATE/DELETE/MERGE, OPTIMIZE/VACUUM, time-travel). Ingests files, profiles data and sets quality rules, authors and repairs pipelines, provisions clusters, and debugs via the Spark UI. Governs the platform (roles, credential store, Delta Sharing, audit logs), plus native Git, bundles, and MLOps/MLflow. Runs via the official Oracle aidp CLI."
-   ],
-   "descriptionOriginal": "37-skill Oracle AIDP agent for Claude Code: Spark/Delta lakehouse in natural language.",
-   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:oracle-ai-data-platform-workbench-spark-connectors",
@@ -6865,7 +6865,7 @@
   },
   {
    "id": "marketplace:pitch-agent",
-   "name": "pitch-agent",
+   "name": "Pitch Agent",
    "origin": "marketplace",
    "description": "Comps, precedenten, LBO tot een pitchdeck met een merk, van begin tot eind",
    "category": "Design & media",
@@ -7138,13 +7138,13 @@
    "id": "marketplace:prisma",
    "name": "Prisma",
    "origin": "marketplace",
-   "description": "Prisma MCP voor Postgres: databasebeheer, migraties, SQL-query's en data-interactie.",
+   "description": "Prisma MCP-integratie voor Postgres-databasebeheer, schemamigraties, SQL-query's en beheer van verbindingsreeksen. Richt Prisma Postgres-databases in, voer migraties uit en communiceer rechtstreeks met uw gegevens.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/prisma",
    "source": "https://github.com/prisma/claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 7867,
-   "maker": "Prisma",
+   "maker": "",
    "about": [
     "Prisma MCP integration brings natural language database management to Claude Code. Connect to Prisma Postgres databases to provision new instances, run schema migrations, execute SQL queries, analyze data, and manage connection strings — all through conversational prompts. The plugin configures both a local MCP server (via",
     ") and a remote hosted server at",
@@ -7152,7 +7152,7 @@
     "Key capabilities include creating and configuring databases, executing queries and analyzing results, managing schema migrations, handling backups and connection strings, and opening Prisma Studio to browse your data. The integration supports enterprise-grade security with OAuth, and is compliant with GDPR, HIPAA, ISO 27001, and SOC 2."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prisma MCP for Postgres: database management, migrations, SQL queries, and data interaction."
+   "descriptionOriginal": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly."
   },
   {
    "id": "marketplace:privacy-legal",
@@ -7416,7 +7416,7 @@
   },
   {
    "id": "marketplace:qdrant-skills",
-   "name": "qdrant-skills",
+   "name": "Qdrant Skills",
    "origin": "marketplace",
    "description": "Agentvaardigheden voor het zoeken naar vectoren in Qdrant met betrekking tot schaling, prestatie-optimalisatie, zoekkwaliteit, monitoring, implementatie...",
    "category": "Code review & testen",
@@ -7823,8 +7823,8 @@
     "gives a quick overview of your project configuration with counts and health indicators for apps, products, entitlements, and offerings;",
     "walks you through setting up an iOS or Android app with store credentials and SDK code snippets;"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Set up RevenueCat, integrate it, and access data."
+   "descriptionOriginal": "Set up RevenueCat, integrate it, and access data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:review-implementing",
@@ -8233,8 +8233,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official SearchAtlas command-line toolkit — SEO, GBP, PPC, content, and AI visibility workflows powered by the SearchAtlas MCP."
+   "descriptionOriginal": "Official SearchAtlas command-line toolkit — SEO, GBP, PPC, content, and AI visibility workflows powered by the SearchAtlas MCP.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:searchfit-seo",
@@ -8705,7 +8705,7 @@
   },
   {
    "id": "marketplace:sonarqube-agent-plugins",
-   "name": "sonarqube-agent-plugins",
+   "name": "SonarQube Agent Plugins",
    "origin": "marketplace",
    "description": "Integreer SonarQube-codekwaliteit en beveiligingsanalyse in Claude Code: slash-opdrachten met naamruimte, een begeleide skill om...",
    "category": "Security",
@@ -8717,8 +8717,8 @@
    "about": [
     "Integrate SonarQube code quality and security analysis into Claude Code: namespaced slash commands, a guided skill to setup the SonarQube CLI, and a startup check for CLI wiring. MCP server registration and secrets-scanning hooks are installed by the SonarQube CLI as part of setup."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Integrate SonarQube code quality and security analysis into Claude Code: namespaced slash commands, a guided skill to..."
+   "descriptionOriginal": "Integrate SonarQube code quality and security analysis into Claude Code: namespaced slash commands, a guided skill to...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sonatype-guide",
@@ -8761,7 +8761,7 @@
   },
   {
    "id": "marketplace:spanner",
-   "name": "spanner",
+   "name": "Spanner",
    "origin": "marketplace",
    "description": "Maak verbinding en communiceer met Spanner-gegevens in natuurlijke taal.",
    "category": "Data & analyse",
@@ -8773,8 +8773,8 @@
    "about": [
     "Connect and interact with Spanner data using natural language."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect and interact with Spanner data using natural language."
+   "descriptionOriginal": "Connect and interact with Spanner data using natural language.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:speakai",
@@ -8943,7 +8943,7 @@
   },
   {
    "id": "marketplace:sumologic-mcp",
-   "name": "sumologic-mcp",
+   "name": "Sumo Logic MCP",
    "origin": "marketplace",
    "description": "Sumo Logic-waarneembaarheid voor Claude Code. Onderzoek logboeken, analyseer incidenten, controleer waarschuwingen, bekijk beveiligingsinzichten en beheer dashboards met behulp van de Sumo Logic MCP-server.",
    "category": "Security",
@@ -8953,8 +8953,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sumo Logic observability for Claude Code. Investigate logs, analyze incidents, check alerts, review security insights, and manage dashboards using the Sumo Logic MCP server."
+   "descriptionOriginal": "Sumo Logic observability for Claude Code. Investigate logs, analyze incidents, check alerts, review security insights, and manage dashboards using the Sumo Logic MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sumup",
@@ -9686,8 +9686,8 @@
    "about": [
     "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates)."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates)."
+   "descriptionOriginal": "Build and deploy on Val Town. Bundles the Val Town MCP server and platform skills (HTTP vals, cron/intervals, SQLite, email, OAuth, React UI, third-party integrations, templates).",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:vals",
@@ -10151,20 +10151,20 @@
   },
   {
    "id": "marketplace:youdotcom-agent-skills",
-   "name": "youdotcom-agent-skills",
+   "name": "You.com Agent Skills",
    "origin": "marketplace",
-   "description": "You.com-agentvaardigheden voor zoeken op internet, onderzoek met citaten en extractie van inhoud. Begeleide integraties voor Vercel ...",
+   "description": "You.com-skills voor zoeken, inhoud, onderzoek, financiën en integratiedetectie met MCP-, ARD-, API-key-, OAuth- en MPP/x402-betalingsbegeleiding.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/youdotcom-agent-skills",
    "source": "https://github.com/youdotcom-oss/agent-skills",
-   "verified": false,
+   "verified": true,
    "installs": 1593,
-   "maker": "You.com",
+   "maker": "",
    "about": [
     "You.com agent skills for web search, research with citations, and content extraction. Guided integrations for Vercel AI SDK, Claude Agent SDK, OpenAI Agents SDK, crewAI, LangChain, Microsoft Teams.ai, direct REST API, and bash CLI."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "You.com agent skills for web search, research with citations, and content extraction. Guided integrations for Vercel ..."
+   "descriptionOriginal": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance."
   },
   {
    "id": "community:youtube-transcript",
@@ -10310,29 +10310,36 @@
   "official:claude-api",
   "official:webapp-testing",
   "official:pdf",
-  "official:xlsx"
+  "official:xlsx",
+  "official:docx"
  ],
- "updated": "2026-11-03T21:54:14.036398+00:00",
+ "updated": "2026-11-04T22:04:43.089836+00:00",
  "tonight": {
-  "date": "2026-11-03",
-  "id": "official:xlsx",
+  "date": "2026-11-04",
+  "id": "official:docx",
   "text": [
-   "XLSX-creatie, bewerking en analyse",
-   "> `openpyxl`, `pandas` en `markitdown` zijn vooraf geïnstalleerd — voer `pip install` niet eerst uit; schrijf het script en importeer direct. Alleen als een import mislukt (of het `markitdown` commando ontbreekt): `pip install` het ontbrekende pakket.",
+   "DOCX creatie, bewerking en analyse",
+   "Een `.docx` is een ZIP-archief van XML-bestanden. Kies uw aanpak per taak:",
    "> Onderstaande scriptpaden zijn relatief ten opzichte van de directory van deze skill.",
-   "Professioneel lettertype (Arial, Times New Roman), tenzij de gebruiker anders zegt. Geen formulefouten. Nooit verzenden terwijl `recalc.py` `errors_found` rapporteert. Als u denkt dat een fout ouder is dan u, bewijs deze dan: laad het *origineel* met `data_only=True` en kijk naar die cel. Een door u geïntroduceerde fout lijkt precies op een fout die u heeft geërfd. Gebruik formules, nooit hardgecodeerde resultaten. Schrijf `sheet['B10'] = '=SUM(B2:B9)'`, niet het door Python berekende totaal. Het blad moet opnieuw berekenen wanneer de invoer verandert. Volg de specificaties van de gebruiker letterlijk. Exacte tabbladnamen, exacte kolomkoppen en de formule...",
-   "Herberekenen (verplicht als het bestand formules bevat)",
-   "openpyxl schrijft formules als tekenreeksen zonder waarden in de cache. Totdat u opnieuw berekent, wordt elke formulecel teruggelezen als 'Geen' voor iets dat in de cache opgeslagen waarden leest - 'panda's', 'load_workbook(data_only=True)' en de meeste previewers.",
-   "LibreOffice berekent elke formule, het bestand wordt ter plekke herschreven en je krijgt JSON: `status` (`success` | `errors_found`), `total_formulas`, `total_errors`, en een `error_summary` met een naam van maximaal 100 cellen per fouttype (`locations_truncated` zegt hoeveel er is achtergehouden - vertrouw op `total_errors`, niet op de lengte van de lijst). Herstel de naam ervan en voer het opnieuw uit. JSON met een `error` sleutel in plaats van een `status` betekent dat er niets herberekend is, en alleen dat geval eindigt niet-nul - `errors_found` eindigt op 0, dus behandel een schone afsluiting nooit als een schone werkmap."
+   "Creëren met docx-js – gotchas",
+   "`docx` is vooraf geïnstalleerd — voer `npm install` niet eerst uit; schrijf het script en `require('docx')` direct. Alleen als dat niet lukt: `npm install docx`. Het model kent de API; dit zijn de voetwapens:",
+   "Het paginaformaat is standaard A4. Voor US Letter set `pagina: { maat: { breedte: 12240, hoogte: 15840 } }` (DXA; 1440 = 1″). Liggend: geef portretafmetingen en `oriëntatie door: PageOrientation.LANDSCAPE` — docx-js wisselt intern breedte/hoogte om. Tabellen hebben dubbele breedtes nodig: stel `columnWidths` in voor de tabel EN `width` voor elke cel, beide in `WidthType.DXA` (PERCENTAGE-onderbrekingen in Google Docs). Kolombreedtes moeten opgeteld worden bij de tabelbreedte. Tabelarcering: gebruik `ShadingType.CLEAR`, nooit `SOLID` (wordt zwart weergegeven). Lijsten: voeg `•` nooit letterlijk in; gebruik een `numbering` configuratie met `LevelFormat.BULLET`.…",
+   "Nadat je een `.docx` hebt geschreven, render je het en bekijk je het:",
+   "Met `pdftoppm` worden de paginanummers op nul gezet tot de breedte van het aantal pagina's (`page-01.jpg`…`page-12.jpg`).",
+   "Oudere `.doc`-bestanden moeten eerst worden geconverteerd: `python scripts/office/soffice.py --headless --convert-to docx file.doc`.",
+   "Word splitst tekst op over vele ` `-runs (revisie-ID's, markeringen voor spellingcontrole), dus een zinsnede die u in het document kunt zien, bestaat vaak niet als een aaneengesloten tekenreeks in de XML. `merge_runs.py` voegt aangrenzende, identiek geformatteerde runs samen in `word/document.xml` zonder de inhoud of weergave te veranderen; het accepteert ook rechtstreeks een `.docx` (`python scripts/merge_runs.py doc.docx -o merged.docx`)."
   ],
   "textOriginal": [
-   "XLSX creation, editing, and analysis",
-   "> `openpyxl`, `pandas`, and `markitdown` are preinstalled — do not run `pip install` first; write the script and import directly. Only if an import fails (or the `markitdown` command is missing): `pip install` the missing package.",
+   "DOCX creation, editing, and analysis",
+   "A `.docx` is a ZIP archive of XML files. Choose your approach by task:",
    "> Script paths below are relative to this skill's directory.",
-   "Professional font (Arial, Times New Roman) throughout, unless the user says otherwise. Zero formula errors. Never ship while `recalc.py` reports `errors_found`. If you think an error predates you, prove it: load the *original* with `data_only=True` and look at that cell. An error you introduced looks exactly like one you inherited. Use formulas, never hardcoded results. Write `sheet['B10'] = '=SUM(B2:B9)'`, not the Python-computed total. The sheet must recalculate when its inputs change. Follow the user's spec literally. Exact tab names, exact column headers, and the formula…",
-   "Recalculate (mandatory whenever the file contains formulas)",
-   "openpyxl writes formulas as strings with no cached values. Until you recalculate, every formula cell reads back as `None` to anything reading cached values — `pandas`, `load_workbook(data_only=True)`, and most previewers.",
-   "LibreOffice computes every formula, the file is rewritten in place, and you get JSON: `status` (`success` | `errors_found`), `total_formulas`, `total_errors`, and an `error_summary` naming up to 100 cells per error type (`locations_truncated` says how many it withheld — trust `total_errors`, not the length of the list). Fix what it names and run it again. JSON with an `error` key instead of a `status` means nothing was recalculated, and only that case exits non-zero — `errors_found` exits 0, so never treat a clean exit as a clean workbook."
+   "Creating with docx-js — gotchas",
+   "`docx` is preinstalled — do not run `npm install` first; write the script and `require('docx')` directly. Only if that require fails: `npm install docx`. The model knows the API; these are the footguns:",
+   "Page size defaults to A4. For US Letter set `page: { size: { width: 12240, height: 15840 } }` (DXA; 1440 = 1″). Landscape: pass portrait dimensions and `orientation: PageOrientation.LANDSCAPE` — docx-js swaps width/height internally. Tables need dual widths: set `columnWidths` on the table AND `width` on every cell, both in `WidthType.DXA` (PERCENTAGE breaks in Google Docs). Column widths must sum to the table width. Table shading: use `ShadingType.CLEAR`, never `SOLID` (renders black). Lists: never insert `•` literally; use a `numbering` config with `LevelFormat.BULLET`.…",
+   "After writing a `.docx`, render it and look at it:",
+   "`pdftoppm` zero-pads page numbers to the width of the page count (`page-01.jpg`…`page-12.jpg`).",
+   "Legacy `.doc` files must be converted first: `python scripts/office/soffice.py --headless --convert-to docx file.doc`.",
+   "Word splits text across many ` ` runs (revision ids, spell-check markers), so a phrase you can see in the document often doesn't exist as a contiguous string in the XML. `merge_runs.py` merges adjacent identically-formatted runs in `word/document.xml` without changing content or rendering; it also accepts a `.docx` directly (`python scripts/merge_runs.py doc.docx -o merged.docx`)."
   ]
  }
 }
