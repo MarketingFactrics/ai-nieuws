@@ -863,24 +863,41 @@
    "descriptionOriginal": "Investigate incidents, review code and execute UAT for release readiness, scan code for vulnerabilities, and run penetration tests with AWS DevOps Agent and AWS Security Agent."
   },
   {
+   "id": "marketplace:aws-core",
+   "name": "AWS Core",
+   "origin": "marketplace",
+   "description": "Bouw, implementeer en beheer applicaties op AWS. Skills om infrastructuur-als-code te schrijven (CDK, CloudFormation), kernservices te gebruiken (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock met Knowledge Bases en Guardrails, AWS Blocks), databases te selecteren en te bedienen in relationele, sleutelwaarde-, document-, brede kolom-, grafiek-, tijdreeks- en in-memory-engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream",
+   "category": "Documenten",
+   "url": "https://claude.com/marketplace/plugins/aws-core",
+   "source": "https://github.com/aws/agent-toolkit-for-aws/tree/e1f50d7224bc7a1ee7cccd2c00564b66956b0223/plugins/aws-core",
+   "verified": true,
+   "installs": 6716,
+   "maker": "",
+   "about": [
+    "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code, use core services, and complete common tasks."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code (CDK, CloudFormation), use core services (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock with Knowledge Bases and Guardrails, AWS Blocks), select and operate databases across relational, key-value, document, wide-column, graph, time-series, and in-memory engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream"
+  },
+  {
    "id": "marketplace:aws-serverless",
    "name": "AWS Serverless",
    "origin": "marketplace",
    "description": "Ontwerp, bouw, implementeer, test en debug serverloze applicaties met AWS Serverless-services.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/aws-serverless",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/aws-serverless",
+   "verified": true,
    "installs": 8742,
-   "maker": "Amazon Web Services",
+   "maker": "",
    "about": [
     "Build, deploy, test, and debug serverless applications on AWS directly from your editor. This plugin equips Claude with deep knowledge of AWS Lambda, API Gateway, EventBridge, and Step Functions, along with an MCP server that enables direct interaction with your AWS serverless resources. It supports project scaffolding with SAM CLI and CDK, event-driven architecture design, multi-environment deployments, and CI/CD pipeline setup.",
     "The plugin includes three specialized skills. The core",
     "skill covers full-lifecycle serverless development — from initializing projects and configuring event sources (DynamoDB, SQS, Kinesis, Kafka) to performance tuning, cold-start mitigation, and observability with CloudWatch and X-Ray. The",
     "skill handles infrastructure-as-code generation, SAM template validation, container-based local testing, and production deployment workflows. The"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services."
+   "descriptionOriginal": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:aws-startup-advisor",
@@ -955,23 +972,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL..."
-  },
-  {
-   "id": "marketplace:aws-core",
-   "name": "aws-core",
-   "origin": "marketplace",
-   "description": "Bouw, implementeer en beheer applicaties op AWS. Skills om infrastructuur-als-code te schrijven, kernservices te gebruiken en...",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/aws-core",
-   "source": "https://github.com/aws/agent-toolkit-for-aws",
-   "verified": false,
-   "installs": 6716,
-   "maker": "Amazon Web Services",
-   "about": [
-    "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code, use core services, and complete common tasks."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code, use core services, and compl..."
   },
   {
    "id": "marketplace:aws-data-analytics",
@@ -1185,13 +1185,13 @@
    "id": "marketplace:bio-research",
    "name": "Bio Research",
    "origin": "marketplace",
-   "description": "Maak verbinding met preklinische onderzoeksinstrumenten en databases om R&D in de vroege levenswetenschappen te versnellen.",
+   "description": "Maak verbinding met preklinische onderzoeksinstrumenten en databases (literatuuronderzoek, genomica-analyse, doelprioritering) om R&D in een vroeg stadium van de levenswetenschappen te versnellen",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/bio-research",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/bio-research",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/d900840716eb262e1feb17c6f4406c9ce0e06bcf/bio-research",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Bio Research consolidates 10 MCP server integrations and 6 analysis skills into a single package for life science researchers. Search biomedical literature via PubMed and preprint servers, access journal articles, explore drug target databases, and browse clinical trial registries — all from one plugin.",
     "The plugin includes deep analysis workflows: run automated quality control on single-cell RNA-seq data, use scvi-tools for batch correction and cell type annotation, or launch nf-core bioinformatics pipelines for RNA-seq, variant calling, and ATAC-seq on local or public GEO/SRA data.",
@@ -1199,11 +1199,11 @@
     "Common workflows include literature review, single-cell analysis, sequencing pipelines, drug discovery research, and clinical trial design. Use commands like"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to preclinical research tools and databases to accelerate early-stage life sciences R&D."
+   "descriptionOriginal": "Connect to preclinical research tools and databases (literature search, genomics analysis, target prioritization) to accelerate early-stage life sciences R&D"
   },
   {
    "id": "marketplace:biorender",
-   "name": "biorender",
+   "name": "BioRender",
    "origin": "marketplace",
    "description": "BioRender MCP-server voor het maken en openen van wetenschappelijke illustraties",
    "category": "Ontwikkeling",
@@ -1213,8 +1213,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "BioRender MCP server for creating and accessing scientific illustrations"
+   "descriptionOriginal": "BioRender MCP server for creating and accessing scientific illustrations",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:biorxiv",
@@ -1258,8 +1258,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio review using Advisor Center MCP tools."
+   "descriptionOriginal": "BlackRock Advisor Center 360° skills for AC360 capability routing, guided benchmark selection, guided portfolio building, portfolio observations and opportunities, wealth projections, and portfolio review using Advisor Center MCP tools.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:blaxel",
@@ -1511,13 +1511,13 @@
    "id": "marketplace:csharp-lsp",
    "name": "C# LSP",
    "origin": "marketplace",
-   "description": "C#-taalserver voor code-intelligentie",
+   "description": "C#-taalserver voor Claude Code, die code-intelligentie en diagnostiek biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/csharp-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/csharp-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/csharp-lsp",
    "verified": true,
    "installs": 43741,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "C# language server integration for Claude Code, providing rich code intelligence for C# projects. Powered by the Roslyn-based csharp-ls language server, this plugin enables intelligent code completion, real-time diagnostics, symbol navigation, hover documentation, and refactoring capabilities for .cs files.",
     "Key features include automatic error detection and reporting, go-to-definition, find references, code formatting with .editorconfig support, and smart suggestions based on your project context. The plugin supports .NET Core, .NET Framework, and multi-project solutions.",
@@ -1525,7 +1525,7 @@
     "dotnet tool install --global csharp-ls"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "C# language server for code intelligence"
+   "descriptionOriginal": "C# language server for Claude Code, providing code intelligence and diagnostics."
   },
   {
    "id": "marketplace:canva",
@@ -2332,7 +2332,7 @@
   },
   {
    "id": "marketplace:commercial-legal",
-   "name": "commercial-legal",
+   "name": "Commercial Legal",
    "origin": "marketplace",
    "description": "Controleer leveranciersovereenkomsten, geheimhoudingsverklaringen en SaaS-abonnementen aan de hand van uw draaiboek aan de verkoop- of inkoopzijde, houd verlengingen en opzegdeadlines bij voordat ze worden gemist, stuur escalaties door naar de juiste goedkeurder en vertaalt beoordelingen naar samenvattingen die zakelijke belanghebbenden daadwerkelijk zullen lezen.",
    "category": "Code review & testen",
@@ -2369,16 +2369,16 @@
    "id": "marketplace:common-room",
    "name": "Common Room",
    "origin": "marketplace",
-   "description": "Verander Common Room in uw GTM-copiloot met accountonderzoek, telefoonvoorbereiding en persoonlijk bereik, gebaseerd op echte signaalgegevens",
-   "category": "Data & analyse",
+   "description": "Verander Common Room in uw GTM-copiloot. Onderzoek accounts en contacten, bereid gesprekken voor met deelnemersprofielen en gesprekspunten, en stel een persoonlijk contact op via e-mail, LinkedIn en telefoon.",
+   "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/common-room",
-   "source": "https://github.com/common-room/claude-plugin/",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/d900840716eb262e1feb17c6f4406c9ce0e06bcf/partner-built/common-room",
    "verified": true,
    "installs": 0,
-   "maker": "Common Room",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Turn Common Room into your GTM copilot with account research, call prep, and personalized outreach grounded in real signal data"
+   "descriptionOriginal": "Turn Common Room into your GTM copilot. Research accounts and contacts, prep for calls with attendee profiles and talking points, and draft personalized outreach across email, LinkedIn, and phone."
   },
   {
    "id": "community:competitive-ads-extractor",
@@ -3384,20 +3384,20 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use your Endgame customer and prospect context to prepare for meetings, write follow-ups, review pipeline and calls, map stakeholders, summarize customer evidence, and more."
+   "descriptionOriginal": "Use your Endgame customer and prospect context to prepare for meetings, write follow-ups, review pipeline and calls, map stakeholders, summarize customer evidence, and more.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ai-plugins",
-   "name": "Endor Labs",
+   "name": "Endor Labs Agent Kit",
    "origin": "marketplace",
-   "description": "Stel endorctl in en gebruik Endor Labs om beveiligingsrisico's in uw softwaretoeleveringsketen te scannen, prioriteren en op te lossen",
-   "category": "Security",
+   "description": "Endor Labs-workflowagenten en configuratie voor Claude Code.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/ai-plugins",
-   "source": "https://github.com/endorlabs",
-   "verified": false,
+   "source": "https://github.com/endorlabs/ai-plugins",
+   "verified": true,
    "installs": 4627,
-   "maker": "Endor Labs",
+   "maker": "",
    "about": [
     "Endor Labs AI Plugins brings application security scanning directly into your development workflow. It automates the installation, authentication, and configuration of",
     ", the Endor Labs CLI, so you can scan, prioritize, and fix security risks across your software supply chain without leaving your coding environment. The plugin supports macOS (Intel/ARM), Linux, and Windows, and handles authentication via browser-based OAuth or API key credentials.",
@@ -3405,7 +3405,7 @@
     "After installing the plugin, try prompts like"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Set up endorctl and use Endor Labs to scan, prioritize, and fix security risks across your software supply chain"
+   "descriptionOriginal": "Endor Labs workflow agents and setup for Claude Code."
   },
   {
    "id": "marketplace:engineering",
@@ -3799,7 +3799,7 @@
   },
   {
    "id": "marketplace:firecrawl",
-   "name": "firecrawl",
+   "name": "Firecrawl",
    "origin": "marketplace",
    "description": "Schraap, zoek, crawl en breng het internet in kaart met één enkele opdracht.",
    "category": "Overig",
@@ -3811,11 +3811,11 @@
    "about": [
     "Turn any website into clean, LLM-ready markdown or structured data. Firecrawl integrates powerful web scraping, crawling, and search capabilities directly into Claude Code. Scrape single pages, crawl entire sites, map site structures, and search the web — all with automatic JavaScript rendering, anti-bot handling, and proxy rotation built in.",
     "The plugin includes an AI agent for autonomous multi-source data gathering. Just describe the data you need in plain language and the agent finds, navigates, and extracts it across multiple websites — no URLs required. Results can be returned as markdown, HTML, screenshots, links, or structured data matching a custom schema.",
-    "to configure your API key. Then use these commands to get started:",
+    "to sign in to Firecrawl in your browser. Then use these commands to get started:",
     "— Extract a single webpage as clean markdown."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Scrape, search, crawl, and map the web with a single command."
+   "descriptionOriginal": "Scrape, search, crawl, and map the web with a single command.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:firestore-native",
@@ -4195,20 +4195,20 @@
    "id": "marketplace:gopls-lsp",
    "name": "Go LSP (gopls)",
    "origin": "marketplace",
-   "description": "Ga naar de taalserver voor code-intelligentie en refactoring",
+   "description": "Ga naar de taalserver voor Claude Code, die code-intelligentie, refactoring en analyse biedt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gopls-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/gopls-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/gopls-lsp",
    "verified": true,
    "installs": 41639,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Integrates gopls, the official Go language server, into Claude Code for enhanced Go development. This plugin provides intelligent code navigation, real-time diagnostics, code completion, and automated refactoring for Go projects.",
     "Key features include jump-to-definition, find references, comprehensive autocompletion, static code analysis, vulnerability checking, and modernization suggestions. The plugin supports Go modules, multi-module workspaces, and GOPATH modes.",
     "Once installed, the language server automatically activates for .go files. Claude will leverage gopls to understand your Go codebase, navigate between definitions and references, identify issues, and suggest refactorings. Simply ask Claude to help with Go code tasks like \"find all references to this function\" or \"refactor this struct\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Go language server for code intelligence and refactoring"
+   "descriptionOriginal": "Go language server for Claude Code, providing code intelligence, refactoring, and analysis."
   },
   {
    "id": "marketplace:goodmem",
@@ -4761,7 +4761,7 @@
   },
   {
    "id": "marketplace:ionoscloud-mcp",
-   "name": "ionoscloud-mcp",
+   "name": "IONOS Cloud MCP",
    "origin": "marketplace",
    "description": "Inspecteer en beheer de IONOS CLOUD-infrastructuur via MCP",
    "category": "Ontwikkeling",
@@ -5525,7 +5525,7 @@
   },
   {
    "id": "marketplace:market-researcher",
-   "name": "market-researcher",
+   "name": "Market Researcher",
    "origin": "marketplace",
    "description": "Overzicht van sector of thema tot branche, concurrentielandschap, peer-composities en shortlist met ideeën",
    "category": "Design & media",
@@ -5861,18 +5861,18 @@
    "description": "Krijg toegang tot officiële Microsoft-documentatie, API-referenties en codevoorbeelden voor Azure, .NET, Windows en meer.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/microsoft-docs",
-   "source": "https://github.com/MicrosoftDocs/mcp",
-   "verified": false,
+   "source": "https://github.com/microsoftdocs/mcp",
+   "verified": true,
    "installs": 26765,
-   "maker": "Microsoft",
+   "maker": "",
    "about": [
     "Connects Claude directly to official Microsoft documentation on learn.microsoft.com, giving you accurate, up-to-date technical information for Azure, .NET, Windows, Microsoft 365, Power Platform, and more. The plugin provides three core tools: semantic search across Microsoft's documentation library, full-page fetching that converts docs to markdown, and a dedicated code sample search with language filtering. This helps prevent hallucinations by grounding responses in first-party Microsoft content.",
     "The plugin includes three skills. The",
     "skill guides documentation lookups for concepts, tutorials, configuration, and best practices. The",
     "skill validates SDK code against official API references and working examples — confirming method signatures, parameter types, and deprecation status before you ship. The"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more."
+   "descriptionOriginal": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:middesk",
@@ -6262,8 +6262,8 @@
    "about": [
     "This plug-in is compatible with Claude. It includes skills that support key areas of SuiteCloud development, such as SuiteScript, SDF, UIF SPAs, security, permissions, documentation, modernization, and SAFE Guide best practices. It helps SuiteCloud developers and SuiteApp teams create accurate, secure, and maintainable code and project artifacts."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Develop NetSuite SuiteCloud solutions with SuiteScript, SDF, and best practices."
+   "descriptionOriginal": "Develop NetSuite SuiteCloud solutions with SuiteScript, SDF, and best practices.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:netsuite-suiteskills",
@@ -6544,6 +6544,23 @@
    "descriptionOriginal": "AI code review that catches production bugs, business logic issues & security vulnerabilities in Claude Code."
   },
   {
+   "id": "marketplace:oracle-ai-data-platform-workbench-databricks-migrator",
+   "name": "Oracle AI Data Platform Workbench Databricks Migrator",
+   "origin": "marketplace",
+   "description": "Databricks → AIDP-migratie: automatiseer notebooks, taken, planningen en DDL via herschrijven in twee stappen + uitvoeren/verifiëren met Claude.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/oracle-ai-data-platform-workbench-databricks-migrator",
+   "source": "https://github.com/oracle-samples/oracle-aidp-samples",
+   "verified": false,
+   "installs": 131,
+   "maker": "Oracle",
+   "about": [
+    "Drive the Oracle AI Data Platform (AIDP) Databricks Migration Toolkit in natural language. Plans and executes automated Databricks → AIDP migrations of notebooks, jobs, schedules, and catalog DDL — Pass-1 dependency rewrite + Pass-2 cell-by-cell execute/verify/fix on a live AIDP cluster with Claude."
+   ],
+   "descriptionOriginal": "Databricks→AIDP migration: Automate notebooks, jobs, schedules, DDL via two-pass rewrite + execute/verify with Claude.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:oracle-ai-data-platform-workbench-engineer-agent",
    "name": "Oracle AI Data Platform Workbench Engineer Agent",
    "origin": "marketplace",
@@ -6559,23 +6576,6 @@
    ],
    "descriptionOriginal": "37-skill Oracle AIDP agent for Claude Code: Spark/Delta lakehouse in natural language.",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:oracle-ai-data-platform-workbench-databricks-migrator",
-   "name": "oracle-ai-data-platform-workbench-databricks-migrator",
-   "origin": "marketplace",
-   "description": "Databricks → AIDP-migratie: automatiseer notebooks, taken, planningen en DDL via herschrijven in twee stappen + uitvoeren/verifiëren met Claude.",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/oracle-ai-data-platform-workbench-databricks-migrator",
-   "source": "https://github.com/oracle-samples/oracle-aidp-samples",
-   "verified": false,
-   "installs": 131,
-   "maker": "Oracle",
-   "about": [
-    "Drive the Oracle AI Data Platform (AIDP) Databricks Migration Toolkit in natural language. Plans and executes automated Databricks → AIDP migrations of notebooks, jobs, schedules, and catalog DDL — Pass-1 dependency rewrite + Pass-2 cell-by-cell execute/verify/fix on a live AIDP cluster with Claude."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Databricks→AIDP migration: Automate notebooks, jobs, schedules, DDL via two-pass rewrite + execute/verify with Claude."
   },
   {
    "id": "marketplace:oracle-ai-data-platform-workbench-spark-connectors",
@@ -7258,13 +7258,13 @@
    "id": "marketplace:productivity",
    "name": "Productivity",
    "origin": "marketplace",
-   "description": "Beheer taken, plan uw dag en bouw een blijvende herinnering aan uw werkcontext op.",
-   "category": "Productiviteit",
+   "description": "Beheer taken, plan uw dag en bouw een geheugen op voor belangrijke context over uw werk. Synchroniseert met uw agenda, e-mail en chat om alles georganiseerd en op het goede spoor te houden.",
+   "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/productivity",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/productivity",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/productivity",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Productivity gives Claude a persistent understanding of your work through task management, workplace memory, and a visual dashboard. Claude learns your people, projects, and terminology so it acts like a colleague, not a chatbot.",
     "The plugin manages a markdown task list that Claude reads, writes, and executes against. Add tasks naturally in conversation and Claude tracks status, triages stale items, and syncs with external tools. A two-tier memory system teaches Claude your shorthand — say \"ask todd to do the PSR for oracle\" and Claude knows exactly who, what, and which deal.",
@@ -7272,7 +7272,7 @@
     "for quick triage of stale items and memory gap checks, or"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage tasks, plan your day, and build persistent memory of your work context."
+   "descriptionOriginal": "Manage tasks, plan your day, and build up memory of important context about your work. Syncs with your calendar, email, and chat to keep everything organized and on track."
   },
   {
    "id": "marketplace:project-artifact",
@@ -7709,7 +7709,7 @@
   },
   {
    "id": "marketplace:regulatory-legal",
-   "name": "regulatory-legal",
+   "name": "Regulatory Legal",
    "origin": "marketplace",
    "description": "Houdt toezicht op regelgevingsfeeds, vergelijkt nieuwe regels met uw beleidsbibliotheek, houdt commentaardeadlines en open hiaten bij, en schrijft de samenvatting die uw team maandagochtend leest.",
    "category": "Marketing & business",
@@ -7719,8 +7719,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning."
+   "descriptionOriginal": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:remember",
@@ -9198,37 +9198,37 @@
   },
   {
    "id": "marketplace:telegram",
-   "name": "telegram",
+   "name": "Telegram",
    "origin": "marketplace",
-   "description": "Telegram-berichtenbrug met ingebouwde toegangscontrole. Beheer koppelingen, toelatingslijsten en beleid via /telegram:access.",
-   "category": "Overig",
+   "description": "Telegramkanaal voor Claude Code - berichtenbrug met ingebouwde toegangscontrole. Beheer koppelingen, toelatingslijsten en beleid via /telegram:access.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/telegram",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/external_plugins/telegram",
+   "verified": true,
    "installs": 100332,
    "maker": "",
    "about": [
     "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access."
+   "descriptionOriginal": "Telegram channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access."
   },
   {
    "id": "marketplace:terraform",
-   "name": "terraform",
+   "name": "Terraform",
    "origin": "marketplace",
-   "description": "Terraform MCP Server: naadloze integratie met het Terraform-ecosysteem voor geavanceerde IaC-automatisering en -interactie.",
+   "description": "De Terraform MCP Server biedt naadloze integratie met het Terraform-ecosysteem, waardoor geavanceerde automatiserings- en interactiemogelijkheden voor de ontwikkeling van Infrastructure as Code (IaC) mogelijk zijn.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/terraform",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/terraform",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/fb370c077e8904ce5a0fbe5c89084f5171863c1f/external_plugins/terraform",
+   "verified": true,
    "installs": 10280,
-   "maker": "HashiCorp",
+   "maker": "",
    "about": [
     "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Terraform MCP Server: seamless integration with Terraform ecosystem for advanced IaC automation and interaction."
+   "descriptionOriginal": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development."
   },
   {
    "id": "community:test-driven-development",
@@ -10163,8 +10163,8 @@
    "about": [
     "You.com agent skills for web search, research with citations, and content extraction. Guided integrations for Vercel AI SDK, Claude Agent SDK, OpenAI Agents SDK, crewAI, LangChain, Microsoft Teams.ai, direct REST API, and bash CLI."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance."
+   "descriptionOriginal": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:youtube-transcript",
@@ -10248,13 +10248,13 @@
    "id": "marketplace:zoominfo",
    "name": "ZoomInfo",
    "origin": "marketplace",
-   "description": "ZoomInfo's geverifieerde B2B-intelligentie in Claude: vind, onderzoek en win de accounts die uw bedrijf laten groeien.",
-   "category": "Overig",
+   "description": "Zoek bedrijven en contacten, verrijk leads, vind lookalikes en ontvang op AI-gerangschikte contactaanbevelingen. Vooraf gebouwde skills verbinden meerdere ZoomInfo-tools tot complete B2B-verkoopworkflows.",
+   "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/zoominfo",
-   "source": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
-   "verified": false,
+   "source": "https://github.com/zoominfo/zoominfo-mcp-plugin",
+   "verified": true,
    "installs": 2363,
-   "maker": "ZoomInfo",
+   "maker": "",
    "about": [
     "GTM AI is the agent-native interface to ZoomInfo. Connect Claude to verified intelligence on 100M+ companies and 600M+ contacts, and run real go-to-market work from a single prompt. Claude works from ZoomInfo's resolved context graph, so answers are grounded in your live B2B reality, not generic guesses.",
     "Claude orchestrates ZoomInfo's tools the way you would: search companies and contacts, enrich either with firmographics and verified contact details, find lookalikes with ML similarity matching, surface buyer intent and real-world business scoops, and get AI-ranked contact recommendations. Deep research tools go further, blending ZoomInfo data with your own CRM, conversation history and other high-value data sources.",
@@ -10262,7 +10262,7 @@
     "Describe the GTM outcome you want and Claude selects the right skill and tools. Try:"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "ZoomInfo's verified B2B intelligence in Claude: find, research, and win the accounts that grow your business."
+   "descriptionOriginal": "Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations. Pre-built skills chain multiple ZoomInfo tools into complete B2B sales workflows."
   },
   {
    "id": "marketplace:zscaler",
@@ -10311,35 +10311,30 @@
   "official:webapp-testing",
   "official:pdf",
   "official:xlsx",
-  "official:docx"
+  "official:docx",
+  "official:theme-factory"
  ],
- "updated": "2026-11-04T22:04:43.089836+00:00",
+ "updated": "2026-11-05T22:12:37.613399+00:00",
  "tonight": {
-  "date": "2026-11-04",
-  "id": "official:docx",
+  "date": "2026-11-05",
+  "id": "official:theme-factory",
   "text": [
-   "DOCX creatie, bewerking en analyse",
-   "Een `.docx` is een ZIP-archief van XML-bestanden. Kies uw aanpak per taak:",
-   "> Onderstaande scriptpaden zijn relatief ten opzichte van de directory van deze skill.",
-   "Creëren met docx-js – gotchas",
-   "`docx` is vooraf geïnstalleerd — voer `npm install` niet eerst uit; schrijf het script en `require('docx')` direct. Alleen als dat niet lukt: `npm install docx`. Het model kent de API; dit zijn de voetwapens:",
-   "Het paginaformaat is standaard A4. Voor US Letter set `pagina: { maat: { breedte: 12240, hoogte: 15840 } }` (DXA; 1440 = 1″). Liggend: geef portretafmetingen en `oriëntatie door: PageOrientation.LANDSCAPE` — docx-js wisselt intern breedte/hoogte om. Tabellen hebben dubbele breedtes nodig: stel `columnWidths` in voor de tabel EN `width` voor elke cel, beide in `WidthType.DXA` (PERCENTAGE-onderbrekingen in Google Docs). Kolombreedtes moeten opgeteld worden bij de tabelbreedte. Tabelarcering: gebruik `ShadingType.CLEAR`, nooit `SOLID` (wordt zwart weergegeven). Lijsten: voeg `•` nooit letterlijk in; gebruik een `numbering` configuratie met `LevelFormat.BULLET`.…",
-   "Nadat je een `.docx` hebt geschreven, render je het en bekijk je het:",
-   "Met `pdftoppm` worden de paginanummers op nul gezet tot de breedte van het aantal pagina's (`page-01.jpg`…`page-12.jpg`).",
-   "Oudere `.doc`-bestanden moeten eerst worden geconverteerd: `python scripts/office/soffice.py --headless --convert-to docx file.doc`.",
-   "Word splitst tekst op over vele ` `-runs (revisie-ID's, markeringen voor spellingcontrole), dus een zinsnede die u in het document kunt zien, bestaat vaak niet als een aaneengesloten tekenreeks in de XML. `merge_runs.py` voegt aangrenzende, identiek geformatteerde runs samen in `word/document.xml` zonder de inhoud of weergave te veranderen; het accepteert ook rechtstreeks een `.docx` (`python scripts/merge_runs.py doc.docx -o merged.docx`)."
+   "Deze skill biedt een samengestelde verzameling professionele lettertype- en kleurthema's, elk met zorgvuldig geselecteerde kleurenpaletten en lettertypecombinaties. Zodra een thema is gekozen, kan het op elk artefact worden toegepast.",
+   "Gebruik deze skill om een consistente, professionele stijl toe te passen op presentatiediapresentaties. Elk thema omvat: Een samenhangend kleurenpalet met hexadecimale codes Complementaire lettertypecombinaties voor kopteksten en hoofdtekst Een aparte visuele identiteit die geschikt is voor verschillende contexten en doelgroepen",
+   "Stijl toepassen op een diapresentatie of ander artefact:",
+   "Toon de themashowcase: Geef het bestand `theme-showcase.pdf` weer, zodat gebruikers alle beschikbare thema's visueel kunnen zien. Breng er geen wijzigingen in aan; toon gewoon het bestand zodat u het kunt bekijken. Vraag naar hun keuze: Vraag welk thema op het kaartspel moet worden toegepast. Wacht op selectie: Krijg expliciete bevestiging over het gekozen thema. Pas het thema toe: Zodra een thema is gekozen, pas de kleuren en lettertypen van het geselecteerde thema toe op het kaartspel/artefact",
+   "De volgende 10 thema's zijn beschikbaar, elk weergegeven in `theme-showcase.pdf`:",
+   "Ocean Depths - Professioneel en rustgevend maritiem thema Sunset Boulevard - Warme en levendige kleuren van de zonsondergang Forest Canopy - Natuurlijke en geaarde aardetinten Modern Minimalistisch - Strakke en eigentijdse grijstinten Golden Hour - Rijk en warm herfstpalet Arctic Frost - Koel en fris wintergeïnspireerd thema Desert Rose - Zachte en verfijnde stoffige tinten Tech Innovation - Gedurfde en moderne technische esthetiek Botanical Garden - Frisse en organische tuinkleuren Midnight Galaxy - Dramatische en kosmische diepe tinten",
+   "Elk thema wordt gedefinieerd in de map `themes/` met volledige specificaties, waaronder: Samenhangend kleurenpalet met hexadecimale codes Complementaire lettertypecombinaties voor kopteksten en hoofdtekst Duidelijke visuele identiteit geschikt voor verschillende contexten en doelgroepen"
   ],
   "textOriginal": [
-   "DOCX creation, editing, and analysis",
-   "A `.docx` is a ZIP archive of XML files. Choose your approach by task:",
-   "> Script paths below are relative to this skill's directory.",
-   "Creating with docx-js — gotchas",
-   "`docx` is preinstalled — do not run `npm install` first; write the script and `require('docx')` directly. Only if that require fails: `npm install docx`. The model knows the API; these are the footguns:",
-   "Page size defaults to A4. For US Letter set `page: { size: { width: 12240, height: 15840 } }` (DXA; 1440 = 1″). Landscape: pass portrait dimensions and `orientation: PageOrientation.LANDSCAPE` — docx-js swaps width/height internally. Tables need dual widths: set `columnWidths` on the table AND `width` on every cell, both in `WidthType.DXA` (PERCENTAGE breaks in Google Docs). Column widths must sum to the table width. Table shading: use `ShadingType.CLEAR`, never `SOLID` (renders black). Lists: never insert `•` literally; use a `numbering` config with `LevelFormat.BULLET`.…",
-   "After writing a `.docx`, render it and look at it:",
-   "`pdftoppm` zero-pads page numbers to the width of the page count (`page-01.jpg`…`page-12.jpg`).",
-   "Legacy `.doc` files must be converted first: `python scripts/office/soffice.py --headless --convert-to docx file.doc`.",
-   "Word splits text across many ` ` runs (revision ids, spell-check markers), so a phrase you can see in the document often doesn't exist as a contiguous string in the XML. `merge_runs.py` merges adjacent identically-formatted runs in `word/document.xml` without changing content or rendering; it also accepts a `.docx` directly (`python scripts/merge_runs.py doc.docx -o merged.docx`)."
+   "This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.",
+   "To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes: A cohesive color palette with hex codes Complementary font pairings for headers and body text A distinct visual identity suitable for different contexts and audiences",
+   "To apply styling to a slide deck or other artifact:",
+   "Show the theme showcase: Display the `theme-showcase.pdf` file to allow users to see all available themes visually. Do not make any modifications to it; simply show the file for viewing. Ask for their choice: Ask which theme to apply to the deck Wait for selection: Get explicit confirmation about the chosen theme Apply the theme: Once a theme has been chosen, apply the selected theme's colors and fonts to the deck/artifact",
+   "The following 10 themes are available, each showcased in `theme-showcase.pdf`:",
+   "Ocean Depths - Professional and calming maritime theme Sunset Boulevard - Warm and vibrant sunset colors Forest Canopy - Natural and grounded earth tones Modern Minimalist - Clean and contemporary grayscale Golden Hour - Rich and warm autumnal palette Arctic Frost - Cool and crisp winter-inspired theme Desert Rose - Soft and sophisticated dusty tones Tech Innovation - Bold and modern tech aesthetic Botanical Garden - Fresh and organic garden colors Midnight Galaxy - Dramatic and cosmic deep tones",
+   "Each theme is defined in the `themes/` directory with complete specifications including: Cohesive color palette with hex codes Complementary font pairings for headers and body text Distinct visual identity suitable for different contexts and audiences"
   ]
  }
 }
