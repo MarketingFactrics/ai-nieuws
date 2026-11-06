@@ -594,8 +594,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session."
+   "descriptionOriginal": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:apptweak-api",
@@ -736,8 +736,8 @@
     "After installing, authenticate by running",
     "in Claude Code — this opens a browser-based login flow. Then interact with your catalog using natural language prompts like:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Atlan data catalog plugin for Claude Code. Search, explore, govern, and manage your data assets through natural language. Powered by the Atlan MCP server with semantic search, lineage traversal, glossary management, data quality rules, and more."
+   "descriptionOriginal": "Atlan data catalog plugin for Claude Code. Search, explore, govern, and manage your data assets through natural language. Powered by the Atlan MCP server with semantic search, lineage traversal, glossary management, data quality rules, and more.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:atlassian",
@@ -760,6 +760,23 @@
    "descriptionOriginal": "Connect to Jira & Confluence. Search/create issues, access docs, manage sprints, integrate development workflows."
   },
   {
+   "id": "marketplace:atlassian-forge-skills",
+   "name": "Atlassian Forge Skills",
+   "origin": "marketplace",
+   "description": "Forge-vaardighedenbundel voor app-bouwers met Forge MCP-configuratie voor Atlassian Forge-workflows.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/atlassian-forge-skills",
+   "source": "https://github.com/atlassian/forge-skills",
+   "verified": true,
+   "installs": 779,
+   "maker": "",
+   "about": [
+    "Forge-focused skills and MCP configuration for Atlassian Forge: scaffold and deploy apps (forge create, templates, dev spaces), build Teamwork Graph connectors for Rovo Search/Rovo Chat, pre-deploy review, systematic debugging, plus Forge docs and Atlassian Design System lookups via MCP."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows."
+  },
+  {
    "id": "marketplace:atlassian-twg-cli",
    "name": "Atlassian Teamwork Graph CLI",
    "origin": "marketplace",
@@ -775,25 +792,8 @@
    "descriptionOriginal": "Teamwork Graph CLI: Atlassian agent-first interface for Jira, Confluence, Bitbucket. For Claude Code. Run /twg-setup."
   },
   {
-   "id": "marketplace:atlassian-forge-skills",
-   "name": "atlassian-forge-skills",
-   "origin": "marketplace",
-   "description": "Op Forge gerichte vaardighedenbundel en MCP-tooling voor Atlassian Forge: apps in de steigers zetten, beoordelen vóór implementatie, productiefouten opsporen...",
-   "category": "Code review & testen",
-   "url": "https://claude.com/marketplace/plugins/atlassian-forge-skills",
-   "source": "https://github.com/atlassian/forge-skills",
-   "verified": false,
-   "installs": 383,
-   "maker": "Atlassian Labs",
-   "about": [
-    "Forge-focused skill bundle and MCP tooling for Atlassian Forge: scaffold apps, review before deploy, debug production issues, and stay current on Forge APIs and the Atlassian Design System."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Forge-focused skill bundle and MCP tooling for Atlassian Forge: scaffold apps, review before deploy, debug production..."
-  },
-  {
    "id": "marketplace:atomic-agents",
-   "name": "atomic-agents",
+   "name": "Atomic Agents",
    "origin": "marketplace",
    "description": "Bouw AI-agenten met het Atomic Agents-framework. Inclusief gespecialiseerde tools en validatie van best practices.",
    "category": "Ontwikkeling",
@@ -805,8 +805,8 @@
    "about": [
     "Comprehensive development workflow for building AI agents with the Atomic Agents framework. Includes specialized agents for schema design, architecture planning, code review, and tool development. Features guided workflows, progressive-disclosure skills, and best practice validation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build AI agents with the Atomic Agents framework. Includes specialized tools and best practice validation."
+   "descriptionOriginal": "Build AI agents with the Atomic Agents framework. Includes specialized tools and best practice validation.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:auth0",
@@ -2050,8 +2050,8 @@
    "about": [
     "Connect Claude to your ClickHouse Cloud databases. Browse organizations, services, databases, and table schemas. Run read-only SQL queries against your data and get instant analytical answers. Monitor service backups, review billing costs, and inspect ClickPipe configurations - all through natural conversation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "ClickHouse Claude Code plugin: skills (ClickHouse best practices), rules and MCP."
+   "descriptionOriginal": "ClickHouse Claude Code plugin: skills (ClickHouse best practices), rules and MCP.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:clickhouse-best-practices",
@@ -2589,8 +2589,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Couchbase plugin (MCP Server + Skills). Connect to a live Couchbase cluster, explore data, write and run SQL++ queries, optimize queries and GSI indexes, and design data models — grounded in your real cluster via the Couchbase MCP server."
+   "descriptionOriginal": "Official Couchbase plugin (MCP Server + Skills). Connect to a live Couchbase cluster, explore data, write and run SQL++ queries, optimize queries and GSI indexes, and design data models — grounded in your real cluster via the Couchbase MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:cowork-plugin-management",
@@ -2641,8 +2641,8 @@
     "Simply describe what you need in natural language. Try prompts like",
     "\"Install CrowdSec and set up the nginx bouncer\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Operational skill for installing, configuring, operating, and debugging CrowdSec (cscli, LAPI/CAPI, hub, bouncers, WA..."
+   "descriptionOriginal": "Operational skill for installing, configuring, operating, and debugging CrowdSec (cscli, LAPI/CAPI, hub, bouncers, WA...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:crowdstrike-falcon-fusion",
@@ -2958,6 +2958,21 @@
    "descriptionOriginal": "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, lineage tracing, data quality management, and connection setup skills"
   },
   {
+   "id": "marketplace:dataiku-headless",
+   "name": "Dataiku Headless",
+   "origin": "marketplace",
+   "description": "Verbind uw agent met Dataiku: inspecteer projecten, datasets, recepten, ML en agenten met getypte MCP-tools, en stuur Dataiku Cobuild aan om assets op projectniveau te bouwen.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/dataiku-headless",
+   "source": "https://github.com/dataiku/dataiku-headless",
+   "verified": true,
+   "installs": 0,
+   "maker": "Dataiku",
+   "about": [],
+   "firstSeen": "2026-11-06",
+   "descriptionOriginal": "Connect your agent to Dataiku: inspect projects, datasets, recipes, ML, and agents with typed MCP tools, and drive Dataiku Cobuild to build project-level assets."
+  },
+  {
    "id": "marketplace:dataproc",
    "name": "dataproc",
    "origin": "marketplace",
@@ -3135,20 +3150,20 @@
   },
   {
    "id": "marketplace:discord",
-   "name": "discord",
+   "name": "Discord",
    "origin": "marketplace",
-   "description": "Discord-berichtenbrug met ingebouwde toegangscontrole. Beheer koppelingen, toelatingslijsten en beleid via /discord:access.",
-   "category": "Overig",
+   "description": "Discord-kanaal voor Claude Code: berichtenbrug met ingebouwde toegangscontrole. Beheer koppelingen, toelatingslijsten en beleid via /discord:access.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/discord",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1aa8f02ec8327f513686934f458a620f83db91ed/external_plugins/discord",
+   "verified": true,
    "installs": 32323,
    "maker": "",
    "about": [
     "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access."
+   "descriptionOriginal": "Discord channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access."
   },
   {
    "id": "official:doc-coauthoring",
@@ -3168,7 +3183,7 @@
   },
   {
    "id": "marketplace:document-skills",
-   "name": "document-skills",
+   "name": "Document Skills",
    "origin": "marketplace",
    "description": "Plug-in bron",
    "category": "Documenten",
@@ -3178,8 +3193,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Plugin source"
+   "descriptionOriginal": "Plugin source",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:docx",
@@ -3235,8 +3250,8 @@
    "about": [
     "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark/Ray/Dask, and app deployment for data science teams"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark/Ray/Dask, and app deployment for data science teams"
+   "descriptionOriginal": "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark/Ray/Dask, and app deployment for data science teams",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:dropbox",
@@ -3289,8 +3304,8 @@
    "about": [
     "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture"
+   "descriptionOriginal": "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:dynatrace",
@@ -3414,13 +3429,13 @@
    "description": "Stroomlijn technische workflows: stand-ups, codebeoordeling, architectuurbeslissingen, incidentrespons en technische documentatie. Works with your existing tools or standalone.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/engineering",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/engineering",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/ab4cb1cd383b4eb87383be8cf4e70cb5b2a2348d/engineering",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone."
+   "descriptionOriginal": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:enterprise-search",
@@ -3454,8 +3469,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Eon MCP server — exposes the Eon AI agent tools and skills for multi-cloud backup, recovery, inventory, and onboarding."
+   "descriptionOriginal": "Eon MCP server — exposes the Eon AI agent tools and skills for multi-cloud backup, recovery, inventory, and onboarding.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:equity-research",
@@ -4111,13 +4126,13 @@
    "id": "marketplace:gitkraken",
    "name": "GitKraken",
    "origin": "marketplace",
-   "description": "Toegang tot uw Git-repo's: commits, branches, PR's, problemen. Ondersteunt GitHub, GitLab, Azure DevOps, Bitbucket, Jira.",
+   "description": "Deze plug-in geeft Claude toegang tot je echte Git- en projectcontext: commits, branches, pull-aanvragen en problemen in elke repository waarin je werkt. Stel de agent een vraag over je werk, en hij antwoordt op basis van wat er feitelijk in je geschiedenis en je trackers staat, niet op wat hij kan raden uit het geopende bestand. Werkt met GitHub, GitLab, Azure DevOps, Bitbucket en Jira.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gitkraken",
    "source": "https://github.com/gitkraken/claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 98,
-   "maker": "GitKraken",
+   "maker": "",
    "about": [
     "The GitKraken plugin connects Claude to your real Git and project management context — commits, branches, pull requests, and issues — across every repository you work in. Instead of guessing from the currently open file, Claude can answer questions using your actual history and issue trackers. It works with",
     "GitHub, GitLab, Azure DevOps, Bitbucket, and Jira",
@@ -4125,7 +4140,7 @@
     "Once installed, ask Claude questions about your repositories and project management data. Try prompts like:"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access your Git repos: commits, branches, PRs, issues. Supports GitHub, GitLab, Azure DevOps, Bitbucket, Jira."
+   "descriptionOriginal": "This plugin gives Claude access to your real Git and project context: commits, branches, pull requests, and issues across every repo you work in. Ask the agent a question about your work, and it answers from what's actually in your history and your trackers, not what it can guess from the open file. Works with GitHub, GitLab, Azure DevOps, Bitbucket, and Jira."
   },
   {
    "id": "marketplace:gitlab",
@@ -4325,20 +4340,20 @@
    "id": "marketplace:greptile",
    "name": "Greptile",
    "origin": "marketplace",
-   "description": "Door AI aangedreven codebase-zoekopdracht. Query's uitvoeren in opslagplaatsen in natuurlijke taal om code te vinden, afhankelijkheden te begrijpen en architectuur te verkennen.",
-   "category": "Ontwikkeling",
+   "description": "AI-codebeoordelingsagent voor GitHub en GitLab. Bekijk en los Greptile's PR-beoordelingsopmerkingen op, voer beoordelingen uit op uw werkafdeling en doorzoek de kennisbank en coderingspatronen van uw organisatie, rechtstreeks vanuit Claude Code.",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/greptile",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/greptile",
-   "verified": false,
+   "source": "https://github.com/greptileai/claude-plugin/tree/3538cf00e18414d1f59e67048ba8cc25b5a5021e/plugins/greptile",
+   "verified": true,
    "installs": 56611,
-   "maker": "Greptile",
+   "maker": "",
    "about": [
     "Greptile is an AI-powered code review agent that integrates with GitHub and GitLab. View and resolve Greptile's automated PR review comments directly from Claude Code, eliminating context-switching between your terminal and browser.",
     "The plugin provides tools for managing pull requests (list, filter by repository/branch/author/status), accessing detailed code reviews, and searching across all Greptile-generated feedback. You can also define and manage custom coding standards and patterns for your organization.",
     "After setting up your Greptile API key, try prompts like \"list my open pull requests\", \"show me the Greptile review for PR #42\", \"search for comments about error handling\", or \"trigger a new code review on my current branch\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI-powered codebase search. Query repositories in natural language to find code, understand dependencies, and explore architecture."
+   "descriptionOriginal": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments, run reviews on your working branch, and search your organization's knowledge base and coding patterns, directly from Claude Code."
   },
   {
    "id": "marketplace:groundcover",
@@ -4392,7 +4407,7 @@
   },
   {
    "id": "marketplace:handsontable-skills",
-   "name": "handsontable-skills",
+   "name": "Handsontable Skills",
    "origin": "marketplace",
    "description": "Claude-skills voor Handsontable (JavaScript-gegevensrastercomponent) en HyperFormula (headless spreadsheetberekeningsengine)",
    "category": "Documenten",
@@ -4424,20 +4439,20 @@
   },
   {
    "id": "marketplace:honeycomb",
-   "name": "honeycomb",
+   "name": "Honeycomb",
    "origin": "marketplace",
-   "description": "Honingraatwaarneming: vraagpatronen, productieonderzoeken, SLO's, OpenTelemetry, Beeline-migratie.",
-   "category": "Overig",
+   "description": "Skills, agenten en workflows voor Honeycomb-observatie: querypatronen, productieonderzoeken, SLO's, OpenTelemetry-instrumentatie en Beeline-migratie. Ontworpen als aanvulling op de Honeycomb MCP-server.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/honeycomb",
-   "source": "https://github.com/honeycombio/agent-skill",
-   "verified": false,
+   "source": "https://github.com/honeycombio/agent-skill/tree/6bb09279fc3fb69abf113228be939dbb929e34f1/honeycomb",
+   "verified": true,
    "installs": 162,
-   "maker": "Honeycomb",
+   "maker": "",
    "about": [
     "Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration. Designed to complement the Honeycomb MCP server."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Honeycomb observability: query patterns, production investigations, SLOs, OpenTelemetry, Beeline migration."
+   "descriptionOriginal": "Skills, agents, and workflows for Honeycomb observability — query patterns, production investigations, SLOs, OpenTelemetry instrumentation, and Beeline migration. Designed to complement the Honeycomb MCP server."
   },
   {
    "id": "marketplace:hookify",
@@ -4979,7 +4994,7 @@
   },
   {
    "id": "marketplace:kyc-screener",
-   "name": "kyc-screener",
+   "name": "KYC Screener",
    "origin": "marketplace",
    "description": "Parseert onboarding-documenten, voert de regelengine uit, signaleert hiaten",
    "category": "Overig",
@@ -4989,8 +5004,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Parses onboarding docs, runs the rules engine, flags gaps"
+   "descriptionOriginal": "Parses onboarding docs, runs the rules engine, flags gaps",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:langfuse",
@@ -5122,16 +5137,16 @@
    "id": "marketplace:leadfeeder",
    "name": "Leadfeeder",
    "origin": "marketplace",
-   "description": "Zet signalen van websitebezoekers om in pipeline, rechtstreeks van Claude.",
-   "category": "Overig",
+   "description": "Zet signalen van websitebezoekers om in pijplijn. Zes door Leadfeeder ondersteunde skills – Aan de slag, Dagelijkse bezoekersbriefing, Visitor Company Brief, Outreach Companion, Find My Buyer en Add to Pipeline – laten u accounts met een hoge intentie identificeren, kopers onderzoeken, de juiste contacten vinden, outreach personaliseren en bedrijven aan uw lijsten toevoegen, allemaal vanuit Claude. Nieuw hier? Typ 'Mijn Leadfeeder-briefing instellen' om eerst een gereedheidscontrole van 30 seconden uit te voeren.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/leadfeeder",
    "source": "https://github.com/leadfeeder/leadfeeder-mcp-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 0,
-   "maker": "Leadfeeder",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Turn website visitor signals into pipeline, right from Claude."
+   "descriptionOriginal": "Turn website visitor signals into pipeline. Six Leadfeeder-powered skills — Getting Started, Daily Visitor Brief, Visitor Company Brief, Outreach Companion, Find My Buyer, and Add to Pipeline — let you identify high-intent accounts, research buyers, find the right contacts, personalise outreach, and add companies to your lists, all from within Claude. New here? Type \"Set up my Leadfeeder brief\" to run a 30-second readiness check first."
   },
   {
    "id": "community:lean-ctx",
@@ -5191,7 +5206,7 @@
    "description": "Versnel contractbeoordeling, NDA-triage en compliance-workflows voor interne juridische teams. Stel juridische instructies op, organiseer precedentonderzoek en beheer institutionele kennis.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/legal",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/legal",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/ab4cb1cd383b4eb87383be8cf4e70cb5b2a2348d/legal",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -6289,13 +6304,13 @@
    "url": "https://claude.com/marketplace/plugins/newrelic",
    "source": "https://github.com/newrelic/claude-code-plugin",
    "verified": true,
-   "installs": 64,
+   "installs": 522,
    "maker": "",
    "about": [
     "New Relic observability intelligence for Claude Code. Investigate APM performance, analyze cloud costs, debug Kubernetes, write NRQL queries, and respond to alerts — all from your terminal using New Relic telemetry data."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "New Relic observability intelligence for Claude Code. Investigate APM performance, analyze cloud costs, debug Kubernetes, write NRQL queries, and respond to alerts — all from your terminal using New Relic telemetry data."
+   "descriptionOriginal": "New Relic observability intelligence for Claude Code. Investigate APM performance, analyze cloud costs, debug Kubernetes, write NRQL queries, and respond to alerts — all from your terminal using New Relic telemetry data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ngrok-agent-skills",
@@ -6448,7 +6463,7 @@
   },
   {
    "id": "marketplace:open-targets",
-   "name": "open-targets",
+   "name": "Open Targets",
    "origin": "marketplace",
    "description": "Platform voor ontdekking en prioritering van geneesmiddelendoelen. Het Open Targets Platform is een alomvattend hulpmiddel dat de systematische identificatie en prioritering van potentiële therapeutische medicijndoelen ondersteunt, waarbij openbaar beschikbare datasets worden geïntegreerd om associaties tussen doelziekten op te bouwen en te scoren.",
    "category": "Data & analyse",
@@ -6458,8 +6473,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Drug target discovery and prioritisation platform. The Open Targets Platform is a comprehensive tool that supports systematic identification and prioritisation of potential therapeutic drug targets, integrating publicly available datasets to build and score target-disease associations."
+   "descriptionOriginal": "Drug target discovery and prioritisation platform. The Open Targets Platform is a comprehensive tool that supports systematic identification and prioritisation of potential therapeutic drug targets, integrating publicly available datasets to build and score target-disease associations.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:openweb",
@@ -6623,8 +6638,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ory plugin for Claude Code: scaffolding skills, a local Ory instance, and authentication, authorization, and audit for every tool call"
+   "descriptionOriginal": "Ory plugin for Claude Code: scaffolding skills, a local Ory instance, and authentication, authorization, and audit for every tool call",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:outline",
@@ -6907,8 +6922,8 @@
     "that designs Pixeltable schemas for multimodal ML pipelines — mapping out tables, views, computed columns, indexes, and UDFs — and a",
     "that diagnoses failing or stale pipelines using CLI inspection and SDK validation. Both agents encode Pixeltable-specific best practices and anti-patterns so you avoid common pitfalls."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build multimodal AI applications with Pixeltable -- tables, computed columns, embedding search, UDFs, tool-calling agents, and 25+ AI provider integrations."
+   "descriptionOriginal": "Build multimodal AI applications with Pixeltable -- tables, computed columns, embedding search, UDFs, tool-calling agents, and 25+ AI provider integrations.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:planetscale",
@@ -6932,12 +6947,12 @@
   },
   {
    "id": "marketplace:playground",
-   "name": "playground",
+   "name": "Playground",
    "origin": "marketplace",
    "description": "Creëert interactieve HTML-speeltuinen: op zichzelf staande verkenners van één bestand met visuele bedieningselementen, live preview en promptuitvoer met kopieerknop",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/playground",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/playground",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a1ecfbc7f138a0ef455088f7f28cda2d22a0f853/plugins/playground",
    "verified": true,
    "installs": 64198,
    "maker": "",
@@ -6947,8 +6962,8 @@
     "for exploring visual components like buttons, cards, and typography;",
     "for constructing SQL queries, API calls, and regex patterns;"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button"
+   "descriptionOriginal": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:playwright",
@@ -7151,8 +7166,8 @@
     ", giving you flexibility for local development and cloud workflows.",
     "Key capabilities include creating and configuring databases, executing queries and analyzing results, managing schema migrations, handling backups and connection strings, and opening Prisma Studio to browse your data. The integration supports enterprise-grade security with OAuth, and is compliant with GDPR, HIPAA, ISO 27001, and SOC 2."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly."
+   "descriptionOriginal": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:privacy-legal",
@@ -7468,8 +7483,8 @@
     "fetches your team's coding standards from the Qodo API and applies them during code generation, refactoring, and review tasks.",
     "pulls Qodo review comments from open pull requests and lets you fix issues interactively or in batch mode, with automatic commits and PR summary comments. It supports GitHub, GitLab, Bitbucket, and Azure DevOps."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Qodo Skills: AI agents that integrate code quality, testing, security, and compliance checks into your SDLC."
+   "descriptionOriginal": "Qodo Skills: AI agents that integrate code quality, testing, security, and compliance checks into your SDLC.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:qodo-standards",
@@ -8137,8 +8152,8 @@
     "Key capabilities span eight categories:",
     "(list tables, views, procedures, functions, schemas),"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "150+ SAP HANA database tools for AI: query, import/export, profile, compare, backup, monitor. Cloud/on-premise."
+   "descriptionOriginal": "150+ SAP HANA database tools for AI: query, import/export, profile, compare, backup, monitor. Cloud/on-premise.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sap-fiori-mcp-server",
@@ -8795,20 +8810,20 @@
   },
   {
    "id": "marketplace:spotify-ads-api",
-   "name": "spotify-ads-api",
+   "name": "Spotify Ads API",
    "origin": "marketplace",
-   "description": "Beheer Spotify-advertentiecampagnes met natuurlijke taal. Maak campagnes, advertentiesets, advertenties, haal rapporten op en beheer OAuth - een...",
+   "description": "Beheer Spotify-advertentiecampagnes, doelgroepen, metingen, accounttoegang, items en rapportage met natuurlijke taal en OAuth.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/spotify-ads-api",
    "source": "https://github.com/spotify/ads-claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 1297,
    "maker": "",
    "about": [
     "Manage Spotify ad campaigns with natural language. Create campaigns, ad sets, ads, pull reports, and handle OAuth — all through conversation."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage Spotify ad campaigns with natural language. Create campaigns, ad sets, ads, pull reports, and handle OAuth — a..."
+   "descriptionOriginal": "Manage Spotify ad campaigns, audiences, measurement, account access, assets, and reporting with natural language and OAuth."
   },
   {
    "id": "marketplace:stackhawk-api",
@@ -8938,8 +8953,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Review Subtext session recordings and manage privacy rules"
+   "descriptionOriginal": "Review Subtext session recordings and manage privacy rules",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sumologic-mcp",
@@ -9691,7 +9706,7 @@
   },
   {
    "id": "marketplace:vals",
-   "name": "vals",
+   "name": "Vals",
    "origin": "marketplace",
    "description": "Bouw en implementeer Val Town. Bundelt de Val Town MCP server- en platformvaardigheden (HTTP vals, cron/intervals, SQLite,...",
    "category": "Data & analyse",
@@ -9776,20 +9791,20 @@
   },
   {
    "id": "marketplace:vibe-prospecting",
-   "name": "vibe-prospecting",
+   "name": "Vibe Prospecting",
    "origin": "marketplace",
-   "description": "Vibe Prospecting verbindt Claude met live B2B-bedrijfs- en contactgegevens, zodat gebruikers kunnen zoeken, matchen, verrijken, filteren en...",
+   "description": "Vibe Prospecting verbindt Claude met live B2B-bedrijfs- en contactgegevens, zodat gebruikers op grote schaal prospects kunnen zoeken, matchen, verrijken, filteren en exporteren. Het zet verzoeken in natuurlijke taal om in gestructureerde GTM-workflows voor het genereren van leads, CRM-verrijking, bedrijfsonderzoek, ontdekking door leidinggevenden en automatisering van prospectie in meerdere stappen binnen Claude Cowork en Claude Code.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/vibe-prospecting",
    "source": "https://github.com/explorium-ai/vibeprospecting-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 902,
-   "maker": "vibeprospecting.ai",
+   "maker": "",
    "about": [
     "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automation inside Claude Cowork and Claude Code."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and..."
+   "descriptionOriginal": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automation inside Claude Cowork and Claude Code."
   },
   {
    "id": "community:video-downloader",
@@ -9855,8 +9870,8 @@
     "Once installed, ask Claude about any Voila API operation. Try prompts like:",
     "\"Create a shipment using Smart Shipping to a UK address\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Voila API: shipment creation, tracking, history, manifesting, webhooks, Sorted/Peoplevox/Mintsoft/Veeqo/JD integration"
+   "descriptionOriginal": "Voila API: shipment creation, tracking, history, manifesting, webhooks, Sorted/Peoplevox/Mintsoft/Veeqo/JD integration",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:vouch",
@@ -10312,29 +10327,26 @@
   "official:pdf",
   "official:xlsx",
   "official:docx",
-  "official:theme-factory"
+  "official:theme-factory",
+  "official:frontend-design"
  ],
- "updated": "2026-11-05T22:12:37.613399+00:00",
+ "updated": "2026-11-06T21:43:01.933186+00:00",
  "tonight": {
-  "date": "2026-11-05",
-  "id": "official:theme-factory",
+  "date": "2026-11-06",
+  "id": "official:frontend-design",
   "text": [
-   "Deze skill biedt een samengestelde verzameling professionele lettertype- en kleurthema's, elk met zorgvuldig geselecteerde kleurenpaletten en lettertypecombinaties. Zodra een thema is gekozen, kan het op elk artefact worden toegepast.",
-   "Gebruik deze skill om een consistente, professionele stijl toe te passen op presentatiediapresentaties. Elk thema omvat: Een samenhangend kleurenpalet met hexadecimale codes Complementaire lettertypecombinaties voor kopteksten en hoofdtekst Een aparte visuele identiteit die geschikt is voor verschillende contexten en doelgroepen",
-   "Stijl toepassen op een diapresentatie of ander artefact:",
-   "Toon de themashowcase: Geef het bestand `theme-showcase.pdf` weer, zodat gebruikers alle beschikbare thema's visueel kunnen zien. Breng er geen wijzigingen in aan; toon gewoon het bestand zodat u het kunt bekijken. Vraag naar hun keuze: Vraag welk thema op het kaartspel moet worden toegepast. Wacht op selectie: Krijg expliciete bevestiging over het gekozen thema. Pas het thema toe: Zodra een thema is gekozen, pas de kleuren en lettertypen van het geselecteerde thema toe op het kaartspel/artefact",
-   "De volgende 10 thema's zijn beschikbaar, elk weergegeven in `theme-showcase.pdf`:",
-   "Ocean Depths - Professioneel en rustgevend maritiem thema Sunset Boulevard - Warme en levendige kleuren van de zonsondergang Forest Canopy - Natuurlijke en geaarde aardetinten Modern Minimalistisch - Strakke en eigentijdse grijstinten Golden Hour - Rijk en warm herfstpalet Arctic Frost - Koel en fris wintergeïnspireerd thema Desert Rose - Zachte en verfijnde stoffige tinten Tech Innovation - Gedurfde en moderne technische esthetiek Botanical Garden - Frisse en organische tuinkleuren Midnight Galaxy - Dramatische en kosmische diepe tinten",
-   "Elk thema wordt gedefinieerd in de map `themes/` met volledige specificaties, waaronder: Samenhangend kleurenpalet met hexadecimale codes Complementaire lettertypecombinaties voor kopteksten en hoofdtekst Duidelijke visuele identiteit geschikt voor verschillende contexten en doelgroepen"
+   "Benader dit als ontwerpleider bij een ontwerpstudio die bekend staat om het geven van elke klant een duidelijke visuele identiteit die niet wordt aangezien voor die van iemand anders. Deze klant heeft al voorstellen afgewezen die cliché of sjabloon aanvoelden, en betaalt voor een onderscheidend standpunt: maak weloverwogen, eigenzinnige keuzes over palet, typografie en lay-out die specifiek zijn voor deze opdracht, en neem esthetische risico's als dit gerechtvaardigd is.",
+   "Grond uw ontwerpen op het onderwerp",
+   "Als de opdracht niet aangeeft wat het product of onderwerp is, identificeer dit dan zelf voordat u gaat ontwerpen en bevestig dit met de klant. Je kunt één concreet onderwerp, de doelgroep van het ontwerp en de primaire taak van het ontwerp, als voorstel bedenken. Als er informatie in uw geheugen zit over de voorkeuren van de klant of de context over wat hij of zij aan het bouwen is, gebruik dat dan als hint. De branche, het onderwerp, de materialen en de taal van het onderwerp zijn waar onderscheidende visuele keuzes vandaan komen: een ontwerp voor speelgoed voor meisjes van 8 tot 11 jaar zal esthetisch heel anders zijn dan een dashboard voor...",
+   "Bij webontwerpen is de held het eerste dat kijkers zien. Open met het meest karakteristieke in de wereld van het onderwerp, in de vorm die het meest passend is: een kop, een afbeelding, een animatie, een live demo, een interactief moment of andere behandelingen. Wees weloverwogen bij je keuze: een groot getal met een klein label, ondersteunende statistieken en een gradiëntaccent is de standaardbehandeling, dus gebruik dit alleen als dat echt de beste optie is.",
+   "Typografie draagt de persoonlijkheid van de pagina. U hebt geen ander lettertype nodig voor weergave- of koptekst en hoofdinhoud: gebruik één of twee families, en als er twee zijn, zorg er dan voor dat ze duidelijk van elkaar verschillen."
   ],
   "textOriginal": [
-   "This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.",
-   "To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes: A cohesive color palette with hex codes Complementary font pairings for headers and body text A distinct visual identity suitable for different contexts and audiences",
-   "To apply styling to a slide deck or other artifact:",
-   "Show the theme showcase: Display the `theme-showcase.pdf` file to allow users to see all available themes visually. Do not make any modifications to it; simply show the file for viewing. Ask for their choice: Ask which theme to apply to the deck Wait for selection: Get explicit confirmation about the chosen theme Apply the theme: Once a theme has been chosen, apply the selected theme's colors and fonts to the deck/artifact",
-   "The following 10 themes are available, each showcased in `theme-showcase.pdf`:",
-   "Ocean Depths - Professional and calming maritime theme Sunset Boulevard - Warm and vibrant sunset colors Forest Canopy - Natural and grounded earth tones Modern Minimalist - Clean and contemporary grayscale Golden Hour - Rich and warm autumnal palette Arctic Frost - Cool and crisp winter-inspired theme Desert Rose - Soft and sophisticated dusty tones Tech Innovation - Bold and modern tech aesthetic Botanical Garden - Fresh and organic garden colors Midnight Galaxy - Dramatic and cosmic deep tones",
-   "Each theme is defined in the `themes/` directory with complete specifications including: Cohesive color palette with hex codes Complementary font pairings for headers and body text Distinct visual identity suitable for different contexts and audiences"
+   "Approach this as the design lead at a design studio known for giving every client a distinct visual identity that is not mistaken for anyone else's. This client has already rejected proposals that felt cliché or templated, and is paying for a distinctive point of view: make deliberate, opinionated choices about palette, typography, and layout that are specific to this brief, and take aesthetic risk if justified.",
+   "Ground your designs in the subject matter",
+   "If the brief does not identify what the product or subject matter is, identify it yourself before designing, and confirm with the client. You can come up with one concrete subject, the design's audience, and the design's primary job, as a proposal. If there's any information in your memory about the client's preferences or context about what they're building, use that as a hint. The subject's industry, subject matter, materials, and vernacular are where distinctive visual choices come from — a design for a toy for girls aged 8–11 will be very aesthetically different from a dashboard for…",
+   "For web designs, the hero is the first thing viewers will see. Open with the most characteristic thing in the subject's world, in the form that is most appropriate: a headline, an image, an animation, a live demo, an interactive moment, or other treatments. Be deliberate with your choice: a big number with a small label, supporting stats, and a gradient accent is the default treatment, so only use it if that's truly the best option.",
+   "Typography carries the personality of the page. You don't need a different typeface for display or headline text and body content: use one family or two, and if two, make them clearly distinct."
   ]
  }
 }

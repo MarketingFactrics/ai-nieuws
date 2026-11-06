@@ -1,6 +1,122 @@
 {
  "editions": [
   {
+   "date": "2026-11-06",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.319",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.319",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+     "published": "2026-11-06T17:04:01+00:00",
+     "summary": "Gewijzigde automatische modus met telemetrie- of functievlaggen uitgeschakeld, ook achter LLM-gateways: oproepen die de server niet kan controleren, worden gevraagd of geweigerd, zonder terugval... · Gewijzigde automatische modus achter een LLM-gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` schakelt de controle aan de serverzijde in, zelfs met...",
+     "bullets": [
+      "Gewijzigde automatische modus met telemetrie- of functievlaggen uitgeschakeld, ook achter LLM-gateways: oproepen die de server niet kan controleren, worden gevraagd of geweigerd, zonder terugval...",
+      "Gewijzigde automatische modus achter een LLM-gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` schakelt de controle aan de serverzijde in, zelfs met `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`…",
+      "Ondersteuning toegevoegd voor MCP-taken in de terminal: wanneer een MCP-server een toolaanroep als taak uitvoert, verplaatst Claude Code deze meteen naar de achtergrond en vertelt Claude...",
+      "De omgevingsvariabele `CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND` toegevoegd om Claude Code te laten wachten op een MCP-taak binnen de toolaanroep in plaats van deze te verplaatsen naar...",
+      "'permissions.denyInsteadOfPrompting' instelling toegevoegd: een toolaanroep die wacht op een toestemmingsprompt wordt geweigerd en de beurt gaat verder, in terminalsessies...",
+      "`/claude-api latency-optimize` toegevoegd om te ontdekken waar uw Claude API-code ervoor zorgt dat mensen wachten en snellere instellingen proberen tegen uw evaluatie",
+      "De omgevingsvariabele `CLAUDE_CODE_DISABLE_FEATURE_FLAGS` toegevoegd, die het ophalen van feature-vlag stopt zonder telemetrie uit te schakelen; elke vlag gebruikt dan zijn…",
+      "Uitgaven voor vandaag, deze week en deze maand toegevoegd aan `/usage` voor ontwikkelaars achter een Claude apps-gateway die geen bestedingslimiet hebben, wanneer de gateway dit draait..."
+     ],
+     "titleOriginal": "claude-code v2.1.319",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50385272",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Claude Code verzendt uw e-mailadres naar websites",
+     "url": "https://github.com/anthropics/claude-code/issues/107757",
+     "published": "2026-11-05T22:17:15+00:00",
+     "summary": "1535 punten · 485 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50385272",
+     "score": 1535,
+     "titleOriginal": "Claude Code sends your email address to websites",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:4ZsVR-6YOzs",
+     "kind": "video-official",
+     "source": "Claude",
+     "title": "Hoe Salesforce Claude Code gebruikt",
+     "url": "https://www.youtube.com/watch?v=4ZsVR-6YOzs",
+     "published": "2026-11-06T17:03:04+00:00",
+     "summary": "Salesforce heeft Claude Code geschaald naar duizenden technici en de effectieve output verdubbeld, met minder bugs per regel code dan voorheen. Technische leiders van Salesforce leggen uit hoe ze de ROI van AI-codering meten met een 'effectieve output'-score die is ontwikkeld in samenwerking met Stanford-onderzoekers, en...",
+     "image": "https://i.ytimg.com/vi/4ZsVR-6YOzs/hqdefault.jpg",
+     "videoId": "4ZsVR-6YOzs",
+     "titleOriginal": "How Salesforce uses Claude Code",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50394906",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Antropische IPO-kopers zien de waardering zo laag als $1,1 biljoen",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+     "published": "2026-11-06T16:54:36+00:00",
+     "summary": "141 punten · 337 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50394906",
+     "score": 141,
+     "titleOriginal": "Anthropic IPO buyers see valuation as low as $1.1T",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xp0qxj",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Claude kan nu uw uitgaven analyseren met de nieuwe Personal Finance-tool",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp0qxj/claude_can_now_analyze_your_spending_with_its_new/",
+     "published": "2026-11-06T01:53:28+00:00",
+     "summary": "ingediend door /u/crimonist [link] [opmerkingen]",
+     "image": "https://external-preview.redd.it/fg6eMXoCe2UwY3y4XGKAluSztR-Y2DJz987EIR_WOi0.png?width=640&crop=smart&auto=webp&s=7dde93f3b64c375a73550ec083d0e536704bdf25",
+     "score": 100,
+     "titleOriginal": "Claude can now analyze your spending with its new Personal Finance tool",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:IeW7DDQeTgU",
+     "kind": "video",
+     "source": "AICodeKing",
+     "title": "Deze repository maakt oneindige context mogelijk in Claude Code & Deepseek!",
+     "url": "https://www.youtube.com/watch?v=IeW7DDQeTgU",
+     "published": "2026-11-06T09:15:36+00:00",
+     "summary": "Cline Desktop: https://cline.gg/desktop-aick ClinePass: https://cline.gg/clinepass-aick PandaCode: https://github.com/aicodeking/pandacode Sluit je aan bij dit kanaal om toegang te krijgen tot voordelen: https://www.youtube.com/channel/@aicodeking/join In deze video laat ik je miljard-context zien, een…",
+     "image": "https://i.ytimg.com/vi/IeW7DDQeTgU/hqdefault.jpg",
+     "videoId": "IeW7DDQeTgU",
+     "titleOriginal": "This Repo ENABLES Infinite Context in Claude Code & Deepseek!",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xozfcv",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Open vraag aan Anthropic: Als je 30.000 samenvoegingen per dag uitvoert, waarom wordt dan meer dan 98% van de openstaande GitHub-problemen niet toegewezen, inclusief ernstige beveiligingsbugs?",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xozfcv/open_question_to_anthropic_if_youre_making_30000/",
+     "published": "2026-11-06T00:48:50+00:00",
+     "summary": "Volgens de eigen technische blog van Anthropic voegde het bedrijf sinds vorige maand meer dan 30.000 codewijzigingen per dag samen. Toch hebben 15.766 (meer dan 98%) van de 16.060 momenteel openstaande problemen in de openbare Claude Code GitHub-repository van Anthropic geen rechthebbende. Velen zijn gebleven…",
+     "score": 99,
+     "titleOriginal": "Open question to Anthropic: If you're making 30,000 merges a day, why are more than 98% of open GitHub issues unassigned, including serious security bugs?",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:2lt4P_xGFL8",
+     "kind": "video",
+     "source": "Wes Roth",
+     "title": "Anthropic heeft het net gebouwd...",
+     "url": "https://www.youtube.com/watch?v=2lt4P_xGFL8",
+     "published": "2026-11-06T14:35:24+00:00",
+     "summary": "Wat is daar het antropische gebouw? ze hebben zojuist het grootste deel van hun interne audit REDACTEERD, een van hun modellen heeft zojuist ALLE benchmarks gebroken ______________________________________________ Mijn links 🔗 ➡️ Twitter: https://x.com/WesRothMoney ➡️ AI-nieuwsbrief:…",
+     "image": "https://i.ytimg.com/vi/2lt4P_xGFL8/hqdefault.jpg",
+     "videoId": "2lt4P_xGFL8",
+     "titleOriginal": "Anthropic just built it...",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-05",
    "items": [
     {
@@ -1131,7 +1247,6 @@
     "https://www.anthropic.com/news/features",
     "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule",
     "https://www.anthropic.com/news/finance-agents",
-    "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
     "https://www.anthropic.com/news/frontier-model-security",
     "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
     "https://www.anthropic.com/news/gates-foundation-partnership",
@@ -1221,7 +1336,6 @@
     "https://www.anthropic.com/news/servicenow-anthropic-claude",
     "https://www.anthropic.com/news/services-track-partner-hub",
     "https://www.anthropic.com/news/singapore-office-opening",
-    "https://www.anthropic.com/news/skills",
     "https://www.anthropic.com/news/skt-partnership-announcement",
     "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
     "https://www.anthropic.com/news/statement-comments-secretary-war",
@@ -1549,6 +1663,7 @@
    "gh:anthropics/claude-code:v2.1.316",
    "gh:anthropics/claude-code:v2.1.317",
    "gh:anthropics/claude-code:v2.1.318",
+   "gh:anthropics/claude-code:v2.1.319",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -1578,6 +1693,11 @@
    "hn:50344919",
    "hn:50344958",
    "hn:50350560",
+   "hn:50385272",
+   "hn:50386597",
+   "hn:50389990",
+   "hn:50394906",
+   "hn:50395318",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -1707,6 +1827,16 @@
    "reddit:t3_1xook9e",
    "reddit:t3_1xou0q2",
    "reddit:t3_1xou90f",
+   "reddit:t3_1xoxnhp",
+   "reddit:t3_1xozfcv",
+   "reddit:t3_1xp0qxj",
+   "reddit:t3_1xp28a6",
+   "reddit:t3_1xp6g4g",
+   "reddit:t3_1xp76q1",
+   "reddit:t3_1xp9pso",
+   "reddit:t3_1xpcvan",
+   "reddit:t3_1xpeg2l",
+   "reddit:t3_1xpij9t",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -1812,7 +1942,9 @@
    "web:https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks",
    "yt:-OH1y7CjIew",
    "yt:0XQele28q0w",
+   "yt:2lt4P_xGFL8",
    "yt:3b0U4_02bAE",
+   "yt:4ZsVR-6YOzs",
    "yt:5tnMvn6nvtM",
    "yt:8nh1dcH4uJU",
    "yt:9GtcbnmldcY",
@@ -1828,6 +1960,7 @@
    "yt:H7KruLVX2Rk",
    "yt:ICGS7LlRfpI",
    "yt:INGOC6-LLv0",
+   "yt:IeW7DDQeTgU",
    "yt:N6FkmdL0Lg0",
    "yt:N9TUbGO6Kr4",
    "yt:NZq88JAJSag",
@@ -1885,7 +2018,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-05T22:12:10.249607+00:00"
+  "last_run": "2026-11-06T21:42:32.313865+00:00"
  },
- "generated": "2026-11-05T22:12:10.249607+00:00"
+ "generated": "2026-11-06T21:42:32.313865+00:00"
 }
