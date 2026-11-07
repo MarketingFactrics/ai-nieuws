@@ -117,15 +117,15 @@
   },
   {
    "id": "marketplace:adspirer-ads-agent",
-   "name": "Adspirer Ads Agent",
+   "name": "Adspirer",
    "origin": "marketplace",
-   "description": "Advertentiebeheer voor Google, Meta, TikTok & LinkedIn. 91 tools voor trefwoordonderzoek, campagnes, analyse en optimalisatie.",
+   "description": "Platformonafhankelijk advertentiebeheer voor Google Ads, Meta-advertenties, TikTok-advertenties en LinkedIn-advertenties. 91 tools voor trefwoordonderzoek, campagnecreatie, prestatieanalyse en budgetoptimalisatie.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/adspirer-ads-agent",
    "source": "https://github.com/amekala/adspirer-mcp-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 2950,
-   "maker": "Adspirer",
+   "maker": "",
    "about": [
     "Manage advertising campaigns across Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads through natural language. Adspirer Ads Agent provides 91 tools spanning keyword research, campaign creation, performance analysis, and budget optimization — all accessible conversationally. Google Ads coverage includes search campaigns, Performance Max, asset management, and ad extensions. LinkedIn Ads tools handle sponsored content, lead generation forms, and audience targeting. Meta Ads supports image and carousel campaigns with audience management, and TikTok Ads covers in-feed campaigns and asset validation.",
     "The plugin connects to your advertising accounts via OAuth 2.1 authentication through your Adspirer account. A built-in best practices skill guides campaign creation with platform-specific workflows, budget minimums, and safety confirmations — ensuring you always confirm before spending real money.",
@@ -133,7 +133,7 @@
     "to pull performance metrics with strategic recommendations across any connected platform. Use"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ad management for Google, Meta, TikTok & LinkedIn. 91 tools for keyword research, campaigns, analysis & optimization."
+   "descriptionOriginal": "Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads. 91 tools for keyword research, campaign creation, performance analysis, and budget optimization."
   },
   {
    "id": "marketplace:agent-sdk-dev",
@@ -157,20 +157,20 @@
   },
   {
    "id": "marketplace:agentforce-adlc",
-   "name": "agentforce-adlc",
+   "name": "Agentforce ADLC",
    "origin": "marketplace",
-   "description": "Agentforce Agent Development Life Cycle: schrijf, ontdek, stel, implementeer, test en optimaliseer .agent-bestanden",
+   "description": "Agentforce Agent Development Life Cycle – schrijf, ontdek, stel, implementeer, test, beveilig en optimaliseer .agent-bestanden",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/agentforce-adlc",
-   "source": "https://github.com/SalesforceAIResearch/agentforce-adlc",
-   "verified": false,
+   "source": "https://github.com/forcedotcom/sf-skills/tree/3c15867bdb9dacd515960174c661c706d041bb63/plugins/builder/agentforce-adlc",
+   "verified": true,
    "installs": 1150,
    "maker": "",
    "about": [
     "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files"
+   "descriptionOriginal": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, secure, and optimize .agent files"
   },
   {
    "id": "marketplace:agentmail",
@@ -672,20 +672,20 @@
    "id": "marketplace:asana",
    "name": "Asana",
    "origin": "marketplace",
-   "description": "Asana-integratie: maak en beheer taken, zoek projecten, werk opdrachten bij, volg de voortgang in uw ontwikkelingsworkflow.",
+   "description": "Integratie van Asana-projectbeheer. Verbindt Claude Code met Asana's V2 MCP-server (https://mcp.asana.com/v2/mcp) om taken aan te maken en te beheren, projecten te zoeken, opdrachten bij te werken en de voortgang bij te houden. Vereist een eenmalige installatie van uw eigen Asana OAuth-app - voer /asana-setup uit na de installatie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/asana",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/asana",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/external_plugins/asana",
+   "verified": true,
    "installs": 10796,
-   "maker": "Asana",
+   "maker": "",
    "about": [
     "Connect Claude Code to Asana's work management platform with 30+ powerful tools for project and task management. Create tasks, track project status, manage assignments, search across workspaces, and update goals—all through natural language commands directly in your development environment.",
     "Key capabilities include task creation and management, project tracking and status updates, user and team organization, goal updates, typeahead search, and section management. The integration uses OAuth authentication with your Asana account for secure access to your workspace data.",
     "After connecting your Asana account, interact naturally with your workspace. Try prompts like \"Find all my incomplete tasks due this week\", \"Create a new task in the Marketing project assigned to me\", \"List all sections in the Product Launch project\", or \"Show me the status of the Q2 Planning project\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Asana integration: Create and manage tasks, search projects, update assignments, track progress in your development workflow."
+   "descriptionOriginal": "Asana project management integration. Connects Claude Code to Asana's V2 MCP server (https://mcp.asana.com/v2/mcp) to create and manage tasks, search projects, update assignments, and track progress. Requires a one-time setup of your own Asana OAuth app — run /asana-setup after installing."
   },
   {
    "id": "community:asd-audhd-pai-skills",
@@ -1035,6 +1035,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:azure-skills",
+   "name": "Azure Skills",
+   "origin": "marketplace",
+   "description": "Microsoft Azure MCP-integratie voor cloudresourcebeheer, implementaties en Azure-services. Beheer uw Azure-inf...",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/azure-skills",
+   "source": "https://github.com/microsoft/azure-skills",
+   "verified": false,
+   "installs": 803,
+   "maker": "",
+   "about": [
+    "Microsoft Azure MCP integration for cloud resource management, deployments, and Azure services. Manage your Azure infrastructure, monitor applications, and deploy resources directly from Claude Code."
+   ],
+   "descriptionOriginal": "Microsoft Azure MCP integration for cloud resource management, deployments, and Azure services. Manage your Azure inf...",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:azure-cosmos-db-assistant",
    "name": "azure-cosmos-db-assistant",
    "origin": "marketplace",
@@ -1050,23 +1067,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices."
-  },
-  {
-   "id": "marketplace:azure-skills",
-   "name": "azure-skills",
-   "origin": "marketplace",
-   "description": "Microsoft Azure MCP-integratie voor cloudresourcebeheer, implementaties en Azure-services. Beheer uw Azure-inf...",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/azure-skills",
-   "source": "https://github.com/microsoft/azure-skills",
-   "verified": false,
-   "installs": 803,
-   "maker": "",
-   "about": [
-    "Microsoft Azure MCP integration for cloud resource management, deployments, and Azure services. Manage your Azure infrastructure, monitor applications, and deploy resources directly from Claude Code."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Microsoft Azure MCP integration for cloud resource management, deployments, and Azure services. Manage your Azure inf..."
   },
   {
    "id": "marketplace:azure-sql-developer",
@@ -1947,8 +1947,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ready-to-run workflows for financial advisors in Claude Cowork, drawing live data from the tools their firm already uses through third-party connectors. The plugin holds no client data, and the advisor approves any write back to an external system. Claude gathers, organizes, summarizes, compares and presents information, while the advisor exercises judgment, makes the recommendation and gives the advice. For financial professional use only; not investment, legal, or tax advice."
+   "descriptionOriginal": "Ready-to-run workflows for financial advisors in Claude Cowork, drawing live data from the tools their firm already uses through third-party connectors. The plugin holds no client data, and the advisor approves any write back to an external system. Claude gathers, organizes, summarizes, compares and presents information, while the advisor exercises judgment, makes the recommendation and gives the advice. For financial professional use only; not investment, legal, or tax advice.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:claude-security",
@@ -2230,7 +2230,7 @@
    "description": "Geautomatiseerde codebeoordeling voor pull-aanvragen met behulp van meerdere gespecialiseerde agenten met op vertrouwen gebaseerde scores",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/code-review",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/code-review",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/code-review",
    "verified": true,
    "installs": 438525,
    "maker": "",
@@ -2239,8 +2239,8 @@
     "The plugin intelligently filters out PRs that don't need review—closed, draft, automated, or already-reviewed pull requests are automatically skipped. Comments include direct GitHub links with full SHA hashes and line number ranges for easy navigation to the exact code in question.",
     "on any PR branch to launch the full automated review. The system will analyze your changes, score potential issues, and post actionable feedback directly to GitHub. You can customize the confidence threshold or focus areas (security, performance, accessibility) by editing the command configuration."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring"
+   "descriptionOriginal": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:code-modernization",
@@ -2327,8 +2327,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Cognee knowledge graph memory for Claude Code — session-aware storage, auto-routing recall, and persistent learning across sessions. Supports local mode and Cognee Cloud."
+   "descriptionOriginal": "Cognee knowledge graph memory for Claude Code — session-aware storage, auto-routing recall, and persistent learning across sessions. Supports local mode and Cognee Cloud.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:commercial-legal",
@@ -2515,7 +2515,7 @@
   },
   {
    "id": "marketplace:convex",
-   "name": "convex",
+   "name": "Convex",
    "origin": "marketplace",
    "description": "Officiële Convex-plug-in voor Claude Code met gebundelde Convex-skills, de convex-expert-subagent voor het schrijven van code, een run...",
    "category": "Schrijven & communicatie",
@@ -2527,8 +2527,8 @@
    "about": [
     "Official Convex plugin for Claude Code with bundled Convex skills, the convex-expert subagent for code-writing, a runtime-error monitor, and MCP access for backend development, schema design, real-time features, auth, file storage, scheduled jobs, and AI agents."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Convex plugin for Claude Code with bundled Convex skills, the convex-expert subagent for code-writing, a run..."
+   "descriptionOriginal": "Official Convex plugin for Claude Code with bundled Convex skills, the convex-expert subagent for code-writing, a run...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:convex-backend",
@@ -2549,7 +2549,7 @@
   },
   {
    "id": "marketplace:corporate-legal",
-   "name": "corporate-legal",
+   "name": "Corporate Legal",
    "origin": "marketplace",
    "description": "Voert fusies en overnames op grote schaal uit met geciteerde tabeloverzichten, stelt openbaarmakingsschema's en afsluitingscontrolelijsten op, stelt bestuurstoestemmingen en notulen in eigen beheer op en houdt de nalevingsdeadlines van entiteiten in alle rechtsgebieden bij.",
    "category": "Code review & testen",
@@ -3429,7 +3429,7 @@
    "description": "Stroomlijn technische workflows: stand-ups, codebeoordeling, architectuurbeslissingen, incidentrespons en technische documentatie. Works with your existing tools or standalone.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/engineering",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/ab4cb1cd383b4eb87383be8cf4e70cb5b2a2348d/engineering",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e050c2ec856373787143d7057663a6ebd1277df3/engineering",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -3778,8 +3778,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Fingerprint Device Intelligence"
+   "descriptionOriginal": "Fingerprint Device Intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:finishing-a-development-branch",
@@ -3834,7 +3834,7 @@
   },
   {
    "id": "marketplace:firestore-native",
-   "name": "firestore-native",
+   "name": "Firestore Native",
    "origin": "marketplace",
    "description": "Maak verbinding en communiceer met Firestore-databases, collecties en documenten.",
    "category": "Documenten",
@@ -3846,8 +3846,8 @@
    "about": [
     "Connect and interact with Firestore databases, collections, and documents."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect and interact with Firestore databases, collections, and documents."
+   "descriptionOriginal": "Connect and interact with Firestore databases, collections, and documents.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:firetiger",
@@ -4491,8 +4491,8 @@
     "How to use: there are no commands to memorize. Describe what you want and Claude picks the right tool or deployment skill. Try “deploy my static site to Hostinger”, “deploy this Next.js app to",
     "”, “create an A record pointing"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deploy, manage and monitor Hostinger services — Websites, Domains & DNS, Ecommerce, Email, Email Marketing, WordPress, Subscriptions & Payments, and VPS. Runs as a remote MCP server with browser (OAuth) sign-in — nothing to install locally."
+   "descriptionOriginal": "Deploy, manage and monitor Hostinger services — Websites, Domains & DNS, Ecommerce, Email, Email Marketing, WordPress, Subscriptions & Payments, and VPS. Runs as a remote MCP server with browser (OAuth) sign-in — nothing to install locally.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:hubspot-sales",
@@ -5011,13 +5011,13 @@
    "id": "marketplace:langfuse",
    "name": "Langfuse",
    "origin": "marketplace",
-   "description": "Skills voor Langfuse: open-source LLM-platform voor tracering, aanwijzingen en evaluatie",
+   "description": "Skills voor het werken met Langfuse, het open-source LLM-engineeringplatform voor tracering, snel beheer en evaluatie.",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/langfuse",
    "source": "https://github.com/langfuse/skills",
-   "verified": false,
+   "verified": true,
    "installs": 444,
-   "maker": "Langfuse",
+   "maker": "",
    "about": [
     ", the open-source LLM engineering platform, directly from Claude Code. This plugin gives you skills for setting up tracing and observability in your LLM applications, migrating hardcoded prompts into Langfuse's managed prompt system, querying traces and datasets via the Langfuse CLI, configuring CI/CD experiment gates for automated regression checks, and looking up Langfuse documentation, SDK usage, and integration guides.",
     "Key capabilities include a guided instrumentation workflow that assesses your current setup and adds proper span hierarchy, token tracking, and PII masking; a prompt migration skill that inventories your codebase's prompts and moves them to Langfuse with versioning and labeling; error analysis and LLM judge calibration references; and CI/CD gating via the",
@@ -5025,7 +5025,7 @@
     "Ask Claude to help with Langfuse tasks naturally — for example,"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for Langfuse: open-source LLM platform for tracing, prompts, and evaluation"
+   "descriptionOriginal": "Skills for working with Langfuse, the open-source LLM engineering platform for tracing, prompt management, and evaluation."
   },
   {
    "id": "marketplace:langfuse-observability",
@@ -5063,7 +5063,7 @@
    "description": "Laravel ontwikkelingstoolkit MCP-server. Biedt intelligente ondersteuning voor Laravel-applicaties, waaronder Artisan-opdrachten, Eloquent-query's, routing, migraties en raamwerkspecifieke codegeneratie.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/laravel-boost",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/external_plugins/laravel-boost",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/external_plugins/laravel-boost",
    "verified": true,
    "installs": 21924,
    "maker": "",
@@ -5145,8 +5145,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Turn website visitor signals into pipeline. Six Leadfeeder-powered skills — Getting Started, Daily Visitor Brief, Visitor Company Brief, Outreach Companion, Find My Buyer, and Add to Pipeline — let you identify high-intent accounts, research buyers, find the right contacts, personalise outreach, and add companies to your lists, all from within Claude. New here? Type \"Set up my Leadfeeder brief\" to run a 30-second readiness check first."
+   "descriptionOriginal": "Turn website visitor signals into pipeline. Six Leadfeeder-powered skills — Getting Started, Daily Visitor Brief, Visitor Company Brief, Outreach Companion, Find My Buyer, and Add to Pipeline — let you identify high-intent accounts, research buyers, find the right contacts, personalise outreach, and add companies to your lists, all from within Claude. New here? Type \"Set up my Leadfeeder brief\" to run a 30-second readiness check first.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:lean-ctx",
@@ -5164,20 +5164,20 @@
    "id": "marketplace:learn-with-coursera",
    "name": "Learn with Coursera",
    "origin": "marketplace",
-   "description": "Beantwoord drie vragen voor gepersonaliseerde Coursera-aanbevelingen: cursussen, projecten, video's of meer. Vereist connector.",
+   "description": "Verander elke leerintentie in een gepersonaliseerde Coursera-ervaring. Stelt drie snelle vragen (onderwerp, bekendheid, voorkeursformaat), doorzoekt de catalogus van Coursera en levert de juiste volgende stap – een cursus, praktijkgericht project, korte video of live rollenspel – en stippelt vervolgens een pad voorwaarts uit. Vereist de Coursera-connector voor catalogustools.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/learn-with-coursera",
-   "source": "https://github.com/coursera/skills",
-   "verified": false,
+   "source": "https://github.com/coursera/skills/tree/ac28fd6ebf8584e3ee196159bd6d4514fa07de0f/skills",
+   "verified": true,
    "installs": 292,
-   "maker": "Coursera",
+   "maker": "",
    "about": [
     "Turn any learning goal into a personalized Coursera experience. This plugin acts as an AI learning advisor: it asks three quick diagnostic questions to understand your topic, current skill level, and preferred way to learn, then searches Coursera's catalog and delivers the right resource — a structured course, hands-on project, short video, or live roleplay session. After delivering content, it maps a personalized learning path forward based on your professional context and goals.",
     "The plugin works in three steps. First, it diagnoses your needs by asking about your topic and how it applies to your role, your familiarity level (from \"brand new\" to \"solid, want more\"), and your preferred learning format. Then it searches and delivers matching content from Coursera's catalog in real time. Finally, a Path Finder step reviews course curricula, validates fit for your role, and recommends a concrete next step — with ratings, key topics, and a reason the course fits your specific situation.",
     "Express any learning intent naturally — try prompts like \"Teach me SQL for product management,\" \"I want to get better at negotiation,\" \"Help me prepare for a cloud certification,\" or \"I need a real foundation in Python — I keep using AI but don't understand what's happening.\" The plugin activates automatically when it detects a learning goal. Requires the Coursera connector to be enabled for catalog search and content delivery."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Answer 3 questions for personalized Coursera recommendations—courses, projects, videos, or more. Requires connector."
+   "descriptionOriginal": "Turn any learning intent into a personalized Coursera experience. Asks three quick questions (topic, familiarity, preferred format), searches Coursera's catalog, and delivers the right next step — a course, hands-on project, short video, or live roleplay — then maps a path forward. Requires the Coursera connector for catalog tools."
   },
   {
    "id": "marketplace:learning-output-style",
@@ -5928,7 +5928,7 @@
    "id": "marketplace:mintlify",
    "name": "Mintlify",
    "origin": "marketplace",
-   "description": "Bouw prachtige documentatie met Mintlify: converteer naar MDX, wijzig inhoud, automatiseer updates.",
+   "description": "Bouw prachtige documentatiesites met Mintlify. Converteer niet-markdown-bestanden naar correct opgemaakte MDX-pagina's, voeg inhoud toe en wijzig deze met correct componentgebruik en automatiseer documentatie-updates.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/mintlify",
    "source": "https://github.com/mintlify/mintlify-claude-plugin",
@@ -5941,7 +5941,7 @@
     "Ask Claude to help with any Mintlify task and the skill activates automatically. Try prompts like \"Update the quickstart guide based on this user feedback\", \"Set up a changelog\", or \"Use the mint CLI to get recent user comments and identify any pages to update.\" For live editing sessions, start with \"check out my Mintlify project.\" Claude will authenticate and open a preview so you can watch changes render in real time."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build beautiful documentation with Mintlify: convert to MDX, modify content, automate updates."
+   "descriptionOriginal": "Build beautiful documentation sites with Mintlify. Convert non-markdown files into properly formatted MDX pages, add and modify content with correct component use, and automate documentation updates."
   },
   {
    "id": "marketplace:miro",
@@ -6824,12 +6824,12 @@
   },
   {
    "id": "marketplace:php-lsp",
-   "name": "php-lsp",
+   "name": "PHP LSP",
    "origin": "marketplace",
-   "description": "PHP-taalserver (Intelephense) voor Claude Code, die code-intelligentie en diagnostiek levert.",
+   "description": "PHP-taalserver (Intelefense) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/php-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/php-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/php-lsp",
    "verified": true,
    "installs": 32856,
    "maker": "",
@@ -6839,7 +6839,7 @@
     "After installing the plugin, Claude automatically gains enhanced PHP intelligence. Simply work with your PHP files as normal - Claude will leverage the language server for better code understanding, accurate suggestions, and reliable refactoring assistance. The plugin requires Intelephense to be installed globally via"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "PHP language server (Intelephense) for Claude Code, providing code intelligence and diagnostics."
+   "descriptionOriginal": "PHP language server (Intelephense) for code intelligence"
   },
   {
    "id": "marketplace:pigment",
@@ -7071,18 +7071,18 @@
    "id": "marketplace:postman",
    "name": "Postman",
    "origin": "marketplace",
-   "description": "Volledig API-levenscyclusbeheer voor Claude Code. Synchroniseer collecties, genereer clientcode, ontdek API's, voer tests uit, creëer...",
-   "category": "Code review & testen",
+   "description": "Volledig API-levenscyclusbeheer voor Claude Code. Synchroniseer collecties, genereer clientcode, ontdek API's, voer tests uit, maak proefmodellen, publiceer documenten en controleer de beveiliging. Mogelijk gemaakt door de Postman MCP-server.",
+   "category": "Security",
    "url": "https://claude.com/marketplace/plugins/postman",
-   "source": "https://github.com/Postman-Devrel/postman-claude-code-plugin",
-   "verified": false,
+   "source": "https://github.com/postman-devrel/postman-claude-code-plugin",
+   "verified": true,
    "installs": 20482,
    "maker": "",
    "about": [
     "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, crea..."
+   "descriptionOriginal": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server."
   },
   {
    "id": "official:pptx",
@@ -7769,8 +7769,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access Remote's HR, payroll, contractor, time-off, and expense tools directly from Claude Code via the Remote MCP server."
+   "descriptionOriginal": "Access Remote's HR, payroll, contractor, time-off, and expense tools directly from Claude Code via the Remote MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:render",
@@ -7801,8 +7801,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect your agent to your Replo workspace and run ecommerce work from one conversation. Find projects, sites, products, assets, orders, and performance data. Build or update storefront experiences with Replo Agent, publish when you’re ready, manage products and assets, connect custom domains, and schedule recurring work. Use it to launch a product page from catalog data, find the right campaign assets, inspect orders, diagnose an underperforming page, or turn analytics into an A/B test."
+   "descriptionOriginal": "Connect your agent to your Replo workspace and run ecommerce work from one conversation. Find projects, sites, products, assets, orders, and performance data. Build or update storefront experiences with Replo Agent, publish when you’re ready, manage products and assets, connect custom domains, and schedule recurring work. Use it to launch a product page from catalog data, find the right campaign assets, inspect orders, diagnose an underperforming page, or turn analytics into an A/B test.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:resend",
@@ -8363,20 +8363,20 @@
   },
   {
    "id": "marketplace:sentry-cli",
-   "name": "sentry-cli",
+   "name": "Sentry CLI",
    "origin": "marketplace",
    "description": "Skills voor het gebruik van de Sentry CLI voor interactie met Sentry vanaf de opdrachtregel",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/sentry-cli",
-   "source": "https://github.com/getsentry/cli",
-   "verified": false,
+   "source": "https://github.com/getsentry/cli/tree/3567c3c937b5cc06667d5b023bda0b2d3f472c54/packages/cli/plugins/sentry-cli",
+   "verified": true,
    "installs": 1970,
-   "maker": "Sentry",
+   "maker": "",
    "about": [
     "Skills for using the Sentry CLI to interact with Sentry from the command line"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for using the Sentry CLI to interact with Sentry from the command line"
+   "descriptionOriginal": "Skills for using the Sentry CLI to interact with Sentry from the command line",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:septim-agents-pack",
@@ -8394,13 +8394,13 @@
    "id": "marketplace:serena",
    "name": "Serena",
    "origin": "marketplace",
-   "description": "Semantische codeanalyse MCP-server voor intelligent codebegrip, refactoring en navigatie via taalserverprotocol.",
+   "description": "Semantische codeanalyse MCP-server die intelligent codebegrip, refactoring-suggesties en codebase-navigatie biedt via taalserverprotocolintegratie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/serena",
-   "source": "https://github.com/oraios",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1aa8f02ec8327f513686934f458a620f83db91ed/external_plugins/serena",
+   "verified": true,
    "installs": 89147,
-   "maker": "Oraios",
+   "maker": "",
    "about": [
     "Serena transforms Claude into a powerful coding agent with IDE-like capabilities. This MCP server provides semantic code retrieval and editing tools that work at the symbol level, enabling intelligent navigation of large codebases without reading entire files. Supporting over 30 programming languages including Python, JavaScript, TypeScript, Java, Rust, Go, and C++, Serena leverages Language Server Protocol integration to deliver precise code understanding.",
     "Key features include symbol-level code extraction with tools like",
@@ -8408,7 +8408,7 @@
     ", and token-efficient codebase interaction. The toolkit exploits the relational structure of code to help Claude work effectively on complex projects."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Semantic code analysis MCP server for intelligent code understanding, refactoring, and navigation via language server protocol."
+   "descriptionOriginal": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration."
   },
   {
    "id": "marketplace:servicenow-sdk",
@@ -8822,8 +8822,8 @@
    "about": [
     "Manage Spotify ad campaigns with natural language. Create campaigns, ad sets, ads, pull reports, and handle OAuth — all through conversation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage Spotify ad campaigns, audiences, measurement, account access, assets, and reporting with natural language and OAuth."
+   "descriptionOriginal": "Manage Spotify ad campaigns, audiences, measurement, account access, assets, and reporting with natural language and OAuth.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:stackhawk-api",
@@ -9021,8 +9021,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Design or redesign frontend UI, presentations, and marketing graphics on the Superdesign infinite canvas. Uses approved slide outlines, project context, and branchable drafts you refine."
+   "descriptionOriginal": "Design or redesign frontend UI, presentations, and marketing graphics on the Superdesign infinite canvas. Uses approved slide outlines, project context, and branchable drafts you refine.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:supermetrics",
@@ -9056,8 +9056,8 @@
     "Invoke skills with slash commands like",
     "to explore requirements and design before implementation, or"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques"
+   "descriptionOriginal": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:swagger-contract-testing",
@@ -9373,7 +9373,7 @@
   },
   {
    "id": "marketplace:tooluniverse",
-   "name": "tooluniverse",
+   "name": "ToolUniverse",
    "origin": "marketplace",
    "description": "AI-wetenschappers democratiseren met ToolUniverse",
    "category": "Overig",
@@ -9467,17 +9467,17 @@
    "description": "TypeScript/JavaScript-taalserver voor verbeterde code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/typescript-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/typescript-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/typescript-lsp",
    "verified": true,
    "installs": 212522,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "The TypeScript LSP plugin brings powerful language server capabilities to Claude Code for TypeScript and JavaScript development. It enables intelligent code navigation with go-to-definition, find references, and real-time error checking across your entire project.",
     "This plugin supports all major TypeScript and JavaScript file types including .ts, .tsx, .js, .jsx, .mts, .cts, .mjs, and .cjs files. The language server integration provides the same code intelligence features you'd expect from a full IDE.",
     "Once installed, the plugin automatically activates when working with TypeScript or JavaScript files. Ask Claude to \"go to the definition of this function\", \"find all references to this variable\", or \"check for type errors in this file\". The language server runs in the background providing real-time code analysis."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "TypeScript/JavaScript language server for enhanced code intelligence"
+   "descriptionOriginal": "TypeScript/JavaScript language server for enhanced code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ui-theme-designer",
@@ -10328,25 +10328,36 @@
   "official:xlsx",
   "official:docx",
   "official:theme-factory",
-  "official:frontend-design"
+  "official:frontend-design",
+  "official:brand-guidelines"
  ],
- "updated": "2026-11-06T21:43:01.933186+00:00",
+ "updated": "2026-11-07T20:26:09.714675+00:00",
  "tonight": {
-  "date": "2026-11-06",
-  "id": "official:frontend-design",
+  "date": "2026-11-07",
+  "id": "official:brand-guidelines",
   "text": [
-   "Benader dit als ontwerpleider bij een ontwerpstudio die bekend staat om het geven van elke klant een duidelijke visuele identiteit die niet wordt aangezien voor die van iemand anders. Deze klant heeft al voorstellen afgewezen die cliché of sjabloon aanvoelden, en betaalt voor een onderscheidend standpunt: maak weloverwogen, eigenzinnige keuzes over palet, typografie en lay-out die specifiek zijn voor deze opdracht, en neem esthetische risico's als dit gerechtvaardigd is.",
-   "Grond uw ontwerpen op het onderwerp",
-   "Als de opdracht niet aangeeft wat het product of onderwerp is, identificeer dit dan zelf voordat u gaat ontwerpen en bevestig dit met de klant. Je kunt één concreet onderwerp, de doelgroep van het ontwerp en de primaire taak van het ontwerp, als voorstel bedenken. Als er informatie in uw geheugen zit over de voorkeuren van de klant of de context over wat hij of zij aan het bouwen is, gebruik dat dan als hint. De branche, het onderwerp, de materialen en de taal van het onderwerp zijn waar onderscheidende visuele keuzes vandaan komen: een ontwerp voor speelgoed voor meisjes van 8 tot 11 jaar zal esthetisch heel anders zijn dan een dashboard voor...",
-   "Bij webontwerpen is de held het eerste dat kijkers zien. Open met het meest karakteristieke in de wereld van het onderwerp, in de vorm die het meest passend is: een kop, een afbeelding, een animatie, een live demo, een interactief moment of andere behandelingen. Wees weloverwogen bij je keuze: een groot getal met een klein label, ondersteunende statistieken en een gradiëntaccent is de standaardbehandeling, dus gebruik dit alleen als dat echt de beste optie is.",
-   "Typografie draagt de persoonlijkheid van de pagina. U hebt geen ander lettertype nodig voor weergave- of koptekst en hoofdinhoud: gebruik één of twee families, en als er twee zijn, zorg er dan voor dat ze duidelijk van elkaar verschillen."
+   "Gebruik deze skill om toegang te krijgen tot de officiële merkidentiteit- en stijlbronnen van Anthropic.",
+   "Trefwoorden: branding, huisstijl, visuele identiteit, nabewerking, styling, merkkleuren, typografie, Antropisch merk, visuele opmaak, visueel ontwerp",
+   "Donker: `#141413` - Primaire tekst en donkere achtergronden Licht: `#faf9f5` - Lichte achtergronden en tekst op donker Middengrijs: `#b0aea5` - Secundaire elementen Lichtgrijs: `#e8e6dc` - Subtiele achtergronden",
+   "Oranje: `#d97757` - Primair accent Blauw: `#6a9bcc` - Secundair accent Groen: `#788c5d` - Tertiair accent",
+   "Koppen: Poppins (met Arial fallback) Hoofdtekst: Lora (met Georgia fallback) Opmerking: lettertypen moeten vooraf in uw omgeving zijn geïnstalleerd voor de beste resultaten",
+   "Past Poppins-lettertype toe op kopteksten (24pt en groter) Past Lora-lettertype toe op hoofdtekst Valt automatisch terug naar Arial/Georgia als aangepaste lettertypen niet beschikbaar zijn Behoudt de leesbaarheid op alle systemen",
+   "Koppen (24pt+): Poppins-lettertype Hoofdtekst: Lora-lettertype Slimme kleurselectie op basis van achtergrond Behoudt teksthiërarchie en opmaak",
+   "Niet-tekstvormen gebruiken accentkleuren Bladert door oranje, blauwe en groene accenten Behoudt visuele interesse terwijl het bij het merk blijft",
+   "Maakt gebruik van door het systeem geïnstalleerde Poppins- en Lora-lettertypen indien beschikbaar Biedt automatische terugval naar Arial (koppen) en Georgia (body) Geen lettertype-installatie vereist - werkt met bestaande systeemlettertypen Voor de beste resultaten installeert u Poppins- en Lora-lettertypen vooraf in uw omgeving",
+   "Gebruikt RGB-kleurwaarden voor nauwkeurige merkmatching Toegepast via de RGBColor-klasse van Python-pptx Behoudt kleurgetrouwheid op verschillende systemen"
   ],
   "textOriginal": [
-   "Approach this as the design lead at a design studio known for giving every client a distinct visual identity that is not mistaken for anyone else's. This client has already rejected proposals that felt cliché or templated, and is paying for a distinctive point of view: make deliberate, opinionated choices about palette, typography, and layout that are specific to this brief, and take aesthetic risk if justified.",
-   "Ground your designs in the subject matter",
-   "If the brief does not identify what the product or subject matter is, identify it yourself before designing, and confirm with the client. You can come up with one concrete subject, the design's audience, and the design's primary job, as a proposal. If there's any information in your memory about the client's preferences or context about what they're building, use that as a hint. The subject's industry, subject matter, materials, and vernacular are where distinctive visual choices come from — a design for a toy for girls aged 8–11 will be very aesthetically different from a dashboard for…",
-   "For web designs, the hero is the first thing viewers will see. Open with the most characteristic thing in the subject's world, in the form that is most appropriate: a headline, an image, an animation, a live demo, an interactive moment, or other treatments. Be deliberate with your choice: a big number with a small label, supporting stats, and a gradient accent is the default treatment, so only use it if that's truly the best option.",
-   "Typography carries the personality of the page. You don't need a different typeface for display or headline text and body content: use one family or two, and if two, make them clearly distinct."
+   "To access Anthropic's official brand identity and style resources, use this skill.",
+   "Keywords: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design",
+   "Dark: `#141413` - Primary text and dark backgrounds Light: `#faf9f5` - Light backgrounds and text on dark Mid Gray: `#b0aea5` - Secondary elements Light Gray: `#e8e6dc` - Subtle backgrounds",
+   "Orange: `#d97757` - Primary accent Blue: `#6a9bcc` - Secondary accent Green: `#788c5d` - Tertiary accent",
+   "Headings: Poppins (with Arial fallback) Body Text: Lora (with Georgia fallback) Note: Fonts should be pre-installed in your environment for best results",
+   "Applies Poppins font to headings (24pt and larger) Applies Lora font to body text Automatically falls back to Arial/Georgia if custom fonts unavailable Preserves readability across all systems",
+   "Headings (24pt+): Poppins font Body text: Lora font Smart color selection based on background Preserves text hierarchy and formatting",
+   "Non-text shapes use accent colors Cycles through orange, blue, and green accents Maintains visual interest while staying on-brand",
+   "Uses system-installed Poppins and Lora fonts when available Provides automatic fallback to Arial (headings) and Georgia (body) No font installation required - works with existing system fonts For best results, pre-install Poppins and Lora fonts in your environment",
+   "Uses RGB color values for precise brand matching Applied via python-pptx's RGBColor class Maintains color fidelity across different systems"
   ]
  }
 }
