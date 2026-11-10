@@ -1,6 +1,117 @@
 {
  "editions": [
   {
+   "date": "2026-11-10",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.321",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.321",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+     "published": "2026-11-09T19:22:30+00:00",
+     "summary": "Claude Fable 5.2 (`claude-fable-5-2`) toegevoegd, nu het standaard Fable-model - 1M context, $8/$40 per Mtok met $0,20/Mtok cache-lezingen · `--settings ` toegevoegd aan `claude remote-control`, dat een instellingenbestand toepast op elke sessie die wordt gestart; als het bestand verandert, geen nieuwe sessie...",
+     "bullets": [
+      "Claude Fable 5.2 (`claude-fable-5-2`) toegevoegd, nu het standaard Fable-model — 1M context, $8/$40 per Mtok met $0,20/Mtok cache-lezingen",
+      "`--settings ` toegevoegd aan `claude remote-control`, dat een instellingenbestand toepast op elke sessie die wordt gestart; als het bestand verandert, start er geen nieuwe sessie totdat u…",
+      "Probleem opgelost dat MCP OAuth-verzoeken geheimen, zoals vernieuwingstokens, naar een andere host stuurden wanneer een server deze omleidde",
+      "Er is een probleem opgelost waarbij een alleen-lezen Bash-opdracht buiten de sandbox werd uitgevoerd zonder toestemmingsprompt",
+      "Er is een probleem opgelost waarbij Bash-toestemmingscontroles het schrijven van een bestand vanuit de verkeerde map beoordeelden en er niet om werd gevraagd",
+      "Vaste weigeringsregels en prompts voor beschermde bestanden zijn niet van toepassing op het bestand dat door een `cp` of `mv` naar een directory wordt geschreven",
+      "Probleem opgelost dat de notitie 'Opnames uit gebruikskredieten' werd weergegeven na een overstap naar Fable op Enterprise-stoelen waarvan het abonnement Fable omvat",
+      "Probleem opgelost dat het fallback-model soms een verzoek afwijst of een gestopt antwoord vermeldt wanneer het eerste model werd geblokkeerd voordat het antwoordde"
+     ],
+     "titleOriginal": "claude-code v2.1.321",
+     "lang": "nl"
+    },
+    {
+     "id": "web:https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "JPMorganChase breidt Claude Code uit naar meer medewerkers",
+     "url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+     "published": "2026-11-09T00:00:00+00:00",
+     "summary": "JPMorganChase rolt Claude uit binnen het hele bedrijf, naar meer medewerkers dan alleen ingenieurs.",
+     "image": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code/opengraph-image/og",
+     "titleOriginal": "JPMorganChase expands Claude Code to more employees",
+     "lang": "nl"
+    },
+    {
+     "id": "simon:https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+     "kind": "simon",
+     "source": "Simon Willison",
+     "title": "Samen met Claude de bron van een mysterieuze piep opsporen",
+     "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+     "published": "2026-11-09T23:57:21+00:00",
+     "summary": "Ons huis heeft een opbergruimte, vol met dozen die we nog steeds niet hebben uitgepakt van onze laatste verhuizing. Een paar weken geleden begon er iets in die kamer met tussenpozen te piepen. De pieptonen lagen zo ver uit elkaar dat het moeilijk was om in de kamer te staan en te proberen de bron van het geluid te achterhalen.",
+     "titleOriginal": "Locating the source of a mysterious beep with Claude",
+     "lang": "nl"
+    },
+    {
+     "id": "simon:https://simonwillison.net/2026/Nov/9/hn-50421091/",
+     "kind": "simon",
+     "source": "Simon Willison",
+     "title": "Het internet is meer dan genoeg, door Paul Ford",
+     "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+     "published": "2026-11-09T04:32:33+00:00",
+     "summary": "Mijn commentaar op The Web Is More Than Enough, door Paul Ford – Hacker News. Oké, deze opmerking overtuigde me om dat eens te proberen. Hier is iets dat ik vanochtend in Three.js heb gemaakt: een Faberge-ei met naaktslakthema: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) Ik...",
+     "titleOriginal": "The Web Is More Than Enough, by Paul Ford",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50429906",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Claude Fabel 5.2 en Mythos 5.2",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "published": "2026-11-09T18:56:29+00:00",
+     "summary": "863 punten · 522 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50429906",
+     "score": 863,
+     "titleOriginal": "Claude Fable 5.2 and Mythos 5.2",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50431144",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Claude Fable 5.2 scoort 65 op kunstmatige analyse, hoogste tot nu toe",
+     "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+     "published": "2026-11-09T20:04:55+00:00",
+     "summary": "260 punten · 183 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50431144",
+     "score": 260,
+     "titleOriginal": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xs0dct",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Fabel 5.2 is zojuist geland.",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
+     "published": "2026-11-09T18:59:57+00:00",
+     "summary": "Nog steeds geen redactiepost van Anthropic. Edit: Grapje, het verscheen eindelijk: https://www.anthropic.com/claude-fable-and-mythos-5-2 Edit 2: Holy shit, ik heb *drie* resets. Blijkbaar alleen voor de Fabelmeter. ingediend door /u/Strange-Pin-2998 [link] [opmerkingen]",
+     "score": 100,
+     "titleOriginal": "Fable 5.2 just landed.",
+     "lang": "nl"
+    },
+    {
+     "id": "reddit:t3_1xrevbv",
+     "kind": "reddit",
+     "source": "r/ClaudeAI",
+     "title": "Claude heeft ervoor gezorgd dat mijn oude iPhone geen afval werd",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xrevbv/claude_saved_my_old_iphone_from_becoming_ewaste/",
+     "published": "2026-11-09T01:30:10+00:00",
+     "summary": "Semi - nieuwe Claude-gebruiker hier. Ik had mijn oude iPhone se die nergens op wilde opstarten, herstellen, ramdisk, niets. Ik kwam op een punt waarop ik dacht dat de nand had gefaald, omdat er paniek zou ontstaan of het gewoon onmiddellijk zou sterven. Na langer dan ik wil toegeven dat ik oplossingen heb geprobeerd, heb ik Claude de ...",
+     "image": "https://preview.redd.it/g1yb5kfiph0i1.jpeg?width=640&crop=smart&auto=webp&s=6764b0aec5834c14b568ddf2f8253dac2020a694",
+     "score": 99,
+     "titleOriginal": "Claude saved my old iPhone from becoming ewaste",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-08",
    "items": [
     {
@@ -1692,6 +1803,7 @@
     "https://claude.com/resources/articles/introducing-routines-in-claude-code",
     "https://claude.com/resources/articles/introducing-the-claude-apps-gateway",
     "https://claude.com/resources/articles/introduction-to-agentic-coding",
+    "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
     "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding",
     "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer",
     "https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions",
@@ -1790,6 +1902,7 @@
    "gh:anthropics/claude-code:v2.1.317",
    "gh:anthropics/claude-code:v2.1.318",
    "gh:anthropics/claude-code:v2.1.319",
+   "gh:anthropics/claude-code:v2.1.321",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -1827,6 +1940,8 @@
    "hn:50407882",
    "hn:50410107",
    "hn:50415628",
+   "hn:50429906",
+   "hn:50431144",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -1996,6 +2111,16 @@
    "reddit:t3_1xr0drc",
    "reddit:t3_1xr2pir",
    "reddit:t3_1xr3gbs",
+   "reddit:t3_1xrevbv",
+   "reddit:t3_1xriv9l",
+   "reddit:t3_1xrkks4",
+   "reddit:t3_1xrmui5",
+   "reddit:t3_1xrop4r",
+   "reddit:t3_1xs0dct",
+   "reddit:t3_1xs25gb",
+   "reddit:t3_1xs292a",
+   "reddit:t3_1xs29of",
+   "reddit:t3_1xs3e2p",
    "simon:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "simon:https://simonwillison.net/2026/Aug/23/drew-breunig/",
    "simon:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
@@ -2009,6 +2134,9 @@
    "simon:https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/",
    "simon:https://simonwillison.net/2026/Jul/29/matthew-green/",
    "simon:https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/",
+   "simon:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+   "simon:https://simonwillison.net/2026/Nov/9/hn-50421091/",
+   "simon:https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
    "simon:https://simonwillison.net/2026/Oct/14/tree-appreciator/",
    "simon:https://simonwillison.net/2026/Oct/16/code-review/",
    "simon:https://simonwillison.net/2026/Oct/20/battledrones/",
@@ -2033,6 +2161,7 @@
    "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
    "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
    "web:https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+   "web:https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
    "web:https://claude.com/resources/articles/message-threads",
    "web:https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
    "web:https://claude.com/resources/articles/organization-skills-and-directory",
@@ -2179,7 +2308,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-08T20:41:09.756341+00:00"
+  "last_run": "2026-11-10T00:22:24.404746+00:00"
  },
- "generated": "2026-11-08T20:41:09.756341+00:00"
+ "generated": "2026-11-10T00:22:24.404746+00:00"
 }

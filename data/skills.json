@@ -132,8 +132,8 @@
     "/campaign-performance google_ads last 30 days",
     "to pull performance metrics with strategic recommendations across any connected platform. Use"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads. 91 tools for keyword research, campaign creation, performance analysis, and budget optimization."
+   "descriptionOriginal": "Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads. 91 tools for keyword research, campaign creation, performance analysis, and budget optimization.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:agent-sdk-dev",
@@ -169,8 +169,8 @@
    "about": [
     "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, secure, and optimize .agent files"
+   "descriptionOriginal": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, secure, and optimize .agent files",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:agentmail",
@@ -231,8 +231,8 @@
    "about": [
     "AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp"
+   "descriptionOriginal": "AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:aikido",
@@ -322,20 +322,20 @@
   },
   {
    "id": "marketplace:aiven",
-   "name": "aiven",
+   "name": "Aiven",
    "origin": "marketplace",
-   "description": "Implementeer eenvoudig beheerde PostgreSQL, Kafka, OpenSearch, Clickhouse en andere databases, streaming en apps via Aiv...",
+   "description": "Implementeer eenvoudig beheerde PostgreSQL (pg), Kafka, OpenSearch, Clickhouse en andere databases, streaming en apps. Gratis niveau beschikbaar, binnen enkele minuten operationeel.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/aiven",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/aiven/aiven-ai-plugins",
+   "verified": true,
    "installs": 41,
-   "maker": "Aiven",
+   "maker": "",
    "about": [
     "Easily deploy managed PostgreSQL, Kafka, OpenSearch, Clickhouse, and other databases, streaming, and apps through Aiven. Free tier available, up and running in minutes."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Easily deploy managed PostgreSQL, Kafka, OpenSearch, Clickhouse, and other databases, streaming, and apps through Aiv..."
+   "descriptionOriginal": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps. Free tier available, up and running in minutes."
   },
   {
    "id": "official:algorithmic-art",
@@ -418,6 +418,21 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB)."
+  },
+  {
+   "id": "marketplace:amadeus-travel-builder",
+   "name": "Amadeus Travel Builder",
+   "origin": "marketplace",
+   "description": "Bouw applicaties inclusief reisgerelateerde mogelijkheden op live Amadeus-gegevens met Amadeus Travel Builder API's. Maak het zoeken naar vluchten, rondleidingen en activiteiten, realtime prijs- en boekingslinks, opzoeken van luchthavens en steden en andere reismogelijkheden zichtbaar zonder dat u eerst API-documenten hoeft te lezen.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/amadeus-travel-builder",
+   "source": "https://github.com/amadeusitgroup/amadeus-travel-toolkit/tree/5fa06305a8e8acb41abfba805ddd6b4c9d5d37c2/plugins/amadeus-travel-builder",
+   "verified": true,
+   "installs": 0,
+   "maker": "Amadeus",
+   "about": [],
+   "firstSeen": "2026-11-10",
+   "descriptionOriginal": "Build applications including travel-related capabilities on live Amadeus data with Amadeus Travel Builder APIs. Expose flight search, tour and activity recommendations, real-time pricing and booking links, airport and city lookup, and other travel capabilities with no API docs to read first."
   },
   {
    "id": "marketplace:amazon-location-service",
@@ -547,7 +562,7 @@
   },
   {
    "id": "marketplace:apollo",
-   "name": "apollo",
+   "name": "Apollo",
    "origin": "marketplace",
    "description": "Prospecteer, verrijk leads, laad outreachreeksen en vraag verkoopanalyses op met Apollo.io: MCP-serverintegratie met één klik voor Claude Code en Cowork.",
    "category": "Data & analyse",
@@ -562,8 +577,8 @@
     "\"Find me 20 CFOs at Series B fintech companies in the US with over 200 employees.\" — Apollo searches for matching companies, bulk-enriches firmographic data, finds decision-makers, and returns a ranked lead table with ICP fit scores.",
     "\"Find and enroll decision-makers at my top 10 target accounts into my Q1 outbound sequence.\" — Apollo finds the contacts, enriches them, deduplicates, and bulk-loads them into your sequence with a full enrollment summary before and after enrollment."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prospect, enrich leads, load outreach sequences, and query sales analytics with Apollo.io — one-click MCP server integration for Claude Code and Cowork."
+   "descriptionOriginal": "Prospect, enrich leads, load outreach sequences, and query sales analytics with Apollo.io — one-click MCP server integration for Claude Code and Cowork.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:apollo-skills",
@@ -880,6 +895,23 @@
    "descriptionOriginal": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code (CDK, CloudFormation), use core services (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock with Knowledge Bases and Guardrails, AWS Blocks), select and operate databases across relational, key-value, document, wide-column, graph, time-series, and in-memory engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream"
   },
   {
+   "id": "marketplace:aws-data-analytics",
+   "name": "AWS Data Analytics",
+   "origin": "marketplace",
+   "description": "Datalake, analyse, zoeken en ETL-workflows met S3 Tables, AWS Glue, Athena, Amazon Redshift en Amazon OpenSearch Service. Omvat beheerde Iceberg-tabellen op S3-tabellen, opname uit JDBC-databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery en DynamoDB, AWS Glue Data Catalog-inventaris en ontdekking van activa, federatieve Athena-query's, vectoropslag en semantisch zoeken op Amazon S3-vectoren, en Amazon OpenSearch Service en Serverless (migratie van S3-vectoren)",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/aws-data-analytics",
+   "source": "https://github.com/aws/agent-toolkit-for-aws/tree/12101890060794eccc8322db88e02b6819752faf/plugins/aws-data-analytics",
+   "verified": true,
+   "installs": 1750,
+   "maker": "",
+   "about": [
+    "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Data lake, analytics, search, and ETL workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, and Amazon OpenSearch Service. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, vector storage and semantic search on Amazon S3 Vectors, and Amazon OpenSearch Service and Serverless (migration from S"
+  },
+  {
    "id": "marketplace:aws-serverless",
    "name": "AWS Serverless",
    "origin": "marketplace",
@@ -974,23 +1006,6 @@
    "descriptionOriginal": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL..."
   },
   {
-   "id": "marketplace:aws-data-analytics",
-   "name": "aws-data-analytics",
-   "origin": "marketplace",
-   "description": "Datalake, analyses en ETL-workflows met S3 Tables, AWS Glue en Athena.",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/aws-data-analytics",
-   "source": "https://github.com/aws/agent-toolkit-for-aws",
-   "verified": false,
-   "installs": 1750,
-   "maker": "Amazon Web Services",
-   "about": [
-    "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena."
-  },
-  {
    "id": "community:aws-skills",
    "name": "aws-skills",
    "origin": "community",
@@ -1035,6 +1050,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:azure-cosmos-db-assistant",
+   "name": "Azure Cosmos DB Assistant",
+   "origin": "marketplace",
+   "description": "Deskundige assistent voor Azure Cosmos DB: gegevensmodellering, query-optimalisatie, prestatie-afstemming en best practices.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/azure-cosmos-db-assistant",
+   "source": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+   "verified": false,
+   "installs": 1644,
+   "maker": "",
+   "about": [
+    "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices."
+   ],
+   "descriptionOriginal": "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:azure-skills",
    "name": "Azure Skills",
    "origin": "marketplace",
@@ -1050,23 +1082,6 @@
    ],
    "descriptionOriginal": "Microsoft Azure MCP integration for cloud resource management, deployments, and Azure services. Manage your Azure inf...",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:azure-cosmos-db-assistant",
-   "name": "azure-cosmos-db-assistant",
-   "origin": "marketplace",
-   "description": "Deskundige assistent voor Azure Cosmos DB: gegevensmodellering, query-optimalisatie, prestatie-afstemming en best practices.",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/azure-cosmos-db-assistant",
-   "source": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
-   "verified": false,
-   "installs": 1644,
-   "maker": "",
-   "about": [
-    "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices."
   },
   {
    "id": "marketplace:azure-sql-developer",
@@ -2072,7 +2087,7 @@
   },
   {
    "id": "marketplace:clinical-trials",
-   "name": "clinical-trials",
+   "name": "Clinical Trials",
    "origin": "marketplace",
    "description": "Toegang tot gegevens van ClinicalTrials.gov. De Clinical Trials Connector geeft Claude toegang tot ClinicalTrials.gov, het NIH/NLM-register van door de FDA gereguleerde klinische onderzoeken die wereldwijd worden uitgevoerd.",
    "category": "Data & analyse",
@@ -2969,8 +2984,8 @@
    "installs": 0,
    "maker": "Dataiku",
    "about": [],
-   "firstSeen": "2026-11-06",
-   "descriptionOriginal": "Connect your agent to Dataiku: inspect projects, datasets, recipes, ML, and agents with typed MCP tools, and drive Dataiku Cobuild to build project-level assets."
+   "descriptionOriginal": "Connect your agent to Dataiku: inspect projects, datasets, recipes, ML, and agents with typed MCP tools, and drive Dataiku Cobuild to build project-level assets.",
+   "firstSeen": "2026-11-06"
   },
   {
    "id": "marketplace:dataproc",
@@ -3324,7 +3339,7 @@
   },
   {
    "id": "marketplace:earnings-reviewer",
-   "name": "earnings-reviewer",
+   "name": "Earnings Reviewer",
    "origin": "marketplace",
    "description": "Inkomstenoproep en indiening van modelupdate naar notitieconcept",
    "category": "Code review & testen",
@@ -3476,16 +3491,16 @@
    "id": "marketplace:equity-research",
    "name": "Equity Research",
    "origin": "marketplace",
-   "description": "Analyseer inkomsten, genereer beleggingsideeën en stel rapporten voor de startdekking op",
-   "category": "Overig",
+   "description": "Hulpmiddelen voor aandelenonderzoek: winstanalyse, het initiëren van dekkingsrapporten en onderzoeksworkflows",
+   "category": "Productiviteit",
    "url": "https://claude.com/marketplace/plugins/equity-research",
-   "source": "https://github.com/anthropics/financial-services-plugins",
+   "source": "https://github.com/anthropics/financial-services/tree/574ed3624aebd0418c7e96cd101262f30210ab26/plugins/vertical-plugins/equity-research",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Analyze earnings, generate investment ideas, and draft initiating coverage reports"
+   "descriptionOriginal": "Equity research tools: earnings analysis, initiating coverage reports, and research workflows"
   },
   {
    "id": "marketplace:euler-for-partner-managers",
@@ -4258,6 +4273,23 @@
    "descriptionOriginal": "Suite of Google Workspace integrations: Gmail, Calendar, Chat, Docs, Sheets, Slides, and Drive with cross-platform OAuth."
   },
   {
+   "id": "marketplace:grafana-cloud-mcp",
+   "name": "Grafana Cloud MCP",
+   "origin": "marketplace",
+   "description": "Gehoste MCP-server voor AI-ondersteunde Grafana Cloud-observatie – geen lokale installatie vereist.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/grafana-cloud-mcp",
+   "source": "https://github.com/grafana/ai-marketplace/tree/12be5634a492f73c189d466c5449d09b853ad7a4/plugins/grafana-cloud-mcp",
+   "verified": true,
+   "installs": 317,
+   "maker": "",
+   "about": [
+    "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required."
+   ],
+   "descriptionOriginal": "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:grafana-mcp",
    "name": "Grafana MCP",
    "origin": "marketplace",
@@ -4276,23 +4308,6 @@
    ],
    "descriptionOriginal": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:grafana-cloud-mcp",
-   "name": "grafana-cloud-mcp",
-   "origin": "marketplace",
-   "description": "Gehoste MCP-server voor AI-ondersteunde Grafana Cloud-observatie – geen lokale installatie vereist.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/grafana-cloud-mcp",
-   "source": "https://github.com/grafana/ai-marketplace",
-   "verified": false,
-   "installs": 317,
-   "maker": "Grafana",
-   "about": [
-    "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required."
   },
   {
    "id": "marketplace:grasp",
@@ -4563,7 +4578,7 @@
   },
   {
    "id": "marketplace:hyperframes",
-   "name": "hyperframes",
+   "name": "HyperFrames",
    "origin": "marketplace",
    "description": "HyperFrames van HeyGen. HTML schrijven, video renderen. Composities, GSAP- en runtime-adapteranimaties, bijschriften, voice-over...",
    "category": "Design & media",
@@ -4623,13 +4638,13 @@
    "id": "marketplace:imessage",
    "name": "iMessage",
    "origin": "marketplace",
-   "description": "iMessage-berichtenbrug met ingebouwde toegangscontrole. Leest chat.db direct, verzendt via AppleScript. Koppeling beheren...",
+   "description": "iMessage-kanaal voor Claude Code - leest chat.db rechtstreeks, verzendt via AppleScript. Ingebouwde toegangscontrole; beheer koppelingen, toelatingslijsten en beleid via /imessage:access.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/imessage",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/imessage",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/external_plugins/imessage",
+   "verified": true,
    "installs": 15728,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Bridge Claude Code to iMessage on macOS. This plugin reads your local",
     "directly and sends replies through AppleScript — no external servers, no tokens, fully local. With built-in access control, you decide exactly who can reach your assistant: allowlist specific contacts by phone number or Apple ID, use code-based pairing for approval, or restrict to self-chat only. Group chats are supported with configurable mention patterns so Claude only responds when addressed.",
@@ -4637,7 +4652,7 @@
     "After installing, grant your terminal Full Disk Access in macOS System Settings, then run"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing..."
+   "descriptionOriginal": "iMessage channel for Claude Code — reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via /imessage:access."
   },
   {
    "id": "marketplace:incident-io",
@@ -5271,7 +5286,7 @@
   },
   {
    "id": "marketplace:letmewatch",
-   "name": "letmewatch",
+   "name": "LetMeWatch",
    "origin": "marketplace",
    "description": "Geef Claude ogen voor video. Extraheert sleutelframes met behulp van scènedetectie en laat Claude schermopnamen, bugrapporten, tutorials en alle video-inhoud analyseren.",
    "category": "Design & media",
@@ -5281,8 +5296,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Give Claude eyes for video. Extracts key frames using scene detection and lets Claude analyze screen recordings, bug reports, tutorials, and any video content."
+   "descriptionOriginal": "Give Claude eyes for video. Extracts key frames using scene detection and lets Claude analyze screen recordings, bug reports, tutorials, and any video content.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:linear",
@@ -6109,8 +6124,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices."
+   "descriptionOriginal": "Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mongodb-atlas-managed-mcp",
@@ -6744,8 +6759,8 @@
    "installs": 0,
    "maker": "Parallel Web Systems",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Search the web, read pages, research questions, and assess claims through Parallel's MCP server. Search, Fetch, and Decisions work without an account; Research requires sign-in. Includes CLI skills for deep research, enrichment, FindAll, and monitoring."
+   "descriptionOriginal": "Search the web, read pages, research questions, and assess claims through Parallel's MCP server. Search, Fetch, and Decisions work without an account; Research requires sign-in. Includes CLI skills for deep research, enrichment, FindAll, and monitoring.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:paypal",
@@ -8156,6 +8171,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:sap-mdk-server",
+   "name": "SAP MDK Server",
+   "origin": "marketplace",
+   "description": "Model Context Protocol (MCP)-server voor AI-ondersteunde ontwikkeling van MDK-applicaties.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/sap-mdk-server",
+   "source": "https://github.com/sap/mdk-mcp-server",
+   "verified": true,
+   "installs": 765,
+   "maker": "",
+   "about": [
+    "MCP server for SAP Mobile Development Kit (MDK). Build and modify MDK applications with AI assistance — schema lookups, action validation, rule editing, and project scaffolding."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Model Context Protocol (MCP) server for AI-assisted development of MDK applications."
+  },
+  {
    "id": "marketplace:sap-fiori-mcp-server",
    "name": "sap-fiori-mcp-server",
    "origin": "marketplace",
@@ -8171,23 +8203,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "MCP server for SAP Fiori development tools for Claude Code. Build and modify SAP Fiori applications with AI assistance."
-  },
-  {
-   "id": "marketplace:sap-mdk-server",
-   "name": "sap-mdk-server",
-   "origin": "marketplace",
-   "description": "MCP-server voor SAP Mobile Development Kit (MDK). Bouw en wijzig MDK-applicaties met AI-hulp - schema opzoeken...",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/sap-mdk-server",
-   "source": "https://github.com/SAP/mdk-mcp-server",
-   "verified": false,
-   "installs": 765,
-   "maker": "SAP",
-   "about": [
-    "MCP server for SAP Mobile Development Kit (MDK). Build and modify MDK applications with AI assistance — schema lookups, action validation, rule editing, and project scaffolding."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "MCP server for SAP Mobile Development Kit (MDK). Build and modify MDK applications with AI assistance — schema lookup..."
   },
   {
    "id": "marketplace:save-to-spotify",
@@ -8268,8 +8283,8 @@
     "for a quick scored SEO evaluation of any HTML page. Use",
     "to produce ready-to-paste JSON-LD structured data (supports Article, Product, FAQ, HowTo, and more). Try"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Free AI SEO toolkit: audit, strategy, optimize, markup, keywords, visibility. Works everywhere."
+   "descriptionOriginal": "Free AI SEO toolkit: audit, strategy, optimize, markup, keywords, visibility. Works everywhere.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:security-guidance",
@@ -8626,13 +8641,13 @@
    "id": "marketplace:small-business",
    "name": "Small Business",
    "origin": "marketplace",
-   "description": "Run en laat uw kleine bedrijf groeien: wekelijkse overzichten, maandafsluiting, salarisadministratie, opvolging van leads, voorstellen en marketing.",
-   "category": "Marketing & business",
+   "description": "Vooraf gebouwde workflows voor kleine bedrijven waarmee u uw bedrijf kunt runnen en laten groeien. Ondersteunt een groot deel van de tools die u al gebruikt. Je keurt elke stap goed die geld of klanten raakt. Installeer het programma en vraag Claude om u te helpen aan boord te komen.",
+   "category": "Productiviteit",
    "url": "https://claude.com/marketplace/plugins/small-business",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/small-business",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Claude for Small Business gives owners 43 ready-to-run workflows for running and growing the business, inside the tools you already use. Describe the job in plain English or run a command, and Claude does the work. Every workflow starts in approval mode: Claude drafts and stages the work, and nothing sends, posts, or pays until you say so. Once you trust a workflow, you can let it run on its own schedule. Full spec here:",
     "https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin",
@@ -8640,7 +8655,7 @@
     ": reconciles your books against your payment processors and writes the close packet for your accountant"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Run and grow your small business: weekly briefs, month-end close, payroll, lead follow-up, proposals, and marketing."
+   "descriptionOriginal": "Pre-built small business workflows to help you run and grow your business. Supports a majority of the tools you already use. You approve every step that touches money or customers. Install and then ask Claude to help you get onboarded."
   },
   {
    "id": "marketplace:snowflake-cortex-code",
@@ -9281,8 +9296,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to Kobiton mobile testing platform - manage devices, run automation suites, and view test results"
+   "descriptionOriginal": "Connect to Kobiton mobile testing platform - manage devices, run automation suites, and view test results",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:theme-factory",
@@ -9642,8 +9657,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect sources and search processed documents with Unstructured Foundation. Provides MCP access to source setup, processing status, document search, and document retrieval."
+   "descriptionOriginal": "Connect sources and search processed documents with Unstructured Foundation. Provides MCP access to source setup, processing status, document search, and document retrieval.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:upbound",
@@ -10276,8 +10291,8 @@
     "Pre-built skills chain these tools into finished GTM jobs: research an account, map the buying committee, size your TAM, score accounts and leads, prep for a meeting, analyze a competitor or tech stack, and many more. Simply describe the outcome you want, and Claude picks the skill that fits best.",
     "Describe the GTM outcome you want and Claude selects the right skill and tools. Try:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations. Pre-built skills chain multiple ZoomInfo tools into complete B2B sales workflows."
+   "descriptionOriginal": "Search companies and contacts, enrich leads, find lookalikes, and get AI-ranked contact recommendations. Pre-built skills chain multiple ZoomInfo tools into complete B2B sales workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:zscaler",
@@ -10330,41 +10345,38 @@
   "official:theme-factory",
   "official:frontend-design",
   "official:brand-guidelines",
-  "official:slack-gif-creator"
+  "official:slack-gif-creator",
+  "official:algorithmic-art"
  ],
- "updated": "2026-11-08T20:41:30.781471+00:00",
+ "updated": "2026-11-10T00:22:51.024206+00:00",
  "tonight": {
-  "date": "2026-11-08",
-  "id": "official:slack-gif-creator",
+  "date": "2026-11-10",
+  "id": "official:algorithmic-art",
   "text": [
-   "Een toolkit die hulpprogramma's en kennis biedt voor het maken van geanimeerde GIF's die zijn geoptimaliseerd voor Slack.",
-   "Afmetingen: Emoji GIF's: 128x128 (aanbevolen) Bericht GIF's: 480x480",
-   "Parameters: FPS: 10-30 (lager is kleinere bestandsgrootte) Kleuren: 48-128 (minder = kleinere bestandsgrootte) Duur: Houd minder dan 3 seconden aan voor emoji GIF's",
-   "Werken met door gebruikers geüploade afbeeldingen Als een gebruiker een afbeelding uploadt, bedenk dan of hij/zij het volgende wil doen: Deze direct gebruiken (bijvoorbeeld 'dit animeren', 'dit in frames opsplitsen') Het als inspiratie gebruiken (bijvoorbeeld 'zoiets maken')",
-   "Afbeeldingen laden en bewerken met PIL:",
-   "Vanaf het begin tekenen Wanneer u afbeeldingen vanuit het niets tekent, gebruikt u PIL ImageDraw-primitieven:",
-   "Gebruik geen: Emoji-lettertypen (onbetrouwbaar op verschillende platforms) of ga ervan uit dat er voorverpakte afbeeldingen voorkomen in deze skill.",
-   "Afbeeldingen moeten er gepolijst en creatief uitzien, niet standaard. Hier ziet u hoe:",
-   "Gebruik dikkere lijnen - Stel altijd `width=2` of hoger in voor omtrekken en lijnen. Dunne lijnen (breedte=1) zien er schokkerig en amateuristisch uit.",
-   "Voeg visuele diepte toe: gebruik verlopen voor achtergronden (`create_gradient_background`) Leg meerdere vormen op elkaar voor complexiteit (bijvoorbeeld een ster met een kleinere ster erin)",
-   "Maak vormen interessanter: teken niet alleen een gewone cirkel, maar voeg highlights, ringen of patronen toe. Sterren kunnen gloed hebben (teken grotere, semi-transparante versies erachter) Combineer meerdere vormen (sterren + glitters, cirkels + ringen)",
-   "Let op kleuren: gebruik levendige, complementaire kleuren Voeg contrast toe (donkere contouren op lichte vormen, lichte contouren op donkere vormen) Denk na over de algehele compositie",
-   "Voor complexe vormen (harten, sneeuwvlokken, enz.): Gebruik combinaties van polygonen en ellipsen. Bereken punten zorgvuldig voor symmetrie. Voeg details toe (een hart kan een gemarkeerde curve hebben, sneeuwvlokken hebben ingewikkelde vertakkingen)"
+   "Algoritmische filosofieën zijn computationele esthetische bewegingen die vervolgens door middel van code worden uitgedrukt. Voer .md-bestanden (filosofie), .html-bestanden (interactieve viewer) en .js-bestanden (generatieve algoritmen) uit.",
+   "Dit gebeurt in twee stappen: Algoritmische filosofie creëren (.md-bestand) Express door het maken van p5.js generatieve kunst (.html + .js-bestanden)",
+   "ALGORITHMISCHE FILOSOFIE CREATIE",
+   "Creëer om te beginnen een ALGORITHMISCHE FILOSOFIE (geen statische afbeeldingen of sjablonen) die zal worden geïnterpreteerd via: Computationele processen, opkomend gedrag, wiskundige schoonheid Gezaaide willekeur, ruisvelden, organische systemen Deeltjes, stromingen, velden, krachten Parametrische variatie en gecontroleerde chaos",
+   "HET KRITIEKE BEGRIP Wat wordt ontvangen: Enige subtiele input of instructies van de gebruiker om rekening mee te houden, maar om als basis te gebruiken; het mag de creatieve vrijheid niet beperken. Wat er ontstaat: een algoritmische filosofie/generatieve esthetische beweging. Wat er vervolgens gebeurt: dezelfde versie ontvangt de filosofie en DRUKT HET IN CODE UIT - waardoor p5.js-schetsen worden gemaakt die voor 90% uit algoritmische generatie en 10% essentiële parameters bestaan.",
+   "Overweeg deze aanpak: Schrijf een manifest voor een generatieve kunststroming. De volgende fase omvat het schrijven van het algoritme dat deze tot leven brengt",
+   "De filosofie moet de nadruk leggen op: algoritmische expressie. Opkomend gedrag. Computationele schoonheid. Gezaaide variatie.",
+   "HOE JE EEN ALGORITHMISCHE FILOSOFIE KUNT GENEREREN",
+   "Noem de beweging (1-2 woorden): \"Organische turbulentie\" / \"Quantum Harmonics\" / \"Emergent Stillness\"",
+   "Formuleer de filosofie (4-6 paragrafen - beknopt maar volledig):",
+   "Om de ALGORITHMISCHE essentie vast te leggen, drukt u uit hoe deze filosofie zich manifesteert door: Computationele processen en wiskundige relaties? Ruisfuncties en willekeurpatronen? Deeltjesgedrag en velddynamiek? Temporele evolutie en systeemtoestanden? Parametrische variatie en opkomende complexiteit?"
   ],
   "textOriginal": [
-   "A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.",
-   "Dimensions: Emoji GIFs: 128x128 (recommended) Message GIFs: 480x480",
-   "Parameters: FPS: 10-30 (lower is smaller file size) Colors: 48-128 (fewer = smaller file size) Duration: Keep under 3 seconds for emoji GIFs",
-   "Working with User-Uploaded Images If a user uploads an image, consider whether they want to: Use it directly (e.g., \"animate this\", \"split this into frames\") Use it as inspiration (e.g., \"make something like this\")",
-   "Load and work with images using PIL:",
-   "Drawing from Scratch When drawing graphics from scratch, use PIL ImageDraw primitives:",
-   "Don't use: Emoji fonts (unreliable across platforms) or assume pre-packaged graphics exist in this skill.",
-   "Graphics should look polished and creative, not basic. Here's how:",
-   "Use thicker lines - Always set `width=2` or higher for outlines and lines. Thin lines (width=1) look choppy and amateurish.",
-   "Add visual depth: Use gradients for backgrounds (`create_gradient_background`) Layer multiple shapes for complexity (e.g., a star with a smaller star inside)",
-   "Make shapes more interesting: Don't just draw a plain circle - add highlights, rings, or patterns Stars can have glows (draw larger, semi-transparent versions behind) Combine multiple shapes (stars + sparkles, circles + rings)",
-   "Pay attention to colors: Use vibrant, complementary colors Add contrast (dark outlines on light shapes, light outlines on dark shapes) Consider the overall composition",
-   "For complex shapes (hearts, snowflakes, etc.): Use combinations of polygons and ellipses Calculate points carefully for symmetry Add details (a heart can have a highlight curve, snowflakes have intricate branches)"
+   "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).",
+   "This happens in two steps: Algorithmic Philosophy Creation (.md file) Express by creating p5.js generative art (.html + .js files)",
+   "ALGORITHMIC PHILOSOPHY CREATION",
+   "To begin, create an ALGORITHMIC PHILOSOPHY (not static images or templates) that will be interpreted through: Computational processes, emergent behavior, mathematical beauty Seeded randomness, noise fields, organic systems Particles, flows, fields, forces Parametric variation and controlled chaos",
+   "THE CRITICAL UNDERSTANDING What is received: Some subtle input or instructions by the user to take into account, but use as a foundation; it should not constrain creative freedom. What is created: An algorithmic philosophy/generative aesthetic movement. What happens next: The same version receives the philosophy and EXPRESSES IT IN CODE - creating p5.js sketches that are 90% algorithmic generation, 10% essential parameters.",
+   "Consider this approach: Write a manifesto for a generative art movement The next phase involves writing the algorithm that brings it to life",
+   "The philosophy must emphasize: Algorithmic expression. Emergent behavior. Computational beauty. Seeded variation.",
+   "HOW TO GENERATE AN ALGORITHMIC PHILOSOPHY",
+   "Name the movement (1-2 words): \"Organic Turbulence\" / \"Quantum Harmonics\" / \"Emergent Stillness\"",
+   "Articulate the philosophy (4-6 paragraphs - concise but complete):",
+   "To capture the ALGORITHMIC essence, express how this philosophy manifests through: Computational processes and mathematical relationships? Noise functions and randomness patterns? Particle behaviors and field dynamics? Temporal evolution and system states? Parametric variation and emergent complexity?"
   ]
  }
 }
