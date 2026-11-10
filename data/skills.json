@@ -334,8 +334,8 @@
    "about": [
     "Easily deploy managed PostgreSQL, Kafka, OpenSearch, Clickhouse, and other databases, streaming, and apps through Aiven. Free tier available, up and running in minutes."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps. Free tier available, up and running in minutes."
+   "descriptionOriginal": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps. Free tier available, up and running in minutes.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:algorithmic-art",
@@ -908,8 +908,8 @@
    "about": [
     "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Data lake, analytics, search, and ETL workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, and Amazon OpenSearch Service. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, vector storage and semantic search on Amazon S3 Vectors, and Amazon OpenSearch Service and Serverless (migration from S"
+   "descriptionOriginal": "Data lake, analytics, search, and ETL workflows with S3 Tables, AWS Glue, Athena, Amazon Redshift, and Amazon OpenSearch Service. Covers managed Iceberg tables on S3 Tables, ingestion from JDBC databases (Oracle, SQL Server, PostgreSQL, MySQL, RDS), Amazon Redshift, Snowflake, BigQuery, and DynamoDB, AWS Glue Data Catalog inventory and asset discovery, federated Athena queries, vector storage and semantic search on Amazon S3 Vectors, and Amazon OpenSearch Service and Serverless (migration from S",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:aws-serverless",
@@ -3499,8 +3499,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Equity research tools: earnings analysis, initiating coverage reports, and research workflows"
+   "descriptionOriginal": "Equity research tools: earnings analysis, initiating coverage reports, and research workflows",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:euler-for-partner-managers",
@@ -4651,8 +4651,8 @@
     "Security is a core design principle. Access control mutations can only happen through direct terminal invocation, never from incoming messages, preventing prompt-injection attacks. File sending blocks config directory paths, pairing codes expire after one hour, and a static mode locks down access at boot for unattended operation.",
     "After installing, grant your terminal Full Disk Access in macOS System Settings, then run"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "iMessage channel for Claude Code — reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via /imessage:access."
+   "descriptionOriginal": "iMessage channel for Claude Code — reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via /imessage:access.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:incident-io",
@@ -8184,8 +8184,8 @@
    "about": [
     "MCP server for SAP Mobile Development Kit (MDK). Build and modify MDK applications with AI assistance — schema lookups, action validation, rule editing, and project scaffolding."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Model Context Protocol (MCP) server for AI-assisted development of MDK applications."
+   "descriptionOriginal": "Model Context Protocol (MCP) server for AI-assisted development of MDK applications.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sap-fiori-mcp-server",
@@ -8644,7 +8644,7 @@
    "description": "Vooraf gebouwde workflows voor kleine bedrijven waarmee u uw bedrijf kunt runnen en laten groeien. Ondersteunt een groot deel van de tools die u al gebruikt. Je keurt elke stap goed die geld of klanten raakt. Installeer het programma en vraag Claude om u te helpen aan boord te komen.",
    "category": "Productiviteit",
    "url": "https://claude.com/marketplace/plugins/small-business",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/small-business",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e605d8ddbfb688da57dfaaceebd93f12a64ef1d3/small-business",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -8654,8 +8654,8 @@
     ": cash, sales, pipeline, your calendar, and the one thing that most needs you, on one page",
     ": reconciles your books against your payment processors and writes the close packet for your accountant"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Pre-built small business workflows to help you run and grow your business. Supports a majority of the tools you already use. You approve every step that touches money or customers. Install and then ask Claude to help you get onboarded."
+   "descriptionOriginal": "Pre-built small business workflows to help you run and grow your business. Supports a majority of the tools you already use. You approve every step that touches money or customers. Install and then ask Claude to help you get onboarded.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:snowflake-cortex-code",
@@ -10348,7 +10348,7 @@
   "official:slack-gif-creator",
   "official:algorithmic-art"
  ],
- "updated": "2026-11-10T00:22:51.024206+00:00",
+ "updated": "2026-11-10T21:53:23.526901+00:00",
  "tonight": {
   "date": "2026-11-10",
   "id": "official:algorithmic-art",
