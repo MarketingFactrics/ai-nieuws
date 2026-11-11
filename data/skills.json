@@ -99,13 +99,13 @@
    "id": "marketplace:adobe-for-creativity",
    "name": "Adobe",
    "origin": "marketplace",
-   "description": "Brengt Adobe Creative Cloud-tools samen voor afbeeldingen, vectoren, ontwerp en video.",
+   "description": "Brengt Adobe Creative Cloud-tools samen voor afbeeldingen, vectoren, ontwerp en video. Bewerk meerdere assets tegelijk, pas ze aan voor verschillende platforms en voltooi creatieve workflows in meerdere stappen voor gepolijste resultaten.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/adobe-for-creativity",
-   "source": "https://github.com/anthropics/knowledge-work-plugins",
+   "source": "https://github.com/adobe/skills/tree/3d5317db858fd02a74a8118bd9d6145c94cf404e/plugins/creative-cloud/adobe-for-creativity",
    "verified": true,
    "installs": 2945,
-   "maker": "Adobe",
+   "maker": "",
    "about": [
     "Brings together Adobe Creative Cloud tools for images, vectors, design, and video. Edit multiple assets at once, adapt for different platforms, and complete multi-step creative workflows for polished results.",
     "You can use Adobe for Creativity to:",
@@ -113,7 +113,7 @@
     "Try asking: \"Make an Instagram story for my boutique sale from the design library​.\""
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video."
+   "descriptionOriginal": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video. Edit multiple assets at once, adapt for different platforms, and complete multi-step creative workflows for polished results."
   },
   {
    "id": "marketplace:adspirer-ads-agent",
@@ -438,13 +438,13 @@
    "id": "marketplace:amazon-location-service",
    "name": "Amazon Location Service",
    "origin": "marketplace",
-   "description": "Integreer Amazon Location Service voor kaarten, geocodering, routing en georuimtelijke functies met authenticatie en SDK's.",
+   "description": "Begeleid ontwikkelaars bij het toevoegen van kaarten, zoeken naar plaatsen, geocodering, routering en andere georuimtelijke functies met Amazon Location Service, inclusief het instellen van authenticatie, SDK-integratie en best practices.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/amazon-location-service",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/amazon-location-service",
+   "verified": true,
    "installs": 3328,
-   "maker": "Amazon Web Services",
+   "maker": "",
    "about": [
     "Guides developers through integrating geospatial features into applications using Amazon Location Service. The plugin provides expert assistance across six capability areas: interactive maps with MapLibre GL JS, places search and geocoding, route calculation and optimization, geofences and device tracking, address verification, and API key management. It includes reference documentation for authentication setup, SDK integration patterns, and common pitfall avoidance.",
     "The plugin connects to the AWS MCP server for live API access and bundles detailed implementation guides covering dynamic map rendering (with style customization, markers, and popups), text and nearby search with autocomplete, multi-stop route calculation with turn-by-turn navigation, and address input workflows. It emphasizes best practices like using resourceless operations to reduce deployment complexity and the bundled JavaScript client for simplified web integration.",
@@ -452,7 +452,7 @@
     "\"Add an interactive map to my web app using Amazon Location Service\""
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Integrate Amazon Location Service for maps, geocoding, routing, and geospatial features with authentication and SDKs."
+   "descriptionOriginal": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices."
   },
   {
    "id": "marketplace:amazon-selling-partner",
@@ -611,21 +611,6 @@
    "about": [],
    "descriptionOriginal": "Find and track apps, understand what users complain about, and find keyword opportunities — analyst workflows over the AppFollow MCP, using your own OAuth-authenticated session.",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:apptweak-api",
-   "name": "apptweak-api",
-   "origin": "marketplace",
-   "description": "Verbind Claude Code met de AppTweak API via een OAuth-beveiligde MCP-server.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/apptweak-api",
-   "source": "https://github.com/apptweak/mcp-crossclient/tree/7de78dbeeaa53eeb1940b919afaade698d9358ec/plugins/claude-code",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude Code to the AppTweak API through an OAuth-protected MCP server."
   },
   {
    "id": "marketplace:appwrite",
@@ -878,6 +863,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:aws-amplify",
+   "name": "AWS Amplify",
+   "origin": "marketplace",
+   "description": "Bouw full-stack apps met AWS Amplify Gen 2 met behulp van begeleide workflows voor authenticatie, datamodellen, opslag, GraphQL API's en Lambda-functies.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/aws-amplify",
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/aws-amplify",
+   "verified": true,
+   "installs": 1829,
+   "maker": "",
+   "about": [
+    "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions."
+  },
+  {
    "id": "marketplace:aws-core",
    "name": "AWS Core",
    "origin": "marketplace",
@@ -987,23 +989,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore, connecting ..."
-  },
-  {
-   "id": "marketplace:aws-amplify",
-   "name": "aws-amplify",
-   "origin": "marketplace",
-   "description": "Bouw full-stack apps met AWS Amplify Gen 2 met behulp van begeleide workflows voor authenticatie, datamodellen, opslag, GraphQL...",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/aws-amplify",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
-   "installs": 1829,
-   "maker": "",
-   "about": [
-    "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL..."
   },
   {
    "id": "community:aws-skills",
@@ -2593,6 +2578,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:cortex-appsec-palo-alto-networks",
+   "name": "Cortex AppSec (Palo Alto Networks)",
+   "origin": "marketplace",
+   "description": "Verschuif de beveiliging naar links in Claude Code met realtime SAST-vangrails en risicoverrijking van supply chain-pakketten, mogelijk gemaakt door Cortex AppSec.",
+   "category": "Security",
+   "url": "https://claude.com/marketplace/plugins/cortex-appsec-palo-alto-networks",
+   "source": "https://github.com/paloaltonetworks/appsecmcp/tree/db384456ad62a1e253f9668f109f900fb62d3b70/plugins/claude-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Palo Alto Networks",
+   "about": [],
+   "firstSeen": "2026-11-11",
+   "descriptionOriginal": "Shift security left in Claude Code with real-time SAST guardrails and supply chain package risk enrichment powered by Cortex AppSec."
+  },
+  {
    "id": "marketplace:couchbase",
    "name": "Couchbase",
    "origin": "marketplace",
@@ -2891,7 +2891,7 @@
   },
   {
    "id": "marketplace:databases-on-aws",
-   "name": "databases-on-aws",
+   "name": "Databases on AWS",
    "origin": "marketplace",
    "description": "Deskundige databasebegeleiding voor het AWS-databaseportfolio. Ontwerp schema's, voer query's uit, handel migraties af en kies de juiste database voor uw werklast.",
    "category": "Design & media",
@@ -2903,8 +2903,8 @@
    "about": [
     "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload."
+   "descriptionOriginal": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:databricks",
@@ -3267,6 +3267,21 @@
    ],
    "descriptionOriginal": "Full Domino Data Lab platform support — workspaces, jobs, model deployment, experiment tracking, GenAI tracing, Spark/Ray/Dask, and app deployment for data science teams",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:doubleverify",
+   "name": "DoubleVerify",
+   "origin": "marketplace",
+   "description": "[Beta] De enige plug-in voor alle agentmogelijkheden van DoubleVerify, die u verbindt met prestatiegegevens, inzichten, aanbevelingen en workflows van DV-campagnes.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/doubleverify",
+   "source": "https://github.com/doubleverify/ai-marketplace/tree/3e69f50821243e269cfa81657bc1d85155520ca5/agent-plugins/doubleverify",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "firstSeen": "2026-11-11",
+   "descriptionOriginal": "[Beta] The single plugin for all DoubleVerify agentic capabilities, connecting you to DV campaign performance data, insights, recommendations and workflows."
   },
   {
    "id": "marketplace:dropbox",
@@ -4406,21 +4421,6 @@
    "descriptionOriginal": "A suite of agent skills for the full GrowthBook feature flag and experimentation lifecycle."
   },
   {
-   "id": "marketplace:gumlet",
-   "name": "Gumlet",
-   "origin": "marketplace",
-   "description": "Plug-in bron",
-   "category": "Overig",
-   "url": "https://claude.com/marketplace/plugins/gumlet",
-   "source": "https://github.com/gumlet/claude-gumlet-marketplace",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "descriptionOriginal": "Plugin source",
-   "firstSeen": "2000-01-01"
-  },
-  {
    "id": "marketplace:handsontable-skills",
    "name": "Handsontable Skills",
    "origin": "marketplace",
@@ -4551,13 +4551,13 @@
    "description": "Stroomlijn personeelsactiviteiten – werving, onboarding, prestatiebeoordelingen, beloningsanalyse en beleidsbegeleiding. Zorg voor compliance en zorg ervoor dat uw team soepel blijft functioneren.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/human-resources",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/human-resources",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/877a617b435ee2edfb002d9a3703c0a1a03aa1ba/human-resources",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Streamline people operations — recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep your team running smoothly."
+   "descriptionOriginal": "Streamline people operations — recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep your team running smoothly.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:hunter",
@@ -5123,7 +5123,7 @@
   },
   {
    "id": "marketplace:law-student",
-   "name": "law-student",
+   "name": "Law Student",
    "origin": "marketplace",
    "description": "Oefen socratisch, brieft cases, maakt overzichten, geeft voorbereidingssessies voor de bar die zijn afgestemd op uw rechtsgebied, beoordeelt de IRAC-praktijk en plant het studieschema - zonder het ooit voor u te schrijven.",
    "category": "Schrijven & communicatie",
@@ -5133,8 +5133,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you."
+   "descriptionOriginal": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:lead-research-assistant",
@@ -5438,8 +5438,8 @@
     "creates a new project from a description, monitors the build, and optionally deploys it to a public URL.",
     "sends change requests to an existing project, shows unified diffs for review, and lets you continue refining or publish."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, iterate on, deploy, and manage Lovable apps from Claude Code. Bundles the official Lovable MCP server (remote, OAuth 2.1) and adds focused commands for the common build/iterate/database workflows, with credit- and publish-safety prompts."
+   "descriptionOriginal": "Build, iterate on, deploy, and manage Lovable apps from Claude Code. Bundles the official Lovable MCP server (remote, OAuth 2.1) and adds focused commands for the common build/iterate/database workflows, with credit- and publish-safety prompts.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:lseg",
@@ -6025,8 +6025,8 @@
    "installs": 0,
    "maker": "Mobbin",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Mobbin MCP server and skills for finding real-world app screens, flows, and website sections while designing and building UI."
+   "descriptionOriginal": "Mobbin MCP server and skills for finding real-world app screens, flows, and website sections while designing and building UI.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:model-builder",
@@ -6413,13 +6413,13 @@
    "id": "marketplace:notion",
    "name": "Notion",
    "origin": "marketplace",
-   "description": "Begrip werkruimte-integratie. Zoek pagina's, creëer/update documenten, beheer databases en krijg toegang tot de kennisbank van uw team vanuit Claude Code.",
-   "category": "Documenten",
+   "description": "Notion Skills + Notion MCP-server verpakt als een Claude Code-plug-in.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/notion",
    "source": "https://github.com/makenotion/claude-code-notion-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 0,
-   "maker": "Notion Labs",
+   "maker": "",
    "about": [
     "The Notion plugin brings your team's workspace directly into Claude Code. Search across your entire Notion workspace, retrieve pages and databases, create new documents, update existing content, and manage database rows—all without leaving your development environment.",
     "The plugin includes four specialized skills from the Notion Cookbook: Knowledge Capture for organizing information, Meeting Intelligence for processing meeting notes, Research Documentation for structuring research findings, and Spec to Implementation for turning specifications into actionable tasks.",
@@ -6427,7 +6427,7 @@
     "to find content across your workspace,"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Notion workspace integration. Search pages, create/update documents, manage databases, and access your team's knowledge base from Claude Code."
+   "descriptionOriginal": "Notion Skills + Notion MCP server packaged as a Claude Code plugin."
   },
   {
    "id": "marketplace:nvidia-skills",
@@ -6520,7 +6520,7 @@
   },
   {
    "id": "marketplace:operations-anthropics",
-   "name": "operations",
+   "name": "Operations",
    "origin": "marketplace",
    "description": "Operationele workflows: parseren van KYC-documenten en evaluatie van regelsrasters",
    "category": "Documenten",
@@ -6530,20 +6530,20 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Operational workflows: KYC document parsing and rules-grid evaluation"
+   "descriptionOriginal": "Operational workflows: KYC document parsing and rules-grid evaluation",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:opsera-devsecops",
    "name": "Opsera DevSecOps",
    "origin": "marketplace",
-   "description": "Opsera DevSecOps Agent - AI-aangedreven architectuuranalyse, beveiligingsscans, compliance-audits en SQL-beveiliging...",
+   "description": "Opsera DevSecOps Agent – AI-aangedreven architectuuranalyse, beveiligingsscans, compliance-audit en SQL-beveiliging voor uw codebase. Gratis proefperiode inbegrepen.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/opsera-devsecops",
    "source": "https://github.com/opsera-agents/opsera-devsecops",
-   "verified": false,
+   "verified": true,
    "installs": 1371,
-   "maker": "Opsera",
+   "maker": "",
    "about": [
     "AI-powered DevSecOps agent that analyzes your codebase for security vulnerabilities, architectural risks, and compliance gaps. Connects to Opsera's cloud platform via MCP to deliver risk-focused architecture analysis, vulnerability scanning with secret detection, evidence-based compliance auditing across SOC2/HIPAA/PCI-DSS/ISO 27001 frameworks, and SQL injection detection with automated fixes. Includes a pre-commit security gate that automatically scans staged changes and blocks commits with critical or high-severity issues.",
     "The plugin provides four core analysis tools — each producing detailed findings with severity ratings and actionable remediation steps. Architecture analysis examines auth routes, failure modes, and generates quantified architecture diagrams. Security scanning covers SAST, container security, infrastructure-as-code checks, and secret detection. Compliance auditing maps your codebase against regulatory frameworks and produces remediation roadmaps. SQL security discovers PII exposure, privilege escalation risks, and offers AI-powered auto-fix suggestions.",
@@ -6551,7 +6551,7 @@
     "to scan for vulnerabilities and secrets across your codebase. Run"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Opsera DevSecOps Agent — AI-powered architecture analysis, security scanning, compliance auditing, and SQL security f..."
+   "descriptionOriginal": "Opsera DevSecOps Agent — AI-powered architecture analysis, security scanning, compliance auditing, and SQL security for your codebase. Free trial included."
   },
   {
    "id": "marketplace:optibot",
@@ -6834,8 +6834,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Phished MCP plus reporting, simulation and risk-detection scripts for Claude Code"
+   "descriptionOriginal": "Phished MCP plus reporting, simulation and risk-detection scripts for Claude Code",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:php-lsp",
@@ -7805,21 +7805,6 @@
    "descriptionOriginal": "Deploy, debug, monitor Render apps with skills, agent, commands, and yaml validation."
   },
   {
-   "id": "marketplace:replo",
-   "name": "Replo",
-   "origin": "marketplace",
-   "description": "Verbind uw agent met uw Replo-werkruimte en voer e-commercewerk uit vanuit één gesprek. Vind projecten, locaties, producten, activa, bestellingen en prestatiegegevens. Bouw of update winkelervaringen met Replo Agent, publiceer wanneer u er klaar voor bent, beheer producten en middelen, koppel aangepaste domeinen en plan terugkerend werk. Gebruik het om een productpagina te starten vanuit catalogusgegevens, de juiste campagnemiddelen te vinden, bestellingen te inspecteren, een slecht presterende pagina te diagnosticeren of analyses om te zetten in een A/B-test.",
-   "category": "Code review & testen",
-   "url": "https://claude.com/marketplace/plugins/replo",
-   "source": "https://github.com/replohq/skills",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "descriptionOriginal": "Connect your agent to your Replo workspace and run ecommerce work from one conversation. Find projects, sites, products, assets, orders, and performance data. Build or update storefront experiences with Replo Agent, publish when you’re ready, manage products and assets, connect custom domains, and schedule recurring work. Use it to launch a product page from catalog data, find the right campaign assets, inspect orders, diagnose an underperforming page, or turn analytics into an A/B test.",
-   "firstSeen": "2000-01-01"
-  },
-  {
    "id": "marketplace:resend",
    "name": "resend",
    "origin": "marketplace",
@@ -7915,8 +7900,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Riverside podcast and recording platform. Browse recordings, search transcripts, manage content, and publish clips to YouTube, TikTok, and Instagram."
+   "descriptionOriginal": "Riverside podcast and recording platform. Browse recordings, search transcripts, manage content, and publish clips to YouTube, TikTok, and Instagram.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:rocketreach",
@@ -8035,16 +8020,16 @@
    "id": "marketplace:sp-global",
    "name": "S&P Global",
    "origin": "marketplace",
-   "description": "Ontgrendel de financiële intelligentie van S&P Global binnen uw agentworkflows",
-   "category": "Ontwikkeling",
+   "description": "S&P Global - Financiële gegevens en analytische skills, waaronder bedrijfstearsheets, winstvooruitzichten en transactiesamenvattingen",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/sp-global",
-   "source": "https://github.com/kensho-technologies/spglobal-agent-skills",
+   "source": "https://github.com/kensho-technologies/spglobal-agent-skills/tree/1d7d364a07d755d401b6f66d41affe71bc62a9b9/plugins/spglobal-plugin",
    "verified": true,
    "installs": 0,
-   "maker": "Kensho Technologies",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Unlock S&P Global's financial intelligence inside your agentic workflows"
+   "descriptionOriginal": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries"
   },
   {
    "id": "marketplace:sagemaker-ai",
@@ -8338,8 +8323,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Semgrep Guardian: Scans agent-generated code for security vulnerabilities."
+   "descriptionOriginal": "Semgrep Guardian: Scans agent-generated code for security vulnerabilities.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sent",
@@ -8422,8 +8407,8 @@
     ", precision editing operations such as",
     ", and token-efficient codebase interaction. The toolkit exploits the relational structure of code to help Claude work effectively on complex projects."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration."
+   "descriptionOriginal": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:servicenow-sdk",
@@ -8686,8 +8671,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Social media analytics for Instagram, Facebook, TikTok, YouTube, LinkedIn and X. Pull live engagement, reach and follower data from your Socialinsider account, then have Claude audit profiles, benchmark competitors and recap campaigns."
+   "descriptionOriginal": "Social media analytics for Instagram, Facebook, TikTok, YouTube, LinkedIn and X. Pull live engagement, reach and follower data from your Socialinsider account, then have Claude audit profiles, benchmark competitors and recap campaigns.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:software-architecture",
@@ -8715,7 +8700,7 @@
   },
   {
    "id": "marketplace:sonarqube",
-   "name": "sonarqube",
+   "name": "SonarQube",
    "origin": "marketplace",
    "description": "Dwing automatisch de kwaliteit en beveiliging van SonarQube-code af in de agentcoderingslus.",
    "category": "Security",
@@ -8730,8 +8715,8 @@
     "Run /sonarqube:integrate after installation to walk through setup — CLI installation, authentication, and wiring up the MCP Server and hooks. From there, use slash commands like /sonarqube:quality-gate to check quality gates or interact naturally with prompts like \"analyze my code for issues,\" \"show open SonarQube findings,\" or \"check my coverage.\" With Agentic Analysis enabled, verification happens automatically after each edit with no manual invocation required.",
     "Requires a SonarQube instance (Server, Cloud, or Community Build). Agentic Analysis requires SonarQube Cloud with those features enabled in your organization’s admin settings."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Automatically enforce SonarQube code quality and security in the agent coding loop."
+   "descriptionOriginal": "Automatically enforce SonarQube code quality and security in the agent coding loop.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sonarqube-agent-plugins",
@@ -8808,7 +8793,7 @@
   },
   {
    "id": "marketplace:speakai",
-   "name": "speakai",
+   "name": "Speak AI",
    "origin": "marketplace",
    "description": "Zoek transcripties, vat vergaderingen samen, extraheer citaten, maak clips en beheer Speak AI-media via MCP.",
    "category": "Ontwikkeling",
@@ -8820,8 +8805,8 @@
    "about": [
     "Search transcripts, summarize meetings, extract quotes, create clips, and manage Speak AI media through MCP."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Search transcripts, summarize meetings, extract quotes, create clips, and manage Speak AI media through MCP."
+   "descriptionOriginal": "Search transcripts, summarize meetings, extract quotes, create clips, and manage Speak AI media through MCP.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:spotify-ads-api",
@@ -9513,7 +9498,7 @@
   },
   {
    "id": "marketplace:ui5",
-   "name": "ui5",
+   "name": "UI5",
    "origin": "marketplace",
    "description": "Volledige SAPUI5 / OpenUI5-plug-in voor codeeragenten met MCP-tools, toegang tot API-documentatie, linting-mogelijkheden, ontwikkelings- en integratietestrichtlijnen.",
    "category": "Code review & testen",
@@ -9525,8 +9510,8 @@
    "about": [
     "SAPUI5 / OpenUI5 plugin for Claude. Create and validate UI5 projects, access API documentation, run UI5 linter, get development guidelines and best practices for UI5 development."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Complete SAPUI5 / OpenUI5 plugin for coding agents with MCP tools, API documentation access, linting capabilities, development and integration testing guidelines."
+   "descriptionOriginal": "Complete SAPUI5 / OpenUI5 plugin for coding agents with MCP tools, API documentation access, linting capabilities, development and integration testing guidelines.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ui5-modernization",
@@ -9552,18 +9537,18 @@
    "id": "marketplace:ui5-typescript-conversion",
    "name": "UI5 TypeScript Conversion",
    "origin": "marketplace",
-   "description": "SAPUI5 / OpenUI5-plug-in voor Claude. Converteer op JavaScript gebaseerde UI5-projecten naar TypeScript.",
+   "description": "- Converteert op JavaScript gebaseerde UI5-projecten naar TypeScript",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/ui5-typescript-conversion",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/ui5/plugins-coding-agents/tree/c61df025a142a919f5bafc80abae250c837e7c2b/plugins/ui5-typescript-conversion",
+   "verified": true,
    "installs": 2089,
    "maker": "",
    "about": [
     "SAPUI5 / OpenUI5 plugin for Claude. Convert JavaScript based UI5 projects to TypeScript."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "SAPUI5 / OpenUI5 plugin for Claude. Convert JavaScript based UI5 projects to TypeScript."
+   "descriptionOriginal": "- Converts JavaScript-based UI5 projects to TypeScript"
   },
   {
    "id": "marketplace:ukg-bryte",
@@ -10346,37 +10331,26 @@
   "official:frontend-design",
   "official:brand-guidelines",
   "official:slack-gif-creator",
-  "official:algorithmic-art"
+  "official:algorithmic-art",
+  "official:internal-comms"
  ],
- "updated": "2026-11-10T21:53:23.526901+00:00",
+ "updated": "2026-11-11T22:55:52.115829+00:00",
  "tonight": {
-  "date": "2026-11-10",
-  "id": "official:algorithmic-art",
+  "date": "2026-11-11",
+  "id": "official:internal-comms",
   "text": [
-   "Algoritmische filosofieën zijn computationele esthetische bewegingen die vervolgens door middel van code worden uitgedrukt. Voer .md-bestanden (filosofie), .html-bestanden (interactieve viewer) en .js-bestanden (generatieve algoritmen) uit.",
-   "Dit gebeurt in twee stappen: Algoritmische filosofie creëren (.md-bestand) Express door het maken van p5.js generatieve kunst (.html + .js-bestanden)",
-   "ALGORITHMISCHE FILOSOFIE CREATIE",
-   "Creëer om te beginnen een ALGORITHMISCHE FILOSOFIE (geen statische afbeeldingen of sjablonen) die zal worden geïnterpreteerd via: Computationele processen, opkomend gedrag, wiskundige schoonheid Gezaaide willekeur, ruisvelden, organische systemen Deeltjes, stromingen, velden, krachten Parametrische variatie en gecontroleerde chaos",
-   "HET KRITIEKE BEGRIP Wat wordt ontvangen: Enige subtiele input of instructies van de gebruiker om rekening mee te houden, maar om als basis te gebruiken; het mag de creatieve vrijheid niet beperken. Wat er ontstaat: een algoritmische filosofie/generatieve esthetische beweging. Wat er vervolgens gebeurt: dezelfde versie ontvangt de filosofie en DRUKT HET IN CODE UIT - waardoor p5.js-schetsen worden gemaakt die voor 90% uit algoritmische generatie en 10% essentiële parameters bestaan.",
-   "Overweeg deze aanpak: Schrijf een manifest voor een generatieve kunststroming. De volgende fase omvat het schrijven van het algoritme dat deze tot leven brengt",
-   "De filosofie moet de nadruk leggen op: algoritmische expressie. Opkomend gedrag. Computationele schoonheid. Gezaaide variatie.",
-   "HOE JE EEN ALGORITHMISCHE FILOSOFIE KUNT GENEREREN",
-   "Noem de beweging (1-2 woorden): \"Organische turbulentie\" / \"Quantum Harmonics\" / \"Emergent Stillness\"",
-   "Formuleer de filosofie (4-6 paragrafen - beknopt maar volledig):",
-   "Om de ALGORITHMISCHE essentie vast te leggen, drukt u uit hoe deze filosofie zich manifesteert door: Computationele processen en wiskundige relaties? Ruisfuncties en willekeurpatronen? Deeltjesgedrag en velddynamiek? Temporele evolutie en systeemtoestanden? Parametrische variatie en opkomende complexiteit?"
+   "Wanneer gebruik je deze skill? Gebruik deze skill om interne communicatie te schrijven voor: 3P-updates (voortgang, plannen, problemen) Bedrijfsnieuwsbrieven Veelgestelde vragen reacties Statusrapporten Leiderschapsupdates Projectupdates Incidentrapporten",
+   "Om interne communicatie te schrijven:",
+   "Identificeer het communicatietype uit het verzoek Laad het juiste richtlijnbestand uit de map `examples/`: `examples/3p-updates.md` - Voor voortgang/plannen/problemen teamupdates `examples/company-newsletter.md` - Voor bedrijfsbrede nieuwsbrieven `examples/faq-antwoorden.md` - Voor het beantwoorden van veelgestelde vragen `examples/general-comms.md` - Voor al het andere dat er niet expliciet mee overeenkomt van het bovenstaande Volg de specifieke instructies in dat bestand voor opmaak, toon en het verzamelen van inhoud",
+   "Als het communicatietype niet aansluit bij een bestaande richtlijn, vraag dan om verduidelijking of meer context over het gewenste format.",
+   "Trefwoorden 3P-updates, bedrijfsnieuwsbrief, bedrijfscommunicatie, wekelijkse update, veelgestelde vragen, veelgestelde vragen, updates, interne communicatie"
   ],
   "textOriginal": [
-   "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).",
-   "This happens in two steps: Algorithmic Philosophy Creation (.md file) Express by creating p5.js generative art (.html + .js files)",
-   "ALGORITHMIC PHILOSOPHY CREATION",
-   "To begin, create an ALGORITHMIC PHILOSOPHY (not static images or templates) that will be interpreted through: Computational processes, emergent behavior, mathematical beauty Seeded randomness, noise fields, organic systems Particles, flows, fields, forces Parametric variation and controlled chaos",
-   "THE CRITICAL UNDERSTANDING What is received: Some subtle input or instructions by the user to take into account, but use as a foundation; it should not constrain creative freedom. What is created: An algorithmic philosophy/generative aesthetic movement. What happens next: The same version receives the philosophy and EXPRESSES IT IN CODE - creating p5.js sketches that are 90% algorithmic generation, 10% essential parameters.",
-   "Consider this approach: Write a manifesto for a generative art movement The next phase involves writing the algorithm that brings it to life",
-   "The philosophy must emphasize: Algorithmic expression. Emergent behavior. Computational beauty. Seeded variation.",
-   "HOW TO GENERATE AN ALGORITHMIC PHILOSOPHY",
-   "Name the movement (1-2 words): \"Organic Turbulence\" / \"Quantum Harmonics\" / \"Emergent Stillness\"",
-   "Articulate the philosophy (4-6 paragraphs - concise but complete):",
-   "To capture the ALGORITHMIC essence, express how this philosophy manifests through: Computational processes and mathematical relationships? Noise functions and randomness patterns? Particle behaviors and field dynamics? Temporal evolution and system states? Parametric variation and emergent complexity?"
+   "When to use this skill To write internal communications, use this skill for: 3P updates (Progress, Plans, Problems) Company newsletters FAQ responses Status reports Leadership updates Project updates Incident reports",
+   "To write any internal communication:",
+   "Identify the communication type from the request Load the appropriate guideline file from the `examples/` directory: `examples/3p-updates.md` - For Progress/Plans/Problems team updates `examples/company-newsletter.md` - For company-wide newsletters `examples/faq-answers.md` - For answering frequently asked questions `examples/general-comms.md` - For anything else that doesn't explicitly match one of the above Follow the specific instructions in that file for formatting, tone, and content gathering",
+   "If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.",
+   "Keywords 3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms"
   ]
  }
 }
