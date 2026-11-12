@@ -1188,7 +1188,7 @@
    "description": "Maak verbinding met preklinische onderzoeksinstrumenten en databases (literatuuronderzoek, genomica-analyse, doelprioritering) om R&D in een vroeg stadium van de levenswetenschappen te versnellen",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/bio-research",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/d900840716eb262e1feb17c6f4406c9ce0e06bcf/bio-research",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/877a617b435ee2edfb002d9a3703c0a1a03aa1ba/bio-research",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -1198,8 +1198,8 @@
     "For translational work, generate FDA/NIH-compliant clinical trial protocols, convert lab instrument output files to Allotrope Simple Model format (supporting 40+ instrument types), and apply a systematic research problem selection framework.",
     "Common workflows include literature review, single-cell analysis, sequencing pipelines, drug discovery research, and clinical trial design. Use commands like"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to preclinical research tools and databases (literature search, genomics analysis, target prioritization) to accelerate early-stage life sciences R&D"
+   "descriptionOriginal": "Connect to preclinical research tools and databases (literature search, genomics analysis, target prioritization) to accelerate early-stage life sciences R&D",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:biorender",
@@ -1456,8 +1456,8 @@
    "about": [
     "Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows."
+   "descriptionOriginal": "Give Claude a real browser — your Chrome or a Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:build-with-wordpress",
@@ -1631,20 +1631,20 @@
   },
   {
    "id": "marketplace:carta-investors",
-   "name": "Carta investors",
+   "name": "Carta Investors",
    "origin": "marketplace",
    "description": "Carta Investors-plug-in - skills met schrijfmogelijkheden voor het opvragen en bijwerken van beleggersgegevens, prestatiebenchmarks, rapportage over regelgeving, het genereren van AGM-decks, merkextractie en meer via de Carta MCP-server",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/carta-investors",
-   "source": "https://github.com/carta/plugins/tree/033e432cf59958c6413137843c98f97a773463bb/plugins/carta-investors",
+   "source": "https://github.com/carta/plugins/tree/39d22594a11bc3ec405ded589db1e43839e0d9db/plugins/carta-investors",
    "verified": true,
    "installs": 484,
    "maker": "",
    "about": [
     "Carta Investors plugin — skills for querying investor data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP Server."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Carta Investors plugin — write-capable skills for querying and updating investors data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP server"
+   "descriptionOriginal": "Carta Investors plugin — write-capable skills for querying and updating investors data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP server",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:catalyst-by-zoho",
@@ -1949,6 +1949,21 @@
    "about": [],
    "descriptionOriginal": "Ready-to-run workflows for financial advisors in Claude Cowork, drawing live data from the tools their firm already uses through third-party connectors. The plugin holds no client data, and the advisor approves any write back to an external system. Claude gathers, organizes, summarizes, compares and presents information, while the advisor exercises judgment, makes the recommendation and gives the advice. For financial professional use only; not investment, legal, or tax advice.",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:claude-for-manufacturing",
+   "name": "Claude for Manufacturing",
+   "origin": "marketplace",
+   "description": "De productieplug-in. Skills voor het werk waar een fabriek feitelijk mee bezig is: het samenvoegen van de exporten en systemen in één dataset, het citeren van op bestelling gemaakte opdrachten op basis van tekeningen, het schrijven van non-conformiteiten en 8D's, het diagnosticeren van storingen en het rapporteren van de ochtendcijfers. Werkt met Microsoft 365, Oracle NetSuite, Infor M3 en Autodesk Fusion zodra ze zijn verbonden, verbindt al het andere via een aangepaste connector en draait op geplande bestandsexports wanneer een systeem helemaal geen connector heeft. Installeer het en vraag het vervolgens aan Claude",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/claude-for-manufacturing",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e0ab6e51219eef74e417a0e1d89e5d53e5e763d4/plugins/claude-for-manufacturing",
+   "verified": true,
+   "installs": 0,
+   "maker": "Anthropic",
+   "about": [],
+   "firstSeen": "2026-11-12",
+   "descriptionOriginal": "The manufacturing plugin. Skills for the work a plant actually runs on: joining the exports and systems into one dataset, quoting make-to-order jobs from drawings, writing nonconformances and 8Ds, diagnosing breakdowns, and reporting the morning numbers. Works with Microsoft 365, Oracle NetSuite, Infor M3 and Autodesk Fusion once connected, connects anything else through custom-connector, and runs on scheduled file exports when a system has no connector at all. Install and then ask Claude to"
   },
   {
    "id": "marketplace:claude-security",
@@ -2421,8 +2436,8 @@
     "Ask Claude to work with your feature flags naturally — \"create a feature flag for the new checkout flow\", \"list all active flags\", or \"resolve flag values for user segment X\". For migrations, use slash commands like",
     ". To set up a new Confidence account, run"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access Confidence feature flags, experiments, and migration tools directly from Claude Code."
+   "descriptionOriginal": "Access Confidence feature flags, experiments, and migration tools directly from Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:confident-ai-client",
@@ -2589,8 +2604,8 @@
    "installs": 0,
    "maker": "Palo Alto Networks",
    "about": [],
-   "firstSeen": "2026-11-11",
-   "descriptionOriginal": "Shift security left in Claude Code with real-time SAST guardrails and supply chain package risk enrichment powered by Cortex AppSec."
+   "descriptionOriginal": "Shift security left in Claude Code with real-time SAST guardrails and supply chain package risk enrichment powered by Cortex AppSec.",
+   "firstSeen": "2026-11-11"
   },
   {
    "id": "marketplace:couchbase",
@@ -2817,7 +2832,7 @@
   },
   {
    "id": "marketplace:dash0",
-   "name": "dash0",
+   "name": "Dash0",
    "origin": "marketplace",
    "description": "OpenTelemetry-observatie voor Claude Code-sessies. Legt tooloproepen, LLM-aanroepen, tokengebruik en fouten vast...",
    "category": "Ontwikkeling",
@@ -3129,8 +3144,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DevExpress Blazor skills: AI Chat, charts, gauges, Grid, Treelist, Pivot Table, Scheduler, Combo Box, Ribbon, and Toolbar."
+   "descriptionOriginal": "DevExpress Blazor skills: AI Chat, charts, gauges, Grid, Treelist, Pivot Table, Scheduler, Combo Box, Ribbon, and Toolbar.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:devexpress-office-pdf-file-api",
@@ -3144,8 +3159,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DevExpress Office File API skills: Spreadsheet, Word Processing, legacy PDF, new PDF (CTP), Presentation, Barcode, Unit Conversion, Excel Export, Zip, and AI-Powered Extensions for headless .NET document automation."
+   "descriptionOriginal": "DevExpress Office File API skills: Spreadsheet, Word Processing, legacy PDF, new PDF (CTP), Presentation, Barcode, Unit Conversion, Excel Export, Zip, and AI-Powered Extensions for headless .NET document automation.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:discernment-nudge",
@@ -3571,20 +3586,20 @@
   },
   {
    "id": "marketplace:expo",
-   "name": "expo",
+   "name": "Expo",
    "origin": "marketplace",
-   "description": "Officiële Expo-skills voor het bouwen, implementeren, upgraden en debuggen van React Native-apps met Expo. Omvat UI-ontwikkeling...",
+   "description": "Officiële Expo-skills voor het bouwen, implementeren, upgraden en debuggen van Expo-apps",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/expo",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/expo/skills/tree/170589a7ee8963156f63de8202fa96cf08a9e610/plugins/expo",
+   "verified": true,
    "installs": 15861,
    "maker": "",
    "about": [
     "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI develop..."
+   "descriptionOriginal": "Official Expo skills for building, deploying, upgrading, and debugging Expo apps"
   },
   {
    "id": "marketplace:fakechat",
@@ -4137,20 +4152,20 @@
    "id": "marketplace:github",
    "name": "GitHub",
    "origin": "marketplace",
-   "description": "Officiële GitHub MCP-server voor repobeheer. Creëer problemen, beheer PR's, bekijk code, zoek naar repo's en krijg toegang tot de GitHub-API vanuit Claude Code.",
+   "description": "Officiële GitHub MCP-server voor repositorybeheer. Maak problemen aan, beheer pull-aanvragen, bekijk code, zoek in opslagplaatsen en communiceer rechtstreeks vanuit Claude Code met de volledige API van GitHub.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/github",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/github",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/external_plugins/github",
+   "verified": true,
    "installs": 319381,
-   "maker": "GitHub",
+   "maker": "",
    "about": [
     "The GitHub plugin connects Claude Code directly to GitHub's platform through the official GitHub MCP server. Manage repositories, issues, pull requests, and workflows without leaving your development environment. Browse code, analyze commits, and understand project structure across all your accessible repositories.",
     "Key capabilities include creating and updating issues and pull requests, reviewing code with AI assistance, monitoring GitHub Actions workflows, analyzing build failures, and managing releases. The plugin also provides security features like examining code scanning findings and reviewing Dependabot alerts.",
     "After connecting your GitHub account, interact naturally with your repositories. Try prompts like \"Create an issue for the login bug in my-app repo\", \"Review the latest PR on my project\", \"Show me failed GitHub Actions runs\", \"Search for repositories about machine learning\", or \"List open issues assigned to me\". The plugin handles authentication and API calls automatically."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official GitHub MCP server for repo management. Create issues, manage PRs, review code, search repos, and access GitHub's API from Claude Code."
+   "descriptionOriginal": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code."
   },
   {
    "id": "marketplace:gitkraken",
@@ -4240,10 +4255,10 @@
    "id": "marketplace:gopls-lsp",
    "name": "Go LSP (gopls)",
    "origin": "marketplace",
-   "description": "Ga naar de taalserver voor Claude Code, die code-intelligentie, refactoring en analyse biedt.",
+   "description": "Ga naar de taalserver voor code-intelligentie en refactoring",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gopls-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/gopls-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/23c304a6387ed2fa207ceff27646d8514ee75235/plugins/gopls-lsp",
    "verified": true,
    "installs": 41639,
    "maker": "",
@@ -4253,7 +4268,7 @@
     "Once installed, the language server automatically activates for .go files. Claude will leverage gopls to understand your Go codebase, navigate between definitions and references, identify issues, and suggest refactorings. Simply ask Claude to help with Go code tasks like \"find all references to this function\" or \"refactor this struct\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Go language server for Claude Code, providing code intelligence, refactoring, and analysis."
+   "descriptionOriginal": "Go language server for code intelligence and refactoring"
   },
   {
    "id": "marketplace:goodmem",
@@ -4397,20 +4412,20 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Investigate production issues with authorized groundcover observability data and compose advanced gcQL queries."
+   "descriptionOriginal": "Investigate production issues with authorized groundcover observability data and compose advanced gcQL queries.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:growthbook",
-   "name": "GrowthBook",
+   "name": "GrowthBook Skills",
    "origin": "marketplace",
-   "description": "Een reeks agentvaardigheden voor de volledige GrowthBook-functievlag en experimentlevenscyclus.",
-   "category": "Ontwikkeling",
+   "description": "Domeinvaardigheden voor de volledige levenscyclus van GrowthBook-functies, experimenten en productanalyses.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/growthbook",
    "source": "https://github.com/growthbook/skills",
-   "verified": false,
+   "verified": true,
    "installs": 32,
-   "maker": "GrowthBook",
+   "maker": "",
    "about": [
     "Manage the full GrowthBook feature flag and experimentation lifecycle without leaving your editor. This plugin provides a comprehensive suite of skills that connect directly to the GrowthBook REST API, covering flag creation, targeting, rollouts, experiment design, dependency auditing, and stale flag cleanup — all through natural-language commands.",
     "The flag management skills handle the complete lifecycle: create flags with collision-safe key validation, toggle environments on or off, configure targeting rules and progressive rollouts with metric guardrails, manage draft revisions and approvals, and safely archive or delete stale flags with automated code-reference inlining. A dependency graph skill traces prerequisites, reverse dependencies, and linked experiments to assess blast radius before changes.",
@@ -4418,7 +4433,7 @@
     "to configure your GrowthBook API credentials. Then try commands like"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "A suite of agent skills for the full GrowthBook feature flag and experimentation lifecycle."
+   "descriptionOriginal": "Domain skills for the full GrowthBook feature flag, experimentation, and product analytics lifecycle."
   },
   {
    "id": "marketplace:handsontable-skills",
@@ -4476,7 +4491,7 @@
    "description": "Creëer eenvoudig haken om ongewenst gedrag te voorkomen door gesprekspatronen te analyseren",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/hookify",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/hookify",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e0ab6e51219eef74e417a0e1d89e5d53e5e763d4/plugins/hookify",
    "verified": true,
    "installs": 60376,
    "maker": "",
@@ -4486,8 +4501,8 @@
     "Create rules from natural language:",
     "/hookify Warn me when I use rm -rf commands"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns"
+   "descriptionOriginal": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:hostinger",
@@ -4668,6 +4683,21 @@
    "about": [],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Respond to incidents, check on-call, and author the runbooks and docs your investigations draw on."
+  },
+  {
+   "id": "marketplace:infor-industry-ai-for-claude",
+   "name": "Infor Industry AI for Claude",
+   "origin": "marketplace",
+   "description": "Voor inkopers, productieplanners en klantenservicemedewerkers in Infor M3: het ochtendoverzicht van de koper en de impactanalyse van vertraagde inkooporders, de risicovolle productieorders van de planner met oplossingen en de spoedorders van de vertegenwoordiger, allemaal op live M3-gegevens met elke wijziging achter een expliciet ja. Vereist de M3-connector (M3 BE MCP).",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/infor-industry-ai-for-claude",
+   "source": "https://github.com/infor-cloud/infor-industry-ai-for-claude/tree/0351f5785f4f2ff5092dbbaa596ffe1f66a7cc6d/plugins/infor-industry-ai",
+   "verified": true,
+   "installs": 0,
+   "maker": "Infor",
+   "about": [],
+   "firstSeen": "2026-11-12",
+   "descriptionOriginal": "For buyers, production planners and customer service reps in Infor M3: the buyer's morning view and delayed-PO impact analysis, the planner's at-risk manufacturing orders with fixes, and the rep's rush orders, all on live M3 data with every change behind an explicit yes. Requires the M3 connector (M3 BE MCP)."
   },
   {
    "id": "marketplace:informatica-for-claude-platform",
@@ -4959,12 +4989,12 @@
   },
   {
    "id": "marketplace:kotlin-lsp",
-   "name": "kotlin-lsp",
+   "name": "Kotlin LSP",
    "origin": "marketplace",
-   "description": "Kotlin-taalserver voor Claude Code, die code-intelligentie, refactoring en analyse biedt.",
+   "description": "Kotlin-taalserver voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/kotlin-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/kotlin-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/23c304a6387ed2fa207ceff27646d8514ee75235/plugins/kotlin-lsp",
    "verified": true,
    "installs": 24127,
    "maker": "",
@@ -4974,8 +5004,8 @@
     "Install the Kotlin LSP CLI with",
     "brew install JetBrains/utils/kotlin-lsp"
    ],
-   "descriptionOriginal": "Kotlin language server for Claude Code, providing code intelligence, refactoring, and analysis.",
-   "firstSeen": "2000-01-01"
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Kotlin language server for code intelligence"
   },
   {
    "id": "marketplace:kowalah",
@@ -5235,6 +5265,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:legal-clinic",
+   "name": "Legal Clinic",
+   "origin": "marketplace",
+   "description": "Zet de kliniek op, begeleidt studenten, voert gestructureerde intakes uit, houdt deadlines bij met bewuste voorzichtigheid en draagt zaken af aan het einde van het semester - gebouwd binnen ABA Formal Op. 512.",
+   "category": "Marketing & business",
+   "url": "https://claude.com/marketplace/plugins/legal-clinic",
+   "source": "https://github.com/anthropics/claude-for-legal/tree/4a6c651889c97cc9140580363c73e0eb17379c2b/legal-clinic",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "descriptionOriginal": "Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end — built within ABA Formal Op. 512.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:legal-builder-hub",
    "name": "legal-builder-hub",
    "origin": "marketplace",
@@ -5248,21 +5293,6 @@
    "about": [],
    "descriptionOriginal": "Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment.",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:legal-clinic",
-   "name": "legal-clinic",
-   "origin": "marketplace",
-   "description": "Zet de kliniek op, begeleidt studenten, voert gestructureerde intakes uit, houdt deadlines bij met bewuste voorzichtigheid en draagt zaken af aan het einde van het semester - gebouwd binnen ABA Formal Op. 512.",
-   "category": "Marketing & business",
-   "url": "https://claude.com/marketplace/plugins/legal-clinic",
-   "source": "https://github.com/anthropics/claude-for-legal/tree/4a6c651889c97cc9140580363c73e0eb17379c2b/legal-clinic",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end — built within ABA Formal Op. 512."
   },
   {
    "id": "marketplace:legalzoom",
@@ -5281,8 +5311,8 @@
     "The attorney-assist skill connects you directly to a LegalZoom attorney with full conversation context. It verifies your plan entitlements, matches you with the right legal specialty, compiles relevant documentation, and shows real-time attorney availability with named professionals and specific time slots. Requires a LegalZoom Business Attorney Plan.",
     "Paste or attach a contract and type"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "LegalZoom Plugin - AI-powered business legal assistance with contract review and attorney consultation"
+   "descriptionOriginal": "LegalZoom Plugin - AI-powered business legal assistance with contract review and attorney consultation",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:letmewatch",
@@ -5303,20 +5333,20 @@
    "id": "marketplace:linear",
    "name": "Linear",
    "origin": "marketplace",
-   "description": "Lineaire integratie: creëer problemen, beheer projecten, update statussen, zoek in werkruimten en stroomlijn uw ontwikkelingsworkflow.",
+   "description": "Lineaire integratie van probleemtracking. Creëer problemen, beheer projecten, update statussen, zoek in werkruimten en stroomlijn uw softwareontwikkelingsworkflow met de moderne probleemtracker van Linear.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/linear",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/linear",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e0ab6e51219eef74e417a0e1d89e5d53e5e763d4/external_plugins/linear",
+   "verified": true,
    "installs": 48038,
-   "maker": "Linear",
+   "maker": "",
    "about": [
     "Connect Claude Code to Linear's modern issue tracking platform. This plugin lets you create and manage issues, update statuses, search across your workspaces, and keep your development workflow in sync—all without leaving your terminal.",
     "With the Linear plugin, you can quickly file bugs, track feature requests, update project statuses, and query your issue backlog directly from Claude Code. It integrates seamlessly with Linear's fast, streamlined interface designed for product teams.",
     "Ask Claude to interact with your Linear workspace naturally. Try prompts like \"create a Linear issue for this bug\", \"what are my assigned Linear issues?\", \"update the status of issue ABC-123 to In Progress\", or \"search Linear for authentication issues\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Linear integration: create issues, manage projects, update statuses, search workspaces, and streamline your development workflow."
+   "descriptionOriginal": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker."
   },
   {
    "id": "marketplace:liquid-lsp",
@@ -5477,7 +5507,7 @@
   },
   {
    "id": "marketplace:lumen",
-   "name": "lumen",
+   "name": "Lumen",
    "origin": "marketplace",
    "description": "Nauwkeurig zoeken naar lokale semantische codes via MCP. Indexeert uw codebase met Go AST-parsing, sluit in met Ollama of LM Studi...",
    "category": "Ontwikkeling",
@@ -5489,8 +5519,8 @@
    "about": [
     "Precise local semantic code search via MCP. Indexes your codebase with Go AST parsing, embeds with Ollama or LM Studio, and exposes vector search to Claude through an MCP server — no cloud, no npm."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Precise local semantic code search via MCP. Indexes your codebase with Go AST parsing, embeds with Ollama or LM Studi..."
+   "descriptionOriginal": "Precise local semantic code search via MCP. Indexes your codebase with Go AST parsing, embeds with Ollama or LM Studi...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:lusha",
@@ -6067,18 +6097,18 @@
    "id": "marketplace:monday-crm",
    "name": "monday CRM",
    "origin": "marketplace",
-   "description": "AI-aangedreven Monday CRM: bouw pijplijnen, dashboards, prognoses, schoon gegevens op en automatiseer updates",
-   "category": "Data & analyse",
+   "description": "Voer uw maandag-CRM uit in duidelijke taal. Bouw een pijplijn vanaf het begin, begin de dag met een gerangschikte dealbriefing, start een prognosedashboard, controleer de gezondheid van het bord, ruim rommelige gegevens in bulk op en zet vergadernotities om in dealupdates. Elke skill wordt maandag teruggeschreven als een echte update, document of dashboard. Gebouwd op de officiële Monday MCP-connector.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/monday-crm",
-   "source": "https://github.com/mondaycom/mcp",
+   "source": "https://github.com/mondaycom/mcp/tree/adafae8814868f85bfb2bef6e047ac41a8670480/plugins/monday-crm",
    "verified": true,
    "installs": 247,
-   "maker": "monday.com",
+   "maker": "",
    "about": [
     "Run your monday CRM in plain language. Build a pipeline from scratch, start the day with a ranked deal briefing, spin up a forecast dashboard, audit board health, clean up messy data in bulk, and turn meeting notes into deal updates. Every skill writes back into monday as a real update, doc, or dashboard. Built on the official monday MCP connector."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI-powered Monday CRM: build pipelines, dashboards, forecasts, clean data, and automate updates"
+   "descriptionOriginal": "Run your monday CRM in plain language. Build a pipeline from scratch, start the day with a ranked deal briefing, spin up a forecast dashboard, audit board health, clean up messy data in bulk, and turn meeting notes into deal updates. Every skill writes back into monday as a real update, doc, or dashboard. Built on the official monday MCP connector."
   },
   {
    "id": "marketplace:monday-com",
@@ -6359,8 +6389,8 @@
     "helps you set up DAST scans by creating targets, configuring authentication (Playwright, headers, or cookies), managing projects, recording HTTP traffic for complex workflows, and defining scope exclusions.",
     "interprets scan results from ZAP and Nuclei engines in SARIF or CSV format, pinpoints vulnerable code using Code Traceback annotations, constructs curl commands for validation, and suggests remediations for issues like SQL injection, XSS, SSRF, and more."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "NightVision: DAST/API Discovery platform finding exploitable vulnerabilities in web applications and APIs"
+   "descriptionOriginal": "NightVision: DAST/API Discovery platform finding exploitable vulnerabilities in web applications and APIs",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:nimble",
@@ -7044,7 +7074,7 @@
   },
   {
    "id": "marketplace:posthog",
-   "name": "posthog",
+   "name": "PostHog",
    "origin": "marketplace",
    "description": "Krijg rechtstreeks toegang tot PostHog-analyses, functievlaggen, experimenten, foutopsporing en inzichten vanuit uw AI-coderingstool. Leg optioneel Claude Code-sessies vast in PostHog LLM Analytics.",
    "category": "Data & analyse",
@@ -7059,8 +7089,8 @@
     "for AI usage tracking, and more.",
     ", then authenticate via OAuth using the"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from your AI coding tool. Optionally capture Claude Code sessions to PostHog LLM Analytics."
+   "descriptionOriginal": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from your AI coding tool. Optionally capture Claude Code sessions to PostHog LLM Analytics.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:postiz",
@@ -7722,20 +7752,20 @@
   },
   {
    "id": "marketplace:redis-development",
-   "name": "redis-development",
+   "name": "Redis Development",
    "origin": "marketplace",
    "description": "Best practices voor Redis-ontwikkeling: datastructuren, query-engine, zoeken naar vectoren, caching en prestatie-optimalisatie",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/redis-development",
-   "source": "https://github.com/redis/agent-skills",
-   "verified": false,
+   "source": "https://github.com/redis/agent-skills/tree/a84871d065f398fed55e1633f66b66f731eb4e2b/plugins/redis-development",
+   "verified": true,
    "installs": 2878,
-   "maker": "Redis",
+   "maker": "",
    "about": [
     "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization"
+   "descriptionOriginal": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:regulatory-legal",
@@ -7769,8 +7799,8 @@
     "The plugin installs SessionStart and PostToolUse hooks that run automatically in the background. It includes a Python-based processing pipeline for extraction, summarization, and consolidation, along with shell scripts for orchestration with built-in locking and cooldowns.",
     "After installing, the plugin works automatically — sessions are saved and restored via hooks with no manual intervention needed. Use the"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Continuous memory for Claude Code: extracts, summarizes, compresses conversations into tiered daily logs."
+   "descriptionOriginal": "Continuous memory for Claude Code: extracts, summarizes, compresses conversations into tiered daily logs.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:remote-com",
@@ -8562,7 +8592,7 @@
   },
   {
    "id": "marketplace:slack",
-   "name": "slack",
+   "name": "Slack",
    "origin": "marketplace",
    "description": "Slack AI-tools voor gebruikers en ontwikkelaars: communiceer met uw werkruimte via de Slack MCP-server en gebruik skills om Slack-apps te ontwikkelen.",
    "category": "Schrijven & communicatie",
@@ -8576,8 +8606,8 @@
     "Key capabilities include generating channel summaries and digests, surfacing discussions, drafting announcements and standups, and composing and editing messages to be sent to Slack. By embedding Slack-native search and messaging intelligence, the plugin transforms Slack into the interactive layer where agent insights become team-visible work.",
     "After connecting your Slack workspace, interact naturally with your channels and conversations. Try prompts like \"Summarize the latest activity in #product\", \"Find discussions about Q3 planning\", \"Draft an announcement about the new release\", \"Generate my standup update from yesterday's activity\", or \"Create a digest of #eng and #sales this week\". The plugin handles authentication, permissions, and Slack formatting automatically."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps."
+   "descriptionOriginal": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:slack-gif-creator",
@@ -8975,20 +9005,20 @@
    "id": "marketplace:sumup",
    "name": "SumUp",
    "origin": "marketplace",
-   "description": "SumUp-integraties: terminal en online afrekenen. Android/iOS POS-apps met kaartlezers, SDK's, widget en Cloud API.",
-   "category": "Ontwikkeling",
+   "description": "Skills voor SumUp-betalingsintegraties tussen terminal- en online betaalstromen",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/sumup",
    "source": "https://github.com/sumup/sumup-skills",
-   "verified": false,
+   "verified": true,
    "installs": 2389,
-   "maker": "SumUp",
+   "maker": "",
    "about": [
     "Integrate SumUp payment processing into your apps with guided implementation across terminal and online checkout flows. This plugin provides a comprehensive decision framework that helps you choose the right integration path — whether you're building in-person POS apps with card readers, embedding online checkout widgets, or orchestrating payments server-side via API. It connects to SumUp's MCP server for live API access and bundles detailed reference documentation for 18 integration types including server SDKs (Node.js, Python, Go, Java, PHP, Rust, .NET), terminal solutions (Android Reader SDK, iOS Terminal SDK, Tap to Pay, Cloud API, Payment Switch), and online options (Checkout Widget, Checkouts API, React Native SDK, Swift Checkout SDK, webhooks, and alternative payment methods).",
     "The plugin enforces SumUp's security best practices throughout development — keeping API keys server-side, preventing raw card data handling, ensuring server-to-server checkout creation, and requiring unique transaction references for duplicate prevention. Every implementation includes failure handling strategies and validation test plans.",
     "How to use: Ask Claude to help you build a SumUp integration. For example, try \"Integrate SumUp card payments into my Android POS app\", \"Add SumUp online checkout to my e-commerce site\", \"Set up SumUp Cloud API to control a Solo card reader remotely\", or \"Add SumUp payment processing to my Node.js backend\". The plugin will identify the right integration path, walk you through the implementation end-to-end, and provide endpoint specifications with retry and error handling."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "SumUp integrations: terminal and online checkout. Android/iOS POS apps with card readers, SDKs, widget, and Cloud API."
+   "descriptionOriginal": "Skills for SumUp payment integrations across terminal and online checkout flows"
   },
   {
    "id": "marketplace:supabase",
@@ -9398,8 +9428,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Read-only access to your Treblle APIs, requests, endpoints, customers, incidents, specifications, and governance reports."
+   "descriptionOriginal": "Read-only access to your Treblle APIs, requests, endpoints, customers, incidents, specifications, and governance reports.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:tres-finance-plugin",
@@ -10332,25 +10362,28 @@
   "official:brand-guidelines",
   "official:slack-gif-creator",
   "official:algorithmic-art",
-  "official:internal-comms"
+  "official:internal-comms",
+  "official:discernment-nudge"
  ],
- "updated": "2026-11-11T22:55:52.115829+00:00",
+ "updated": "2026-11-12T22:25:03.342001+00:00",
  "tonight": {
-  "date": "2026-11-11",
-  "id": "official:internal-comms",
+  "date": "2026-11-12",
+  "id": "official:discernment-nudge",
   "text": [
-   "Wanneer gebruik je deze skill? Gebruik deze skill om interne communicatie te schrijven voor: 3P-updates (voortgang, plannen, problemen) Bedrijfsnieuwsbrieven Veelgestelde vragen reacties Statusrapporten Leiderschapsupdates Projectupdates Incidentrapporten",
-   "Om interne communicatie te schrijven:",
-   "Identificeer het communicatietype uit het verzoek Laad het juiste richtlijnbestand uit de map `examples/`: `examples/3p-updates.md` - Voor voortgang/plannen/problemen teamupdates `examples/company-newsletter.md` - Voor bedrijfsbrede nieuwsbrieven `examples/faq-antwoorden.md` - Voor het beantwoorden van veelgestelde vragen `examples/general-comms.md` - Voor al het andere dat er niet expliciet mee overeenkomt van het bovenstaande Volg de specifieke instructies in dat bestand voor opmaak, toon en het verzamelen van inhoud",
-   "Als het communicatietype niet aansluit bij een bestaande richtlijn, vraag dan om verduidelijking of meer context over het gewenste format.",
-   "Trefwoorden 3P-updates, bedrijfsnieuwsbrief, bedrijfscommunicatie, wekelijkse update, veelgestelde vragen, veelgestelde vragen, updates, interne communicatie"
+   "Mensen nemen een AI-antwoord vaak voor waar aan, vooral als het zelfverzekerd geschreven en goed gestructureerd is. Dat is meestal prima, maar voor inhoudelijke antwoorden waar de gebruiker actie op gaat ondernemen (geld uitgeven, een gezondheidsbeslissing nemen, een claim aanhalen, zich aan een plan binden), kan een klein moment van reflectie een slechte veronderstelling of een ontbrekend stukje context opvangen voordat het er toe doet. Deze skill voegt dat moment zachtjes toe, zonder het antwoord zelf in de weg te staan.",
+   "Het doel is om drie onderscheidingsgewoonten te *modelleren* vanuit het AI Fluency-framework, en niet om er lezingen over te geven:",
+   "Feiten controleren: welke specifieke beweringen in dit antwoord zouden de moeite waard zijn om te verifiëren, en waartegen? Het in twijfel trekken van de redenering: waar heeft de logica een stap gezet die de gebruiker misschien gerechtvaardigd zou willen zien? Het opmerken van ontbrekende context: wat moest het antwoord aannemen omdat de gebruiker het niet zei?",
+   "Bied het aan als uw antwoord inhoud bevat die de gebruiker zou kunnen onderzoeken voordat hij ernaar handelt. De duidelijkste gevallen:",
+   "U heeft schattingen, prognoses of cijfers gegeven (kosten, tijdlijnen, tarieven, waarschijnlijkheden) die plausibel zijn, maar niet gebaseerd zijn op de specifieke situatie van de gebruiker. Je hebt advies of een aanbeveling gegeven op een belangrijk terrein – bedrijfsstrategie, gezondheid, juridisch, financieel, carrière, interpersoonlijk – waarbij het juiste antwoord sterk afhangt van de context die je niet hebt. Je hebt feitelijke of historische beweringen gedaan waar de gebruiker waarschijnlijk naar zal handelen of deze zal herhalen op een plek die er toe doet: een beslissing, een rapport, een bewering die ze zullen doorgeven. Beweringen dat ze puur lezen om een onderwerp te begrijpen, hebben geen duwtje nodig;…",
+   "Laat het uit als het duwtje ruis zou zijn - of erger nog, als het iets zou overschrijven dat de gebruiker je al heeft verteld. Stilte is de juiste standaard; voeg alleen een duwtje toe als er iets concreets is dat de moeite waard is om over na te denken *en* de gebruiker nog niet heeft aangegeven dat de verificatie gedekt is."
   ],
   "textOriginal": [
-   "When to use this skill To write internal communications, use this skill for: 3P updates (Progress, Plans, Problems) Company newsletters FAQ responses Status reports Leadership updates Project updates Incident reports",
-   "To write any internal communication:",
-   "Identify the communication type from the request Load the appropriate guideline file from the `examples/` directory: `examples/3p-updates.md` - For Progress/Plans/Problems team updates `examples/company-newsletter.md` - For company-wide newsletters `examples/faq-answers.md` - For answering frequently asked questions `examples/general-comms.md` - For anything else that doesn't explicitly match one of the above Follow the specific instructions in that file for formatting, tone, and content gathering",
-   "If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.",
-   "Keywords 3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms"
+   "People often take an AI answer at face value, especially when it's confidently written and well-structured. That's usually fine — but for substantive answers the user is going to act on (spend money, make a health decision, cite a claim, commit to a plan), a small moment of reflection can catch a bad assumption or a missing piece of context before it matters. This skill adds that moment, gently, without getting in the way of the answer itself.",
+   "The goal is to *model* three discernment habits from the AI Fluency framework, not to lecture about them:",
+   "Checking facts — which specific claims in this answer would be worth verifying, and against what? Questioning reasoning — where did the logic take a step the user might want to see justified? Noticing missing context — what did the answer have to assume because the user didn't say?",
+   "Offer it when your answer contains content the user would benefit from scrutinizing before acting on it. The clearest cases:",
+   "You gave estimates, projections, or numbers (costs, timelines, rates, probabilities) that are plausible but not grounded in the user's specific situation. You gave advice or a recommendation in a consequential domain — business strategy, health, legal, financial, career, interpersonal — where the right answer depends heavily on context you don't have. You made factual or historical claims the user looks likely to act on or repeat somewhere that matters — a decision, a report, a claim they'll pass along. Claims they're reading purely to understand a topic don't need the nudge;…",
+   "Leave it off when the nudge would be noise — or worse, when it would override something the user already told you. Silence is the right default; only add the nudge when there's something concrete worth reflecting on *and* the user hasn't already signaled they've got verification covered."
   ]
  }
 }
