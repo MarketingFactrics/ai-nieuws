@@ -306,21 +306,6 @@
    "descriptionOriginal": "Control Airwallex in Claude. Manage invoices, suppliers, and cash in plain language with pre-built finance Skills."
   },
   {
-   "id": "marketplace:airwallex-dev",
-   "name": "airwallex-dev",
-   "origin": "marketplace",
-   "description": "Airwallex-integratievaardigheden voor Claude. Workflows voor het genereren van code die Airwallex API's in uw project ondersteunen, configureren en aansluiten.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/airwallex-dev",
-   "source": "https://github.com/airwallex/airwallex-marketplace/tree/7a457bf83f2c10eef3e3dc4d81587ff29b040eb6/plugins/airwallex-dev",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Airwallex integration skills for Claude. Code-generation workflows that scaffold, configure, and wire Airwallex APIs into your project."
-  },
-  {
    "id": "marketplace:aiven",
    "name": "Aiven",
    "origin": "marketplace",
@@ -530,8 +515,8 @@
    "installs": 0,
    "maker": "Ando Corporation",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Team messaging for people and AI agents: read shared conversations, find decisions with source links, and send team updates with context."
+   "descriptionOriginal": "Team messaging for people and AI agents: read shared conversations, find decisions with source links, and send team updates with context.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:anydesign",
@@ -1097,8 +1082,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "B12 plugin with two skills: Website Generator (create a B12 website from a brief description) and B12 Website Editor (edit a live B12 website using Claude's browser access in Claude Cowork)."
+   "descriptionOriginal": "B12 plugin with two skills: Website Generator (create a B12 website from a brief description) and B12 Website Editor (edit a live B12 website using Claude's browser access in Claude Cowork).",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:base44",
@@ -1233,7 +1218,7 @@
   },
   {
    "id": "marketplace:bitmovin",
-   "name": "bitmovin",
+   "name": "Bitmovin",
    "origin": "marketplace",
    "description": "Leer Claude hoe hij de Bitmovin Web Player SDK (v8 en Player Web X) kan integreren. Omvat installatie, DRM, advertenties, analyses, ondertitels, React/Next.js/Vue-patronen en veelvoorkomende valkuilen.",
    "category": "Data & analyse",
@@ -1243,8 +1228,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Teach Claude how to integrate the Bitmovin Web Player SDK (v8 and Player Web X). Covers installation, DRM, ads, analytics, subtitles, React/Next.js/Vue patterns, and common pitfalls."
+   "descriptionOriginal": "Teach Claude how to integrate the Bitmovin Web Player SDK (v8 and Player Web X). Covers installation, DRM, ads, analytics, subtitles, React/Next.js/Vue patterns, and common pitfalls.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:blackrock-advisor-center",
@@ -1273,8 +1258,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Blaxel agent skills for building and deploying AI workloads. Includes the Blaxel SDK skill for creating cloud sandboxes and deploying agents, and the Blaxel CLI skill for managing Blaxel resources from the command line."
+   "descriptionOriginal": "Blaxel agent skills for building and deploying AI workloads. Includes the Blaxel SDK skill for creating cloud sandboxes and deploying agents, and the Blaxel CLI skill for managing Blaxel resources from the command line.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:boltz",
@@ -1337,8 +1322,8 @@
    "about": [
     "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow."
+   "descriptionOriginal": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:brainstorming",
@@ -3050,24 +3035,24 @@
   },
   {
    "id": "marketplace:deepeval",
-   "name": "deepeval",
+   "name": "DeepEval",
    "origin": "marketplace",
-   "description": "DeepEval-skills: evaluaties, tracering, datasets, zelfverzekerde AI-rapporten, iteratieve verbeteringslussen.",
+   "description": "Skills voor het toevoegen van DeepEval-evaluaties, tracering, datasets, betrouwbare AI-rapporten en iteratieve verbeteringslussen aan AI-applicaties.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/deepeval",
    "source": "https://github.com/confident-ai/deepeval",
-   "verified": false,
+   "verified": true,
    "installs": 105,
-   "maker": "Confident AI",
+   "maker": "",
    "about": [
     "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DeepEval skills: evaluations, tracing, datasets, Confident AI reports, iterative improvement loops."
+   "descriptionOriginal": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications."
   },
   {
    "id": "marketplace:deploy-on-aws",
-   "name": "deploy-on-aws",
+   "name": "Deploy on AWS",
    "origin": "marketplace",
    "description": "Implementeer applicaties op AWS met architectuuraanbevelingen, kostenramingen en IaC-implementatie. Genereer gevalideerde AWS-architectuurdiagrammen als draw.io XML.",
    "category": "Ontwikkeling",
@@ -3082,8 +3067,8 @@
     "for architecture validation and AWS documentation,",
     "for real-time cost calculations, and"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment. Generate validated AWS architecture diagrams as draw.io XML."
+   "descriptionOriginal": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment. Generate validated AWS architecture diagrams as draw.io XML.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:descope",
@@ -3414,8 +3399,8 @@
     "Elixir and Erlang must be installed. ElixirLS can be installed via Homebrew (",
     "Once installed, the plugin activates automatically when you work with Elixir files. Try prompts like: \"Find all compiler warnings in this Phoenix project,\" \"Refactor this GenServer module,\" or \"Explain what this Ecto changeset pipeline does.\" The language server runs in the background, giving Claude deeper insight into your code structure, types, and potential issues."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "ElixirLS for Claude Code — code intelligence and diagnostics for .ex, .exs, .heex files."
+   "descriptionOriginal": "ElixirLS for Claude Code — code intelligence and diagnostics for .ex, .exs, .heex files.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:employment-legal",
@@ -3946,8 +3931,8 @@
     "After installing, authenticate via",
     "and select \"Authenticate\" for Flint. Then make requests conversationally or use the skill directly:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build and manage websites with Flint's AI website builder through natural conversation."
+   "descriptionOriginal": "Build and manage websites with Flint's AI website builder through natural conversation.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:followrabbit",
@@ -4078,7 +4063,7 @@
   },
   {
    "id": "marketplace:fund-admin",
-   "name": "fund-admin",
+   "name": "Fund Admin",
    "origin": "marketplace",
    "description": "Skills op het gebied van fondsadministratie en financiële operaties: GB-afstemming, break-tracing, opbouw, roll-forwards, variantiecommentaar, NAV-tie-out",
    "category": "Marketing & business",
@@ -4088,8 +4073,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Fund administration and finance ops skills: GL reconciliation, break tracing, accruals, roll-forwards, variance commentary, NAV tie-out"
+   "descriptionOriginal": "Fund administration and finance ops skills: GL reconciliation, break tracing, accruals, roll-forwards, variance commentary, NAV tie-out",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:gc-ai",
@@ -4673,16 +4658,16 @@
    "id": "marketplace:incident-io",
    "name": "incident.io",
    "origin": "marketplace",
-   "description": "Reageer op incidenten, controleer op afroep en schrijf de runbooks en documenten waarop uw onderzoeken zijn gebaseerd.",
-   "category": "Overig",
+   "description": "Zorgt ervoor dat uw agent incident.io vloeiend kan beheersen: reageren op en onderzoeken van incidenten, werken met oproepschema's en escalaties, en het schrijven van de operationele inhoud (runbooks, skills en plug-ins) waar incident.io-onderzoeken op voortbouwen. Bundelt de officiële incident.io MCP-server.",
+   "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/incident-io",
-   "source": "https://github.com/incident-io/skills",
-   "verified": false,
+   "source": "https://github.com/incident-io/skills/tree/6af50e2e23e9c782b95a456aab5a053550fba3c9/plugins/incident-io",
+   "verified": true,
    "installs": 0,
-   "maker": "incident.io",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Respond to incidents, check on-call, and author the runbooks and docs your investigations draw on."
+   "descriptionOriginal": "Makes your agent fluent in incident.io: responding to and investigating incidents, working with on-call schedules and escalations, and authoring the operational content — runbooks, skills, and plugins — that incident.io investigations draw on. Bundles the official incident.io MCP server."
   },
   {
    "id": "marketplace:infor-industry-ai-for-claude",
@@ -4789,8 +4774,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "QuickBooks business insights and actions for Claude: financial health briefings, industry benchmarking, invoicing, payroll, and lending."
+   "descriptionOriginal": "QuickBooks business insights and actions for Claude: financial health briefings, industry benchmarking, invoicing, payroll, and lending.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:investment-banking",
@@ -5808,20 +5793,20 @@
   },
   {
    "id": "marketplace:mercadopago",
-   "name": "mercadopago",
+   "name": "Mercado Pago",
    "origin": "marketplace",
-   "description": "Mercado Pago volledige productintegratietoolkit. Omvat online afrekenen (Pro, Bricks, API), in de winkel (QR, Point), abonnementen...",
-   "category": "Ontwikkeling",
+   "description": "Mercado Pago-integratietoolkit voor Claude Code. Eén agent leidt naar vier skills: mp-integrate (wizard voor Checkout Pro, Checkout API, Bricks, QR Code, Point, Subscriptions, Marketplace, Wallet Connect, Payouts en SmartApps – plus migratie van oudere Instore-integraties naar de Orders API), mp-webhooks (HMAC-gevalideerde ontvangersteiger en diagnostiek), mp-test-setup (testgebruikers, inloggegevens en testkaarten) en mp-review (kwaliteits- en veiligheidscontroles). Steigerwerk werkt offline waar mogelijk",
+   "category": "Security",
    "url": "https://claude.com/marketplace/plugins/mercadopago",
-   "source": "https://github.com/mercadopago/mercadopago-claude-marketplace",
-   "verified": false,
+   "source": "https://github.com/mercadopago/mercadopago-claude-marketplace/tree/9815b7fe3769783ddafce0745d113351c8e69ab0/plugins/mercadopago",
+   "verified": true,
    "installs": 849,
-   "maker": "Mercado Pago Developer Experience",
+   "maker": "",
    "about": [
     "Mercado Pago full-product integration toolkit. Covers online checkout (Pro, Bricks, API), in-store (QR, Point), subscriptions, marketplace, wallet, money-out, security (3DS, PCI), reporting, SDKs, and specialized integrations. Hybrid architecture: 13 skills provide stable integration intelligence, MCP provides live API data."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Mercado Pago full-product integration toolkit. Covers online checkout (Pro, Bricks, API), in-store (QR, Point), subsc..."
+   "descriptionOriginal": "Mercado Pago integration toolkit for Claude Code. One agent routes to four skills: mp-integrate (wizard for Checkout Pro, Checkout API, Bricks, QR Code, Point, Subscriptions, Marketplace, Wallet Connect, Payouts, and SmartApps — plus migration of legacy Instore integrations to the Orders API), mp-webhooks (HMAC-validated receiver scaffold and diagnostics), mp-test-setup (test users, credentials, and test cards), and mp-review (quality and security checks). Scaffolding works offline where possibl"
   },
   {
    "id": "community:mercury-mcp",
@@ -5953,13 +5938,13 @@
    "id": "marketplace:migration-to-aws",
    "name": "Migration to AWS",
    "origin": "marketplace",
-   "description": "Beoordeel het cloudgebruik/facturering, vergelijk AWS-services/prijzen, adviseer migratie of voortgezet gebruik van de huidige provider.",
-   "category": "Ontwikkeling",
+   "description": "Deze gratis tool beoordeelt het gebruik, de geografie en de factureringsgegevens van uw huidige cloudprovider om AWS-services en -prijzen te schatten en te vergelijken, en beveelt migratie of voortgezet gebruik van uw huidige provider aan. Ondersteunt GCP- en Heroku-migraties. De AWS-prijzen zijn gebaseerd op de huidige gepubliceerde prijzen en kunnen in de loop van de tijd variëren. De tool kan een .migration-map genereren met vergelijkings- en migratie-uitvoeringsgegevens, die u na voltooiing kunt verwijderen of kunt gebruiken om naar AWS te migreren.",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/migration-to-aws",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/startups/tree/d124bd4bd9cae2ae66e2e2907ad29b6301882858/migrate/plugins/migration-to-aws",
+   "verified": true,
    "installs": 2370,
-   "maker": "Amazon Web Services",
+   "maker": "",
    "about": [
     "Provides a structured, five-phase workflow for migrating cloud infrastructure from Google Cloud Platform to Amazon Web Services. The plugin analyzes your existing Terraform-defined GCP resources, maps them to AWS equivalents using a re-platform strategy, estimates costs with live AWS pricing data, and produces a detailed execution plan with risk mitigation and rollback strategies.",
     "The migration workflow progresses through five phases:",
@@ -5967,7 +5952,7 @@
     "(gather migration requirements via a structured questionnaire),"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Assess cloud usage/billing, compare AWS services/pricing, recommend migration or continued use of current provider."
+   "descriptionOriginal": "This no-cost tool assesses your current cloud provider's usage, geography, and billing data to estimate and compare AWS services and pricing, and recommends migration or continued use of your current provider. Supports GCP and Heroku migrations. AWS pricing is based on current published pricing and may vary over time. The tool may generate a .migration folder containing comparison and migration execution data, which you may delete upon completion or use to migrate to AWS."
   },
   {
    "id": "marketplace:mintlify",
@@ -6189,7 +6174,7 @@
   },
   {
    "id": "marketplace:month-end-closer",
-   "name": "month-end-closer",
+   "name": "Month End Closer",
    "origin": "marketplace",
    "description": "Overlopende rekeningen, roll-forwards, variantiecommentaar",
    "category": "Overig",
@@ -6700,20 +6685,20 @@
   },
   {
    "id": "marketplace:outputai",
-   "name": "outputai",
+   "name": "Output.ai",
    "origin": "marketplace",
-   "description": "Output.ai workflow-ontwikkelingstoolkit voor Claude Code. Voegt 5 gespecialiseerde agenten toe (planner, bouwer, debugger, prompt ...",
-   "category": "Code review & testen",
+   "description": "Tools voor het ontwikkelen van workflows",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/outputai",
-   "source": "https://github.com/growthxai/output",
-   "verified": false,
+   "source": "https://github.com/growthxai/output/tree/3d517c0c69899582e049af3be32d00ff561cdda9/coding_assistants/claude/plugins/outputai",
+   "verified": true,
    "installs": 792,
-   "maker": "Output.ai",
+   "maker": "",
    "about": [
     "Output.ai workflow development toolkit for Claude Code. Adds 5 specialist agents (planner, builder, debugger, prompt writer, quality reviewer), 40+ slash-command skills covering scaffolding, debugging, evaluation, and credential management, plus a SessionStart hook that auto-loads Output SDK conventions so Claude understands the framework before the first prompt."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Output.ai workflow development toolkit for Claude Code. Adds 5 specialist agents (planner, builder, debugger, prompt ..."
+   "descriptionOriginal": "Workflow development tools"
   },
   {
    "id": "community:overkill",
@@ -6874,7 +6859,7 @@
    "description": "PHP-taalserver (Intelefense) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/php-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/php-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/099387b7a2ea02022bb850becca750246ae12562/plugins/php-lsp",
    "verified": true,
    "installs": 32856,
    "maker": "",
@@ -6883,25 +6868,25 @@
     "The plugin provides hover information, code formatting, syntax highlighting, and advanced type support out of the box. It helps Claude better understand your PHP codebase structure and navigate between files, classes, and methods with precision.",
     "After installing the plugin, Claude automatically gains enhanced PHP intelligence. Simply work with your PHP files as normal - Claude will leverage the language server for better code understanding, accurate suggestions, and reliable refactoring assistance. The plugin requires Intelephense to be installed globally via"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "PHP language server (Intelephense) for code intelligence"
+   "descriptionOriginal": "PHP language server (Intelephense) for code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:pigment",
-   "name": "pigment",
+   "name": "Pigment",
    "origin": "marketplace",
-   "description": "Analyseer bedrijfsgegevens en bouw aangepaste pigmentmodellen, statistieken en borden via natuurlijke taal.",
+   "description": "Analyseer bedrijfsgegevens en bouw planningsmodellen in uw Pigment-werkruimte",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/pigment",
    "source": "https://github.com/gopigment/ai-plugins",
-   "verified": false,
+   "verified": true,
    "installs": 652,
-   "maker": "Pigment",
+   "maker": "",
    "about": [
     "Analyze business data and build custom Pigment models, metrics, and boards through natural language."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Analyze business data and build custom Pigment models, metrics, and boards through natural language."
+   "descriptionOriginal": "Analyze business data and build planning models in your Pigment workspace"
   },
   {
    "id": "marketplace:pinecone",
@@ -6987,8 +6972,8 @@
     "After installing, Claude can access your PlanetScale resources through natural language. Try prompts like:",
     "\"List all databases in my PlanetScale organization\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "An authenticated hosted MCP server that accesses your PlanetScale organizations, databases, branches, schema, and Insights data. Query against your data, surface slow queries, and get organizational and account information."
+   "descriptionOriginal": "An authenticated hosted MCP server that accesses your PlanetScale organizations, databases, branches, schema, and Insights data. Query against your data, surface slow queries, and get organizational and account information.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:playground",
@@ -7014,20 +6999,20 @@
    "id": "marketplace:playwright",
    "name": "Playwright",
    "origin": "marketplace",
-   "description": "Browserautomatisering en end-to-end testen MCP-server van Microsoft. Stelt Claude in staat om te communiceren met webpagina's, schermafbeeldingen te maken, formulieren in te vullen en testworkflows te automatiseren.",
+   "description": "Browserautomatisering en end-to-end testen MCP-server van Microsoft. Stelt Claude in staat om te communiceren met webpagina's, schermafbeeldingen te maken, formulieren in te vullen, op elementen te klikken en geautomatiseerde browsertestworkflows uit te voeren.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/playwright",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/playwright",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/7d7dbbd9bc87745d2345a36b54be642f6145fd15/external_plugins/playwright",
+   "verified": true,
    "installs": 319887,
-   "maker": "Microsoft",
+   "maker": "",
    "about": [
     "Playwright MCP enables Claude to automate browser interactions through structured accessibility data rather than screenshots. This provides fast, lightweight browser automation without requiring vision models—Claude works directly with the page's accessibility tree for deterministic, reliable interactions.",
     "Key capabilities include navigating to URLs, clicking elements, filling forms, handling file uploads, managing browser dialogs, taking screenshots, generating PDFs, and running custom Playwright scripts. The server also provides tab management, network request inspection, console message retrieval, and comprehensive test assertion tools for end-to-end testing workflows.",
     "Ask Claude to perform browser tasks naturally. Try prompts like \"Navigate to example.com and take a screenshot\", \"Fill out the login form with username test@email.com\", \"Click the Submit button and wait for the confirmation message\", or \"Run an end-to-end test that verifies the checkout flow works correctly\". Claude will use the appropriate browser automation tools to complete these tasks."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, and automate testing workflows."
+   "descriptionOriginal": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows."
   },
   {
    "id": "community:playwright-browser-automation",
@@ -8031,10 +8016,10 @@
    "id": "marketplace:rust-analyzer-lsp",
    "name": "Rust Analyzer LSP",
    "origin": "marketplace",
-   "description": "Rust-taalserver voor Claude Code, die code-intelligentie en -analyse biedt.",
+   "description": "Rust-taalserver voor code-intelligentie en -analyse",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/rust-analyzer-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/rust-analyzer-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/099387b7a2ea02022bb850becca750246ae12562/plugins/rust-analyzer-lsp",
    "verified": true,
    "installs": 35933,
    "maker": "",
@@ -8044,7 +8029,7 @@
     "Once installed (via rustup, Homebrew, or your package manager), the plugin automatically activates when working with Rust files. Ask Claude to \"analyze this Rust code\", \"find all references to this function\", \"go to the definition of this struct\", or \"check for clippy warnings in my project\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Rust language server for Claude Code, providing code intelligence and analysis."
+   "descriptionOriginal": "Rust language server for code intelligence and analysis"
   },
   {
    "id": "marketplace:sp-global",
@@ -8063,20 +8048,20 @@
   },
   {
    "id": "marketplace:sagemaker-ai",
-   "name": "sagemaker-ai",
+   "name": "SageMaker AI",
    "origin": "marketplace",
-   "description": "Bouw, train en implementeer AI-modellen met diepgaande AWS AI/ML-expertise die rechtstreeks in uw codeerassistenten wordt gebracht, waaronder...",
+   "description": "Bouw, train en implementeer AI-modellen met diepgaande AWS AI/ML-expertise die rechtstreeks in uw codeerassistenten wordt gebracht en die het oppervlak van Amazon SageMaker AI bestrijkt.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/sagemaker-ai",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/sagemaker-ai",
+   "verified": true,
    "installs": 1469,
    "maker": "",
    "about": [
     "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, coveri..."
+   "descriptionOriginal": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI."
   },
   {
    "id": "marketplace:sales",
@@ -8442,20 +8427,20 @@
   },
   {
    "id": "marketplace:servicenow-sdk",
-   "name": "servicenow-sdk",
+   "name": "ServiceNow SDK",
    "origin": "marketplace",
    "description": "Creëer, bewerk en implementeer ServiceNow-applicaties moeiteloos met de Fluent SDK via Claude. Helpt ontwikkelaars bij het bouwen, uitbreiden en beheren van ServiceNow-applicaties, workflows en agents met behulp van de ServiceNow SDK.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/servicenow-sdk",
-   "source": "https://github.com/servicenow/sdk/tree/34878453d19a134d89051ee154efb81bafb8bea4/providers/claude/plugin",
+   "source": "https://github.com/servicenow/sdk/tree/c84c1ef545c9f5c363caacb33a14e3469027daa4/providers/claude/plugin",
    "verified": true,
    "installs": 1028,
    "maker": "",
    "about": [
     "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude AI."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude. Helps developers build, extend, and manage ServiceNow applications, workflows, and agents using the ServiceNow SDK."
+   "descriptionOriginal": "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude. Helps developers build, extend, and manage ServiceNow applications, workflows, and agents using the ServiceNow SDK.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:session-report",
@@ -8500,8 +8485,8 @@
    "about": [
     "Shippo connects you to USPS, UPS, FedEx, DHL, and 40+ carriers, so you can handle a shipment end to end right inside Claude. Compare live rates and pick the cheapest or best option, buy and print labels (domestic and international, with customs declarations), validate and standardize addresses, and track packages across carriers. Just ask in plain language: rate-shop a parcel, buy the right label, check a delivery status, or confirm an address before you ship. Whether you run a store or just need to send a package, Shippo turns a pile of carrier accounts into one simple conversation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ship packages with Shippo. Multi-carrier rate shopping, label generation, package tracking, address validation, customs declarations, and batch processing from CSV files."
+   "descriptionOriginal": "Ship packages with Shippo. Multi-carrier rate shopping, label generation, package tracking, address validation, customs declarations, and batch processing from CSV files.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:shopify-ai-toolkit",
@@ -9386,20 +9371,20 @@
   },
   {
    "id": "marketplace:togetherai-skills",
-   "name": "togetherai-skills",
+   "name": "Together AI Skills",
    "origin": "marketplace",
-   "description": "Agentvaardigheden voor het Together AI-platform - gevolgtrekking, training, insluitingen, audio, video, afbeeldingen, functieaanroepen en ...",
+   "description": "Agent Skills for Together AI-platform – gevolgtrekking, training, insluitingen, audio, video, afbeeldingen, functieaanroepen en infrastructuur",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/togetherai-skills",
    "source": "https://github.com/togethercomputer/skills",
-   "verified": false,
+   "verified": true,
    "installs": 568,
-   "maker": "Together AI",
+   "maker": "",
    "about": [
     "Agent Skills for Together AI platform — inference, training, embeddings, audio, video, images, function calling, and infrastructure. Covers serverless chat completions, image/video generation, fine-tuning, batch inference, evaluations, sandboxes, dedicated endpoints, and GPU clusters."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agent Skills for Together AI platform — inference, training, embeddings, audio, video, images, function calling, and ..."
+   "descriptionOriginal": "Agent Skills for Together AI platform — inference, training, embeddings, audio, video, images, function calling, and infrastructure"
   },
   {
    "id": "marketplace:tooluniverse",
@@ -9677,7 +9662,7 @@
   },
   {
    "id": "marketplace:upbound",
-   "name": "upbound",
+   "name": "Upbound",
    "origin": "marketplace",
    "description": "Skills voor het werken met het Upbound Platform: controlevlakken, ruimtes, rijken, pakketten en vlootbrede resourcequery's.",
    "category": "Overig",
@@ -9687,8 +9672,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for working with the Upbound Platform: control planes, spaces, realms, packages, and fleet-wide resource queries."
+   "descriptionOriginal": "Skills for working with the Upbound Platform: control planes, spaces, realms, packages, and fleet-wide resource queries.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:using-git-worktrees",
@@ -9979,7 +9964,7 @@
   },
   {
    "id": "marketplace:wiley-scholar-gateway",
-   "name": "wiley-scholar-gateway",
+   "name": "Wiley Scholar Gateway",
    "origin": "marketplace",
    "description": "Scholar Gateway MCP-server van Wiley voor toegang tot academisch onderzoek en publicaties",
    "category": "Ontwikkeling",
@@ -10026,9 +10011,9 @@
   },
   {
    "id": "marketplace:wix",
-   "name": "Wix",
+   "name": "Wix: AI website builder & custom domains",
    "origin": "marketplace",
-   "description": "Bouw, beheer en implementeer Wix-sites en -apps. Inclusief CLI-ontwikkelvaardigheden en Wix MCP-server voor sitebeheer, e-commerce, CMS, dashboardextensies en meer.",
+   "description": "Bouw uw hele site en koop een domein rechtstreeks vanuit de chat. Vraag Wix gewoon naar de gewenste website, inclusief alle functionaliteit die u nodig heeft, en u krijgt binnen enkele minuten een complete, bedrijfsklare site voor u gegenereerd. U kunt ook het perfecte aangepaste domein aan uw site koppelen en alles naadloos op één plek beheren. Als je wilt, kun je je site bewerken met je AI-agent of in de Wix Harmony-editor met nog veel meer AI-tools en soepel slepen en neerzetten. Voor ontwikkelaars: bouw en implementeer Wix-apps",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/wix",
    "source": "https://github.com/wix/skills",
@@ -10041,8 +10026,8 @@
     "Ask Claude to build features for your Wix CLI app and the orchestrator skill automatically activates. Try prompts like:",
     "\"Create a dashboard page for managing customer orders\" · \"Add a backend API endpoint for handling form submissions\" · \"Build a site widget that displays a product carousel\" · \"Add a service plugin for custom shipping rate calculations\" · \"Set up a data collection for storing user reviews\" · \"Create a dashboard modal for editing product details\""
    ],
-   "descriptionOriginal": "Build, manage, and deploy Wix sites and apps. Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
-   "firstSeen": "2000-01-01"
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Build your entire site and buy a domain right from the chat. Just ask Wix for the website you want, including all the functionality you need, and get a complete, business-ready site generated for you in minutes. You can also connect the perfect custom domain to your site and manage everything seamlessly in one place. If you like, you can edit your site with your AI agent or inside the Wix Harmony editor using tons more AI tools and smooth drag and drop. For developers: build and deploy Wix apps"
   },
   {
    "id": "marketplace:workday-developer-agent-for-claude",
@@ -10076,20 +10061,20 @@
   },
   {
    "id": "marketplace:workos",
-   "name": "workos",
+   "name": "WorkOS",
    "origin": "marketplace",
    "description": "WorkOS-integratievaardigheden voor AuthKit, SSO, Directory Sync, RBAC, Vault, auditlogboeken, migraties en API-referenties.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/workos",
-   "source": "https://github.com/workos/skills",
-   "verified": false,
+   "source": "https://github.com/workos/skills/tree/c33f2d87bbf68d28aba04b6b3ae36d0dd6084903/plugins/workos",
+   "verified": true,
    "installs": 741,
-   "maker": "WorkOS",
+   "maker": "",
    "about": [
     "WorkOS integration skills for AuthKit, SSO, Directory Sync, RBAC, Vault, Audit Logs, migrations, and API references."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "WorkOS integration skills for AuthKit, SSO, Directory Sync, RBAC, Vault, Audit Logs, migrations, and API references."
+   "descriptionOriginal": "WorkOS integration skills for AuthKit, SSO, Directory Sync, RBAC, Vault, Audit Logs, migrations, and API references.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:writesonic",
@@ -10363,27 +10348,40 @@
   "official:slack-gif-creator",
   "official:algorithmic-art",
   "official:internal-comms",
-  "official:discernment-nudge"
+  "official:discernment-nudge",
+  "official:mcp-builder"
  ],
- "updated": "2026-11-12T22:25:03.342001+00:00",
+ "updated": "2026-11-13T22:05:35.709074+00:00",
  "tonight": {
-  "date": "2026-11-12",
-  "id": "official:discernment-nudge",
+  "date": "2026-11-13",
+  "id": "official:mcp-builder",
   "text": [
-   "Mensen nemen een AI-antwoord vaak voor waar aan, vooral als het zelfverzekerd geschreven en goed gestructureerd is. Dat is meestal prima, maar voor inhoudelijke antwoorden waar de gebruiker actie op gaat ondernemen (geld uitgeven, een gezondheidsbeslissing nemen, een claim aanhalen, zich aan een plan binden), kan een klein moment van reflectie een slechte veronderstelling of een ontbrekend stukje context opvangen voordat het er toe doet. Deze skill voegt dat moment zachtjes toe, zonder het antwoord zelf in de weg te staan.",
-   "Het doel is om drie onderscheidingsgewoonten te *modelleren* vanuit het AI Fluency-framework, en niet om er lezingen over te geven:",
-   "Feiten controleren: welke specifieke beweringen in dit antwoord zouden de moeite waard zijn om te verifiëren, en waartegen? Het in twijfel trekken van de redenering: waar heeft de logica een stap gezet die de gebruiker misschien gerechtvaardigd zou willen zien? Het opmerken van ontbrekende context: wat moest het antwoord aannemen omdat de gebruiker het niet zei?",
-   "Bied het aan als uw antwoord inhoud bevat die de gebruiker zou kunnen onderzoeken voordat hij ernaar handelt. De duidelijkste gevallen:",
-   "U heeft schattingen, prognoses of cijfers gegeven (kosten, tijdlijnen, tarieven, waarschijnlijkheden) die plausibel zijn, maar niet gebaseerd zijn op de specifieke situatie van de gebruiker. Je hebt advies of een aanbeveling gegeven op een belangrijk terrein – bedrijfsstrategie, gezondheid, juridisch, financieel, carrière, interpersoonlijk – waarbij het juiste antwoord sterk afhangt van de context die je niet hebt. Je hebt feitelijke of historische beweringen gedaan waar de gebruiker waarschijnlijk naar zal handelen of deze zal herhalen op een plek die er toe doet: een beslissing, een rapport, een bewering die ze zullen doorgeven. Beweringen dat ze puur lezen om een onderwerp te begrijpen, hebben geen duwtje nodig;…",
-   "Laat het uit als het duwtje ruis zou zijn - of erger nog, als het iets zou overschrijven dat de gebruiker je al heeft verteld. Stilte is de juiste standaard; voeg alleen een duwtje toe als er iets concreets is dat de moeite waard is om over na te denken *en* de gebruiker nog niet heeft aangegeven dat de verificatie gedekt is."
+   "Creëer MCP-servers (Model Context Protocol) waarmee LLM's kunnen communiceren met externe services via goed ontworpen tools. De kwaliteit van een MCP-server wordt gemeten aan de hand van hoe goed LLM's hiermee real-world taken kunnen uitvoeren.",
+   "Het creëren van een hoogwaardige MCP-server omvat vier hoofdfasen:",
+   "Fase 1: Diep onderzoek en planning",
+   "1.1 Begrijp het moderne MCP-ontwerp",
+   "API-dekking versus workflowtools: Breng de uitgebreide dekking van API-eindpunten in balans met gespecialiseerde workflowtools. Workflowtools kunnen handiger zijn voor specifieke taken, terwijl uitgebreide dekking agenten de flexibiliteit geeft om bewerkingen samen te stellen. De prestaties variëren per klant: sommige klanten profiteren van code-uitvoering die basistools combineert, terwijl andere beter werken met workflows op een hoger niveau. Geef bij twijfel prioriteit aan uitgebreide API-dekking.",
+   "Naamgeving en vindbaarheid van tools: Duidelijke, beschrijvende toolnamen helpen agenten snel de juiste tools te vinden. Gebruik consistente voorvoegsels (bijvoorbeeld `github_create_issue`, `github_list_repos`) en actiegerichte naamgeving.",
+   "Contextbeheer: Agenten profiteren van beknopte toolbeschrijvingen en de mogelijkheid om resultaten te filteren/pagineren. Ontwerp tools die gerichte, relevante gegevens opleveren. Sommige clients ondersteunen het uitvoeren van code, waardoor agenten gegevens efficiënt kunnen filteren en verwerken.",
+   "Bruikbare foutmeldingen: Foutberichten moeten agenten naar oplossingen leiden met specifieke suggesties en volgende stappen.",
+   "1.2 Bestudeer de documentatie van het MCP-protocol",
+   "Navigeer door de MCP-specificatie:",
+   "Begin met de sitemap om relevante pagina's te vinden: `https://modelcontextprotocol.io/sitemap.xml`",
+   "Haal vervolgens specifieke pagina's op met het achtervoegsel `.md` voor het markdown-formaat (bijvoorbeeld `https://modelcontextprotocol.io/specification/draft.md`)."
   ],
   "textOriginal": [
-   "People often take an AI answer at face value, especially when it's confidently written and well-structured. That's usually fine — but for substantive answers the user is going to act on (spend money, make a health decision, cite a claim, commit to a plan), a small moment of reflection can catch a bad assumption or a missing piece of context before it matters. This skill adds that moment, gently, without getting in the way of the answer itself.",
-   "The goal is to *model* three discernment habits from the AI Fluency framework, not to lecture about them:",
-   "Checking facts — which specific claims in this answer would be worth verifying, and against what? Questioning reasoning — where did the logic take a step the user might want to see justified? Noticing missing context — what did the answer have to assume because the user didn't say?",
-   "Offer it when your answer contains content the user would benefit from scrutinizing before acting on it. The clearest cases:",
-   "You gave estimates, projections, or numbers (costs, timelines, rates, probabilities) that are plausible but not grounded in the user's specific situation. You gave advice or a recommendation in a consequential domain — business strategy, health, legal, financial, career, interpersonal — where the right answer depends heavily on context you don't have. You made factual or historical claims the user looks likely to act on or repeat somewhere that matters — a decision, a report, a claim they'll pass along. Claims they're reading purely to understand a topic don't need the nudge;…",
-   "Leave it off when the nudge would be noise — or worse, when it would override something the user already told you. Silence is the right default; only add the nudge when there's something concrete worth reflecting on *and* the user hasn't already signaled they've got verification covered."
+   "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
+   "Creating a high-quality MCP server involves four main phases:",
+   "Phase 1: Deep Research and Planning",
+   "1.1 Understand Modern MCP Design",
+   "API Coverage vs. Workflow Tools: Balance comprehensive API endpoint coverage with specialized workflow tools. Workflow tools can be more convenient for specific tasks, while comprehensive coverage gives agents flexibility to compose operations. Performance varies by client—some clients benefit from code execution that combines basic tools, while others work better with higher-level workflows. When uncertain, prioritize comprehensive API coverage.",
+   "Tool Naming and Discoverability: Clear, descriptive tool names help agents find the right tools quickly. Use consistent prefixes (e.g., `github_create_issue`, `github_list_repos`) and action-oriented naming.",
+   "Context Management: Agents benefit from concise tool descriptions and the ability to filter/paginate results. Design tools that return focused, relevant data. Some clients support code execution which can help agents filter and process data efficiently.",
+   "Actionable Error Messages: Error messages should guide agents toward solutions with specific suggestions and next steps.",
+   "1.2 Study MCP Protocol Documentation",
+   "Navigate the MCP specification:",
+   "Start with the sitemap to find relevant pages: `https://modelcontextprotocol.io/sitemap.xml`",
+   "Then fetch specific pages with `.md` suffix for markdown format (e.g., `https://modelcontextprotocol.io/specification/draft.md`)."
   ]
  }
 }
