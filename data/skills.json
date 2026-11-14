@@ -65,7 +65,7 @@
   },
   {
    "id": "marketplace:adisinsight",
-   "name": "adisinsight",
+   "name": "AdisInsight",
    "origin": "marketplace",
    "description": "AdisInsight MCP-server van Springer Nature voor pijplijn voor medicijnontwikkeling, klinische onderzoeken en informatie over deals",
    "category": "Ontwikkeling",
@@ -75,12 +75,12 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AdisInsight MCP server by Springer Nature for drug development pipeline, clinical trials, and deals intelligence"
+   "descriptionOriginal": "AdisInsight MCP server by Springer Nature for drug development pipeline, clinical trials, and deals intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:adlc",
-   "name": "adlc",
+   "name": "ADLC",
    "origin": "marketplace",
    "description": "Agentforce Agent Development Life Cycle: schrijf, ontdek, stel, implementeer, test en optimaliseer .agent-bestanden",
    "category": "Code review & testen",
@@ -92,8 +92,8 @@
    "about": [
     "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files"
+   "descriptionOriginal": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:adobe-for-creativity",
@@ -1677,8 +1677,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build integrations on the Celigo platform with AI -- 24 skills covering flows, connections, exports/imports, mappings, scripts, B2B/EDI, AI agents, APIs, integrations, templates, and troubleshooting."
+   "descriptionOriginal": "Build integrations on the Celigo platform with AI -- 24 skills covering flows, connections, exports/imports, mappings, scripts, B2B/EDI, AI agents, APIs, integrations, templates, and troubleshooting.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:cerebrium-skills",
@@ -1833,7 +1833,7 @@
   },
   {
    "id": "marketplace:circleback",
-   "name": "circleback",
+   "name": "Circleback",
    "origin": "marketplace",
    "description": "Circleback conversatiecontextintegratie. Zoek en open vergaderingen, e-mails, agenda-evenementen en meer.",
    "category": "Schrijven & communicatie",
@@ -1951,6 +1951,21 @@
    "descriptionOriginal": "The manufacturing plugin. Skills for the work a plant actually runs on: joining the exports and systems into one dataset, quoting make-to-order jobs from drawings, writing nonconformances and 8Ds, diagnosing breakdowns, and reporting the morning numbers. Works with Microsoft 365, Oracle NetSuite, Infor M3 and Autodesk Fusion once connected, connects anything else through custom-connector, and runs on scheduled file exports when a system has no connector at all. Install and then ask Claude to"
   },
   {
+   "id": "marketplace:claude-opus-4-5-migration",
+   "name": "Claude Opus 4.5 Migration",
+   "origin": "marketplace",
+   "description": "Migreer uw code en aanwijzingen van Sonnet 4.x en Opus 4.1 naar Opus 4.5.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/claude-opus-4-5-migration",
+   "source": "https://github.com/anthropics/claude-code/tree/56f36532530f88b572854538d685fcf781141e8c/plugins/claude-opus-4-5-migration",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "descriptionOriginal": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:claude-security",
    "name": "Claude Security",
    "origin": "marketplace",
@@ -2020,21 +2035,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current."
-  },
-  {
-   "id": "marketplace:claude-opus-4-5-migration",
-   "name": "claude-opus-4-5-migration",
-   "origin": "marketplace",
-   "description": "Migreer uw code en aanwijzingen van Sonnet 4.x en Opus 4.1 naar Opus 4.5.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/claude-opus-4-5-migration",
-   "source": "https://github.com/anthropics/claude-code/tree/56f36532530f88b572854538d685fcf781141e8c/plugins/claude-opus-4-5-migration",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "descriptionOriginal": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5.",
-   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:clickhouse",
@@ -2220,8 +2220,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Codacy skills for Claude Code: query issues, enrich code reviews, and configure Codacy for your project."
+   "descriptionOriginal": "Codacy skills for Claude Code: query issues, enrich code reviews, and configure Codacy for your project.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:code-review",
@@ -2300,7 +2300,7 @@
   },
   {
    "id": "marketplace:codspeed",
-   "name": "codspeed",
+   "name": "CodSpeed",
    "origin": "marketplace",
    "description": "CodSpeed is de alles-in-één toolkit voor prestatietests. Duik in benchmarkingresultaten, flamegraphs en prestaties...",
    "category": "Code review & testen",
@@ -2372,13 +2372,13 @@
    "description": "Verander Common Room in uw GTM-copiloot. Onderzoek accounts en contacten, bereid gesprekken voor met deelnemersprofielen en gesprekspunten, en stel een persoonlijk contact op via e-mail, LinkedIn en telefoon.",
    "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/common-room",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/d900840716eb262e1feb17c6f4406c9ce0e06bcf/partner-built/common-room",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965/partner-built/common-room",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Turn Common Room into your GTM copilot. Research accounts and contacts, prep for calls with attendee profiles and talking points, and draft personalized outreach across email, LinkedIn, and phone."
+   "descriptionOriginal": "Turn Common Room into your GTM copilot. Research accounts and contacts, prep for calls with attendee profiles and talking points, and draft personalized outreach across email, LinkedIn, and phone.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:competitive-ads-extractor",
@@ -2608,23 +2608,6 @@
    "firstSeen": "2000-01-01"
   },
   {
-   "id": "marketplace:cowork-plugin-management",
-   "name": "Cowork Plugin Management",
-   "origin": "marketplace",
-   "description": "Creëer, pas aan en beheer plug-ins die zijn afgestemd op de tools en workflows van uw organisatie. MCP-servers configureren, aanpassen...",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/cowork-plugin-management",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/cowork-plugin-management",
-   "verified": true,
-   "installs": 0,
-   "maker": "Anthropic",
-   "about": [
-    "Create, customize, and manage plugins tailored to your organization's tools and workflows. Configure MCP servers, adjust plugin behavior, and adapt templates to match how your team works."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create, customize, and manage plugins tailored to your organization's tools and workflows. Configure MCP servers, adj..."
-  },
-  {
    "id": "marketplace:crossbeam-skills",
    "name": "Crossbeam Skills",
    "origin": "marketplace",
@@ -2710,13 +2693,13 @@
    "id": "marketplace:customer-support",
    "name": "Customer Support",
    "origin": "marketplace",
-   "description": "Triageer tickets, stel reacties op, escaleer problemen en bouw uw kennisbank op.",
-   "category": "Overig",
+   "description": "Triageer tickets, stel reacties op, escaleer problemen en bouw uw kennisbank op. Onderzoek de klantcontext en zet opgeloste problemen om in selfservice-inhoud.",
+   "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/customer-support",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965/customer-support",
    "verified": true,
    "installs": 0,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Customer Support turns Claude into a support co-pilot for your team. It triages incoming tickets with structured categorization and priority assessment, researches customer questions across multiple sources, and drafts professional responses tailored to the situation and channel.",
     "When issues need engineering or product attention, the plugin packages escalations with full context, reproduction steps, and business impact. It can also turn resolved issues into knowledge base articles to reduce future ticket volume.",
@@ -2724,7 +2707,7 @@
     "to look up answers across your connected tools,"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Triage tickets, draft responses, escalate issues, and build your knowledge base."
+   "descriptionOriginal": "Triage tickets, draft responses, escalate issues, and build your knowledge base. Research customer context and turn resolved issues into self-service content."
   },
   {
    "id": "marketplace:customer-io",
@@ -3290,7 +3273,7 @@
    "description": "De Dropbox-plug-in voor Claude verbindt je Dropbox-bestanden rechtstreeks met Claude, zodat je gegenereerde inhoud kunt zoeken, ordenen, opslaan en deellinks kunt maken zonder van tool te wisselen. Het respecteert je bestaande Dropbox-machtigingen en Claude werkt alleen met bestanden waartoe je al toegang hebt.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/dropbox",
-   "source": "https://github.com/dropbox/dropbox-ai-plugins/tree/ec1a5264a88081a6161d984d87705ce65535fbe0/claude",
+   "source": "https://github.com/dropbox/dropbox-ai-plugins/tree/078f0ca36df40f054829b58731a5f86a561d9668/claude",
    "verified": true,
    "installs": 220,
    "maker": "",
@@ -3982,6 +3965,26 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:frontend-design",
+   "name": "Frontend Design",
+   "origin": "marketplace",
+   "description": "Frontend-ontwerpvaardigheid voor UI/UX-implementatie",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/frontend-design",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/frontend-design",
+   "verified": true,
+   "installs": 1134112,
+   "maker": "",
+   "about": [
+    "Generate distinctive, production-grade frontend interfaces that stand out from generic AI-generated designs. This plugin enables Claude to create polished code with bold aesthetic choices, distinctive typography and color palettes, high-impact animations, and context-aware visual details.",
+    "The plugin establishes a design framework before coding—identifying purpose, audience, and a specific aesthetic direction (brutalist, maximalist, retro-futuristic, luxury, playful, etc.). It intentionally avoids common patterns like generic system fonts, predictable purple gradients, and cookie-cutter components.",
+    "Key design areas include thoughtful typography with unexpected font pairings, orchestrated motion and scroll-triggered interactions, spatial composition with asymmetry and grid-breaking elements, and visual depth through gradients, textures, and layered effects.",
+    "Simply ask Claude to build frontend interfaces and this skill activates automatically. Try prompts like \"Create a dashboard for a music streaming app\", \"Build a landing page for an AI security startup\", or \"Design a settings panel with dark mode support\"."
+   ],
+   "descriptionOriginal": "Frontend design skill for UI/UX implementation",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "official:frontend-design",
    "name": "frontend-design",
    "origin": "official",
@@ -3996,26 +3999,6 @@
    "verified": true,
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults."
-  },
-  {
-   "id": "marketplace:frontend-design",
-   "name": "frontend-design",
-   "origin": "marketplace",
-   "description": "Frontend-ontwerpvaardigheid voor UI/UX-implementatie",
-   "category": "Design & media",
-   "url": "https://claude.com/marketplace/plugins/frontend-design",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/frontend-design",
-   "verified": true,
-   "installs": 1134112,
-   "maker": "",
-   "about": [
-    "Generate distinctive, production-grade frontend interfaces that stand out from generic AI-generated designs. This plugin enables Claude to create polished code with bold aesthetic choices, distinctive typography and color palettes, high-impact animations, and context-aware visual details.",
-    "The plugin establishes a design framework before coding—identifying purpose, audience, and a specific aesthetic direction (brutalist, maximalist, retro-futuristic, luxury, playful, etc.). It intentionally avoids common patterns like generic system fonts, predictable purple gradients, and cookie-cutter components.",
-    "Key design areas include thoughtful typography with unexpected font pairings, orchestrated motion and scroll-triggered interactions, spatial composition with asymmetry and grid-breaking elements, and visual depth through gradients, textures, and layered effects.",
-    "Simply ask Claude to build frontend interfaces and this skill activates automatically. Try prompts like \"Create a dashboard for a music streaming app\", \"Build a landing page for an AI security startup\", or \"Design a settings panel with dark mode support\"."
-   ],
-   "descriptionOriginal": "Frontend design skill for UI/UX implementation",
-   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:full-page-screenshot",
@@ -4149,8 +4132,8 @@
     "Key capabilities include creating and updating issues and pull requests, reviewing code with AI assistance, monitoring GitHub Actions workflows, analyzing build failures, and managing releases. The plugin also provides security features like examining code scanning findings and reviewing Dependabot alerts.",
     "After connecting your GitHub account, interact naturally with your repositories. Try prompts like \"Create an issue for the login bug in my-app repo\", \"Review the latest PR on my project\", \"Show me failed GitHub Actions runs\", \"Search for repositories about machine learning\", or \"List open issues assigned to me\". The plugin handles authentication and API calls automatically."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code."
+   "descriptionOriginal": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:gitkraken",
@@ -4952,8 +4935,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills and MCP tools for building notifications with Knock"
+   "descriptionOriginal": "Skills and MCP tools for building notifications with Knock",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:knowledge-catalog",
@@ -5321,7 +5304,7 @@
    "description": "Lineaire integratie van probleemtracking. Creëer problemen, beheer projecten, update statussen, zoek in werkruimten en stroomlijn uw softwareontwikkelingsworkflow met de moderne probleemtracker van Linear.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/linear",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/e0ab6e51219eef74e417a0e1d89e5d53e5e763d4/external_plugins/linear",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/external_plugins/linear",
    "verified": true,
    "installs": 48038,
    "maker": "",
@@ -5330,8 +5313,8 @@
     "With the Linear plugin, you can quickly file bugs, track feature requests, update project statuses, and query your issue backlog directly from Claude Code. It integrates seamlessly with Linear's fast, streamlined interface designed for product teams.",
     "Ask Claude to interact with your Linear workspace naturally. Try prompts like \"create a Linear issue for this bug\", \"what are my assigned Linear issues?\", \"update the status of issue ABC-123 to In Progress\", or \"search Linear for authentication issues\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker."
+   "descriptionOriginal": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:liquid-lsp",
@@ -5478,7 +5461,7 @@
    "description": "Lua-taalserver voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/lua-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/lua-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/lua-lsp",
    "verified": true,
    "installs": 15595,
    "maker": "",
@@ -5487,8 +5470,8 @@
     "The plugin enables Claude to understand your Lua codebase with full language server capabilities including reference finding, symbol renaming, code formatting, and syntax validation with over 20 supported annotations for documentation.",
     "Once installed, the language server activates automatically when working with .lua files. Ask Claude to help with Lua code and it will leverage the language server for accurate completions, error detection, and navigation. For example: \"Find all references to this function\" or \"What's wrong with this Lua code?\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Lua language server for code intelligence"
+   "descriptionOriginal": "Lua language server for code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:lumen",
@@ -5541,7 +5524,7 @@
   },
   {
    "id": "marketplace:mapbox",
-   "name": "mapbox",
+   "name": "Mapbox",
    "origin": "marketplace",
    "description": "Mapbox-skills en MCP-servers voor het bouwen van locatiebewuste applicaties met AI. Inclusief georuimtelijke hulpmiddelen, stijlbeheer...",
    "category": "Ontwikkeling",
@@ -5553,8 +5536,8 @@
    "about": [
     "Mapbox skills and MCP servers for building location-aware applications with AI. Includes geospatial tools, style management, and patterns for web, iOS, Android, and AI agent frameworks."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Mapbox skills and MCP servers for building location-aware applications with AI. Includes geospatial tools, style mana..."
+   "descriptionOriginal": "Mapbox skills and MCP servers for building location-aware applications with AI. Includes geospatial tools, style mana...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:markdown-to-epub-converter",
@@ -5805,8 +5788,8 @@
    "about": [
     "Mercado Pago full-product integration toolkit. Covers online checkout (Pro, Bricks, API), in-store (QR, Point), subscriptions, marketplace, wallet, money-out, security (3DS, PCI), reporting, SDKs, and specialized integrations. Hybrid architecture: 13 skills provide stable integration intelligence, MCP provides live API data."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Mercado Pago integration toolkit for Claude Code. One agent routes to four skills: mp-integrate (wizard for Checkout Pro, Checkout API, Bricks, QR Code, Point, Subscriptions, Marketplace, Wallet Connect, Payouts, and SmartApps — plus migration of legacy Instore integrations to the Orders API), mp-webhooks (HMAC-validated receiver scaffold and diagnostics), mp-test-setup (test users, credentials, and test cards), and mp-review (quality and security checks). Scaffolding works offline where possibl"
+   "descriptionOriginal": "Mercado Pago integration toolkit for Claude Code. One agent routes to four skills: mp-integrate (wizard for Checkout Pro, Checkout API, Bricks, QR Code, Point, Subscriptions, Marketplace, Wallet Connect, Payouts, and SmartApps — plus migration of legacy Instore integrations to the Orders API), mp-webhooks (HMAC-validated receiver scaffold and diagnostics), mp-test-setup (test users, credentials, and test cards), and mp-review (quality and security checks). Scaffolding works offline where possibl",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:mercury-mcp",
@@ -6107,8 +6090,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "The official monday.com plugin for Claude Cowork. Manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns. Full read and write access via OAuth."
+   "descriptionOriginal": "The official monday.com plugin for Claude Cowork. Manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns. Full read and write access via OAuth.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mongodb",
@@ -6260,8 +6243,8 @@
     "export default async (req, context)",
     "), Drizzle ORM setup for Netlify DB, edge function middleware with Deno runtime, CDN cache control, image transformation URLs,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Netlify platform skills for Claude Code — functions, edge functions, blobs, database, image CDN, forms, config, CLI, ..."
+   "descriptionOriginal": "Netlify platform skills for Claude Code — functions, edge functions, blobs, database, image CDN, forms, config, CLI, ...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:netsuite-ai-companion",
@@ -7044,6 +7027,23 @@
    ],
    "descriptionOriginal": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:cowork-plugin-management",
+   "name": "Plugin Management",
+   "origin": "marketplace",
+   "description": "Creëer, pas aan en beheer plug-ins die zijn afgestemd op de tools en workflows van uw organisatie. Configureer MCP-servers, pas het gedrag van plug-ins aan en pas sjablonen aan zodat ze passen bij de manier waarop uw team werkt.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/cowork-plugin-management",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/cowork-plugin-management",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [
+    "Create, customize, and manage plugins tailored to your organization's tools and workflows. Configure MCP servers, adjust plugin behavior, and adapt templates to match how your team works."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Create, customize, and manage plugins tailored to your organization's tools and workflows. Configure MCP servers, adjust plugin behavior, and adapt templates to match how your team works."
   },
   {
    "id": "community:postgres",
@@ -8137,18 +8137,18 @@
    "id": "marketplace:sanity",
    "name": "Sanity",
    "origin": "marketplace",
-   "description": "Integratie van het Sanity-contentplatform met MCP-server, agentvaardigheden en slash-opdrachten. Query en auteur inhoud, bouwen...",
-   "category": "Marketing & business",
+   "description": "Integratie van het Sanity-contentplatform met MCP-server, agentvaardigheden en slash-opdrachten. Query's uitvoeren en inhoud schrijven, GROQ-query's bouwen en optimaliseren, schema's ontwerpen en visuele bewerking instellen.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/sanity",
    "source": "https://github.com/sanity-io/agent-toolkit",
-   "verified": false,
+   "verified": true,
    "installs": 2165,
-   "maker": "Sanity",
+   "maker": "",
    "about": [
     "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, buil..."
+   "descriptionOriginal": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing."
   },
   {
    "id": "marketplace:sap-hana-cli",
@@ -8891,8 +8891,8 @@
     "Ask Claude to perform web tasks in plain language. Example prompts:",
     "\"Go to https://news.ycombinator.com and summarize the top 5 stories\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Stagehand automation for Claude Code. Automate web tasks, extract data, navigate websites using natural language."
+   "descriptionOriginal": "Stagehand automation for Claude Code. Automate web tasks, extract data, navigate websites using natural language.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:statement-auditor",
@@ -9041,18 +9041,18 @@
   },
   {
    "id": "marketplace:supermetrics",
-   "name": "Supermetrics",
+   "name": "Supermetrics Ads & Marketing Analytics",
    "origin": "marketplace",
-   "description": "Beproefde workflows voor marketinganalyse voor zes persona's: prestatiemarketeers, marketingleiders, vraaggeneratie, inhoud, veld en e-commerce, gebouwd bovenop de Supermetrics-connector. In totaal 42 workflows, met helperscripts, leverbare sjablonen en een consistent visualisatieframework.",
-   "category": "Code review & testen",
+   "description": "Marketingrapportage, analyse en campagnebeheer voor Google Ads, Meta Ads, GA4, Search Console, Instagram, LinkedIn, TikTok Ads, Microsoft Ads, Amazon Ads, Shopify, HubSpot en 150+ bronnen via Supermetrics. Ontdek verspilde uitgaven, houd het ROAS- en budgettempo bij, spoor advertentiemoeheid op, start en bewerk campagnes met uw goedkeuring, plan sociale berichten en reageer op opmerkingen, en deel live Studio-dashboards. 42 workflows, dagelijkse controles en controles van meerdere accounts voor bureaus. Analyse verandert nooit de advertentie",
+   "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/supermetrics",
-   "source": "https://github.com/supermetrics-public/claude-marketing-plugin/tree/ec16372eda880e58b1f97bca481e2a7b1bdc3a4d/plugins/supermetrics-marketing",
+   "source": "https://github.com/supermetrics-public/claude-marketing-plugin/tree/937381163bd9204ce686c94d30e2aa89f8c5c37f/plugins/supermetrics-marketing",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Battle-tested marketing analytics workflows for six personas — performance marketers, marketing leaders, demand gen, content, field, and ecommerce — built on top of the Supermetrics connector. 42 workflows total, with helper scripts, deliverable templates, and a consistent visualization framework."
+   "descriptionOriginal": "Marketing reporting, analytics and campaign management for Google Ads, Meta Ads, GA4, Search Console, Instagram, LinkedIn, TikTok Ads, Microsoft Ads, Amazon Ads, Shopify, HubSpot and 150+ sources via Supermetrics. Find wasted spend, track ROAS and budget pacing, spot ad fatigue, launch and edit campaigns with your approval, schedule social posts and reply to comments, and share live Studio dashboards. 42 workflows, daily checks and multi-account sweeps for agencies. Analysis never changes ad"
   },
   {
    "id": "marketplace:superpowers",
@@ -9300,6 +9300,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:theme-examples",
+   "name": "Theme Examples",
+   "origin": "marketplace",
+   "description": "Een voorbeeldplug-in om te lezen, kopiëren en wijzigen: twintig geanimeerde achtergronden achter de chat in de desktop-app, met matglazen panelen: één per project of per sessie. /custom-theme lijst geeft ze een naam. Er gaat vuurwerk af bij het thema als Claude zegt \"samengevoegd\"; /fireworks steekt ze met de hand af.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/theme-examples",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/c4a79ce6b7c21a4b2ea908767f4adeab32695ae4/plugins/theme-examples",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "firstSeen": "2026-11-14",
+   "descriptionOriginal": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the desktop app, with frosted-glass panels: one per project or per session. /custom-theme list names them. Fireworks go off over the theme when Claude says \"merged\"; /fireworks sets them off by hand."
+  },
+  {
    "id": "community:theme-factory",
    "name": "Theme Factory",
    "origin": "community",
@@ -9482,7 +9497,7 @@
    "description": "TypeScript/JavaScript-taalserver voor verbeterde code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/typescript-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/plugins/typescript-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/typescript-lsp",
    "verified": true,
    "installs": 212522,
    "maker": "",
@@ -10056,8 +10071,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build and publish Workiom vibe apps — self-contained pages that run inside a Workiom workspace and read and write its lists using the viewer's own session."
+   "descriptionOriginal": "Build and publish Workiom vibe apps — self-contained pages that run inside a Workiom workspace and read and write its lists using the viewer's own session.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:workos",
@@ -10349,39 +10364,30 @@
   "official:algorithmic-art",
   "official:internal-comms",
   "official:discernment-nudge",
-  "official:mcp-builder"
+  "official:mcp-builder",
+  "official:academy-guide"
  ],
- "updated": "2026-11-13T22:05:35.709074+00:00",
+ "updated": "2026-11-14T20:52:45.723513+00:00",
  "tonight": {
-  "date": "2026-11-13",
-  "id": "official:mcp-builder",
+  "date": "2026-11-14",
+  "id": "official:academy-guide",
   "text": [
-   "Creëer MCP-servers (Model Context Protocol) waarmee LLM's kunnen communiceren met externe services via goed ontworpen tools. De kwaliteit van een MCP-server wordt gemeten aan de hand van hoe goed LLM's hiermee real-world taken kunnen uitvoeren.",
-   "Het creëren van een hoogwaardige MCP-server omvat vier hoofdfasen:",
-   "Fase 1: Diep onderzoek en planning",
-   "1.1 Begrijp het moderne MCP-ontwerp",
-   "API-dekking versus workflowtools: Breng de uitgebreide dekking van API-eindpunten in balans met gespecialiseerde workflowtools. Workflowtools kunnen handiger zijn voor specifieke taken, terwijl uitgebreide dekking agenten de flexibiliteit geeft om bewerkingen samen te stellen. De prestaties variëren per klant: sommige klanten profiteren van code-uitvoering die basistools combineert, terwijl andere beter werken met workflows op een hoger niveau. Geef bij twijfel prioriteit aan uitgebreide API-dekking.",
-   "Naamgeving en vindbaarheid van tools: Duidelijke, beschrijvende toolnamen helpen agenten snel de juiste tools te vinden. Gebruik consistente voorvoegsels (bijvoorbeeld `github_create_issue`, `github_list_repos`) en actiegerichte naamgeving.",
-   "Contextbeheer: Agenten profiteren van beknopte toolbeschrijvingen en de mogelijkheid om resultaten te filteren/pagineren. Ontwerp tools die gerichte, relevante gegevens opleveren. Sommige clients ondersteunen het uitvoeren van code, waardoor agenten gegevens efficiënt kunnen filteren en verwerken.",
-   "Bruikbare foutmeldingen: Foutberichten moeten agenten naar oplossingen leiden met specifieke suggesties en volgende stappen.",
-   "1.2 Bestudeer de documentatie van het MCP-protocol",
-   "Navigeer door de MCP-specificatie:",
-   "Begin met de sitemap om relevante pagina's te vinden: `https://modelcontextprotocol.io/sitemap.xml`",
-   "Haal vervolgens specifieke pagina's op met het achtervoegsel `.md` voor het markdown-formaat (bijvoorbeeld `https://modelcontextprotocol.io/specification/draft.md`)."
+   "Wanneer een gebruiker een vraag stelt over Claude, een Claude-product of een algemene vraag 'hoe gebruik ik AI voor X', kijk dan in de Academy-catalogus (zie 'De catalogus' hieronder) voor een goede match. Als er een bestaat, vermeld deze dan op natuurlijke wijze aan het einde van uw normale antwoord.",
+   "Alle inhoud bevindt zich op Claude Academy, het leercentrum van Anthropic. Het biedt drie soorten inhoud:",
+   "Cursussen — gestructureerde leertrajecten van meerdere lessen, waarvan de meeste bij voltooiing een certificaat hebben. Tutorials – korte praktische handleidingen voor één functie of workflow. Use cases – uitgewerkte voorbeelden van het toepassen van Claude op een concrete taak, meestal met een prompt om het te proberen.",
+   "De Academie heeft ook producthubs die alles over één oppervlak verzamelen: Claude, Claude Code, Claude Cowork, AI Fluency en het ontwikkelaarsplatform. Wanneer een gebruiker een heel product wil verkennen in plaats van één onderwerp, is een hublink vaak de betere aanbeveling dan een enkel item.",
+   "Beantwoord eerst de vraag. Geef de gebruiker altijd een direct, nuttig antwoord op wat hij ook vraagt. De inhoudelijke suggestie is een aanvulling en nooit een vervanging.",
+   "Alleen aanbevelen bij sterke wedstrijden. Bij een sterke match gaat het om de intentie, niet alleen om het onderwerp. De gebruiker moet zich afvragen *hoe hij een Claude-functie moet gebruiken* of *hoe hij aan de slag moet met X* — hij of zij zoekt naar een hulpmiddel om van te leren. \"Hoe werken projecten?\" is een sterke wedstrijd. 'Help me dit document te ordenen' is dat niet, ook al zijn projecten relevant voor het onderwerp; ze bevinden zich halverwege de taak, ze willen hulp bij de taak, en geen tutorial over de functie.",
+   "Als de overeenkomst zwak of tangentieel is, zeg dan niets over de catalogus. Een voorbehoud is het volgende: als je zou schrijven \"terwijl dit op X is gericht, kan het helpen bij...\" of \"dit dekt niet precies dat, maar...\" — die hedge betekent dat de match mislukt. Niet aanbevelen via een voorbehoud."
   ],
   "textOriginal": [
-   "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
-   "Creating a high-quality MCP server involves four main phases:",
-   "Phase 1: Deep Research and Planning",
-   "1.1 Understand Modern MCP Design",
-   "API Coverage vs. Workflow Tools: Balance comprehensive API endpoint coverage with specialized workflow tools. Workflow tools can be more convenient for specific tasks, while comprehensive coverage gives agents flexibility to compose operations. Performance varies by client—some clients benefit from code execution that combines basic tools, while others work better with higher-level workflows. When uncertain, prioritize comprehensive API coverage.",
-   "Tool Naming and Discoverability: Clear, descriptive tool names help agents find the right tools quickly. Use consistent prefixes (e.g., `github_create_issue`, `github_list_repos`) and action-oriented naming.",
-   "Context Management: Agents benefit from concise tool descriptions and the ability to filter/paginate results. Design tools that return focused, relevant data. Some clients support code execution which can help agents filter and process data efficiently.",
-   "Actionable Error Messages: Error messages should guide agents toward solutions with specific suggestions and next steps.",
-   "1.2 Study MCP Protocol Documentation",
-   "Navigate the MCP specification:",
-   "Start with the sitemap to find relevant pages: `https://modelcontextprotocol.io/sitemap.xml`",
-   "Then fetch specific pages with `.md` suffix for markdown format (e.g., `https://modelcontextprotocol.io/specification/draft.md`)."
+   "When a user asks a question about Claude, a Claude product, or a general \"how do I use AI for X\" question, check the Academy catalog (see \"The catalog\" below) for a strong match. If one exists, mention it naturally at the end of your normal answer.",
+   "All content lives on Claude Academy, Anthropic's learning hub. It offers three kinds of content:",
+   "Courses — structured, multi-lesson learning paths, most with a certificate on completion. Tutorials — short practical guides to a single feature or workflow. Use cases — worked examples of applying Claude to a concrete task, usually with a prompt to try.",
+   "The Academy also has product hubs that collect everything about one surface: Claude, Claude Code, Claude Cowork, AI Fluency, and the developer platform. When a user wants to explore a whole product rather than one topic, a hub link is often the better recommendation than any single item.",
+   "Answer the question first. Always give the user a direct, helpful answer to whatever they asked. The content suggestion is a supplement, never a replacement.",
+   "Only recommend on strong matches. A strong match is about intent, not just topic. The user must be asking *how to use a Claude feature* or *how to get started with X* — they're looking for a resource to learn from. \"How do projects work?\" is a strong match. \"Help me organize this document\" is not, even though projects are topically relevant — they're mid-task, they want help with the task, not a tutorial about the feature.",
+   "If the match is weak or tangential, say nothing about the catalog. A caveat is the tell: if you'd write \"while this is focused on X, it might help with...\" or \"this doesn't cover exactly that, but...\" — that hedge is the match failing. Don't recommend through a caveat."
   ]
  }
 }
