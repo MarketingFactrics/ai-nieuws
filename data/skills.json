@@ -199,8 +199,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI Adoption, two skills for working with your Claude history. token-doctor diagnoses where your Claude Code + Cowork spend goes (length distribution, marathon share, sub-agent fan-out, model mix, cache rebuilds, per-project health), writes a doctor-style terminal report, and optionally fans out parallel Haiku subagents over your top sessions for habit-level recommendations. task-profile mines those same sessions into a structured task profile: what you do with AI, how often, how successfully"
+   "descriptionOriginal": "AI Adoption, two skills for working with your Claude history. token-doctor diagnoses where your Claude Code + Cowork spend goes (length distribution, marathon share, sub-agent fan-out, model mix, cache rebuilds, per-project health), writes a doctor-style terminal report, and optionally fans out parallel Haiku subagents over your top sessions for habit-level recommendations. task-profile mines those same sessions into a structured task profile: what you do with AI, how often, how successfully",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ai-governance-legal",
@@ -725,26 +725,6 @@
    "firstSeen": "2000-01-01"
   },
   {
-   "id": "marketplace:atlassian",
-   "name": "Atlassian",
-   "origin": "marketplace",
-   "description": "Maak verbinding met Jira & Confluence. Zoek/maak problemen, krijg toegang tot documenten, beheer sprints en integreer ontwikkelingsworkflows.",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/atlassian",
-   "source": "https://github.com/atlassian/atlassian-mcp-server",
-   "verified": false,
-   "installs": 92289,
-   "maker": "Atlassian",
-   "about": [
-    "Connect Claude Code to your Atlassian Cloud products including Jira, Confluence, and Compass. Search across your organization's knowledge base, create and manage issues, generate status reports, and automate common workflows—all through natural language commands. The integration uses OAuth 2.1 authentication and respects your existing Jira and Confluence permissions.",
-    "Key capabilities include searching and summarizing content across Jira, Compass, and Confluence, creating issues and pages via natural language, and automating workflows like converting meeting notes into Jira tickets or turning specification documents into organized backlogs with proper Epic hierarchies.",
-    "After connecting your Atlassian Cloud account, try prompts like \"Create Jira tasks from these meeting notes\", \"Generate a weekly status report for the Engineering project and publish to Confluence\", \"Search our Confluence for documentation about the authentication system\", or \"Convert this spec document into a backlog with an Epic and child tickets\".",
-    "/capture-tasks-from-meeting-notes"
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to Jira & Confluence. Search/create issues, access docs, manage sprints, integrate development workflows."
-  },
-  {
    "id": "marketplace:atlassian-forge-skills",
    "name": "Atlassian Forge Skills",
    "origin": "marketplace",
@@ -760,6 +740,26 @@
    ],
    "descriptionOriginal": "Forge app builder skill bundle with Forge MCP configuration for Atlassian Forge workflows.",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:atlassian",
+   "name": "Atlassian MCP",
+   "origin": "marketplace",
+   "description": "Maak verbinding met Atlassian-producten, waaronder Jira en Confluence. Zoek en creëer problemen, krijg toegang tot documentatie, beheer sprints en integreer je ontwikkelingsworkflow met de samenwerkingstools van Atlassian.",
+   "category": "Documenten",
+   "url": "https://claude.com/marketplace/plugins/atlassian",
+   "source": "https://github.com/atlassian/atlassian-mcp-server",
+   "verified": true,
+   "installs": 92289,
+   "maker": "",
+   "about": [
+    "Connect Claude Code to your Atlassian Cloud products including Jira, Confluence, and Compass. Search across your organization's knowledge base, create and manage issues, generate status reports, and automate common workflows—all through natural language commands. The integration uses OAuth 2.1 authentication and respects your existing Jira and Confluence permissions.",
+    "Key capabilities include searching and summarizing content across Jira, Compass, and Confluence, creating issues and pages via natural language, and automating workflows like converting meeting notes into Jira tickets or turning specification documents into organized backlogs with proper Epic hierarchies.",
+    "After connecting your Atlassian Cloud account, try prompts like \"Create Jira tasks from these meeting notes\", \"Generate a weekly status report for the Engineering project and publish to Confluence\", \"Search our Confluence for documentation about the authentication system\", or \"Convert this spec document into a backlog with an Epic and child tickets\".",
+    "/capture-tasks-from-meeting-notes"
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools."
   },
   {
    "id": "marketplace:atlassian-twg-cli",
@@ -1404,8 +1404,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Plugin source"
+   "descriptionOriginal": "Plugin source",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:brightdata-plugin",
@@ -1951,6 +1951,21 @@
    "descriptionOriginal": "The manufacturing plugin. Skills for the work a plant actually runs on: joining the exports and systems into one dataset, quoting make-to-order jobs from drawings, writing nonconformances and 8Ds, diagnosing breakdowns, and reporting the morning numbers. Works with Microsoft 365, Oracle NetSuite, Infor M3 and Autodesk Fusion once connected, connects anything else through custom-connector, and runs on scheduled file exports when a system has no connector at all. Install and then ask Claude to"
   },
   {
+   "id": "marketplace:claude-for-msft-365-install",
+   "name": "Claude for Microsoft 365 Install",
+   "origin": "marketplace",
+   "description": "Bied directe cloudtoegang (Vertex AI, Bedrock, Azure AI Foundry of LLM gateway) voor de Claude Office-invoegtoepassing. Genereert het aangepaste manifest van de invoegtoepassing, doorloopt de toestemming van de Azure-beheerder en schrijft configuraties per gebruiker via Microsoft Graph-extensiekenmerken.",
+   "category": "Schrijven & communicatie",
+   "url": "https://claude.com/marketplace/plugins/claude-for-msft-365-install",
+   "source": "https://github.com/anthropics/financial-services/tree/574ed3624aebd0418c7e96cd101262f30210ab26/claude-for-msft-365-install",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "descriptionOriginal": "Provision direct cloud access (Vertex AI, Bedrock, Azure AI Foundry, or LLM gateway) for the Claude Office add-in. Generates the customized add-in manifest, walks through Azure admin consent, and writes per-user config via Microsoft Graph extension attributes.",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:claude-opus-4-5-migration",
    "name": "Claude Opus 4.5 Migration",
    "origin": "marketplace",
@@ -2000,21 +2015,6 @@
    "verified": true,
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "|-"
-  },
-  {
-   "id": "marketplace:claude-for-msft-365-install",
-   "name": "claude-for-msft-365-install",
-   "origin": "marketplace",
-   "description": "Bied directe cloudtoegang (Vertex AI, Bedrock, Azure AI Foundry of LLM gateway) voor de Claude Office-invoegtoepassing. Genereert het aangepaste manifest van de invoegtoepassing, doorloopt de toestemming van de Azure-beheerder en schrijft configuraties per gebruiker via Microsoft Graph-extensiekenmerken.",
-   "category": "Schrijven & communicatie",
-   "url": "https://claude.com/marketplace/plugins/claude-for-msft-365-install",
-   "source": "https://github.com/anthropics/financial-services/tree/574ed3624aebd0418c7e96cd101262f30210ab26/claude-for-msft-365-install",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "descriptionOriginal": "Provision direct cloud access (Vertex AI, Bedrock, Azure AI Foundry, or LLM gateway) for the Claude Office add-in. Generates the customized add-in manifest, walks through Azure admin consent, and writes per-user config via Microsoft Graph extension attributes.",
-   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:claude-md-management",
@@ -3001,8 +3001,8 @@
    "about": [
     "DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, explainability, data preparation, App Framework CI/CD, and external agent monitoring."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, explainability, data preparation, App Framework CI/CD, and external agent monitoring."
+   "descriptionOriginal": "DataRobot skills for AI/ML workflows — model training, deployment, predictions, feature engineering, monitoring, explainability, data preparation, App Framework CI/CD, and external agent monitoring.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:deep-research",
@@ -4176,7 +4176,7 @@
   },
   {
    "id": "marketplace:gl-reconciler",
-   "name": "gl-reconciler",
+   "name": "GL Reconciler",
    "origin": "marketplace",
    "description": "Vindt pauzes, spoort de hoofdoorzaak op, routes voor afmelding",
    "category": "Overig",
@@ -4186,8 +4186,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Finds breaks, traces root cause, routes for sign-off"
+   "descriptionOriginal": "Finds breaks, traces root cause, routes for sign-off",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:glean",
@@ -4737,13 +4737,13 @@
    "description": "Bouw QuickBooks-integraties met het Intuit Developer Platform – werkruimte- en app-installatie, sandboxbeheer, browser OAuth en genereer geverifieerde QuickBooks API-aanroepen via het Intuit Developer Platform.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/intuit-developer",
-   "source": "https://github.com/intuit/intuit-plugins-official/tree/b0b980d8ca5cb15ccd43168056342b239270dce9/plugins/intuit-developer",
+   "source": "https://github.com/intuit/intuit-plugins-official/tree/89e37a6f7f5ac70d372bcfe1e61e4fd7a031f259/plugins/intuit-developer",
    "verified": true,
    "installs": 0,
    "maker": "Intuit",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build QuickBooks integrations with the Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and generate verified QuickBooks API calls through the Intuit Developer Platform."
+   "descriptionOriginal": "Build QuickBooks integrations with the Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and generate verified QuickBooks API calls through the Intuit Developer Platform.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:intuit-quickbooks",
@@ -5573,7 +5573,7 @@
    "description": "Creëer inhoud, plan campagnes en analyseer de prestaties via marketingkanalen. Behoud de consistentie van de merkstem, volg concurrenten en rapporteer wat werkt.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/marketing",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/marketing",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965/marketing",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -5583,8 +5583,8 @@
     ", and generate competitive positioning briefs with",
     "Build marketing performance reports with"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what's working."
+   "descriptionOriginal": "Create content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what's working.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:master-claude-for-legal",
@@ -5847,8 +5847,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agent skills for Meta VR and Horizon OS development. Helps your coding agent with Meta VR app debugging, performance analysis, project setup, Unity and WebXR workflows, Spatial SDK and Platform SDK integration, store submission checks, and metavr device workflows."
+   "descriptionOriginal": "Agent skills for Meta VR and Horizon OS development. Helps your coding agent with Meta VR app debugging, performance analysis, project setup, Unity and WebXR workflows, Spatial SDK and Platform SDK integration, store submission checks, and metavr device workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:metadata-extraction",
@@ -6965,7 +6965,7 @@
    "description": "Creëert interactieve HTML-speeltuinen: op zichzelf staande verkenners van één bestand met visuele bedieningselementen, live preview en promptuitvoer met kopieerknop",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/playground",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a1ecfbc7f138a0ef455088f7f28cda2d22a0f853/plugins/playground",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/playground",
    "verified": true,
    "installs": 64198,
    "maker": "",
@@ -7111,8 +7111,8 @@
    "about": [
     "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server."
+   "descriptionOriginal": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:pptx",
@@ -7323,13 +7323,13 @@
    "id": "marketplace:project-artifact",
    "name": "Project Artifact",
    "origin": "marketplace",
-   "description": "Bouw een live, deelbare projectstatuspagina die automatisch wordt vernieuwd en statusdelta's toont.",
+   "description": "Genereer en publiceer een projectstatusartefact - een eigenzinnige statuspagina met tabbladen (overzicht en succescriteria, de volgorde van de werkstroom, volgende stappen, plus achtergrond / plan / risico's en open vragen / beslissingen-FAQ wanneer ze een tabblad verdienen) gepubliceerd via de ingebouwde Artefact-tool op een standaard privé-claude.ai-pagina die de gebruiker kan delen met teamgenoten. Elk artefact wordt ondersteund door een configuratie per project, dus 'vernieuw het artefact' verzamelt de livestatus opnieuw, implementeert dezelfde URL opnieuw en rapporteert alleen de delta.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/project-artifact",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/project-artifact",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/project-artifact",
    "verified": true,
    "installs": 1034,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Generate a polished, tabbed project status page and publish it as a shareable claude.ai artifact. Designed for migrations, launches, research efforts, and any initiative with multiple workstreams tracked over time. The artifact includes an overview with success criteria, a workstream sequence view, a persistent \"next steps\" strip, and optional tabs for background, plan, risks, and decisions — each included only when substantive.",
     "Each artifact is backed by a per-project config stored on your machine. When you refresh, the plugin re-gathers live state, redeploys to the same URL, and reports only what changed since the last render. Your team always sees the latest status at a single stable link. Pages default to private and can be shared from the claude.ai viewer.",
@@ -7337,7 +7337,7 @@
     ") give an at-a-glance view of progress. The page supports light and dark mode, is fully responsive, and embeds all styles inline — no external dependencies."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build a live, shareable project status page that auto-refreshes and shows state deltas."
+   "descriptionOriginal": "Generate and publish a project status artifact — an opinionated, tabbed status page (overview & success criteria, the workstream sequence, next steps, plus background / plan / risks & open questions / decisions-FAQ when they earn a tab) published via the built-in Artifact tool to a default-private claude.ai page the user can share with teammates. Each artifact is backed by a per-project config, so 'refresh the artifact' re-gathers live state, redeploys the same URL, and reports only the delta."
   },
   {
    "id": "community:prompt-engineering",
@@ -7587,13 +7587,13 @@
    "description": "QuickBooks-boekhouding voor kleine bedrijven: bankfeeds, afstemming en rapporten.",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/quickbooks-labs",
-   "source": "https://github.com/intuit/intuit-plugins-official/tree/b3999397662f8379ec7db273946afab835bcaeec/plugins/quickbooks-labs",
+   "source": "https://github.com/intuit/intuit-plugins-official/tree/89e37a6f7f5ac70d372bcfe1e61e4fd7a031f259/plugins/quickbooks-labs",
    "verified": true,
    "installs": 0,
    "maker": "Intuit",
    "about": [],
-   "firstSeen": "2026-10-31",
-   "descriptionOriginal": "QuickBooks bookkeeping for small businesses: bank feeds, reconciliation, and reports."
+   "descriptionOriginal": "QuickBooks bookkeeping for small businesses: bank feeds, reconciliation, and reports.",
+   "firstSeen": "2026-10-31"
   },
   {
    "id": "community:raffle-winner-picker",
@@ -9009,20 +9009,20 @@
    "id": "marketplace:supabase",
    "name": "Supabase",
    "origin": "marketplace",
-   "description": "Supabase MCP: databasebewerkingen, authenticatie, opslag, realtime. Beheer projecten, voer SQL uit, communiceer met uw backend.",
+   "description": "Officiële Supabase-plug-in voor Claude Code met gebundelde Supabase-skills en MCP-toegang voor projectbeheer, databasewerk, authenticatie, opslag en best practices van Postgres.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/supabase",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/supabase",
-   "verified": false,
+   "source": "https://github.com/supabase-community/supabase-plugin",
+   "verified": true,
    "installs": 118617,
-   "maker": "Supabase",
+   "maker": "",
    "about": [
     "Connect Claude directly to your Supabase backend for seamless database management, project operations, and development workflows. This plugin provides over 20 tools for managing your Supabase infrastructure through natural conversation.",
     "Key features include SQL query execution, table design with migration tracking, project creation and management, log retrieval for debugging, TypeScript type generation from your schema, Edge Function deployment, and experimental database branching for development workflows.",
     "After connecting your Supabase account, you can interact with your projects naturally. Try prompts like \"List all my Supabase projects\", \"Run a SQL query to get all users created this month\", \"Generate TypeScript types for my database schema\", \"Show me the logs for my Edge Functions\", or \"Create a new migration to add an email column to the users table\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Supabase MCP: Database ops, auth, storage, real-time. Manage projects, run SQL, interact with your backend."
+   "descriptionOriginal": "Official Supabase plugin for Claude Code with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices."
   },
   {
    "id": "marketplace:superdesign",
@@ -9637,8 +9637,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Unleash feature management for Claude Code: skills for the full flag lifecycle — evaluate risk, create and wrap flags, plan rollouts, clean up stale flags, and migrate flags from GitLab — backed by the bundled Unleash MCP server."
+   "descriptionOriginal": "Unleash feature management for Claude Code: skills for the full flag lifecycle — evaluate risk, create and wrap flags, plan rollouts, clean up stale flags, and migrate flags from GitLab — backed by the bundled Unleash MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:unreal-engine-skills-for-claude-code",
@@ -9751,7 +9751,7 @@
   },
   {
    "id": "marketplace:valuation-reviewer",
-   "name": "valuation-reviewer",
+   "name": "Valuation Reviewer",
    "origin": "marketplace",
    "description": "Neemt GP-pakketten op, voert een waarderingssjabloon uit, faseert LP-rapportage",
    "category": "Code review & testen",
@@ -9761,8 +9761,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Ingests GP packages, runs valuation template, stages LP reporting"
+   "descriptionOriginal": "Ingests GP packages, runs valuation template, stages LP reporting",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:vanta",
@@ -9865,15 +9865,15 @@
   },
   {
    "id": "marketplace:vsql-extension-builder",
-   "name": "VillageSQL Extension Builder",
+   "name": "VillageSQL Skills",
    "origin": "marketplace",
-   "description": "Bouwt een VillageSQL-extensie voor MySQL end-to-end via een persona-gestuurde workflow in 7 fasen. Vaak gebruikt om P te porten...",
+   "description": "Skills voor VillageSQL (MySQL met extensies): bouw end-to-end extensies (inclusief het porten van PostgreSQL-extensies naar MySQL) en installeer VillageSQL Server.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/vsql-extension-builder",
-   "source": "https://github.com/villagesql",
-   "verified": false,
+   "source": "https://github.com/villagesql/villagesql-skills",
+   "verified": true,
    "installs": 100,
-   "maker": "VillageSQL",
+   "maker": "",
    "about": [
     "Builds production-quality VillageSQL (MySQL) extensions end-to-end through a structured 7-phase, persona-driven workflow. Five specialized personas — Product Strategist, Architect, Team Lead, CTO, and End-User — each own distinct phases with strict quality gates, ensuring every extension passes feasibility analysis, incremental implementation with parallel code review, CTO quality audit, and live user acceptance testing before delivery.",
     "The skill dynamically discovers the current VillageSQL Extension Framework (VEF) API from live SDK headers rather than hardcoded references, ensuring compatibility across SDK updates. It supports both C++ (default) and Rust extensions, and is commonly used to port PostgreSQL extensions to MySQL using a dedicated porting guide. Each phase produces tracked artifacts — architecture docs, limitation logs, acceptance criteria, and test output — so nothing is lost between steps.",
@@ -9881,7 +9881,7 @@
     "/vsql-extension-builder Build a JSON path query extension for MySQL"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Builds a VillageSQL extension for MySQL end-to-end through a 7-phase persona-driven workflow. Commonly used to port P..."
+   "descriptionOriginal": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server."
   },
   {
    "id": "marketplace:voila-api",
@@ -10365,29 +10365,32 @@
   "official:internal-comms",
   "official:discernment-nudge",
   "official:mcp-builder",
-  "official:academy-guide"
+  "official:academy-guide",
+  "official:skill-creator"
  ],
- "updated": "2026-11-14T20:52:45.723513+00:00",
+ "updated": "2026-11-15T21:10:04.742565+00:00",
  "tonight": {
-  "date": "2026-11-14",
-  "id": "official:academy-guide",
+  "date": "2026-11-15",
+  "id": "official:skill-creator",
   "text": [
-   "Wanneer een gebruiker een vraag stelt over Claude, een Claude-product of een algemene vraag 'hoe gebruik ik AI voor X', kijk dan in de Academy-catalogus (zie 'De catalogus' hieronder) voor een goede match. Als er een bestaat, vermeld deze dan op natuurlijke wijze aan het einde van uw normale antwoord.",
-   "Alle inhoud bevindt zich op Claude Academy, het leercentrum van Anthropic. Het biedt drie soorten inhoud:",
-   "Cursussen — gestructureerde leertrajecten van meerdere lessen, waarvan de meeste bij voltooiing een certificaat hebben. Tutorials – korte praktische handleidingen voor één functie of workflow. Use cases – uitgewerkte voorbeelden van het toepassen van Claude op een concrete taak, meestal met een prompt om het te proberen.",
-   "De Academie heeft ook producthubs die alles over één oppervlak verzamelen: Claude, Claude Code, Claude Cowork, AI Fluency en het ontwikkelaarsplatform. Wanneer een gebruiker een heel product wil verkennen in plaats van één onderwerp, is een hublink vaak de betere aanbeveling dan een enkel item.",
-   "Beantwoord eerst de vraag. Geef de gebruiker altijd een direct, nuttig antwoord op wat hij ook vraagt. De inhoudelijke suggestie is een aanvulling en nooit een vervanging.",
-   "Alleen aanbevelen bij sterke wedstrijden. Bij een sterke match gaat het om de intentie, niet alleen om het onderwerp. De gebruiker moet zich afvragen *hoe hij een Claude-functie moet gebruiken* of *hoe hij aan de slag moet met X* — hij of zij zoekt naar een hulpmiddel om van te leren. \"Hoe werken projecten?\" is een sterke wedstrijd. 'Help me dit document te ordenen' is dat niet, ook al zijn projecten relevant voor het onderwerp; ze bevinden zich halverwege de taak, ze willen hulp bij de taak, en geen tutorial over de functie.",
-   "Als de overeenkomst zwak of tangentieel is, zeg dan niets over de catalogus. Een voorbehoud is het volgende: als je zou schrijven \"terwijl dit op X is gericht, kan het helpen bij...\" of \"dit dekt niet precies dat, maar...\" — die hedge betekent dat de match mislukt. Niet aanbevelen via een voorbehoud."
+   "Een skill om nieuwe skills te creëren en deze iteratief te verbeteren.",
+   "Op een hoog niveau gaat het proces van het creëren van een skill als volgt:",
+   "Beslis wat u met de skill wilt doen en hoe deze dit ongeveer moet doen. Schrijf een concept van de skill. Maak een paar testprompts en voer daarop claude-with-access-to-the-skill uit. Help de gebruiker de resultaten zowel kwalitatief als kwantitatief te evalueren. Terwijl de runs op de achtergrond plaatsvinden, stelt u een aantal kwantitatieve evaluaties op als die er niet zijn (als die er zijn, kunt u deze gebruiken zoals ze zijn, of deze aanpassen als u denkt dat er iets aan moet veranderen). Leg ze vervolgens uit aan de gebruiker (of als ze al bestonden, leg dan uit welke al bestaan). Gebruik het script `eval-viewer/generate_review.py` om de...",
+   "Jouw taak bij het gebruik van deze skill is om erachter te komen waar de gebruiker zich in dit proces bevindt en er vervolgens in te springen en hem door deze fasen te helpen. Dus misschien zeggen ze bijvoorbeeld: \"Ik wil een skill maken voor X\". Je kunt helpen om te bepalen wat ze betekenen, een concept schrijven, de testgevallen schrijven, uitzoeken hoe ze willen evalueren, alle aanwijzingen uitvoeren en herhalen.",
+   "Aan de andere kant hebben ze misschien al een concept van de skill. In dit geval kunt u rechtstreeks naar het evaluatie-/iteratiegedeelte van de lus gaan.",
+   "Natuurlijk moet je altijd flexibel zijn en als de gebruiker zegt: \"Ik hoef geen hele reeks evaluaties uit te voeren, maar voel gewoon met mij mee\", dan kun je dat in plaats daarvan doen.",
+   "Nadat de skill is voltooid (maar nogmaals, de volgorde is flexibel), kunt u ook de vaardigheidsbeschrijvingsverbeteraar uitvoeren, waarvoor we een heel apart script hebben, om het activeren van de skill te optimaliseren.",
+   "De maker van de skills kan worden gebruikt door mensen met een breed scala aan vertrouwdheid met codeerjargon. Als je het nog niet hebt gehoord (en hoe zou je dat kunnen, het is nog maar heel kort geleden begonnen), is er nu een trend waarbij de kracht van Claude loodgieters inspireert om hun terminals open te stellen, en ouders en grootouders om te googlen \"hoe npm te installeren\". Aan de andere kant is het merendeel van de gebruikers waarschijnlijk redelijk computervaardig."
   ],
   "textOriginal": [
-   "When a user asks a question about Claude, a Claude product, or a general \"how do I use AI for X\" question, check the Academy catalog (see \"The catalog\" below) for a strong match. If one exists, mention it naturally at the end of your normal answer.",
-   "All content lives on Claude Academy, Anthropic's learning hub. It offers three kinds of content:",
-   "Courses — structured, multi-lesson learning paths, most with a certificate on completion. Tutorials — short practical guides to a single feature or workflow. Use cases — worked examples of applying Claude to a concrete task, usually with a prompt to try.",
-   "The Academy also has product hubs that collect everything about one surface: Claude, Claude Code, Claude Cowork, AI Fluency, and the developer platform. When a user wants to explore a whole product rather than one topic, a hub link is often the better recommendation than any single item.",
-   "Answer the question first. Always give the user a direct, helpful answer to whatever they asked. The content suggestion is a supplement, never a replacement.",
-   "Only recommend on strong matches. A strong match is about intent, not just topic. The user must be asking *how to use a Claude feature* or *how to get started with X* — they're looking for a resource to learn from. \"How do projects work?\" is a strong match. \"Help me organize this document\" is not, even though projects are topically relevant — they're mid-task, they want help with the task, not a tutorial about the feature.",
-   "If the match is weak or tangential, say nothing about the catalog. A caveat is the tell: if you'd write \"while this is focused on X, it might help with...\" or \"this doesn't cover exactly that, but...\" — that hedge is the match failing. Don't recommend through a caveat."
+   "A skill for creating new skills and iteratively improving them.",
+   "At a high level, the process of creating a skill goes like this:",
+   "Decide what you want the skill to do and roughly how it should do it Write a draft of the skill Create a few test prompts and run claude-with-access-to-the-skill on them Help the user evaluate the results both qualitatively and quantitatively While the runs happen in the background, draft some quantitative evals if there aren't any (if there are some, you can either use as is or modify if you feel something needs to change about them). Then explain them to the user (or if they already existed, explain the ones that already exist) Use the `eval-viewer/generate_review.py` script to show the…",
+   "Your job when using this skill is to figure out where the user is in this process and then jump in and help them progress through these stages. So for instance, maybe they're like \"I want to make a skill for X\". You can help narrow down what they mean, write a draft, write the test cases, figure out how they want to evaluate, run all the prompts, and repeat.",
+   "On the other hand, maybe they already have a draft of the skill. In this case you can go straight to the eval/iterate part of the loop.",
+   "Of course, you should always be flexible and if the user is like \"I don't need to run a bunch of evaluations, just vibe with me\", you can do that instead.",
+   "Then after the skill is done (but again, the order is flexible), you can also run the skill description improver, which we have a whole separate script for, to optimize the triggering of the skill.",
+   "The skill creator is liable to be used by people across a wide range of familiarity with coding jargon. If you haven't heard (and how could you, it's only very recently that it started), there's a trend now where the power of Claude is inspiring plumbers to open up their terminals, parents and grandparents to google \"how to install npm\". On the other hand, the bulk of users are probably fairly computer-literate."
   ]
  }
 }
