@@ -401,8 +401,8 @@
    "about": [
     "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB)."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB)."
+   "descriptionOriginal": "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB).",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:amadeus-travel-builder",
@@ -660,7 +660,7 @@
    "description": "Integratie van Asana-projectbeheer. Verbindt Claude Code met Asana's V2 MCP-server (https://mcp.asana.com/v2/mcp) om taken aan te maken en te beheren, projecten te zoeken, opdrachten bij te werken en de voortgang bij te houden. Vereist een eenmalige installatie van uw eigen Asana OAuth-app - voer /asana-setup uit na de installatie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/asana",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/0412be76f50ab4f4f8abff3753efa9269fbbca5b/external_plugins/asana",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/f59aa2e6dd7d93e45910afcb7569d73b375f31f7/external_plugins/asana",
    "verified": true,
    "installs": 10796,
    "maker": "",
@@ -669,8 +669,8 @@
     "Key capabilities include task creation and management, project tracking and status updates, user and team organization, goal updates, typeahead search, and section management. The integration uses OAuth authentication with your Asana account for secure access to your workspace data.",
     "After connecting your Asana account, interact naturally with your workspace. Try prompts like \"Find all my incomplete tasks due this week\", \"Create a new task in the Marketing project assigned to me\", \"List all sections in the Product Launch project\", or \"Show me the status of the Q2 Planning project\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Asana project management integration. Connects Claude Code to Asana's V2 MCP server (https://mcp.asana.com/v2/mcp) to create and manage tasks, search projects, update assignments, and track progress. Requires a one-time setup of your own Asana OAuth app — run /asana-setup after installing."
+   "descriptionOriginal": "Asana project management integration. Connects Claude Code to Asana's V2 MCP server (https://mcp.asana.com/v2/mcp) to create and manage tasks, search projects, update assignments, and track progress. Requires a one-time setup of your own Asana OAuth app — run /asana-setup after installing.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:asd-audhd-pai-skills",
@@ -878,8 +878,8 @@
    "about": [
     "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code, use core services, and complete common tasks."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code (CDK, CloudFormation), use core services (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock with Knowledge Bases and Guardrails, AWS Blocks), select and operate databases across relational, key-value, document, wide-column, graph, time-series, and in-memory engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream"
+   "descriptionOriginal": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code (CDK, CloudFormation), use core services (Lambda, API Gateway, Step Functions, ECS/Fargate, ECR, IAM, Amazon Bedrock with Knowledge Bases and Guardrails, AWS Blocks), select and operate databases across relational, key-value, document, wide-column, graph, time-series, and in-memory engines (Aurora PostgreSQL/MySQL, Aurora DSQL, RDS, Oracle Database@AWS, DynamoDB, DocumentDB, Keyspaces, Neptune, Timestream",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:aws-data-analytics",
@@ -1896,7 +1896,7 @@
    "description": "Analyseer codebases en adviseer op maat gemaakte Claude Code-automatiseringen, zoals hooks, skills, MCP-servers en subagenten.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/claude-code-setup",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/claude-code-setup",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/plugins/claude-code-setup",
    "verified": true,
    "installs": 195067,
    "maker": "",
@@ -2852,8 +2852,8 @@
     "Query your data warehouse to answer business questions using natural language, profile tables, check data freshness, and trace upstream or downstream lineage across your pipelines. The plugin caches discovered patterns and table-to-concept mappings so repeated analysis gets faster over time.",
     "Author new Airflow DAGs through a guided Discover → Plan → Implement → Validate → Test → Iterate workflow, with built-in validation commands that catch errors before you deploy. Integrate dbt projects into Airflow using Astronomer Cosmos, with support for multiple execution modes and parsing strategies. Migrate pipelines from Airflow 2.x to 3.x with dedicated upgrade assistance."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration"
+   "descriptionOriginal": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:data-agent-kit-starter-pack",
@@ -3085,20 +3085,20 @@
   },
   {
    "id": "marketplace:desktop-commander",
-   "name": "desktop-commander",
+   "name": "Desktop Commander",
    "origin": "marketplace",
-   "description": "MCP-server voor terminalopdrachten, procesbeheer en bestandsbewerkingen in tekst, code, PDF, DOCX, Excel, afbeeldingen...",
+   "description": "MCP-server voor terminalopdrachten, procesbeheer en bestandsbewerkingen voor tekst, code, PDF, DOCX, Excel, afbeeldingen en gestructureerde gegevens.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/desktop-commander",
-   "source": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-   "verified": false,
+   "source": "https://github.com/wonderwhy-er/desktopcommandermcp/tree/2434718a0a8993d882cb05dc648c669f09bb4399/plugins/claude",
+   "verified": true,
    "installs": 7023,
-   "maker": "Desktop Commander",
+   "maker": "",
    "about": [
     "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images..."
+   "descriptionOriginal": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data."
   },
   {
    "id": "marketplace:devexpress-blazor-components",
@@ -4157,12 +4157,12 @@
   },
   {
    "id": "marketplace:gitlab",
-   "name": "gitlab",
+   "name": "GitLab",
    "origin": "marketplace",
    "description": "GitLab DevOps-platformintegratie. Beheer opslagplaatsen, samenvoegverzoeken, CI/CD-pijplijnen, problemen en wiki's. Volledige toegang tot de uitgebreide DevOps-levenscyclustools van GitLab.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gitlab",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/external_plugins/gitlab",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/f59aa2e6dd7d93e45910afcb7569d73b375f31f7/external_plugins/gitlab",
    "verified": true,
    "installs": 40805,
    "maker": "",
@@ -4171,8 +4171,8 @@
     "Key capabilities include browsing and managing Git repositories, creating and reviewing merge requests, viewing pipeline status and job logs, managing project issues and milestones, and working with project wikis. The integration uses GitLab's official MCP API for reliable, native access to the platform.",
     "Once installed and authenticated with your GitLab account, you can interact with your GitLab projects naturally. Try prompts like \"show me open merge requests in my project,\" \"what's the status of the latest pipeline,\" \"create an issue for the authentication bug,\" or \"list recent commits on the main branch.\" The plugin works with both GitLab.com and self-managed GitLab instances."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools."
+   "descriptionOriginal": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:gl-reconciler",
@@ -4856,10 +4856,10 @@
    "description": "Officiële JFrog-plug-in. Verbind Claude Code met JFrog om uw softwaretoeleveringsketen te beheren, beveiligen en besturen. Geef agenten de context om veilige, compatibele software te bouwen.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/jfrog",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/jfrog/claude-plugin",
+   "verified": true,
    "installs": 273,
-   "maker": "JFrog",
+   "maker": "",
    "about": [
     "Connect Claude Code to your JFrog Platform to simplify platform administration and bring DevSecOps context directly into agents' development process. This plugin makes it easy for agents to consume artifacts through Artifactory, where they are scanned, verified, and governed by your organization's security and compliance policies.",
     "It also ensures that the MCP tools the agent uses are controlled through the JFrog AI Catalog, enforcing centralized allow and block policies across all agent activity. This gives you a single point of control over both the artifacts flowing through your pipelines and the tools your agent is allowed to use.",
@@ -4867,7 +4867,7 @@
     "Once installed and authenticated, interact with Claude Code in natural language as usual. Relevant requests are routed through JFrog for action. Try prompts like:"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official JFrog plugin. Connect Claude Code to JFrog to manage, secure and govern your software supply chain. Give agents the context to build secure, compliant software."
+   "descriptionOriginal": "Official JFrog plugin. Connect Claude Code to JFrog to manage, secure, and govern your software supply chain. Give agents the context to build secure, compliant software."
   },
   {
    "id": "community:jules",
@@ -5037,8 +5037,8 @@
     "GitHub Action for automated quality checks on pull requests.",
     "Ask Claude to help with Langfuse tasks naturally — for example,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for working with Langfuse, the open-source LLM engineering platform for tracing, prompt management, and evaluation."
+   "descriptionOriginal": "Skills for working with Langfuse, the open-source LLM engineering platform for tracing, prompt management, and evaluation.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:langfuse-observability",
@@ -5189,8 +5189,8 @@
     "The plugin works in three steps. First, it diagnoses your needs by asking about your topic and how it applies to your role, your familiarity level (from \"brand new\" to \"solid, want more\"), and your preferred learning format. Then it searches and delivers matching content from Coursera's catalog in real time. Finally, a Path Finder step reviews course curricula, validates fit for your role, and recommends a concrete next step — with ratings, key topics, and a reason the course fits your specific situation.",
     "Express any learning intent naturally — try prompts like \"Teach me SQL for product management,\" \"I want to get better at negotiation,\" \"Help me prepare for a cloud certification,\" or \"I need a real foundation in Python — I keep using AI but don't understand what's happening.\" The plugin activates automatically when it detects a learning goal. Requires the Coursera connector to be enabled for catalog search and content delivery."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Turn any learning intent into a personalized Coursera experience. Asks three quick questions (topic, familiarity, preferred format), searches Coursera's catalog, and delivers the right next step — a course, hands-on project, short video, or live roleplay — then maps a path forward. Requires the Coursera connector for catalog tools."
+   "descriptionOriginal": "Turn any learning intent into a personalized Coursera experience. Asks three quick questions (topic, familiarity, preferred format), searches Coursera's catalog, and delivers the right next step — a course, hands-on project, short video, or live roleplay — then maps a path forward. Requires the Coursera connector for catalog tools.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:learning-output-style",
@@ -6008,8 +6008,8 @@
     "Ask Claude to work with MLflow naturally — the plugin routes requests to the appropriate skill. Try prompts like:",
     "\"instrument my agent with MLflow tracing\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for tracing, evaluating, and improving AI agents with MLflow. Supports the full agent improvement loop: instrument → trace → evaluate → iterate → validate."
+   "descriptionOriginal": "Skills for tracing, evaluating, and improving AI agents with MLflow. Supports the full agent improvement loop: instrument → trace → evaluate → iterate → validate.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mobbin",
@@ -6426,6 +6426,21 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Notion Skills + Notion MCP server packaged as a Claude Code plugin."
+  },
+  {
+   "id": "marketplace:numbersgame",
+   "name": "NumbersGame",
+   "origin": "marketplace",
+   "description": "QuickBooks Online en Xero boekhouding binnen Claude: maandafsluiting, boekrecensies, bankfeedcodering, afstemmingen en klantrapporten, via de NumbersGame MCP-servers en de NumbersGame Wizard-skill.",
+   "category": "Code review & testen",
+   "url": "https://claude.com/marketplace/plugins/numbersgame",
+   "source": "https://github.com/numbersgamebv/numbersgame-claude-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Numbers Game B.V.",
+   "about": [],
+   "firstSeen": "2026-11-17",
+   "descriptionOriginal": "QuickBooks Online and Xero bookkeeping inside Claude: month-end close, book reviews, bank feed coding, reconciliations and client reports, through the NumbersGame MCP servers and the NumbersGame Wizard skill."
   },
   {
    "id": "marketplace:nvidia-skills",
@@ -6965,7 +6980,7 @@
    "description": "Creëert interactieve HTML-speeltuinen: op zichzelf staande verkenners van één bestand met visuele bedieningselementen, live preview en promptuitvoer met kopieerknop",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/playground",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/playground",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1d8db0deb7967d5bfb1ff7a851a255cb87b01a85/plugins/playground",
    "verified": true,
    "installs": 64198,
    "maker": "",
@@ -7216,7 +7231,7 @@
   },
   {
    "id": "marketplace:private-equity",
-   "name": "private-equity",
+   "name": "Private Equity",
    "origin": "marketplace",
    "description": "Private equity-dealsourcing en workflowtools: bedrijfsdetectie, CRM-integratie en outreach van oprichters",
    "category": "Marketing & business",
@@ -8004,13 +8019,13 @@
    "description": "Krijg begeleiding voor het integreren van video-, beeld- en audiogeneratie met de Runway API en officiële SDK's. Maak verbinding met uw Runway Dev-account om beschikbare modellen en taakfouten te inspecteren, Modelrouters en bestaande realtime avatars te beheren en vastgelegde routebeslissingen te inspecteren.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/runway-dev",
-   "source": "https://github.com/runwayml/skills/tree/fe79eab0b996df90ff58383077df986b423bc75b/claude",
+   "source": "https://github.com/runwayml/skills/tree/6e98d3f3540705331acd748d75427f4bd7c90ce1/claude",
    "verified": true,
    "installs": 0,
    "maker": "Runway",
    "about": [],
-   "firstSeen": "2026-10-29",
-   "descriptionOriginal": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs. Connect to your Runway Dev account to inspect available models and task errors, manage Model Routers and existing real-time avatars, and inspect recorded routing decisions."
+   "descriptionOriginal": "Get guidance for integrating video, image and audio generation with the Runway API and official SDKs. Connect to your Runway Dev account to inspect available models and task errors, manage Model Routers and existing real-time avatars, and inspect recorded routing decisions.",
+   "firstSeen": "2026-10-29"
   },
   {
    "id": "marketplace:rust-analyzer-lsp",
@@ -8070,7 +8085,7 @@
    "description": "Bereid telefoongesprekken voor, vat ze samen en volg ze op, onderzoek accounts, bekijk deals en pijplijn, en schrijf de prognose, met behulp van de CRM-, e-mail-, agenda- en chattools die uw team al gebruikt, of geüploade bestanden. Werkt documenten bij, stelt e-mail op of verzendt deze, plaatst berichten in de chat en boekt vergaderingen wanneer u daarom vraagt.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/sales",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/sales",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965/sales",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -8080,8 +8095,8 @@
     "to generate weighted sales forecasts with best/likely/worst scenarios from a CSV or pipeline description, and",
     "to analyze pipeline health, flag risks like stale deals, and get a weekly action plan."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Prep calls, summarize and follow up, research accounts, review deals and pipeline, and write the forecast, using the CRM, email, calendar and chat tools your team already uses, or uploaded files. Updates records, drafts or sends email, posts to chat and books meetings when you ask."
+   "descriptionOriginal": "Prep calls, summarize and follow up, research accounts, review deals and pipeline, and write the forecast, using the CRM, email, calendar and chat tools your team already uses, or uploaded files. Updates records, drafts or sends email, posts to chat and books meetings when you ask.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sales-cloud",
@@ -8444,12 +8459,12 @@
   },
   {
    "id": "marketplace:session-report",
-   "name": "session-report",
+   "name": "Session Report",
    "origin": "marketplace",
-   "description": "Installeer binnen",
-   "category": "Overig",
+   "description": "Genereer een verkenbaar HTML-rapport van het gebruik van Claude Code-sessies (tokens, cache-efficiëntie, subagents, skills en de duurste aanwijzingen) op basis van lokale ~/.claude/projects-transcripties.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/session-report",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/session-report",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1d8db0deb7967d5bfb1ff7a851a255cb87b01a85/plugins/session-report",
    "verified": true,
    "installs": 11694,
    "maker": "",
@@ -8457,7 +8472,7 @@
     "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Install in"
+   "descriptionOriginal": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts."
   },
   {
    "id": "community:ship-learn-next",
@@ -8490,20 +8505,20 @@
   },
   {
    "id": "marketplace:shopify-ai-toolkit",
-   "name": "shopify-ai-toolkit",
+   "name": "Shopify AI Toolkit",
    "origin": "marketplace",
-   "description": "Shopify's AI Toolkit biedt 18 ontwikkelingsvaardigheden voor het bouwen op het Shopify-platform, waaronder het zoeken naar documentatie...",
-   "category": "Documenten",
+   "description": "Installeer binnen",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/shopify-ai-toolkit",
-   "source": "https://github.com/Shopify/Shopify-AI-Toolkit",
-   "verified": false,
+   "source": "https://github.com/shopify/shopify-ai-toolkit",
+   "verified": true,
    "installs": 5358,
-   "maker": "Shopify",
+   "maker": "",
    "about": [
     "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation search, API schema access, GraphQL and Liquid code validation, Hydrogen storefronts, Polaris UI extensions, store management via CLI, and onboarding guidance for both developers and merchants."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation sear..."
+   "descriptionOriginal": "Install in"
   },
   {
    "id": "marketplace:signalwire",
@@ -8773,13 +8788,13 @@
    "id": "marketplace:sourcegraph",
    "name": "Sourcegraph",
    "origin": "marketplace",
-   "description": "Zoek code in codebases, traceer referenties, analyseer de impact van refactoren, onderzoek incidenten en voer beveiligingsonderzoeken uit.",
-   "category": "Security",
+   "description": "Gebruik Sourcegraph MCP van Claude Code voor het zoeken naar codes, navigatie, geschiedenis en diepgaand zoeken.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/sourcegraph",
    "source": "https://github.com/sourcegraph-community/sourcegraph-claudecode-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 13515,
-   "maker": "Sourcegraph Community",
+   "maker": "",
    "about": [
     "Search, navigate, and understand code across all your repositories directly from Claude Code. This plugin connects to your Sourcegraph instance via MCP, giving you access to semantic search, keyword/regex search, commit and diff history, symbol navigation, reference tracing, and Sourcegraph's Deep Search — all without leaving your terminal.",
     "With twelve integrated tools spanning search, code navigation, and analysis, you can explore unfamiliar codebases, trace how symbols are used across repositories, investigate incidents through commit history, audit code for security patterns, and assess the impact of refactors before making changes.",
@@ -8787,7 +8802,7 @@
     "— Run a Sourcegraph search using natural language or keyword syntax (e.g., \"find all callers of parseConfig across our Go services\")."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Search code across codebases, trace references, analyze refactor impact, investigate incidents, run security sweeps."
+   "descriptionOriginal": "Use Sourcegraph MCP from Claude Code for code search, navigation, history, and Deep Search."
   },
   {
    "id": "marketplace:spanner",
@@ -9704,7 +9719,7 @@
   },
   {
    "id": "marketplace:vaadin-skills",
-   "name": "vaadin-skills",
+   "name": "Vaadin Skills",
    "origin": "marketplace",
    "description": "Skills en tools voor het bouwen van hoogwaardige Vaadin 25-applicaties met Java/Flow - thema's, visueel ontwerp en formulierindeling. Inclusief de gehoste Vaadin MCP-server voor actuele documentatie en API-zoekopdrachten.",
    "category": "Code review & testen",
@@ -9714,8 +9729,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills and tools for building high-quality Vaadin 25 applications with Java/Flow — theming, visual design, and form layout. Includes the hosted Vaadin MCP server for current documentation and API lookup."
+   "descriptionOriginal": "Skills and tools for building high-quality Vaadin 25 applications with Java/Flow — theming, visual design, and form layout. Includes the hosted Vaadin MCP server for current documentation and API lookup.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:valtown",
@@ -10366,31 +10381,14 @@
   "official:discernment-nudge",
   "official:mcp-builder",
   "official:academy-guide",
-  "official:skill-creator"
+  "official:skill-creator",
+  "marketplace:functionize-mcp"
  ],
- "updated": "2026-11-15T21:10:04.742565+00:00",
+ "updated": "2026-11-17T00:24:18.595026+00:00",
  "tonight": {
-  "date": "2026-11-15",
-  "id": "official:skill-creator",
-  "text": [
-   "Een skill om nieuwe skills te creëren en deze iteratief te verbeteren.",
-   "Op een hoog niveau gaat het proces van het creëren van een skill als volgt:",
-   "Beslis wat u met de skill wilt doen en hoe deze dit ongeveer moet doen. Schrijf een concept van de skill. Maak een paar testprompts en voer daarop claude-with-access-to-the-skill uit. Help de gebruiker de resultaten zowel kwalitatief als kwantitatief te evalueren. Terwijl de runs op de achtergrond plaatsvinden, stelt u een aantal kwantitatieve evaluaties op als die er niet zijn (als die er zijn, kunt u deze gebruiken zoals ze zijn, of deze aanpassen als u denkt dat er iets aan moet veranderen). Leg ze vervolgens uit aan de gebruiker (of als ze al bestonden, leg dan uit welke al bestaan). Gebruik het script `eval-viewer/generate_review.py` om de...",
-   "Jouw taak bij het gebruik van deze skill is om erachter te komen waar de gebruiker zich in dit proces bevindt en er vervolgens in te springen en hem door deze fasen te helpen. Dus misschien zeggen ze bijvoorbeeld: \"Ik wil een skill maken voor X\". Je kunt helpen om te bepalen wat ze betekenen, een concept schrijven, de testgevallen schrijven, uitzoeken hoe ze willen evalueren, alle aanwijzingen uitvoeren en herhalen.",
-   "Aan de andere kant hebben ze misschien al een concept van de skill. In dit geval kunt u rechtstreeks naar het evaluatie-/iteratiegedeelte van de lus gaan.",
-   "Natuurlijk moet je altijd flexibel zijn en als de gebruiker zegt: \"Ik hoef geen hele reeks evaluaties uit te voeren, maar voel gewoon met mij mee\", dan kun je dat in plaats daarvan doen.",
-   "Nadat de skill is voltooid (maar nogmaals, de volgorde is flexibel), kunt u ook de vaardigheidsbeschrijvingsverbeteraar uitvoeren, waarvoor we een heel apart script hebben, om het activeren van de skill te optimaliseren.",
-   "De maker van de skills kan worden gebruikt door mensen met een breed scala aan vertrouwdheid met codeerjargon. Als je het nog niet hebt gehoord (en hoe zou je dat kunnen, het is nog maar heel kort geleden begonnen), is er nu een trend waarbij de kracht van Claude loodgieters inspireert om hun terminals open te stellen, en ouders en grootouders om te googlen \"hoe npm te installeren\". Aan de andere kant is het merendeel van de gebruikers waarschijnlijk redelijk computervaardig."
-  ],
-  "textOriginal": [
-   "A skill for creating new skills and iteratively improving them.",
-   "At a high level, the process of creating a skill goes like this:",
-   "Decide what you want the skill to do and roughly how it should do it Write a draft of the skill Create a few test prompts and run claude-with-access-to-the-skill on them Help the user evaluate the results both qualitatively and quantitatively While the runs happen in the background, draft some quantitative evals if there aren't any (if there are some, you can either use as is or modify if you feel something needs to change about them). Then explain them to the user (or if they already existed, explain the ones that already exist) Use the `eval-viewer/generate_review.py` script to show the…",
-   "Your job when using this skill is to figure out where the user is in this process and then jump in and help them progress through these stages. So for instance, maybe they're like \"I want to make a skill for X\". You can help narrow down what they mean, write a draft, write the test cases, figure out how they want to evaluate, run all the prompts, and repeat.",
-   "On the other hand, maybe they already have a draft of the skill. In this case you can go straight to the eval/iterate part of the loop.",
-   "Of course, you should always be flexible and if the user is like \"I don't need to run a bunch of evaluations, just vibe with me\", you can do that instead.",
-   "Then after the skill is done (but again, the order is flexible), you can also run the skill description improver, which we have a whole separate script for, to optimize the triggering of the skill.",
-   "The skill creator is liable to be used by people across a wide range of familiarity with coding jargon. If you haven't heard (and how could you, it's only very recently that it started), there's a trend now where the power of Claude is inspiring plumbers to open up their terminals, parents and grandparents to google \"how to install npm\". On the other hand, the bulk of users are probably fairly computer-literate."
-  ]
+  "date": "2026-11-17",
+  "id": "marketplace:functionize-mcp",
+  "text": [],
+  "textOriginal": []
  }
 }
