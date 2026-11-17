@@ -660,7 +660,7 @@
    "description": "Integratie van Asana-projectbeheer. Verbindt Claude Code met Asana's V2 MCP-server (https://mcp.asana.com/v2/mcp) om taken aan te maken en te beheren, projecten te zoeken, opdrachten bij te werken en de voortgang bij te houden. Vereist een eenmalige installatie van uw eigen Asana OAuth-app - voer /asana-setup uit na de installatie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/asana",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f59aa2e6dd7d93e45910afcb7569d73b375f31f7/external_plugins/asana",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0/external_plugins/asana",
    "verified": true,
    "installs": 10796,
    "maker": "",
@@ -3097,8 +3097,8 @@
    "about": [
     "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data."
+   "descriptionOriginal": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:devexpress-blazor-components",
@@ -4162,7 +4162,7 @@
    "description": "GitLab DevOps-platformintegratie. Beheer opslagplaatsen, samenvoegverzoeken, CI/CD-pijplijnen, problemen en wiki's. Volledige toegang tot de uitgebreide DevOps-levenscyclustools van GitLab.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gitlab",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f59aa2e6dd7d93e45910afcb7569d73b375f31f7/external_plugins/gitlab",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0/external_plugins/gitlab",
    "verified": true,
    "installs": 40805,
    "maker": "",
@@ -4866,8 +4866,8 @@
     "Key capabilities include vulnerability scanning, provenance verification, and curation checks on artifacts; governance of MCP tools and AI assets; visibility into build and artifact metadata; and project administration tasks such as repository creation and permission management. The plugin integrates JFrog Platform Skills and MCP tools with simple authentication, while providing reliable, native access to the entire JFrog Platform.",
     "Once installed and authenticated, interact with Claude Code in natural language as usual. Relevant requests are routed through JFrog for action. Try prompts like:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official JFrog plugin. Connect Claude Code to JFrog to manage, secure, and govern your software supply chain. Give agents the context to build secure, compliant software."
+   "descriptionOriginal": "Official JFrog plugin. Connect Claude Code to JFrog to manage, secure, and govern your software supply chain. Give agents the context to build secure, compliant software.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:jules",
@@ -6980,7 +6980,7 @@
    "description": "Creëert interactieve HTML-speeltuinen: op zichzelf staande verkenners van één bestand met visuele bedieningselementen, live preview en promptuitvoer met kopieerknop",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/playground",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/1d8db0deb7967d5bfb1ff7a851a255cb87b01a85/plugins/playground",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0/plugins/playground",
    "verified": true,
    "installs": 64198,
    "maker": "",
@@ -8464,15 +8464,15 @@
    "description": "Genereer een verkenbaar HTML-rapport van het gebruik van Claude Code-sessies (tokens, cache-efficiëntie, subagents, skills en de duurste aanwijzingen) op basis van lokale ~/.claude/projects-transcripties.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/session-report",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/1d8db0deb7967d5bfb1ff7a851a255cb87b01a85/plugins/session-report",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0/plugins/session-report",
    "verified": true,
    "installs": 11694,
    "maker": "",
    "about": [
     "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts."
+   "descriptionOriginal": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:ship-learn-next",
@@ -8517,8 +8517,8 @@
    "about": [
     "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation search, API schema access, GraphQL and Liquid code validation, Hydrogen storefronts, Polaris UI extensions, store management via CLI, and onboarding guidance for both developers and merchants."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Install in"
+   "descriptionOriginal": "Install in",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:signalwire",
@@ -8801,8 +8801,8 @@
     "environment variables, then try these commands and prompts:",
     "— Run a Sourcegraph search using natural language or keyword syntax (e.g., \"find all callers of parseConfig across our Go services\")."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Sourcegraph MCP from Claude Code for code search, navigation, history, and Deep Search."
+   "descriptionOriginal": "Use Sourcegraph MCP from Claude Code for code search, navigation, history, and Deep Search.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:spanner",
@@ -10384,7 +10384,7 @@
   "official:skill-creator",
   "marketplace:functionize-mcp"
  ],
- "updated": "2026-11-17T00:24:18.595026+00:00",
+ "updated": "2026-11-17T23:37:39.030398+00:00",
  "tonight": {
   "date": "2026-11-17",
   "id": "marketplace:functionize-mcp",
