@@ -112,8 +112,8 @@
     "Try asking: \"Use portrait refinement to edit these headshots.\"",
     "Try asking: \"Make an Instagram story for my boutique sale from the design library​.\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video. Edit multiple assets at once, adapt for different platforms, and complete multi-step creative workflows for polished results."
+   "descriptionOriginal": "Brings together Adobe Creative Cloud tools for images, vectors, design, and video. Edit multiple assets at once, adapt for different platforms, and complete multi-step creative workflows for polished results.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:adspirer-ads-agent",
@@ -598,6 +598,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:apptweak-api",
+   "name": "AppTweak API",
+   "origin": "marketplace",
+   "description": "Verbind Claude Code met de AppTweak API via een OAuth-beveiligde MCP-server.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/apptweak-api",
+   "source": "https://github.com/apptweak/mcp-crossclient/tree/7de78dbeeaa53eeb1940b919afaade698d9358ec/plugins/claude-code",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "firstSeen": "2026-11-18",
+   "descriptionOriginal": "Connect Claude Code to the AppTweak API through an OAuth-protected MCP server."
+  },
+  {
    "id": "marketplace:appwrite",
    "name": "appwrite",
    "origin": "marketplace",
@@ -660,7 +675,7 @@
    "description": "Integratie van Asana-projectbeheer. Verbindt Claude Code met Asana's V2 MCP-server (https://mcp.asana.com/v2/mcp) om taken aan te maken en te beheren, projecten te zoeken, opdrachten bij te werken en de voortgang bij te houden. Vereist een eenmalige installatie van uw eigen Asana OAuth-app - voer /asana-setup uit na de installatie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/asana",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0/external_plugins/asana",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/external_plugins/asana",
    "verified": true,
    "installs": 10796,
    "maker": "",
@@ -797,18 +812,18 @@
    "id": "marketplace:auth0",
    "name": "Auth0",
    "origin": "marketplace",
-   "description": "Authenticatie op ondernemingsniveau, eenvoudig te implementeren. Voeg login, SSO, MFA en toegangscontrole toe aan elke app met raamwerkbewuste begeleiding.",
-   "category": "Ontwikkeling",
+   "description": "Essentiële Auth0-skills, waaronder quickstarts, migratie van andere providers en Multi-Factor Authentication (MFA).",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/auth0",
-   "source": "https://github.com/auth0/agent-skills",
-   "verified": false,
+   "source": "https://github.com/auth0/agent-skills/tree/ec201528bf24a84afeaa06f2aaa9829d29c47d85/plugins/auth0",
+   "verified": true,
    "installs": 4680,
-   "maker": "Auth0",
+   "maker": "",
    "about": [
     "Add authentication to any app with Auth0. This plugin detects your framework, scaffolds the right Auth0 SDK integration, and guides you through login, logout, sessions, and protected routes — using current SDK patterns."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Enterprise-grade auth, easy to implement. Add login, SSO, MFA, and access control to any app with framework-aware guidance."
+   "descriptionOriginal": "Essential Auth0 skills including quickstarts, migration from other providers, and Multi-Factor Authentication (MFA)."
   },
   {
    "id": "marketplace:autofix-bot",
@@ -1709,7 +1724,7 @@
   },
   {
    "id": "marketplace:chdb",
-   "name": "chdb",
+   "name": "chDB",
    "origin": "marketplace",
    "description": "Plug-in bron",
    "category": "Overig",
@@ -1719,8 +1734,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Plugin source"
+   "descriptionOriginal": "Plugin source",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:checkly",
@@ -1872,12 +1887,12 @@
   },
   {
    "id": "marketplace:clangd-lsp",
-   "name": "clangd-lsp",
+   "name": "Clangd LSP",
    "origin": "marketplace",
-   "description": "C/C++ taalserver (clangd) voor Claude Code, die code-intelligentie, diagnostiek en opmaak biedt.",
+   "description": "C/C++ taalserver (clangd) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/clangd-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/clangd-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/plugins/clangd-lsp",
    "verified": true,
    "installs": 29851,
    "maker": "",
@@ -1887,7 +1902,7 @@
     "Once installed, the language server activates automatically when you open C or C++ files. Claude will have access to enhanced code understanding, allowing you to ask questions like \"What's wrong with this function?\" or \"Find all references to this struct.\" The plugin requires clangd to be installed on your system — use"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "C/C++ language server (clangd) for Claude Code, providing code intelligence, diagnostics, and formatting."
+   "descriptionOriginal": "C/C++ language server (clangd) for code intelligence"
   },
   {
    "id": "marketplace:claude-code-setup",
@@ -2087,7 +2102,7 @@
   },
   {
    "id": "marketplace:cloud-sql-mysql",
-   "name": "cloud-sql-mysql",
+   "name": "Cloud SQL MySQL",
    "origin": "marketplace",
    "description": "Maak verbinding en communiceer met een Cloud SQL voor MySQL-database en -gegevens.",
    "category": "Data & analyse",
@@ -2138,32 +2153,32 @@
   },
   {
    "id": "marketplace:cloudflare",
-   "name": "cloudflare",
+   "name": "Cloudflare",
    "origin": "marketplace",
-   "description": "Skills voor het Cloudflare-ontwikkelaarsplatform: Workers, Sustainable Objects, Agents SDK, MCP-servers, Wrangler CLI en wij...",
-   "category": "Ontwikkeling",
+   "description": "Bouw, test en implementeer applicaties op Cloudflare met platformbegeleiding Skills en de Cloudflare MCP-server.",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/cloudflare",
    "source": "https://github.com/cloudflare/skills",
-   "verified": false,
+   "verified": true,
    "installs": 17653,
    "maker": "",
    "about": [
     "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and we..."
+   "descriptionOriginal": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server."
   },
   {
    "id": "marketplace:cloudinary",
    "name": "Cloudinary",
    "origin": "marketplace",
-   "description": "Gebruik Cloudinary rechtstreeks in Claude: beheer assets, pas transformaties toe, optimaliseer media conversatie.",
+   "description": "Gebruik Cloudinary rechtstreeks in Claude. Beheer assets, pas transformaties toe, optimaliseer media en meer via natuurlijke gesprekken.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/cloudinary",
    "source": "https://github.com/cloudinary-devs/cloudinary-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 2462,
-   "maker": "Cloudinary",
+   "maker": "",
    "about": [
     "Bring Cloudinary's full media management platform into Claude. This plugin connects five MCP servers covering asset management, environment configuration, structured metadata, AI-powered image and video analysis, and automated media workflows (Mediaflows). Upload, organize, and transform images and videos without leaving the conversation.",
     "The plugin includes a transformations skill that builds and validates Cloudinary delivery URLs from natural language — supporting resize and crop modes, format and quality optimization, effects like background removal and generative fill, video trimming, overlays, and more. A documentation skill fetches live Cloudinary docs so responses are always accurate and backed by official references.",
@@ -2171,7 +2186,7 @@
     "\"Upload this image to my Cloudinary account\""
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Cloudinary directly in Claude: manage assets, apply transformations, optimize media conversationally."
+   "descriptionOriginal": "Use Cloudinary directly in Claude. Manage assets, apply transformations, optimize media, and more through natural conversation."
   },
   {
    "id": "marketplace:cockroachdb",
@@ -3566,8 +3581,8 @@
    "about": [
     "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Expo skills for building, deploying, upgrading, and debugging Expo apps"
+   "descriptionOriginal": "Official Expo skills for building, deploying, upgrading, and debugging Expo apps",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:fakechat",
@@ -3919,7 +3934,7 @@
   },
   {
    "id": "marketplace:followrabbit",
-   "name": "followrabbit",
+   "name": "Followrabbit",
    "origin": "marketplace",
    "description": "GCP-kostenoptimalisatie: bekijk wijzigingen op impact en pas besparingen automatisch toe met behulp van followrabbit CLI.",
    "category": "Code review & testen",
@@ -5651,13 +5666,13 @@
    "id": "marketplace:mcp-server-dev",
    "name": "MCP Server Dev",
    "origin": "marketplace",
-   "description": "Ontwerp en bouw MCP-servers voor Claude. Leer implementatie (HTTP, MCPB, lokaal), tools, authenticatie en interactieve apps.",
+   "description": "Skills voor het ontwerpen en bouwen van MCP-servers die naadloos samenwerken met Claude - begeleiden u door implementatiemodellen (extern HTTP, MCPB, lokaal), toolontwerppatronen, auth en interactieve MCP-apps.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/mcp-server-dev",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/plugins/mcp-server-dev",
    "verified": true,
    "installs": 33959,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "A comprehensive guide for designing and building MCP (Model Context Protocol) servers that work seamlessly with Claude. This plugin provides three composable skills that walk you through the entire process — from choosing the right deployment model and tool design patterns to scaffolding code, adding authentication, and packaging for distribution. It covers remote streamable-HTTP servers, interactive MCP apps with embedded UI widgets, and MCPB bundles for local machine access.",
     "skill follows a structured five-phase workflow: it interrogates your use case, recommends a deployment model (remote HTTP, elicitation, MCP app, MCPB, or local stdio), selects a tool-design pattern (one-tool-per-action vs. search+execute for large APIs), picks a framework (TypeScript SDK or FastMCP for Python), and scaffolds your project. The",
@@ -5665,7 +5680,7 @@
     "skill handles packaging local stdio servers with their runtime into installable bundles that require no Node.js or Python on the user's machine."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Design and build MCP servers for Claude. Learn deployment (HTTP, MCPB, local), tools, auth, and interactive apps."
+   "descriptionOriginal": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps."
   },
   {
    "id": "marketplace:mcp-tunnels",
@@ -5953,8 +5968,8 @@
     "Key capabilities include creating and editing pages with correct MDX and component syntax, restructuring navigation, updating site configuration, and opening pull requests with your changes. A live documentation lookup connects Claude to Mintlify's published docs for real-time reference if the built-in knowledge is ever insufficient to complete a task.",
     "Ask Claude to help with any Mintlify task and the skill activates automatically. Try prompts like \"Update the quickstart guide based on this user feedback\", \"Set up a changelog\", or \"Use the mint CLI to get recent user comments and identify any pages to update.\" For live editing sessions, start with \"check out my Mintlify project.\" Claude will authenticate and open a preview so you can watch changes render in real time."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build beautiful documentation sites with Mintlify. Convert non-markdown files into properly formatted MDX pages, add and modify content with correct component use, and automate documentation updates."
+   "descriptionOriginal": "Build beautiful documentation sites with Mintlify. Convert non-markdown files into properly formatted MDX pages, add and modify content with correct component use, and automate documentation updates.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:miro",
@@ -6387,13 +6402,13 @@
    "description": "De Noibu-plug-in is gebouwd voor e-commerce en overbrugt de kloof tussen klantervaring en omzet door Claude rechtstreeks te verbinden met de sessie-, fout- en conversiegegevens van uw winkel via Noibu - en met de marketing-, ondersteunings- en handelsplatforms die inzicht in beweging brengen. Ga verder dan analyse: ontdek wat u omzet kost, onderneem actie in uw hele stapel, bouw workflows om het werk van begin tot eind te automatiseren.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/noibu",
-   "source": "https://github.com/noibu/ai-plugin/tree/fecba1fdd406288b5c4b0311317083af5aefc02f/src",
+   "source": "https://github.com/noibu/ai-plugin/tree/8638798eeed26117d2ac5b6dc3ffd8538adf86f8/src",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Built for ecommerce, the Noibu plugin bridges the gap between customer experience and revenue by connecting Claude directly to your store's session, error, and conversion data through Noibu — and to the marketing, support, and commerce platforms that put insight into motion. Go beyond analysis: surface what's costing you revenue, take action across your stack, build workflows to automate work end-to-end."
+   "descriptionOriginal": "Built for ecommerce, the Noibu plugin bridges the gap between customer experience and revenue by connecting Claude directly to your store's session, error, and conversion data through Noibu — and to the marketing, support, and commerce platforms that put insight into motion. Go beyond analysis: surface what's costing you revenue, take action across your stack, build workflows to automate work end-to-end.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:notebooklm-integration",
@@ -6424,8 +6439,8 @@
     "After installation, use slash commands like",
     "to find content across your workspace,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Notion Skills + Notion MCP server packaged as a Claude Code plugin."
+   "descriptionOriginal": "Notion Skills + Notion MCP server packaged as a Claude Code plugin.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:numbersgame",
@@ -6712,7 +6727,7 @@
   },
   {
    "id": "marketplace:owkin",
-   "name": "owkin",
+   "name": "Owkin",
    "origin": "marketplace",
    "description": "Communiceer met AI-agenten die zijn gebouwd voor de biologie. Okin bouwt AI-agenten voor de biologie om de ontdekking van geneesmiddelen te versnellen en klinische onderzoeken te verminderen. De Owkin-connector drijft momenteel HistoPLUS aan, een agent die H&E-dia's uit de TCGA-database omzet in gedetailleerde, opvraagbare inzichten. Onderzoekers kunnen het gebruiken om verschillende celtypen te kwantificeren, complexe ruimtelijke micro-omgevingen van tumoren te analyseren en hypothesen te valideren via overlevingsanalyse op cohortniveau.",
    "category": "Data & analyse",
@@ -7495,13 +7510,13 @@
    "id": "marketplace:qodo",
    "name": "Qodo",
    "origin": "marketplace",
-   "description": "Shift-left codebeoordelingsvaardigheden die de kwaliteitsnormen en codebeoordelingsmogelijkheden van Qodo in uw ontwikkelingsworkflow brengen.",
+   "description": "Breng de codebase-intelligentie, codeerstandaarden en codebeoordeling van Qodo naar uw codeeragent.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/qodo",
-   "source": "https://github.com/qodo-ai/qodo-skills",
-   "verified": false,
+   "source": "https://github.com/qodo-ai/qodo-skills/tree/80240e3f5b40d4b8e39935926770f7be0ddb5cde/packages/qodo",
+   "verified": true,
    "installs": 11807,
-   "maker": "Qodo.ai",
+   "maker": "",
    "about": [
     "Qodo brings shift-left code review directly into your Claude Code workflow. It connects to Qodo's AI-powered code quality platform to retrieve relevant coding rules before you write or refactor code, and to resolve PR review feedback without leaving your agent session. The plugin enforces your organization's coding standards consistently across your entire development lifecycle.",
     "skill automatically fetches the most relevant coding rules for your current task using semantic search. When you're about to write, edit, or refactor code, it queries Qodo's rules database and returns applicable standards ranked by relevance, with severity levels (error, warning, recommendation) so you know which rules are strict requirements and which are advisory.",
@@ -7509,7 +7524,7 @@
     "before starting a coding task to load relevant coding standards — the skill also triggers automatically during code generation and refactoring. Use"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Shift-left code review skills that bring Qodo's quality standards and code review capabilities into your development workflow."
+   "descriptionOriginal": "Bring Qodo's codebase intelligence, coding standards, and code review into your coding agent."
   },
   {
    "id": "marketplace:qodo-skills",
@@ -7945,8 +7960,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Find the right people and companies with rich search and buyer signals, access verified emails, phone numbers, and social profiles, and enrich accounts with the one-click RocketReach MCP server integration for Claude Code and Cowork."
+   "descriptionOriginal": "Find the right people and companies with rich search and buyer signals, access verified emails, phone numbers, and social profiles, and enrich accounts with the one-click RocketReach MCP server integration for Claude Code and Cowork.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:root-cause-tracing",
@@ -8034,7 +8049,7 @@
    "description": "Rust-taalserver voor code-intelligentie en -analyse",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/rust-analyzer-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/099387b7a2ea02022bb850becca750246ae12562/plugins/rust-analyzer-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/plugins/rust-analyzer-lsp",
    "verified": true,
    "installs": 35933,
    "maker": "",
@@ -8043,8 +8058,8 @@
     "The plugin supports refactoring operations, integrated rustfmt formatting, and comprehensive code navigation for .rs files. It leverages the same rust-analyzer engine used by VS Code, Vim, Emacs, and other major editors.",
     "Once installed (via rustup, Homebrew, or your package manager), the plugin automatically activates when working with Rust files. Ask Claude to \"analyze this Rust code\", \"find all references to this function\", \"go to the definition of this struct\", or \"check for clippy warnings in my project\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Rust language server for code intelligence and analysis"
+   "descriptionOriginal": "Rust language server for code intelligence and analysis",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sp-global",
@@ -8058,8 +8073,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries"
+   "descriptionOriginal": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sagemaker-ai",
@@ -8769,20 +8784,20 @@
    "id": "marketplace:sonatype-guide",
    "name": "Sonatype Guide",
    "origin": "marketplace",
-   "description": "Sonatype Guide MCP: supply chain intelligence & afhankelijkheidsbeveiligingsanalyse met detectie van kwetsbaarheden en versie-aanbevelingen.",
+   "description": "Sonatype Guide MCP-server voor software supply chain-intelligentie en afhankelijkheidsbeveiligingsanalyse. Scan afhankelijkheden op kwetsbaarheden, ontvang versie-aanbevelingen en controleer de kwaliteitsstatistieken van componenten.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/sonatype-guide",
    "source": "https://github.com/sonatype/sonatype-guide-claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 7484,
-   "maker": "Sonatype",
+   "maker": "",
    "about": [
     "Sonatype Guide connects Claude Code to Sonatype's software supply chain intelligence platform via MCP. It lets you scan your project's dependencies for known vulnerabilities, get secure version recommendations, and evaluate open-source components based on security, licensing, and quality metrics — all without leaving your editor.",
     "The plugin connects to Sonatype's hosted MCP server, providing access to their comprehensive component database. It authenticates using an API token from",
     "After installing and setting your API token, try prompts like: \"What vulnerabilities exist in log4j 2.14.0?\", \"Scan my package.json for vulnerable dependencies\", \"What's the most secure version of lodash?\", or \"Evaluate the quality and licensing of this npm package\"."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sonatype Guide MCP: supply chain intelligence & dependency security analysis with vulnerability detection and version recommendations."
+   "descriptionOriginal": "Sonatype Guide MCP server for software supply chain intelligence and dependency security analysis. Scan dependencies for vulnerabilities, get version recommendations, and check component quality metrics."
   },
   {
    "id": "marketplace:sourcegraph",
@@ -9106,12 +9121,12 @@
   },
   {
    "id": "marketplace:swift-lsp",
-   "name": "swift-lsp",
+   "name": "Swift LSP",
    "origin": "marketplace",
-   "description": "Swift-taalserver (SourceKit-LSP) voor Claude Code, die code-intelligentie levert voor Swift-projecten.",
+   "description": "Swift-taalserver (SourceKit-LSP) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/swift-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/swift-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/plugins/swift-lsp",
    "verified": true,
    "installs": 23378,
    "maker": "",
@@ -9121,7 +9136,7 @@
     "Simply install Swift on your system (via Xcode on macOS or from swift.org on Linux), then open any Swift project. The language server activates automatically when you work with .swift files, providing intelligent code assistance as you develop."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Swift language server (SourceKit-LSP) for Claude Code, providing code intelligence for Swift projects."
+   "descriptionOriginal": "Swift language server (SourceKit-LSP) for code intelligence"
   },
   {
    "id": "community:swiftui-design-skill",
@@ -9265,15 +9280,15 @@
    "description": "De Terraform MCP Server biedt naadloze integratie met het Terraform-ecosysteem, waardoor geavanceerde automatiserings- en interactiemogelijkheden voor de ontwikkeling van Infrastructure as Code (IaC) mogelijk zijn.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/terraform",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/fb370c077e8904ce5a0fbe5c89084f5171863c1f/external_plugins/terraform",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/external_plugins/terraform",
    "verified": true,
    "installs": 10280,
    "maker": "",
    "about": [
     "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development."
+   "descriptionOriginal": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:test-driven-development",
@@ -10382,13 +10397,24 @@
   "official:mcp-builder",
   "official:academy-guide",
   "official:skill-creator",
-  "marketplace:functionize-mcp"
+  "marketplace:functionize-mcp",
+  "marketplace:apollo"
  ],
- "updated": "2026-11-17T23:37:39.030398+00:00",
+ "updated": "2026-11-18T23:01:59.733131+00:00",
  "tonight": {
-  "date": "2026-11-17",
-  "id": "marketplace:functionize-mcp",
-  "text": [],
-  "textOriginal": []
+  "date": "2026-11-18",
+  "id": "marketplace:apollo",
+  "text": [
+   "De Apollo-plug-in biedt 3 vooraf gebouwde skills die meerdere Apollo API's aan elkaar koppelen tot complete verkoopworkflows - geen handmatige stappen, geen schakelen tussen tabbladen. Verrijk elk contact met een naam, e-mailadres of LinkedIn-URL. Maak prospect door uw ICP in gewoon Engels te beschrijven en ontvang gerangschikte leads. Vind, verrijk en laad contacten in één keer in een reeks.",
+   "\"Wie is de CEO van Figma?\" — Apollo retourneert binnen enkele seconden een volledige contactkaart met e-mailadres, telefoon, titel, locatie en bedrijfsgegevens, zelfs voor vage zoekopdrachten waarbij geen exacte match beschikbaar is.",
+   "\"Zoek twintig CFO's voor mij bij Series B fintech-bedrijven in de VS met meer dan 200 werknemers.\" — Apollo zoekt naar overeenkomende bedrijven, verrijkt firmagrafische gegevens in bulk, vindt besluitvormers en retourneert een gerangschikte leadtabel met ICP-fitscores.",
+   "\"Vind beslissers in mijn top 10 van doelaccounts en schrijf ze in voor mijn uitgaande reeks van Q1.\" — Apollo vindt de contacten, verrijkt ze, ontdubbelt ze en laadt ze in bulk in uw reeks met een volledig inschrijvingsoverzicht voor en na de inschrijving."
+  ],
+  "textOriginal": [
+   "The Apollo plugin offers 3 pre-built skills that chain multiple Apollo APIs into complete sales workflows — no manual steps, no tab switching. Enrich any contact from a name, email, or LinkedIn URL. Prospect by describing your ICP in plain English and get ranked leads. Find, enrich, and load contacts into a sequence in one shot.",
+   "\"Who is the CEO of Figma?\" — Apollo returns a full contact card with email, phone, title, location, and company details in seconds, even for fuzzy lookups where an exact match isn't available.",
+   "\"Find me 20 CFOs at Series B fintech companies in the US with over 200 employees.\" — Apollo searches for matching companies, bulk-enriches firmographic data, finds decision-makers, and returns a ranked lead table with ICP fit scores.",
+   "\"Find and enroll decision-makers at my top 10 target accounts into my Q1 outbound sequence.\" — Apollo finds the contacts, enriches them, deduplicates, and bulk-loads them into your sequence with a full enrollment summary before and after enrollment."
+  ]
  }
 }
