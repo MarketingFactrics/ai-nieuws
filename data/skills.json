@@ -17,20 +17,20 @@
   },
   {
    "id": "marketplace:42crunch-api-security-testing",
-   "name": "42crunch-api-security-testing",
+   "name": "42Crunch API Security Testing",
    "origin": "marketplace",
-   "description": "Automatiseer API-beveiliging rechtstreeks in Claude Code met 42Crunch - controleer automatisch OpenAPI-specificaties, detecteer kwetsbaarheden...",
+   "description": "Ontdek API-beveiligingsproblemen tijdens de ontwikkeling: audit, scan, herstel en valideer met AI-vangrails in Claude Code.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/42crunch-api-security-testing",
-   "source": "https://github.com/42Crunch-AI/claude-plugins",
-   "verified": false,
+   "source": "https://github.com/42crunch-ai/claude-plugins/tree/30287f5e3f122a646d1ac5ca3ab96e130c52a3ad/plugins/api-security-testing",
+   "verified": true,
    "installs": 2298,
-   "maker": "42Crunch",
+   "maker": "",
    "about": [
     "Automate API security directly in Claude Code with 42Crunch - automatically audit OpenAPI specs, detect vulnerabilities aligned with OWASP API Security risks (including BOLA/BFLA), and apply AI-powered fixes. Designed for AI-assisted development workflows, it provides continuous guardrails through an audit->scan->remediate->validate loop, ensuring APIs meet enterprise security standards before deployment."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Automate API security directly in Claude Code with 42Crunch - automatically audit OpenAPI specs, detect vulnerabiliti..."
+   "descriptionOriginal": "Catch API security issues during development: audit, scan, remediate, validate with AI guardrails in Claude Code."
   },
   {
    "id": "official:academy-guide",
@@ -473,20 +473,20 @@
   },
   {
    "id": "marketplace:amplitude",
-   "name": "amplitude",
+   "name": "Amplitude",
    "origin": "marketplace",
    "description": "Gebruik Amplitude als een expert: instrumentanalyses, ontdek productmogelijkheden, analyseer grafieken, maak dashboards, beheer experimenten en krijg inzicht in gebruikers en accounts",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/amplitude",
-   "source": "https://github.com/amplitude/mcp-marketplace/tree/56df461e0bd803d78c1ff46e79e8fab3b859b2e9/plugins/amplitude",
+   "source": "https://github.com/amplitude/mcp-marketplace/tree/94f58ccaeaff531aaa54c44186e0bf747257da2d/plugins/amplitude",
    "verified": true,
    "installs": 2318,
    "maker": "",
    "about": [
     "Use Amplitude as an expert analyst — instrument Amplitude, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts"
+   "descriptionOriginal": "Use Amplitude like an expert - instrument analytics, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:amplitude-experimental",
@@ -1129,8 +1129,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Incidents, logs, metrics, errors and RUM"
+   "descriptionOriginal": "Incidents, logs, metrics, errors and RUM",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:bigdata-com",
@@ -1511,10 +1511,10 @@
    "id": "marketplace:csharp-lsp",
    "name": "C# LSP",
    "origin": "marketplace",
-   "description": "C#-taalserver voor Claude Code, die code-intelligentie en diagnostiek biedt.",
+   "description": "C#-taalserver voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/csharp-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/csharp-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/df9699a55c56707e9948a32951ea356638ea8519/plugins/csharp-lsp",
    "verified": true,
    "installs": 43741,
    "maker": "",
@@ -1525,7 +1525,7 @@
     "dotnet tool install --global csharp-ls"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "C# language server for Claude Code, providing code intelligence and diagnostics."
+   "descriptionOriginal": "C# language server for code intelligence"
   },
   {
    "id": "marketplace:canva",
@@ -2661,16 +2661,16 @@
    "id": "marketplace:crowdstrike-falcon-fusion",
    "name": "CrowdStrike Falcon Fusion",
    "origin": "marketplace",
-   "description": "CrowdStrike Falcon Fusion-skills automatiseren het maken van zelfstandige SOAR-workflows, van het ontdekken van acties tot implementatie en uitvoering. Doorzoek de live platformactiecatalogus, schrijf gevalideerde YAML met de juiste ID's en het juiste schema, importeer workflows naar een CID, geef ze vrij, activeer de uitvoering met payloads en beheer Falcon Next-Gen SIEM-opzoekbestanden.",
-   "category": "Marketing & business",
+   "description": "CrowdStrike Falcon Fusion-skills voor het schrijven, implementeren en uitvoeren van Fusion-workflows. Inclusief detectie van live acties, YAML-ontwerp met schemavalidatie, import en release van workflows, monitoring van uitvoering en Falcon Next-Gen SIEM-opzoekbestanden.",
+   "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/crowdstrike-falcon-fusion",
-   "source": "https://github.com/CrowdStrike/fusion-skills",
-   "verified": false,
+   "source": "https://github.com/crowdstrike/fusion-skills",
+   "verified": true,
    "installs": 0,
-   "maker": "CrowdStrike",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CrowdStrike Falcon Fusion skills automate standalone SOAR workflow creation, from action discovery through deployment and execution. Search the live platform action catalog, author validated YAML with correct IDs and schema, import workflows to a CID, release them, trigger execution with payloads, and manage Falcon Next-Gen SIEM lookup files."
+   "descriptionOriginal": "CrowdStrike Falcon Fusion skills for authoring, deploying, and executing Fusion workflows. Includes live action discovery, YAML authoring with schema validation, workflow import and release, execution monitoring, and Falcon Next-Gen SIEM lookup files."
   },
   {
    "id": "marketplace:crowdstrike-falcon-foundry",
@@ -3402,7 +3402,7 @@
   },
   {
    "id": "marketplace:employment-legal",
-   "name": "employment-legal",
+   "name": "Employment Legal",
    "origin": "marketplace",
    "description": "Beoordeelt aanwervingen en ontslagen op jurisdictiespecifieke risicovlaggen, classificeert werknemers op basis van de controlerende staatstest, houdt verlofdeadlines bij voordat ze worden gemist, voert interne onderzoeken uit en stelt beleid op met staatssupplementen waar de wet afwijkt.",
    "category": "Code review & testen",
@@ -3412,8 +3412,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs."
+   "descriptionOriginal": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:endgame",
@@ -3532,20 +3532,20 @@
   },
   {
    "id": "marketplace:exa",
-   "name": "exa",
+   "name": "Exa Deep Research",
    "origin": "marketplace",
-   "description": "Exa AI-webzoeken, diepgaand onderzoek en inhoudextractie. Biedt MCP-tools en onderzoeksvaardigheden voor uitgebreide we...",
+   "description": "Exa zoeken op internet, inhoud ophalen en onderzoek in meerdere stappen via MCP-tools en -skills.",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/exa",
    "source": "https://github.com/exa-labs/exa-mcp-server",
-   "verified": false,
+   "verified": true,
    "installs": 5255,
-   "maker": "Exa",
+   "maker": "",
    "about": [
     "Exa AI web search, deep research, and content extraction. Provides MCP tools and research skills for comprehensive web search, people discovery, company research, academic papers, and more."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Exa AI web search, deep research, and content extraction. Provides MCP tools and research skills for comprehensive we..."
+   "descriptionOriginal": "Exa web search, content fetching, and multi-step research via MCP tools and skills."
   },
   {
    "id": "marketplace:explanatory-output-style",
@@ -4091,7 +4091,7 @@
   },
   {
    "id": "marketplace:gen-sage",
-   "name": "gen-sage",
+   "name": "Gen Sage",
    "origin": "marketplace",
    "description": "Veiligheid voor agenten - Agentdetectie en respons (ADR) voor AI-agenten",
    "category": "Ontwikkeling",
@@ -4571,8 +4571,8 @@
    "about": [
     "Find and verify professional email addresses, search contacts by domain, and enrich company data -- directly in Claude."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Find and verify professional email addresses, search contacts by domain, enrich company and person data, organize leads and lists, run outreach sequences, and push to your CRM -- directly in Claude."
+   "descriptionOriginal": "Find and verify professional email addresses, search contacts by domain, enrich company and person data, organize leads and lists, run outreach sequences, and push to your CRM -- directly in Claude.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:hyperframes",
@@ -4593,20 +4593,20 @@
   },
   {
    "id": "marketplace:idmp-plugin",
-   "name": "idmp-plugin",
+   "name": "IDMP Plugin",
    "origin": "marketplace",
    "description": "TDengine IDMP-plug-in met pakketvaardigheden voor detectie, schema-inspectie en veilige operationele workflows.",
    "category": "Productiviteit",
    "url": "https://claude.com/marketplace/plugins/idmp-plugin",
-   "source": "https://github.com/taosdata/agent-skills",
-   "verified": false,
+   "source": "https://github.com/taosdata/agent-skills/tree/41f06edc2027add6c2aee0abd42dd4847ca3c066/plugins/idmp-plugin",
+   "verified": true,
    "installs": 115,
-   "maker": "TaosData",
+   "maker": "",
    "about": [
     "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows."
+   "descriptionOriginal": "TDengine IDMP plugin with packaged skills for discovery, schema inspection, and safe operational workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:image-enhancer",
@@ -5002,8 +5002,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Run your AI operating model from Claude. Read your vision map and process coverage, diagnose where cycle time goes, redesign processes, set quality bars on AI-run steps, track your AI tools and outcomes, and raise opportunities. Connects to your Kowalah account."
+   "descriptionOriginal": "Run your AI operating model from Claude. Read your vision map and process coverage, diagnose where cycle time goes, redesign processes, set quality bars on AI-run steps, track your AI tools and outcomes, and raise opportunities. Connects to your Kowalah account.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:krea",
@@ -5776,7 +5776,7 @@
   },
   {
    "id": "marketplace:meeting-prep-agent",
-   "name": "meeting-prep-agent",
+   "name": "Meeting Prep Agent",
    "origin": "marketplace",
    "description": "Briefingpakket vóór elke klantbijeenkomst",
    "category": "Ontwikkeling",
@@ -5786,8 +5786,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Briefing pack before every client meeting"
+   "descriptionOriginal": "Briefing pack before every client meeting",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mercadopago",
@@ -6454,8 +6454,8 @@
    "installs": 0,
    "maker": "Numbers Game B.V.",
    "about": [],
-   "firstSeen": "2026-11-17",
-   "descriptionOriginal": "QuickBooks Online and Xero bookkeeping inside Claude: month-end close, book reviews, bank feed coding, reconciliations and client reports, through the NumbersGame MCP servers and the NumbersGame Wizard skill."
+   "descriptionOriginal": "QuickBooks Online and Xero bookkeeping inside Claude: month-end close, book reviews, bank feed coding, reconciliations and client reports, through the NumbersGame MCP servers and the NumbersGame Wizard skill.",
+   "firstSeen": "2026-11-17"
   },
   {
    "id": "marketplace:nvidia-skills",
@@ -6668,6 +6668,21 @@
    ],
    "descriptionOriginal": "Connect, query, and interact with Oracle Databases and their data.",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:orbit-by-postman-api-and-mcp-server",
+   "name": "Orbit by Postman API and MCP Server",
+   "origin": "marketplace",
+   "description": "Ontdek API's met behulp van Postman Orbit, een agentvriendelijke zoek-API die is ontworpen voor AI-aangedreven app-ontwerp.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/orbit-by-postman-api-and-mcp-server",
+   "source": "https://github.com/postman-devrel/orbit-claudecode-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "firstSeen": "2026-11-19",
+   "descriptionOriginal": "Discover APIs using Postman Orbit, an agent-friendly search API designed for AI-powered app design."
   },
   {
    "id": "marketplace:ory-agent-plugin",
@@ -7024,8 +7039,8 @@
     "Key capabilities include navigating to URLs, clicking elements, filling forms, handling file uploads, managing browser dialogs, taking screenshots, generating PDFs, and running custom Playwright scripts. The server also provides tab management, network request inspection, console message retrieval, and comprehensive test assertion tools for end-to-end testing workflows.",
     "Ask Claude to perform browser tasks naturally. Try prompts like \"Navigate to example.com and take a screenshot\", \"Fill out the login form with username test@email.com\", \"Click the Submit button and wait for the confirmation message\", or \"Run an end-to-end test that verifies the checkout flow works correctly\". Claude will use the appropriate browser automation tools to complete these tasks."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows."
+   "descriptionOriginal": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:playwright-browser-automation",
@@ -7174,7 +7189,7 @@
   },
   {
    "id": "marketplace:pr-review-toolkit",
-   "name": "pr-review-toolkit",
+   "name": "PR Review Toolkit",
    "origin": "marketplace",
    "description": "Uitgebreide PR-beoordelingsagenten die gespecialiseerd zijn in opmerkingen, tests, foutafhandeling, typeontwerp, codekwaliteit en codevereenvoudiging",
    "category": "Code review & testen",
@@ -7189,8 +7204,8 @@
     "identifies gaps in test coverage and prioritizes missing tests by impact;",
     "detects hidden error handling issues and inadequate logging;"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification"
+   "descriptionOriginal": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:preset-cli-skills",
@@ -8664,8 +8679,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Enhances Claude's ability to work with, debug, and build Slint GUI applications"
+   "descriptionOriginal": "Enhances Claude's ability to work with, debug, and build Slint GUI applications",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:small-business",
@@ -9032,8 +9047,8 @@
     "The plugin enforces SumUp's security best practices throughout development — keeping API keys server-side, preventing raw card data handling, ensuring server-to-server checkout creation, and requiring unique transaction references for duplicate prevention. Every implementation includes failure handling strategies and validation test plans.",
     "How to use: Ask Claude to help you build a SumUp integration. For example, try \"Integrate SumUp card payments into my Android POS app\", \"Add SumUp online checkout to my e-commerce site\", \"Set up SumUp Cloud API to control a Solo card reader remotely\", or \"Add SumUp payment processing to my Node.js backend\". The plugin will identify the right integration path, walk you through the implementation end-to-end, and provide endpoint specifications with retry and error handling."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for SumUp payment integrations across terminal and online checkout flows"
+   "descriptionOriginal": "Skills for SumUp payment integrations across terminal and online checkout flows",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:supabase",
@@ -9280,7 +9295,7 @@
    "description": "De Terraform MCP Server biedt naadloze integratie met het Terraform-ecosysteem, waardoor geavanceerde automatiserings- en interactiemogelijkheden voor de ontwikkeling van Infrastructure as Code (IaC) mogelijk zijn.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/terraform",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/external_plugins/terraform",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/df9699a55c56707e9948a32951ea356638ea8519/external_plugins/terraform",
    "verified": true,
    "installs": 10280,
    "maker": "",
@@ -9541,7 +9556,7 @@
   },
   {
    "id": "marketplace:ui-theme-designer",
-   "name": "ui-theme-designer",
+   "name": "UI Theme Designer",
    "origin": "marketplace",
    "description": "Algemene plug-in voor codeeragenten die werken met de SAP Help-pagina's van de UI-themaontwerper en het SAP Design System, inclusief SAP Fiori-ontwerptokens.",
    "category": "Design & media",
@@ -9553,8 +9568,8 @@
    "about": [
     "Plugin for coding agents working with UI theme designer. Bundles two skills: how-to and conceptual answers about UI theme designer on BTP, and questions about the SAP Design System and SAP Fiori design tokens — theme parameters and component-level parameter usage in UI5, UI5 Web Components, and Fundamental Styles."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "General plugin for coding agents working with the UI theme designer SAP Help pages and the SAP Design System — including SAP Fiori design tokens."
+   "descriptionOriginal": "General plugin for coding agents working with the UI theme designer SAP Help pages and the SAP Design System — including SAP Fiori design tokens.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ui5",
@@ -9863,8 +9878,8 @@
    "about": [
     "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automation inside Claude Cowork and Claude Code."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automation inside Claude Cowork and Claude Code."
+   "descriptionOriginal": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automation inside Claude Cowork and Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:video-downloader",
@@ -9910,8 +9925,8 @@
     "Install the plugin and invoke the skill to start building an extension. The workflow begins automatically at Phase 0, where you describe your extension and confirm your environment. Example prompts:",
     "/vsql-extension-builder Build a JSON path query extension for MySQL"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server."
+   "descriptionOriginal": "Skills for VillageSQL (MySQL with extensions): build extensions end-to-end (including porting PostgreSQL extensions to MySQL) and install VillageSQL Server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:voila-api",
@@ -10398,23 +10413,24 @@
   "official:academy-guide",
   "official:skill-creator",
   "marketplace:functionize-mcp",
-  "marketplace:apollo"
+  "marketplace:apollo",
+  "marketplace:csharp-lsp"
  ],
- "updated": "2026-11-18T23:01:59.733131+00:00",
+ "updated": "2026-11-19T23:10:28.528432+00:00",
  "tonight": {
-  "date": "2026-11-18",
-  "id": "marketplace:apollo",
+  "date": "2026-11-19",
+  "id": "marketplace:csharp-lsp",
   "text": [
-   "De Apollo-plug-in biedt 3 vooraf gebouwde skills die meerdere Apollo API's aan elkaar koppelen tot complete verkoopworkflows - geen handmatige stappen, geen schakelen tussen tabbladen. Verrijk elk contact met een naam, e-mailadres of LinkedIn-URL. Maak prospect door uw ICP in gewoon Engels te beschrijven en ontvang gerangschikte leads. Vind, verrijk en laad contacten in één keer in een reeks.",
-   "\"Wie is de CEO van Figma?\" — Apollo retourneert binnen enkele seconden een volledige contactkaart met e-mailadres, telefoon, titel, locatie en bedrijfsgegevens, zelfs voor vage zoekopdrachten waarbij geen exacte match beschikbaar is.",
-   "\"Zoek twintig CFO's voor mij bij Series B fintech-bedrijven in de VS met meer dan 200 werknemers.\" — Apollo zoekt naar overeenkomende bedrijven, verrijkt firmagrafische gegevens in bulk, vindt besluitvormers en retourneert een gerangschikte leadtabel met ICP-fitscores.",
-   "\"Vind beslissers in mijn top 10 van doelaccounts en schrijf ze in voor mijn uitgaande reeks van Q1.\" — Apollo vindt de contacten, verrijkt ze, ontdubbelt ze en laadt ze in bulk in uw reeks met een volledig inschrijvingsoverzicht voor en na de inschrijving."
+   "C#-taalserverintegratie voor Claude Code, die rijke code-intelligentie biedt voor C#-projecten. Deze plug-in wordt aangedreven door de op Roslyn gebaseerde csharp-ls-taalserver en maakt intelligente codeaanvulling, realtime diagnostiek, symboolnavigatie, hover-documentatie en refactoring-mogelijkheden voor .cs-bestanden mogelijk.",
+   "Belangrijke functies zijn onder meer automatische foutdetectie en -rapportage, go-to-definition, referenties zoeken, code-opmaak met .editorconfig-ondersteuning en slimme suggesties op basis van uw projectcontext. De plug-in ondersteunt .NET Core-, .NET Framework- en multi-projectoplossingen.",
+   "Na het installeren van de plug-in en de csharp-ls taalserver (via",
+   "dotnet tool install --global csharp-ls"
   ],
   "textOriginal": [
-   "The Apollo plugin offers 3 pre-built skills that chain multiple Apollo APIs into complete sales workflows — no manual steps, no tab switching. Enrich any contact from a name, email, or LinkedIn URL. Prospect by describing your ICP in plain English and get ranked leads. Find, enrich, and load contacts into a sequence in one shot.",
-   "\"Who is the CEO of Figma?\" — Apollo returns a full contact card with email, phone, title, location, and company details in seconds, even for fuzzy lookups where an exact match isn't available.",
-   "\"Find me 20 CFOs at Series B fintech companies in the US with over 200 employees.\" — Apollo searches for matching companies, bulk-enriches firmographic data, finds decision-makers, and returns a ranked lead table with ICP fit scores.",
-   "\"Find and enroll decision-makers at my top 10 target accounts into my Q1 outbound sequence.\" — Apollo finds the contacts, enriches them, deduplicates, and bulk-loads them into your sequence with a full enrollment summary before and after enrollment."
+   "C# language server integration for Claude Code, providing rich code intelligence for C# projects. Powered by the Roslyn-based csharp-ls language server, this plugin enables intelligent code completion, real-time diagnostics, symbol navigation, hover documentation, and refactoring capabilities for .cs files.",
+   "Key features include automatic error detection and reporting, go-to-definition, find references, code formatting with .editorconfig support, and smart suggestions based on your project context. The plugin supports .NET Core, .NET Framework, and multi-project solutions.",
+   "After installing the plugin and the csharp-ls language server (via",
+   "dotnet tool install --global csharp-ls"
   ]
  }
 }
