@@ -136,6 +136,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:adspirer-advertising-agent",
+   "name": "Adspirer Advertising Agent",
+   "origin": "marketplace",
+   "description": "Voer Google Ads, Meta (Facebook en Instagram) Ads, TikTok Ads, LinkedIn Ads, Microsoft Advertising (Bing), Amazon Ads, Walmart Connect en ChatGPT Ads van Claude uit via de gehoste MCP-server van Adspirer. Onderzoek zoekwoorden met live CPC en zoekvolume, lanceer en optimaliseer PPC, betaalde sociale- en retailmediacampagnes, houd ROAS, ACoS, CPA, CTR en kosten per lead bij, vind verspilde uitgaven, controleer het bijhouden van conversies en schrijf merkadvertentieteksten. Het kan ook Google Analytics 4, Search Console en Tag lezen",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/adspirer-advertising-agent",
+   "source": "https://github.com/adspirer/adspirer-claude-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Adspirer",
+   "about": [],
+   "firstSeen": "2026-11-20",
+   "descriptionOriginal": "Run Google Ads, Meta (Facebook and Instagram) Ads, TikTok Ads, LinkedIn Ads, Microsoft Advertising (Bing), Amazon Ads, Walmart Connect and ChatGPT Ads from Claude through Adspirer's hosted MCP server. Research keywords with live CPC and search volume, launch and optimize PPC, paid social and retail media campaigns, track ROAS, ACoS, CPA, CTR and cost per lead, find wasted spend, audit conversion tracking, and write on-brand ad copy. It can also read Google Analytics 4, Search Console and Tag"
+  },
+  {
    "id": "marketplace:agent-sdk-dev",
    "name": "Agent SDK Dev",
    "origin": "marketplace",
@@ -880,6 +895,21 @@
    "descriptionOriginal": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions."
   },
   {
+   "id": "marketplace:aws-continuum",
+   "name": "AWS Continuum",
+   "origin": "marketplace",
+   "description": "Ontdek, prioriteer, valideer en herstel beveiligingsrisico's gedurende de hele levenscyclus van softwareontwikkeling met AWS Continuum, rechtstreeks vanuit uw codeeragent. Ontdek welke risico's reëel zijn en breng elk risico tot een beproefde oplossing.",
+   "category": "Security",
+   "url": "https://claude.com/marketplace/plugins/aws-continuum",
+   "source": "https://github.com/aws/agent-toolkit-for-aws/tree/12d7f7868707fbb10a9616ff5e1ba6b19af7dba1/plugins/aws-continuum",
+   "verified": true,
+   "installs": 0,
+   "maker": "Amazon Web Services",
+   "about": [],
+   "firstSeen": "2026-11-20",
+   "descriptionOriginal": "Discover, prioritize, validate, and remediate security risks across the software development lifecycle with AWS Continuum, right from your coding agent. See which risks are real and drive each one to a tested fix."
+  },
+  {
    "id": "marketplace:aws-core",
    "name": "AWS Core",
    "origin": "marketplace",
@@ -1218,7 +1248,7 @@
   },
   {
    "id": "marketplace:biorxiv",
-   "name": "biorxiv",
+   "name": "bioRxiv",
    "origin": "marketplace",
    "description": "Toegang tot preprintgegevens van bioRxiv en medRxiv. De bioRxiv Connector geeft Claude toegang tot bioRxiv en medRxiv preprint-servers, waar onderzoekspapers in de biologische en medische wetenschappen worden gehost die vóór peer review zijn geplaatst.",
    "category": "Code review & testen",
@@ -1228,8 +1258,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access to bioRxiv and medRxiv preprint data. The bioRxiv Connector gives Claude access to bioRxiv and medRxiv preprint servers, hosting research papers in biological and medical sciences posted before peer review."
+   "descriptionOriginal": "Access to bioRxiv and medRxiv preprint data. The bioRxiv Connector gives Claude access to bioRxiv and medRxiv preprint servers, hosting research papers in biological and medical sciences posted before peer review.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:bitmovin",
@@ -1754,7 +1784,7 @@
   },
   {
    "id": "marketplace:chembl",
-   "name": "chembl",
+   "name": "ChEMBL",
    "origin": "marketplace",
    "description": "Toegang tot de ChEMBL-database. De ChEMBL Connector geeft Claude toegang tot de ChEMBL Database, een handmatig samengestelde bron van bioactieve medicijnachtige verbindingen met kwantitatieve binding en functionele gegevens tegen biologische doelwitten.",
    "category": "Data & analyse",
@@ -1764,8 +1794,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Access to the ChEMBL Database. The ChEMBL Connector gives Claude access to the ChEMBL Database, a manually curated resource of bioactive drug-like compounds with quantitative binding and functional data against biological targets."
+   "descriptionOriginal": "Access to the ChEMBL Database. The ChEMBL Connector gives Claude access to the ChEMBL Database, a manually curated resource of bioactive drug-like compounds with quantitative binding and functional data against biological targets.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:chrome-devtools-mcp",
@@ -1999,13 +2029,13 @@
    "id": "marketplace:claude-security",
    "name": "Claude Security",
    "origin": "marketplace",
-   "description": "Scannen van kwetsbaarheden en het genereren van patches met onderzoeksagenten en validatie van tegenstanders",
+   "description": "Diepgaande kwetsbaarheidsscans van uw eigen code, volledig uitgevoerd binnen uw Claude Code-sessie op een gekozen inspanningsniveau, waarbij elke bevinding wordt uitgedaagd voordat deze wordt gerapporteerd en het verificatiecijfer in code wordt berekend. Zet overgebleven bevindingen om in gerichte patches, elk geverifieerd door een panel van agenten, die u kunt toepassen wanneer u maar wilt. Zie de plug-in README voor de lagen, het rapportformaat en het vertrouwensmodel.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/claude-security",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/c447c3207a425bc4e2a0d068435f64b0477ae981/plugins/claude-security",
    "verified": true,
    "installs": 8580,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "The vulnerability detection and patching capabilities behind Claude Security, packaged for Claude Code. Scans run inside your session on your machine, against any repository you can clone.",
     "Scan Codebase maps your repository's architecture, threat-models every component, fans research agents across the code, and verifies what they find. Each finding comes back with a severity, a CWE category, potential impact, reproduction steps, and a suggested path to remediation.",
@@ -2013,7 +2043,7 @@
     "covers the whole repository, including code you didn't write"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Vulnerability scanning and patch generation with researcher agents and adversarial validation"
+   "descriptionOriginal": "Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort tier, with every finding challenged before it is reported and the verification tally computed in code. Turns surviving findings into targeted patches, each verified by a panel of agents, that you apply when you choose. See the plugin README for the tiers, the report format, and the trust model."
   },
   {
    "id": "official:claude-api",
@@ -2387,7 +2417,7 @@
    "description": "Verander Common Room in uw GTM-copiloot. Onderzoek accounts en contacten, bereid gesprekken voor met deelnemersprofielen en gesprekspunten, en stel een persoonlijk contact op via e-mail, LinkedIn en telefoon.",
    "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/common-room",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965/partner-built/common-room",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/0e0fcacddcc892eb92a1b7873ff9d68159c47571/partner-built/common-room",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -2834,13 +2864,13 @@
    "id": "marketplace:data",
    "name": "Data",
    "origin": "marketplace",
-   "description": "Schrijf SQL, verken datasets en genereer inzichten. Bouw visualisaties en dashboards op basis van onbewerkte gegevens.",
+   "description": "Schrijf SQL, verken datasets en genereer sneller inzichten. Bouw visualisaties en dashboards en zet ruwe data om in duidelijke verhalen voor belanghebbenden.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/data",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data",
    "verified": true,
    "installs": 7655,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Data transforms Claude into a data analyst collaborator. Explore datasets, write optimized SQL for any dialect, build publication-quality visualizations, and create interactive dashboards — all in one plugin.",
     "Connect your data warehouse (Snowflake, Databricks, BigQuery, or any SQL-compatible database) and Claude will query directly, explore schemas, and iterate on analyses end-to-end. Without a connection, paste SQL results or upload CSV/Excel files for analysis.",
@@ -2848,7 +2878,24 @@
     "for optimized SQL with best practices,"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Write SQL, explore datasets, and generate insights. Build visualizations and dashboards from raw data."
+   "descriptionOriginal": "Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders."
+  },
+  {
+   "id": "marketplace:data-agent-kit-starter-pack",
+   "name": "Data Agent Kit Starter Pack",
+   "origin": "marketplace",
+   "description": "Deze plug-in biedt een gespecialiseerd pakket aan skills voor data-ingenieurs en database-professionals die aan Google Cloud werken. Het fungeert als deskundige assistent, waardoor u natuurlijke taalprompts in uw favoriete codeeragent kunt gebruiken om complexe datapijplijnen te ontwerpen, gegevens te transformeren met dbt, Spark- en BigQuery SQL-notebooks te schrijven en end-to-end-workflows in het data-ecosysteem van GCP te orkestreren.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/data-agent-kit-starter-pack",
+   "source": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
+   "verified": true,
+   "installs": 2308,
+   "maker": "",
+   "about": [
+    "Specialized suite of skills for data engineers on Google Cloud — architect data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across BigQuery, Spanner, BigLake, and Dataproc."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem."
   },
   {
    "id": "marketplace:data-engineering",
@@ -2868,23 +2915,6 @@
     "Author new Airflow DAGs through a guided Discover → Plan → Implement → Validate → Test → Iterate workflow, with built-in validation commands that catch errors before you deploy. Integrate dbt projects into Airflow using Astronomer Cosmos, with support for multiple execution modes and parsing strategies. Migrate pipelines from Airflow 2.x to 3.x with dedicated upgrade assistance."
    ],
    "descriptionOriginal": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
-   "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:data-agent-kit-starter-pack",
-   "name": "data-agent-kit-starter-pack",
-   "origin": "marketplace",
-   "description": "Gespecialiseerd pakket aan skills voor data-ingenieurs op Google Cloud: ontwerp datapipelines, transformeer data met dbt, w...",
-   "category": "Design & media",
-   "url": "https://claude.com/marketplace/plugins/data-agent-kit-starter-pack",
-   "source": "https://github.com/gemini-cli-extensions/data-agent-kit-starter-pack",
-   "verified": false,
-   "installs": 2308,
-   "maker": "Google LLC",
-   "about": [
-    "Specialized suite of skills for data engineers on Google Cloud — architect data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across BigQuery, Spanner, BigLake, and Dataproc."
-   ],
-   "descriptionOriginal": "Specialized suite of skills for data engineers on Google Cloud — architect data pipelines, transform data with dbt, w...",
    "firstSeen": "2000-01-01"
   },
   {
@@ -3090,13 +3120,13 @@
    "description": "Versnel ontwerpworkflows: kritiek, ontwerpsysteembeheer, UX-schrijven, toegankelijkheidsaudits, onderzoekssynthese en overdracht van dev. Van verkenning tot pixel-perfecte specificaties.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/design",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/design",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/0e0fcacddcc892eb92a1b7873ff9d68159c47571/design",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Accelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs."
+   "descriptionOriginal": "Accelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:desktop-commander",
@@ -3586,20 +3616,20 @@
   },
   {
    "id": "marketplace:fakechat",
-   "name": "fakechat",
+   "name": "Fakechat",
    "origin": "marketplace",
-   "description": "Localhost-webchat voor het testen van de kanaalmeldingsstroom. Geen tokens, geen toegangscontrole, geen service van derden.",
+   "description": "Localhost iMessage-stijl webchat voor Claude Code - testoppervlak met bestandsupload en -bewerkingen. Geen tokens, geen toegangscontrole.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/fakechat",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1aa8f02ec8327f513686934f458a620f83db91ed/external_plugins/fakechat",
+   "verified": true,
    "installs": 7896,
    "maker": "",
    "about": [
     "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service."
+   "descriptionOriginal": "Localhost iMessage-style web chat for Claude Code — test surface with file upload and edits. No tokens, no access control."
   },
   {
    "id": "community:family-history-research",
@@ -4028,6 +4058,21 @@
    "descriptionOriginal": "Captures full-page screenshots of web pages via Chrome DevTools Protocol with zero dependencies."
   },
   {
+   "id": "marketplace:fullenrich",
+   "name": "FullEnrich",
+   "origin": "marketplace",
+   "description": "FullEnrich MCP-zoekopdracht, -verrijking en CSV/JSON-export voor AI-agents. Vind prospects, verrijk geverifieerde e-mails en telefoonnummers via watervalverrijking (meer dan 25 dataproviders) en exporteer resultaten. Inclusief 9 begeleide skills voor prospectie, CSV-verrijking, outreach, reeksen, voorbereiding van vergaderingen, talentsourcing, lookalikes, organigrammen en optionele orkestratie van een afzonderlijk verbonden CRM MCP.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/fullenrich",
+   "source": "https://github.com/fullenrich/fullenrich-skills",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "firstSeen": "2026-11-20",
+   "descriptionOriginal": "FullEnrich MCP search, enrichment, and CSV/JSON export for AI agents. Find prospects, enrich verified emails and phone numbers via waterfall enrichment (25+ data providers), and export results. Includes 9 guided skills for prospecting, CSV enrichment, outreach, sequences, meeting prep, talent sourcing, lookalikes, org charts, and optional orchestration of a separately connected CRM MCP."
+  },
+  {
    "id": "marketplace:fullstory",
    "name": "Fullstory",
    "origin": "marketplace",
@@ -4361,8 +4406,8 @@
    "installs": 0,
    "maker": "Greenhouse Software, Inc.",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Recruiter workflows on your Greenhouse data: a daily brief, the week's interviews, candidate status, debriefs with confirm-first notes and stage moves, pipeline and source reviews, draft scorecards from your own notes and an access check, most shown as a page, plus Greenhouse's style on other visuals. Reads respect your Greenhouse permissions; skills preview each write or nudge and wait for your yes, and send nudges only through your own chat or email tool. Greenhouse MCP is in open beta."
+   "descriptionOriginal": "Recruiter workflows on your Greenhouse data: a daily brief, the week's interviews, candidate status, debriefs with confirm-first notes and stage moves, pipeline and source reviews, draft scorecards from your own notes and an access check, most shown as a page, plus Greenhouse's style on other visuals. Reads respect your Greenhouse permissions; skills preview each write or nudge and wait for your yes, and send nudges only through your own chat or email tool. Greenhouse MCP is in open beta.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:greptile",
@@ -4752,7 +4797,7 @@
    "description": "Bouw QuickBooks-integraties met het Intuit Developer Platform – werkruimte- en app-installatie, sandboxbeheer, browser OAuth en genereer geverifieerde QuickBooks API-aanroepen via het Intuit Developer Platform.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/intuit-developer",
-   "source": "https://github.com/intuit/intuit-plugins-official/tree/89e37a6f7f5ac70d372bcfe1e61e4fd7a031f259/plugins/intuit-developer",
+   "source": "https://github.com/intuit/intuit-plugins-official/tree/f9281f7a156ab7bc24f3c03d67b22b1d9bae4ffc/plugins/intuit-developer",
    "verified": true,
    "installs": 0,
    "maker": "Intuit",
@@ -4851,18 +4896,18 @@
    "description": "Java-taalserver (Eclipse JDT.LS) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/jdtls-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/jdtls-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/d7d32797e7e02708d0bb00ffe8b8f2397dc1aea6/plugins/jdtls-lsp",
    "verified": true,
    "installs": 33734,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Integrates Eclipse JDT Language Server with Claude Code to provide comprehensive Java development support. Get real-time code intelligence including syntax error detection, code completion with Javadoc hovers, semantic highlighting, and navigation features like type search, call hierarchy, and code outline.",
     "Features powerful refactoring capabilities including import organization, code actions, quick fixes, and source refactoring. Supports Java versions 1.8 through 24 with Maven, Gradle, and standalone Java project configurations. Includes annotation processing support and automatic source resolution for external libraries.",
     "Once installed, the Java language server activates automatically when working with",
     "files. Claude Code will leverage the language server for intelligent code suggestions, error diagnostics, and refactoring operations as you work on Java projects."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Java language server (Eclipse JDT.LS) for code intelligence"
+   "descriptionOriginal": "Java language server (Eclipse JDT.LS) for code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:jfrog",
@@ -5534,8 +5579,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Lusha Talent Sourcing: Find best-fit talent, get verified contact details, and see who may be open to a move."
+   "descriptionOriginal": "Lusha Talent Sourcing: Find best-fit talent, get verified contact details, and see who may be open to a move.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mapbox",
@@ -6913,8 +6958,8 @@
    "about": [
     "Analyze business data and build custom Pigment models, metrics, and boards through natural language."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Analyze business data and build planning models in your Pigment workspace"
+   "descriptionOriginal": "Analyze business data and build planning models in your Pigment workspace",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:pinecone",
@@ -7286,8 +7331,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "PrivCo private-company intelligence: 17 MCP tools (company/people/funding/deal search, profiles, financials, contacts) plus a skill that teaches Claude the filter semantics and workflows."
+   "descriptionOriginal": "PrivCo private-company intelligence: 17 MCP tools (company/people/funding/deal search, profiles, financials, contacts) plus a skill that teaches Claude the filter semantics and workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:product-management",
@@ -7934,6 +7979,21 @@
    "descriptionOriginal": "Skills for developing and querying projects in the Rill business intelligence platform"
   },
   {
+   "id": "marketplace:ringcentral",
+   "name": "RingCentral",
+   "origin": "marketplace",
+   "description": "Werk met uw RingCentral-telefoon en Team Chat (Glip)-account van Claude: controleer oproepen, voicemail, sms en faxen, zoek collega's op, lees of plaats/bewerk teamchat-berichten en beheer teamchat-taken, notities, evenementen, teams, webhooks en adaptieve kaarten.",
+   "category": "Schrijven & communicatie",
+   "url": "https://claude.com/marketplace/plugins/ringcentral",
+   "source": "https://github.com/ringcentral/ringex-claude-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Byrne Reese",
+   "about": [],
+   "firstSeen": "2026-11-20",
+   "descriptionOriginal": "Work with your RingCentral phone and Team Chat (Glip) account from Claude: check calls, voicemail, SMS, and faxes, look up colleagues, read or post/edit Team Chat messages, and manage Team Chat tasks, notes, events, teams, webhooks, and Adaptive Cards."
+  },
+  {
    "id": "marketplace:riskified-beacon-integration",
    "name": "Riskified Beacon Integration",
    "origin": "marketplace",
@@ -8251,20 +8311,20 @@
   },
   {
    "id": "marketplace:save-to-spotify",
-   "name": "save-to-spotify",
+   "name": "Save to Spotify",
    "origin": "marketplace",
-   "description": "Creëer gepolijste audio-afleveringen met TTS-vertelling, rijke tijdlijnen, omslagafbeeldingen en sla ze op Spotify op via de opslagfunctie.",
+   "description": "Creëer gepolijste audio-afleveringen met TTS-vertelling, rijke tijdlijnen en omslagafbeeldingen en sla ze op Spotify op via de save-to-spotify CLI.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/save-to-spotify",
-   "source": "https://github.com/spotify/save-to-spotify",
-   "verified": false,
+   "source": "https://github.com/spotify/save-to-spotify/tree/d09b36fa9fd9017c1596286f396b56fe6377bb43/plugin",
+   "verified": true,
    "installs": 602,
-   "maker": "Spotify",
+   "maker": "",
    "about": [
     "Create polished audio episodes with TTS narration, rich timelines, cover images, and save them to Spotify via the save-to-spotify CLI."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create polished audio episodes with TTS narration, rich timelines, cover images, and save them to Spotify via the sav..."
+   "descriptionOriginal": "Create polished audio episodes with TTS narration, rich timelines, cover images, and save them to Spotify via the save-to-spotify CLI."
   },
   {
    "id": "marketplace:scandit-sdk",
@@ -8562,8 +8622,23 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2026-10-29",
-   "descriptionOriginal": "Build SignalWire voice, messaging, video, and AI agent applications: SWML call flows, REST APIs, the Server and Browser SDKs, SWAIG functions, and debugging, with production patterns and the traps to avoid."
+   "descriptionOriginal": "Build SignalWire voice, messaging, video, and AI agent applications: SWML call flows, REST APIs, the Server and Browser SDKs, SWAIG functions, and debugging, with production patterns and the traps to avoid.",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "id": "marketplace:skill-creator",
+   "name": "Skill Creator",
+   "origin": "marketplace",
+   "description": "Creëer nieuwe skills, verbeter bestaande skills en meet de prestaties van skills. Gebruik dit wanneer gebruikers een skill helemaal opnieuw willen creëren, een bestaande skill willen bijwerken of optimaliseren, evaluaties willen uitvoeren om een skill te testen of de prestaties van skills willen benchmarken met variantieanalyse.",
+   "category": "Code review & testen",
+   "url": "https://claude.com/marketplace/plugins/skill-creator",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/plugins/skill-creator",
+   "verified": true,
+   "installs": 0,
+   "maker": "",
+   "about": [],
+   "descriptionOriginal": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:skill-creator",
@@ -8604,21 +8679,6 @@
    "verified": true,
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
-  },
-  {
-   "id": "marketplace:skill-creator",
-   "name": "skill-creator",
-   "origin": "marketplace",
-   "description": "Creëer nieuwe skills, verbeter bestaande skills en meet de prestaties van skills. Gebruik dit wanneer gebruikers een skill helemaal opnieuw willen creëren, een bestaande skill willen bijwerken of optimaliseren, evaluaties willen uitvoeren om een skill te testen of de prestaties van skills willen benchmarken met variantieanalyse.",
-   "category": "Code review & testen",
-   "url": "https://claude.com/marketplace/plugins/skill-creator",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/41f619d61b999adec1a1c8deb97d1a5b6ac35bb6/plugins/skill-creator",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis."
   },
   {
    "id": "marketplace:slack",
@@ -8887,20 +8947,20 @@
   },
   {
    "id": "marketplace:stackhawk-api",
-   "name": "stackhawk-api",
+   "name": "StackHawk API",
    "origin": "marketplace",
-   "description": "Query StackHawk API voor rapportage van beveiligingsstatus, bevindingen en app-beheer. Begeleid agenten op het gebied van authenticatie en gegevens.",
+   "description": "Voer een query uit op de API van het StackHawk-platform voor rapportage over de beveiligingsstatus, analyse van bevindingen en app-beheer. Begeleidt agenten bij authenticatie, het ophalen van gegevens en de presentatie van resultaten.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/stackhawk-api",
-   "source": "https://github.com/stackhawk/agent-skills",
-   "verified": false,
+   "source": "https://github.com/stackhawk/agent-skills/tree/61980ea9c0c46e8b5e073af311c16324e209427d/plugins/api",
+   "verified": true,
    "installs": 25,
-   "maker": "StackHawk",
+   "maker": "",
    "about": [
     "Query the StackHawk platform API for security posture reporting, findings analysis, and app management. Guides agents through authentication, data retrieval, and result presentation."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Query StackHawk API for security posture reporting, findings, and app management. Guide agents on authentication and data."
+   "descriptionOriginal": "Query the StackHawk platform API for security posture reporting, findings analysis, and app management. Guides agents through authentication, data retrieval, and result presentation."
   },
   {
    "id": "marketplace:stackhawk-hawkscan",
@@ -9829,7 +9889,7 @@
   },
   {
    "id": "marketplace:vercel",
-   "name": "vercel",
+   "name": "Vercel",
    "origin": "marketplace",
    "description": "Bouw en implementeer webapps en agenten",
    "category": "Ontwikkeling",
@@ -10021,6 +10081,21 @@
    "verified": true,
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+  },
+  {
+   "id": "marketplace:weinc",
+   "name": "WeInc",
+   "origin": "marketplace",
+   "description": "Plan, start en polijst websites met WeInc van Claude: schrijf een volledige briefing, start de bouw en voer een pre-lanceringscontrole uit.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/weinc",
+   "source": "https://github.com/umairalisadaqat/weinc-claude-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "WeInc",
+   "about": [],
+   "firstSeen": "2026-11-20",
+   "descriptionOriginal": "Plan, start and polish websites with WeInc from Claude: write a full brief, start the build, and run a pre-launch check."
   },
   {
    "id": "marketplace:wiley-scholar-gateway",
@@ -10414,23 +10489,14 @@
   "official:skill-creator",
   "marketplace:functionize-mcp",
   "marketplace:apollo",
-  "marketplace:csharp-lsp"
+  "marketplace:csharp-lsp",
+  "marketplace:statement-auditor"
  ],
- "updated": "2026-11-19T23:10:28.528432+00:00",
+ "updated": "2026-11-20T22:46:36.873714+00:00",
  "tonight": {
-  "date": "2026-11-19",
-  "id": "marketplace:csharp-lsp",
-  "text": [
-   "C#-taalserverintegratie voor Claude Code, die rijke code-intelligentie biedt voor C#-projecten. Deze plug-in wordt aangedreven door de op Roslyn gebaseerde csharp-ls-taalserver en maakt intelligente codeaanvulling, realtime diagnostiek, symboolnavigatie, hover-documentatie en refactoring-mogelijkheden voor .cs-bestanden mogelijk.",
-   "Belangrijke functies zijn onder meer automatische foutdetectie en -rapportage, go-to-definition, referenties zoeken, code-opmaak met .editorconfig-ondersteuning en slimme suggesties op basis van uw projectcontext. De plug-in ondersteunt .NET Core-, .NET Framework- en multi-projectoplossingen.",
-   "Na het installeren van de plug-in en de csharp-ls taalserver (via",
-   "dotnet tool install --global csharp-ls"
-  ],
-  "textOriginal": [
-   "C# language server integration for Claude Code, providing rich code intelligence for C# projects. Powered by the Roslyn-based csharp-ls language server, this plugin enables intelligent code completion, real-time diagnostics, symbol navigation, hover documentation, and refactoring capabilities for .cs files.",
-   "Key features include automatic error detection and reporting, go-to-definition, find references, code formatting with .editorconfig support, and smart suggestions based on your project context. The plugin supports .NET Core, .NET Framework, and multi-project solutions.",
-   "After installing the plugin and the csharp-ls language server (via",
-   "dotnet tool install --global csharp-ls"
-  ]
+  "date": "2026-11-20",
+  "id": "marketplace:statement-auditor",
+  "text": [],
+  "textOriginal": []
  }
 }
