@@ -29,8 +29,8 @@
    "about": [
     "Automate API security directly in Claude Code with 42Crunch - automatically audit OpenAPI specs, detect vulnerabilities aligned with OWASP API Security risks (including BOLA/BFLA), and apply AI-powered fixes. Designed for AI-assisted development workflows, it provides continuous guardrails through an audit->scan->remediate->validate loop, ensuring APIs meet enterprise security standards before deployment."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Catch API security issues during development: audit, scan, remediate, validate with AI guardrails in Claude Code."
+   "descriptionOriginal": "Catch API security issues during development: audit, scan, remediate, validate with AI guardrails in Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:academy-guide",
@@ -624,8 +624,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2026-11-18",
-   "descriptionOriginal": "Connect Claude Code to the AppTweak API through an OAuth-protected MCP server."
+   "descriptionOriginal": "Connect Claude Code to the AppTweak API through an OAuth-protected MCP server.",
+   "firstSeen": "2026-11-18"
   },
   {
    "id": "marketplace:appwrite",
@@ -842,7 +842,7 @@
   },
   {
    "id": "marketplace:autofix-bot",
-   "name": "autofix-bot",
+   "name": "Autofix Bot",
    "origin": "marketplace",
    "description": "Codebeoordelingsagent die kwetsbaarheden, kwaliteitsproblemen en geheimen detecteert. Meer dan 5.000 analysers voor CVE's.",
    "category": "Security",
@@ -854,8 +854,8 @@
    "about": [
     "Code review agent that detects security vulnerabilities, code quality issues, and hardcoded secrets. Combines 5,000+ static analyzers to scan your code and dependencies for CVEs."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Code review agent detecting vulnerabilities, quality issues, secrets. 5,000+ analyzers for CVEs."
+   "descriptionOriginal": "Code review agent detecting vulnerabilities, quality issues, secrets. 5,000+ analyzers for CVEs.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:aws-agents-for-devsecops",
@@ -1164,20 +1164,20 @@
   },
   {
    "id": "marketplace:bigdata-com",
-   "name": "bigdata-com",
+   "name": "Bigdata.com",
    "origin": "marketplace",
    "description": "Officiële Bigdata.com-plug-in die tools voor financieel onderzoek, analyse en intelligentie biedt, mogelijk gemaakt door Bigdata MCP.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/bigdata-com",
-   "source": "https://github.com/Bigdata-com/bigdata-plugins-marketplace",
-   "verified": false,
+   "source": "https://github.com/bigdata-com/bigdata-plugins-marketplace/tree/0e05c257b8d43db7ff99ff230f6cc22392910867/plugins/bigdata-com",
+   "verified": true,
    "installs": 1872,
-   "maker": "RavenPack",
+   "maker": "",
    "about": [
     "Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by Bigdata MCP."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by Bigdata MCP."
+   "descriptionOriginal": "Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by Bigdata MCP.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:bigid",
@@ -1861,7 +1861,7 @@
   },
   {
    "id": "marketplace:circle-skills",
-   "name": "circle-skills",
+   "name": "Circle Skills",
    "origin": "marketplace",
    "description": "Verzend stablecoin-apps sneller. Best-practice-skills voor USDC-betalingen, cross-chain overdrachten, portemonnees en slimme contracten – plus de MCP-server van Circle voor realtime SDK- en documentatiebegeleiding.",
    "category": "Documenten",
@@ -2148,6 +2148,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:cloud-sql-sqlserver",
+   "name": "Cloud SQL SQL Server",
+   "origin": "marketplace",
+   "description": "Maak verbinding met Cloud SQL voor SQL Server",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/cloud-sql-sqlserver",
+   "source": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver",
+   "verified": true,
+   "installs": 406,
+   "maker": "",
+   "about": [
+    "Connect to Cloud SQL for SQL Server"
+   ],
+   "descriptionOriginal": "Connect to Cloud SQL for SQL Server",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:cloud-sql-postgresql",
    "name": "cloud-sql-postgresql",
    "origin": "marketplace",
@@ -2163,23 +2180,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Create, connect, and interact with a Cloud SQL for PostgreSQL database and data."
-  },
-  {
-   "id": "marketplace:cloud-sql-sqlserver",
-   "name": "cloud-sql-sqlserver",
-   "origin": "marketplace",
-   "description": "Maak verbinding met Cloud SQL voor SQL Server",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/cloud-sql-sqlserver",
-   "source": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver",
-   "verified": false,
-   "installs": 406,
-   "maker": "Google LLC",
-   "about": [
-    "Connect to Cloud SQL for SQL Server"
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to Cloud SQL for SQL Server"
   },
   {
    "id": "marketplace:cloudflare",
@@ -2288,6 +2288,25 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:code-simplifier",
+   "name": "Code Simplifier",
+   "origin": "marketplace",
+   "description": "Agent die code vereenvoudigt en verfijnt voor duidelijkheid, consistentie en onderhoudbaarheid, terwijl de functionaliteit behouden blijft",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/code-simplifier",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/code-simplifier",
+   "verified": true,
+   "installs": 346763,
+   "maker": "",
+   "about": [
+    "Code Simplifier is an autonomous agent that refines and simplifies your code for improved clarity, consistency, and maintainability. It focuses on recently modified code sections, making targeted improvements while preserving all original functionality and behavior.",
+    "The agent follows established coding standards including ES modules, function declarations with explicit returns, and React best practices. It reduces nesting depth, eliminates redundant code, improves variable and function naming, and replaces nested ternaries with clearer conditional structures like switch statements.",
+    "The agent works proactively on your recently modified code. You can also ask it directly to review specific files or code sections with prompts like \"simplify this component\" or \"refine the recently changed functions for clarity.\""
+   ],
+   "descriptionOriginal": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:code-modernization",
    "name": "code-modernization",
    "origin": "marketplace",
@@ -2303,25 +2322,6 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Modernize legacy codebases (COBOL, legacy Java/C++, monolith web apps) with a structured assess / map / extract-rules..."
-  },
-  {
-   "id": "marketplace:code-simplifier",
-   "name": "code-simplifier",
-   "origin": "marketplace",
-   "description": "Agent die code vereenvoudigt en verfijnt voor duidelijkheid, consistentie en onderhoudbaarheid, terwijl de functionaliteit behouden blijft",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/code-simplifier",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/ea0a38e1d671aa18a30431c9160e31193dc9860b/plugins/code-simplifier",
-   "verified": true,
-   "installs": 346763,
-   "maker": "",
-   "about": [
-    "Code Simplifier is an autonomous agent that refines and simplifies your code for improved clarity, consistency, and maintainability. It focuses on recently modified code sections, making targeted improvements while preserving all original functionality and behavior.",
-    "The agent follows established coding standards including ES modules, function declarations with explicit returns, and React best practices. It reduces nesting depth, eliminates redundant code, improves variable and function naming, and replaces nested ternaries with clearer conditional structures like switch statements.",
-    "The agent works proactively on your recently modified code. You can also ask it directly to review specific files or code sections with prompts like \"simplify this component\" or \"refine the recently changed functions for clarity.\""
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality"
   },
   {
    "id": "marketplace:coderabbit",
@@ -2542,13 +2542,13 @@
    "id": "marketplace:context7",
    "name": "Context7",
    "origin": "marketplace",
-   "description": "Upstash Context7 MCP-server voor het live opzoeken van documenten. Haal versiespecifieke documenten en codevoorbeelden uit bronopslagplaatsen naar LLM-context.",
-   "category": "Ontwikkeling",
+   "description": "Upstash Context7 MCP-server voor het opzoeken van up-to-date documentatie. Maakt verbinding met de gehoste externe MCP-server van Context7 (https://mcp.context7.com/mcp) – geen lokale Node.js of npx vereist – om versiespecifieke documentatie en codevoorbeelden rechtstreeks uit bronrepository’s naar uw LLM-context te halen. Verifieer met Context7 wanneer daarom wordt gevraagd.",
+   "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/context7",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/context7",
-   "verified": false,
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/external_plugins/context7",
+   "verified": true,
    "installs": 417801,
-   "maker": "Upstash",
+   "maker": "",
    "about": [
     "Context7 is an MCP server that delivers up-to-date, version-specific documentation and code examples directly into your prompts. It solves a common problem with LLMs: outdated training data leading to hallucinated APIs and deprecated code patterns. Instead of relying on stale information, Context7 pulls current documentation straight from source repositories.",
     "The plugin provides two main tools:",
@@ -2556,7 +2556,7 @@
     "for retrieving documentation for specific libraries. You can even target specific versions by mentioning them in your prompt."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Upstash Context7 MCP server for live docs lookup. Pull version-specific docs and code examples from source repos into LLM context."
+   "descriptionOriginal": "Upstash Context7 MCP server for up-to-date documentation lookup. Connects to Context7's hosted remote MCP server (https://mcp.context7.com/mcp) — no local Node.js or npx required — to pull version-specific documentation and code examples directly from source repositories into your LLM context. Authenticate with Context7 when prompted."
   },
   {
    "id": "marketplace:convex",
@@ -3667,13 +3667,13 @@
    "id": "marketplace:feature-dev",
    "name": "Feature Dev",
    "origin": "marketplace",
-   "description": "Functie-ontwikkelingsworkflow met agenten voor verkenning, ontwerp en beoordeling",
+   "description": "Uitgebreide workflow voor functieontwikkeling met gespecialiseerde agenten voor verkenning van codebases, architectuurontwerp en kwaliteitsbeoordeling",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/feature-dev",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/feature-dev",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/plugins/feature-dev",
    "verified": true,
    "installs": 256017,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "A structured 7-phase workflow for building features systematically. Rather than jumping into code, this plugin guides you through understanding the existing codebase, clarifying requirements, designing architecture thoughtfully, and conducting quality reviews before and after implementation.",
     "The plugin deploys three specialized agents:",
@@ -3681,7 +3681,7 @@
     "proposes multiple implementation approaches with clear trade-offs; and"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Feature development workflow with agents for exploration, design, and review"
+   "descriptionOriginal": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review"
   },
   {
    "id": "marketplace:featurebase",
@@ -3695,8 +3695,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude to Featurebase for customer support, feedback, CRM, tickets, and help center workflows."
+   "descriptionOriginal": "Connect Claude to Featurebase for customer support, feedback, CRM, tickets, and help center workflows.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:ffuf-web-fuzzing",
@@ -4519,7 +4519,7 @@
    "description": "Creëer eenvoudig haken om ongewenst gedrag te voorkomen door gesprekspatronen te analyseren",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/hookify",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/e0ab6e51219eef74e417a0e1d89e5d53e5e763d4/plugins/hookify",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/plugins/hookify",
    "verified": true,
    "installs": 60376,
    "maker": "",
@@ -4724,8 +4724,8 @@
    "installs": 0,
    "maker": "Infor",
    "about": [],
-   "firstSeen": "2026-11-12",
-   "descriptionOriginal": "For buyers, production planners and customer service reps in Infor M3: the buyer's morning view and delayed-PO impact analysis, the planner's at-risk manufacturing orders with fixes, and the rep's rush orders, all on live M3 data with every change behind an explicit yes. Requires the M3 connector (M3 BE MCP)."
+   "descriptionOriginal": "For buyers, production planners and customer service reps in Infor M3: the buyer's morning view and delayed-PO impact analysis, the planner's at-risk manufacturing orders with fixes, and the rep's rush orders, all on live M3 data with every change behind an explicit yes. Requires the M3 connector (M3 BE MCP).",
+   "firstSeen": "2026-11-12"
   },
   {
    "id": "marketplace:informatica-for-claude-platform",
@@ -5714,7 +5714,7 @@
    "description": "Skills voor het ontwerpen en bouwen van MCP-servers die naadloos samenwerken met Claude - begeleiden u door implementatiemodellen (extern HTTP, MCPB, lokaal), toolontwerppatronen, auth en interactieve MCP-apps.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/mcp-server-dev",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/plugins/mcp-server-dev",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/plugins/mcp-server-dev",
    "verified": true,
    "installs": 33959,
    "maker": "",
@@ -5724,8 +5724,8 @@
     "skill adds interactive UI capabilities — form widgets, searchable pickers, confirmation dialogs, charts, and live-updating status displays — rendered directly in chat via sandboxed iframes. The",
     "skill handles packaging local stdio servers with their runtime into installable bundles that require no Node.js or Python on the user's machine."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps."
+   "descriptionOriginal": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mcp-tunnels",
@@ -6155,7 +6155,7 @@
   },
   {
    "id": "marketplace:mongodb",
-   "name": "mongodb",
+   "name": "MongoDB",
    "origin": "marketplace",
    "description": "Officiële Claude-plug-in voor MongoDB (MCP Server + Skills). Maak verbinding met databases, verken gegevens, beheer collecties, kies...",
    "category": "Data & analyse",
@@ -6167,8 +6167,8 @@
    "about": [
     "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, opt..."
+   "descriptionOriginal": "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, opt...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:mongodb-self-managed-mcp",
@@ -7416,7 +7416,7 @@
    "description": "Genereer en publiceer een projectstatusartefact - een eigenzinnige statuspagina met tabbladen (overzicht en succescriteria, de volgorde van de werkstroom, volgende stappen, plus achtergrond / plan / risico's en open vragen / beslissingen-FAQ wanneer ze een tabblad verdienen) gepubliceerd via de ingebouwde Artefact-tool op een standaard privé-claude.ai-pagina die de gebruiker kan delen met teamgenoten. Elk artefact wordt ondersteund door een configuratie per project, dus 'vernieuw het artefact' verzamelt de livestatus opnieuw, implementeert dezelfde URL opnieuw en rapporteert alleen de delta.",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/project-artifact",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/project-artifact",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/plugins/project-artifact",
    "verified": true,
    "installs": 1034,
    "maker": "",
@@ -7426,8 +7426,8 @@
     "For PR-driven software projects, the plugin automatically sequences pull requests to show dependency order and pulls live PR status, CI check results, and unresolved review threads via the",
     ") give an at-a-glance view of progress. The page supports light and dark mode, is fully responsive, and embeds all styles inline — no external dependencies."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Generate and publish a project status artifact — an opinionated, tabbed status page (overview & success criteria, the workstream sequence, next steps, plus background / plan / risks & open questions / decisions-FAQ when they earn a tab) published via the built-in Artifact tool to a default-private claude.ai page the user can share with teammates. Each artifact is backed by a per-project config, so 'refresh the artifact' re-gathers live state, redeploys the same URL, and reports only the delta."
+   "descriptionOriginal": "Generate and publish a project status artifact — an opinionated, tabbed status page (overview & success criteria, the workstream sequence, next steps, plus background / plan / risks & open questions / decisions-FAQ when they earn a tab) published via the built-in Artifact tool to a default-private claude.ai page the user can share with teammates. Each artifact is backed by a per-project config, so 'refresh the artifact' re-gathers live state, redeploys the same URL, and reports only the delta.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:prompt-engineering",
@@ -7718,13 +7718,13 @@
    "id": "marketplace:railway",
    "name": "Railway",
    "origin": "marketplace",
-   "description": "Implementeer en beheer apps, databases en infrastructuur op Railway. Omvat projectconfiguratie, implementatie, omgevingsconfiguratie...",
+   "description": "Skills van spoorwegagenten en gehoste MCP-server voor het implementeren, configureren, monitoren en oplossen van problemen met apps en infrastructuur op Railway van Claude Code. Beheer services, omgevingen, implementaties, databases, objectopslag, netwerken en observatie.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/railway",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/railwayapp/railway-skills/tree/950acebcef3445f3915ea0709876c3ba9c237a7f/plugins/railway",
+   "verified": true,
    "installs": 6884,
-   "maker": "Railway",
+   "maker": "",
    "about": [
     "Deploy and manage apps, databases, and infrastructure on",
     "directly from Claude Code. This plugin provides a comprehensive skill for the full Railway lifecycle — from creating projects and provisioning databases to deploying code, configuring environments, and debugging production issues. It supports Postgres, Redis, MySQL, MongoDB, S3-compatible storage buckets, custom domains, private networking, and multi-region deployments.",
@@ -7732,7 +7732,7 @@
     "CLI with JSON output for reliable automation, and falls back to Railway's GraphQL API for advanced operations. A built-in hook auto-approves Railway CLI and API commands so you don't need to manually confirm each one. Destructive actions still require explicit confirmation."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deploy and manage apps, databases, and infrastructure on Railway. Covers project setup, deploys, environment configur..."
+   "descriptionOriginal": "Railway agent skills and hosted MCP server for deploying, configuring, monitoring, and troubleshooting apps and infrastructure on Railway from Claude Code. Manage services, environments, deployments, databases, object storage, networking, and observability."
   },
   {
    "id": "marketplace:ralph-loop",
@@ -7894,20 +7894,20 @@
   },
   {
    "id": "marketplace:render",
-   "name": "render",
+   "name": "Render",
    "origin": "marketplace",
-   "description": "Implementeer, debug en monitor Render-apps met skills, agenten, opdrachten en yaml-validatie.",
+   "description": "Implementeer, debug en monitor applicaties op Render. Inclusief skills, een agent, slash-opdrachten, een render.yaml-validatiehook en de Render MCP-server die vooraf is geconfigureerd via OAuth.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/render",
    "source": "https://github.com/render-oss/render-plugin-claude-code",
-   "verified": false,
+   "verified": true,
    "installs": 331,
-   "maker": "Render",
+   "maker": "",
    "about": [
     "Deploy, debug, and monitor applications on Render. Includes skills, an agent, slash commands, and a render.yaml validation hook."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deploy, debug, monitor Render apps with skills, agent, commands, and yaml validation."
+   "descriptionOriginal": "Deploy, debug, and monitor applications on Render. Includes skills, an agent, slash commands, a render.yaml validation hook, and the Render MCP server preconfigured over OAuth."
   },
   {
    "id": "marketplace:resend",
@@ -7965,18 +7965,18 @@
    "description": "Skills voor het ontwikkelen en bevragen van projecten in het Rill business intelligence-platform",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/rill",
-   "source": "https://github.com/rilldata",
-   "verified": false,
+   "source": "https://github.com/rilldata/agent-skills",
+   "verified": true,
    "installs": 210,
-   "maker": "Rill Data",
+   "maker": "",
    "about": [
     "Provides skills for developing and querying projects in the",
     "business intelligence platform. Rill is a code-first BI tool where projects are built from YAML and SQL resources organized as a declarative DAG. This plugin gives your agent deep knowledge of Rill's resource types — models, metrics views, canvas dashboards, explore dashboards, connectors, and themes — so it can build and iterate on Rill projects from scratch or modify existing ones.",
     "The plugin includes eight specialized skills covering the full Rill development workflow: project structure and development patterns (",
     "), data models with incremental and partitioned loading ("
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for developing and querying projects in the Rill business intelligence platform"
+   "descriptionOriginal": "Skills for developing and querying projects in the Rill business intelligence platform",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ringcentral",
@@ -7990,8 +7990,8 @@
    "installs": 0,
    "maker": "Byrne Reese",
    "about": [],
-   "firstSeen": "2026-11-20",
-   "descriptionOriginal": "Work with your RingCentral phone and Team Chat (Glip) account from Claude: check calls, voicemail, SMS, and faxes, look up colleagues, read or post/edit Team Chat messages, and manage Team Chat tasks, notes, events, teams, webhooks, and Adaptive Cards."
+   "descriptionOriginal": "Work with your RingCentral phone and Team Chat (Glip) account from Claude: check calls, voicemail, SMS, and faxes, look up colleagues, read or post/edit Team Chat messages, and manage Team Chat tasks, notes, events, teams, webhooks, and Adaptive Cards.",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "marketplace:riskified-beacon-integration",
@@ -8252,8 +8252,8 @@
    "about": [
     "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing."
+   "descriptionOriginal": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sap-hana-cli",
@@ -9181,7 +9181,7 @@
   },
   {
    "id": "marketplace:swagger-contract-testing",
-   "name": "swagger-contract-testing",
+   "name": "Swagger Contract Testing",
    "origin": "marketplace",
    "description": "Deskundige assistent voor het testen van PactFlow- en Pact-contracten: consumentgestuurde contracten, providerverificatie, can-i-deploy, BDCT, Drift CLI en OpenAPI-specificatieparsing. Inclusief gespecialiseerde agenten voor het beoordelen en genereren van pacttests.",
    "category": "Code review & testen",
@@ -9191,8 +9191,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Expert assistant for PactFlow and Pact contract testing — consumer-driven contracts, provider verification, can-i-deploy, BDCT, Drift CLI, and OpenAPI spec parsing. Includes specialized agents for reviewing and generating pact tests."
+   "descriptionOriginal": "Expert assistant for PactFlow and Pact contract testing — consumer-driven contracts, provider verification, can-i-deploy, BDCT, Drift CLI, and OpenAPI spec parsing. Includes specialized agents for reviewing and generating pact tests.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:swift-lsp",
@@ -9652,13 +9652,13 @@
    "id": "marketplace:ui5-modernization",
    "name": "UI5 Modernization",
    "origin": "marketplace",
-   "description": "SAPUI5/OpenUI5 moderniseringstoolkit met workflow en gespecialiseerde fixpatronen",
-   "category": "Productiviteit",
+   "description": "Een uitgebreide plug-in die een complete toolkit biedt voor het moderniseren van SAPUI5/OpenUI5-applicaties.",
+   "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/ui5-modernization",
-   "source": "https://github.com/UI5/plugins-coding-agents",
-   "verified": false,
+   "source": "https://github.com/ui5/plugins-coding-agents/tree/c61df025a142a919f5bafc80abae250c837e7c2b/plugins/ui5-modernization",
+   "verified": true,
    "installs": 381,
-   "maker": "SAP SE",
+   "maker": "",
    "about": [
     "A complete toolkit for modernizing SAPUI5 and OpenUI5 applications. The plugin provides a structured five-phase workflow that upgrades your UI5 app to manifest version 2.0.0 with a minimum framework version of 1.136.0 — covering test infrastructure, manifest and component configuration, module system globals, deprecated API replacements, and CSP compliance. Each phase commits separately for easy rollback, and a final report documents any issues requiring manual attention.",
     "Includes 19 specialized fix skills that target specific UI5 linter rule categories: global namespace elimination (",
@@ -9666,7 +9666,7 @@
     "), module dependency resolution ("
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "SAPUI5/OpenUI5 modernization toolkit with workflow and specialized fix patterns"
+   "descriptionOriginal": "A comprehensive plugin providing a complete toolkit for modernizing SAPUI5/OpenUI5 applications."
   },
   {
    "id": "marketplace:ui5-typescript-conversion",
@@ -10490,13 +10490,18 @@
   "marketplace:functionize-mcp",
   "marketplace:apollo",
   "marketplace:csharp-lsp",
-  "marketplace:statement-auditor"
+  "marketplace:statement-auditor",
+  "marketplace:duende-skills"
  ],
- "updated": "2026-11-20T22:46:36.873714+00:00",
+ "updated": "2026-11-21T21:49:10.268412+00:00",
  "tonight": {
-  "date": "2026-11-20",
-  "id": "marketplace:statement-auditor",
-  "text": [],
-  "textOriginal": []
+  "date": "2026-11-21",
+  "id": "marketplace:duende-skills",
+  "text": [
+   "Duende-ontwikkelingsvaardigheden en -agents voor Claude Code – met betrekking tot OAuth/OIDC-protocollen, IdentityServer, tokenbeheer, ASP.NET Core-authenticatie/-autorisatie, BFF-patronen en veilige identiteitsarchitectuur"
+  ],
+  "textOriginal": [
+   "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture"
+  ]
  }
 }
