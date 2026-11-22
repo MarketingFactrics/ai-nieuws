@@ -191,7 +191,7 @@
    "id": "marketplace:agentmail",
    "name": "AgentMail",
    "origin": "marketplace",
-   "description": "E-mailinboxen voor agenten. Creëer inboxen, verzend en ontvang e-mails, automatiseer e-mailworkflows en maak accounts aan met AgentID.",
+   "description": "Geef uw agent een eigen e-mailadres, los van uw mailbox. Creëer inboxen, verzend en ontvang e-mail, automatiseer e-mailworkflows en maak accounts aan met AgentID.",
    "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/agentmail",
    "source": "https://github.com/agentmail-to/agentmail-plugins",
@@ -200,7 +200,7 @@
    "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Email inboxes for agents. Create inboxes, send and receive emails, automate email workflows, and create accounts with AgentID."
+   "descriptionOriginal": "Give your agent its own email address, separate from your mailbox. Create inboxes, send and receive email, automate email workflows, and create accounts with AgentID."
   },
   {
    "id": "marketplace:ai-adoption",
@@ -690,7 +690,7 @@
    "description": "Integratie van Asana-projectbeheer. Verbindt Claude Code met Asana's V2 MCP-server (https://mcp.asana.com/v2/mcp) om taken aan te maken en te beheren, projecten te zoeken, opdrachten bij te werken en de voortgang bij te houden. Vereist een eenmalige installatie van uw eigen Asana OAuth-app - voer /asana-setup uit na de installatie.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/asana",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/external_plugins/asana",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/external_plugins/asana",
    "verified": true,
    "installs": 10796,
    "maker": "",
@@ -970,7 +970,7 @@
    "description": "Gepersonaliseerde AWS-begeleiding gebaseerd op patronen van meer dan 350.000 startups: architectuur, kosten, beveiliging en migratie, van het instellen van een account vanaf de eerste dag tot een productieklare infrastructuur. Migreer naar AWS vanuit GCP of Heroku, inclusief uw volledige AI-stack: OpenAI/Gemini/Anthropic SDK herschrijft naar Amazon Bedrock, agentische systemen (LangChain, CrewAI, AutoGen) naar AWS-native runtimes en tijdelijke werkers. Inclusief geschiktheid voor AWS Activate-credits en meer dan 60 exclusieve opstartaanbiedingen. Gebouwd door AWS Startup Solutions Archi",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/aws-startup-advisor",
-   "source": "https://github.com/awslabs/startups/tree/dd7096bd634649bc89b6511d61cff16f58623284/advisor/plugins/aws-startup-advisor",
+   "source": "https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-startup-advisor",
    "verified": true,
    "installs": 873,
    "maker": "",
@@ -1132,20 +1132,20 @@
   },
   {
    "id": "marketplace:base44",
-   "name": "base44",
+   "name": "Base44",
    "origin": "marketplace",
    "description": "Bouw en implementeer Base44 full-stack-apps met CLI-projectbeheer en JavaScript/TypeScript SDK-ontwikkelvaardigheden",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/base44",
    "source": "https://github.com/base44/skills",
-   "verified": false,
+   "verified": true,
    "installs": 1826,
    "maker": "",
    "about": [
     "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills"
+   "descriptionOriginal": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:better-stack",
@@ -1410,16 +1410,16 @@
    "id": "marketplace:brand-voice",
    "name": "Brand Voice",
    "origin": "marketplace",
-   "description": "Transformeer verspreide merkmaterialen automatisch in afdwingbare AI-vangrails",
-   "category": "Design & media",
+   "description": "Ontdek uw merkstem uit bestaande documenten en gesprekken, genereer afdwingbare richtlijnen en valideer door AI gegenereerde inhoud aan de hand van uw gevestigde toon en positionering.",
+   "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/brand-voice",
-   "source": "https://github.com/TribeAI/claude-cowork-brand-voice-plugin/",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/0e0fcacddcc892eb92a1b7873ff9d68159c47571/partner-built/brand-voice",
    "verified": true,
    "installs": 0,
-   "maker": "Tribe AI",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Transform scattered brand materials into enforceable AI guardrails — automatically"
+   "descriptionOriginal": "Discover your brand voice from existing documents and conversations, generate enforceable guidelines, and validate AI-generated content against your established tone and positioning."
   },
   {
    "id": "official:brand-guidelines",
@@ -2042,8 +2042,8 @@
     "Install the plugin, run /claude-security, and choose an option.",
     "covers the whole repository, including code you didn't write"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort tier, with every finding challenged before it is reported and the verification tally computed in code. Turns surviving findings into targeted patches, each verified by a panel of agents, that you apply when you choose. See the plugin README for the tiers, the report format, and the trust model."
+   "descriptionOriginal": "Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort tier, with every finding challenged before it is reported and the verification tally computed in code. Turns surviving findings into targeted patches, each verified by a panel of agents, that you apply when you choose. See the plugin README for the tiers, the report format, and the trust model.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:claude-api",
@@ -3205,8 +3205,8 @@
    "about": [
     "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Discord channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access."
+   "descriptionOriginal": "Discord channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:doc-coauthoring",
@@ -3407,8 +3407,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Elastic plugin for Claude - skills for building with the Elastic stack."
+   "descriptionOriginal": "Elastic plugin for Claude - skills for building with the Elastic stack.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:elixir-ls-lsp",
@@ -3853,7 +3853,7 @@
   },
   {
    "id": "marketplace:firebase",
-   "name": "firebase",
+   "name": "Firebase",
    "origin": "marketplace",
    "description": "Google Firebase MCP-integratie. Beheer Firestore-databases, authenticatie, cloudfuncties, hosting en opslag. Bouw en beheer uw Firebase-backend rechtstreeks vanuit uw ontwikkelingsworkflow.",
    "category": "Data & analyse",
@@ -3867,8 +3867,8 @@
     "Key capabilities include Firestore document operations (get, delete, query), user authentication management, Cloud Functions log retrieval, Cloud Messaging for sending notifications, Remote Config template management, Crashlytics issue tracking, and Realtime Database read/write operations. The plugin also provides security rules validation and project configuration tools.",
     "Once installed, Claude Code gains access to Firebase tools automatically. Try prompts like \"Query all users from my Firestore collection\", \"Show me the latest Cloud Functions logs\", \"Send a test notification via Cloud Messaging\", \"Get the Crashlytics issues from the last 24 hours\", or \"Deploy my Firebase hosting configuration\". You can also use built-in prompts like"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow."
+   "descriptionOriginal": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:firecrawl",
@@ -3898,9 +3898,9 @@
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/firestore-native",
    "source": "https://github.com/gemini-cli-extensions/firestore-native",
-   "verified": false,
+   "verified": true,
    "installs": 409,
-   "maker": "Google LLC",
+   "maker": "",
    "about": [
     "Connect and interact with Firestore databases, collections, and documents."
    ],
@@ -4222,7 +4222,7 @@
    "description": "GitLab DevOps-platformintegratie. Beheer opslagplaatsen, samenvoegverzoeken, CI/CD-pijplijnen, problemen en wiki's. Volledige toegang tot de uitgebreide DevOps-levenscyclustools van GitLab.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/gitlab",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/fd30cee3ecd5a8ee772733c5d20c0f2bae2da2f0/external_plugins/gitlab",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/external_plugins/gitlab",
    "verified": true,
    "installs": 40805,
    "maker": "",
@@ -5449,18 +5449,18 @@
    "description": "Verbind Claude Code met LogRocket om herhalingen van sessies, statistieken, problemen en gebruikersgedrag op te vragen in natuurlijke taal.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/logrocket",
-   "source": "https://github.com/LogRocket/logrocket-claude-plugin",
-   "verified": false,
+   "source": "https://github.com/logrocket/logrocket-claude-plugin/tree/2e44dbb47faf9bb54e3405a8ae2714e7c5ce9791/plugins/logrocket",
+   "verified": true,
    "installs": 199,
-   "maker": "LogRocket",
+   "maker": "",
    "about": [
     "Connect Claude Code to LogRocket to query session replays, metrics, issues, and user behavior using natural language. Investigate user-reported bugs by searching and watching session replays, analyze feature usage patterns, identify regressions after deployments, and surface high-impact issues — all without leaving your terminal.",
     "for discovering your LogRocket resources,",
     "for broad natural language queries,",
     "to filter sessions by user, URL, timeframe, or events,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect Claude Code to LogRocket to query session replays, metrics, issues, and user behavior using natural language."
+   "descriptionOriginal": "Connect Claude Code to LogRocket to query session replays, metrics, issues, and user behavior using natural language.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:looker",
@@ -6864,8 +6864,8 @@
    "about": [
     "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server"
+   "descriptionOriginal": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:pdf",
@@ -7396,7 +7396,7 @@
    "description": "Beheer taken, plan uw dag en bouw een geheugen op voor belangrijke context over uw werk. Synchroniseert met uw agenda, e-mail en chat om alles georganiseerd en op het goede spoor te houden.",
    "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/productivity",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/productivity",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/b4c9a4e1de4b42868b74a6fe30ac766f64e43a3e/productivity",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -7498,8 +7498,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Teach your agent Pulumi: infrastructure as code in TypeScript, Python, Go, C#, Java, YAML, or HCL. Skills for writing and operating cloud infrastructure, migrating from Terraform, CloudFormation, CDK, and ARM, and delegating work to Pulumi Neo, Pulumi's AI platform engineer."
+   "descriptionOriginal": "Teach your agent Pulumi: infrastructure as code in TypeScript, Python, Go, C#, Java, YAML, or HCL. Skills for writing and operating cloud infrastructure, migrating from Terraform, CloudFormation, CDK, and ARM, and delegating work to Pulumi Neo, Pulumi's AI platform engineer.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:pydantic-ai",
@@ -7906,8 +7906,8 @@
    "about": [
     "Deploy, debug, and monitor applications on Render. Includes skills, an agent, slash commands, and a render.yaml validation hook."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Deploy, debug, and monitor applications on Render. Includes skills, an agent, slash commands, a render.yaml validation hook, and the Render MCP server preconfigured over OAuth."
+   "descriptionOriginal": "Deploy, debug, and monitor applications on Render. Includes skills, an agent, slash commands, a render.yaml validation hook, and the Render MCP server preconfigured over OAuth.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:resend",
@@ -8902,9 +8902,9 @@
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/spanner",
    "source": "https://github.com/gemini-cli-extensions/spanner",
-   "verified": false,
+   "verified": true,
    "installs": 241,
-   "maker": "Google LLC",
+   "maker": "",
    "about": [
     "Connect and interact with Spanner data using natural language."
    ],
@@ -9126,8 +9126,8 @@
     "Key features include SQL query execution, table design with migration tracking, project creation and management, log retrieval for debugging, TypeScript type generation from your schema, Edge Function deployment, and experimental database branching for development workflows.",
     "After connecting your Supabase account, you can interact with your projects naturally. Try prompts like \"List all my Supabase projects\", \"Run a SQL query to get all users created this month\", \"Generate TypeScript types for my database schema\", \"Show me the logs for my Edge Functions\", or \"Create a new migration to add an email column to the users table\"."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Supabase plugin for Claude Code with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices."
+   "descriptionOriginal": "Official Supabase plugin for Claude Code with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:superdesign",
@@ -9602,7 +9602,7 @@
    "description": "TypeScript/JavaScript-taalserver voor verbeterde code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/typescript-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/typescript-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/plugins/typescript-lsp",
    "verified": true,
    "installs": 212522,
    "maker": "",
@@ -10491,17 +10491,14 @@
   "marketplace:apollo",
   "marketplace:csharp-lsp",
   "marketplace:statement-auditor",
-  "marketplace:duende-skills"
+  "marketplace:duende-skills",
+  "marketplace:content-studio"
  ],
- "updated": "2026-11-21T21:49:10.268412+00:00",
+ "updated": "2026-11-22T21:56:57.301955+00:00",
  "tonight": {
-  "date": "2026-11-21",
-  "id": "marketplace:duende-skills",
-  "text": [
-   "Duende-ontwikkelingsvaardigheden en -agents voor Claude Code – met betrekking tot OAuth/OIDC-protocollen, IdentityServer, tokenbeheer, ASP.NET Core-authenticatie/-autorisatie, BFF-patronen en veilige identiteitsarchitectuur"
-  ],
-  "textOriginal": [
-   "Duende development skills and agents for Claude Code — covering OAuth/OIDC protocols, IdentityServer, token management, ASP.NET Core authentication/authorization, BFF patterns, and secure identity architecture"
-  ]
+  "date": "2026-11-22",
+  "id": "marketplace:content-studio",
+  "text": [],
+  "textOriginal": []
  }
 }
