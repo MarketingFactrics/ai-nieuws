@@ -1,6 +1,95 @@
 {
  "editions": [
   {
+   "date": "2026-11-24",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.331",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.331",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+     "published": "2026-11-23T21:34:41+00:00",
+     "summary": "Ondersteuning voor codemodus toegevoegd in terminalsessies op Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry en Claude Platform op AWS · `oidc.groups_jsonpath` toegevoegd aan de Claude apps-gateway, om groepen te lezen uit de overeenkomende items van een lijst met objecten met een kleine...",
+     "bullets": [
+      "Ondersteuning voor codemodus toegevoegd in terminalsessies op Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry en Claude Platform op AWS",
+      "`oidc.groups_jsonpath` toegevoegd aan de Claude apps-gateway, om groepen te lezen uit de overeenkomende vermeldingen van een lijst met objecten met een kleine subset van JSONPath (RFC...",
+      "Een API-connectiviteitssectie toegevoegd aan `claude doctor` die rapporteert of de API kan worden bereikt, met de HTTP-status of de fout, of zegt waarom dit niet het geval was...",
+      "Er is een melding toegevoegd wanneer het spraakdicteren in de tikmodus vanzelf stopt, na 15 seconden zonder herkende spraak of na de limiet van 2 minuten",
+      "`CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION` toegevoegd om te vragen naar niet-gecomprimeerde modelreacties achter een proxy die gecomprimeerde antwoorden afsnijdt; nog niet geadviseerd voor…",
+      "`CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1` toegevoegd voor Claude apps gateways: met `oidc.use_proxy: true` geven aanmeldingsverzoeken de proxy een `https` IdP's...",
+      "`gen_ai.usage.*`, `gen_ai.response.model` en `gen_ai.operation.name` toegevoegd aan `claude_code.llm_request` traceringsreeksen; `gen_ai.usage.input_tokens` omvat…",
+      "'OptionalDependencies' toegevoegd aan plug-inmanifesten: plug-ins die worden geïnstalleerd met de plug-in die ze vermeldt en die op zichzelf kunnen worden uitgeschakeld of verwijderd"
+     ],
+     "titleOriginal": "claude-code v2.1.331",
+     "lang": "nl"
+    },
+    {
+     "id": "web:https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "De ondernemingsgids voor het beveiligen van codeeragenten",
+     "url": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
+     "published": "2026-11-23T00:00:00+00:00",
+     "summary": "Hoe beveiligings- en technische leiders de risico's van codeeragenten kunnen beperken en beperken: AI-specifieke risico's, de gelaagde verdediging van Claude Code en centraal afgedwongen beleid.",
+     "image": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents/opengraph-image/og",
+     "titleOriginal": "The enterprise guide to securing coding agents",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:ANcPabMDH14",
+     "kind": "video-official",
+     "source": "Claude",
+     "title": "Uitleg over Claude’s CRISPR-achtige ontdekking",
+     "url": "https://www.youtube.com/watch?v=ANcPabMDH14",
+     "published": "2026-11-23T20:35:03+00:00",
+     "summary": "CRISPR begon als een vreemd herhalingspatroon in bacterieel DNA dat jaren duurde om uit te leggen. Claude signaleerde onlangs een soortgelijk patroon in viraal DNA. Antropische wetenschappers voeren nu experimenten uit om erachter te komen of het ook maar enigszins werkt.",
+     "image": "https://i.ytimg.com/vi/ANcPabMDH14/hqdefault.jpg",
+     "videoId": "ANcPabMDH14",
+     "titleOriginal": "Explaining Claude’s CRISPR-like discovery",
+     "lang": "nl"
+    },
+    {
+     "id": "web:https://claude.com/resources/articles/introducing-claude-ship",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "Maak kennis met Claude Ship",
+     "url": "https://claude.com/resources/articles/introducing-claude-ship",
+     "published": "2026-11-23T00:00:00+00:00",
+     "summary": "Open een pull-aanvraag en ga terug naar het bouwen. Claude kan nu pull-aanvragen beoordelen, repareren en de verzoeken goedkeuren die het beleid van een team toestaat.",
+     "image": "https://claude.com/resources/articles/introducing-claude-ship/opengraph-image/og",
+     "titleOriginal": "Introducing Claude Ship",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:MkeKXJzJo98",
+     "kind": "video",
+     "source": "Matthew Berman",
+     "title": "Antropisch net opgeloste wiskunde… Wat nu?",
+     "url": "https://www.youtube.com/watch?v=MkeKXJzJo98",
+     "published": "2026-11-24T02:30:08+00:00",
+     "summary": "Probeer Grok Bot van SpaceXSI (begint bij $ 30 met X Subscription Premium): https://tinyurl.com/yc4b4ymz Deze video is volledig bewerkt door Scarlet, onze gratis en open source AI-video-editor: https://github.com/Forward-Future/scarlet 3Blue1Brown: https://www.youtube.com/watch?v=zqzk43bSdDI…",
+     "image": "https://i.ytimg.com/vi/MkeKXJzJo98/hqdefault.jpg",
+     "videoId": "MkeKXJzJo98",
+     "titleOriginal": "Anthropic JUST Solved Mathematics… Now what?",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:TqsT28sRag8",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Ik betaalde Claude $ 1 versus $ 1.000 om een videogame te bouwen",
+     "url": "https://www.youtube.com/watch?v=TqsT28sRag8",
+     "published": "2026-11-23T13:55:10+00:00",
+     "summary": "GRATIS First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=claude-price-ladder&sl=yt_claude-price-ladder Hoe ik een AI-bureau opbouwde van 0 tot meer dan $1 miljoen per jaar:…",
+     "image": "https://i.ytimg.com/vi/TqsT28sRag8/hqdefault.jpg",
+     "videoId": "TqsT28sRag8",
+     "titleOriginal": "I Paid Claude $1 vs $1,000 to Build a Video Game",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-22",
    "items": [
     {
@@ -1720,89 +1809,6 @@
      "lang": "nl"
     }
    ]
-  },
-  {
-   "date": "2026-11-01",
-   "items": [
-    {
-     "id": "hn:50319358",
-     "kind": "hn",
-     "source": "Hacker News",
-     "title": "Anthropic blokkeert gebruikers voor alles wat te maken heeft met het trainen van grotere modellen",
-     "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-     "published": "2026-10-31T19:39:19+00:00",
-     "summary": "439 punten · 247 reacties",
-     "discussion": "https://news.ycombinator.com/item?id=50319358",
-     "score": 439,
-     "titleOriginal": "Anthropic blocks users for anything touching training larger models",
-     "lang": "nl"
-    },
-    {
-     "id": "hn:50320255",
-     "kind": "hn",
-     "source": "Hacker News",
-     "title": "Anthropic onderneemt stappen om Claude ervan te weerhouden videogames te reverse-engineeren",
-     "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-     "published": "2026-10-31T21:07:58+00:00",
-     "summary": "176 punten · 110 reacties",
-     "discussion": "https://news.ycombinator.com/item?id=50320255",
-     "score": 176,
-     "titleOriginal": "Anthropic takes steps to block Claude from reverse-engineering video games",
-     "lang": "nl"
-    },
-    {
-     "id": "yt:Xa0Zhl8ljPY",
-     "kind": "video",
-     "source": "AICodeKing",
-     "title": "Ik heb een klein lokaal model gebouwd dat beter presteert dan Opus! (door gebruik te maken van Orchestration)",
-     "url": "https://www.youtube.com/watch?v=Xa0Zhl8ljPY",
-     "published": "2026-11-01T10:00:41+00:00",
-     "summary": "PandaCode: https://github.com/aicodeking/pandacode PandaOrchestrator: https://github.com/aicodeking/PandaOrchestrator In deze video laat ik je PandaOrchestrator en Panda Router zien, een klein lokaal model dat ik heb gebouwd om te beslissen welk model elke medewerker in een agentteam moet gebruiken. Ziek…",
-     "image": "https://i.ytimg.com/vi/Xa0Zhl8ljPY/hqdefault.jpg",
-     "videoId": "Xa0Zhl8ljPY",
-     "titleOriginal": "I Built a Tiny Local Model That Outperforms Opus! (by using Orchestration)",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xl47f5",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Het model uit de Mythos-klasse van Anthropic zou zijn gelekt op Hugging Face 💀",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xl47f5/anthropics_mythosclass_model_allegedly_leaked_on/",
-     "published": "2026-11-01T14:18:38+00:00",
-     "summary": "Een Hugging Face-repo genaamd Burner22/numbat beweert een intern trainingscontrolepunt van de Anthropic Mythos-klasse te bevatten. Geclaimde specificaties: 14 biljoen parameters 1.224 MoE-experts 7,72 TB aan gewichten 772 gewichtsscherven Hybride GDN + MLA-architectuur De repo vermeldt ook modelarchitectuur…",
-     "image": "https://preview.redd.it/v1oi9pv0f0zh1.png?width=640&crop=smart&auto=webp&s=0307eadf5a50dd552b672c01c1b0ce5b674189cc",
-     "score": 100,
-     "titleOriginal": "Anthropic's Mythos-class model allegedly leaked on Hugging Face 💀",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xkxsca",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Ik gaf Claude toegang tot verre telescopen. Nu boekt ze elke nacht de hemel.",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkxsca/i_gave_claude_access_to_remote_telescopes_now_she/",
-     "published": "2026-11-01T08:22:37+00:00",
-     "summary": "Sinds vorige maand beheert Claude (ik noem haar Annie) echte telescopen voor mij. Robotica die je per uur huurt op StellarDock, in Chili, Spanje en Utah. Ik raak niets aan. Ze kiest het doel, controleert waar de maan is en hoe hoog het ding wordt, stelt de filters in...",
-     "image": "https://preview.redd.it/j8afqqp5nyyh1.jpeg?width=140&height=93&auto=webp&s=c892b5d23de6281dde1ce08d9223991cb4080815",
-     "score": 99,
-     "titleOriginal": "I gave Claude access to remote telescopes. Now she books the sky every night.",
-     "lang": "nl"
-    },
-    {
-     "id": "yt:V0PzEBcnAdk",
-     "kind": "video",
-     "source": "Nate Herk",
-     "title": "Claude-codemods zijn krankzinnig. Steel deze 3.",
-     "url": "https://www.youtube.com/watch?v=V0PzEBcnAdk",
-     "published": "2026-10-31T22:31:03+00:00",
-     "summary": "",
-     "image": "https://i.ytimg.com/vi/V0PzEBcnAdk/hqdefault.jpg",
-     "videoId": "V0PzEBcnAdk",
-     "titleOriginal": "Claude code mods are insane. Steal these 3.",
-     "lang": "nl"
-    }
-   ]
   }
  ],
  "state": {
@@ -2227,6 +2233,7 @@
     "https://claude.com/resources/articles/dispatch-and-computer-use",
     "https://claude.com/resources/articles/driving-ai-transformation-with-claude",
     "https://claude.com/resources/articles/eight-trends-defining-how-software-gets-built-in-2026",
+    "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
     "https://claude.com/resources/articles/enterprise-managed-auth",
     "https://claude.com/resources/articles/evaluate-prompts",
     "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
@@ -2291,6 +2298,7 @@
     "https://claude.com/resources/articles/interactive-tools-in-claude",
     "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
     "https://claude.com/resources/articles/introducing-citations-api",
+    "https://claude.com/resources/articles/introducing-claude-ship",
     "https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code",
     "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
     "https://claude.com/resources/articles/introducing-routines-in-claude-code",
@@ -2299,6 +2307,7 @@
     "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
     "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
     "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding",
+    "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
     "https://claude.com/resources/articles/linked-billing-on-claude-platform",
     "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer",
     "https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions",
@@ -2380,6 +2389,7 @@
     "https://claude.com/resources/articles/workload-identity-federation",
     "https://claude.com/resources/articles/workspaces",
     "https://claude.com/resources/articles/your-thinking-partner",
+    "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
     "https://claude.com/resources/articles/zero-trust-for-ai-agents"
    ]
   },
@@ -2409,6 +2419,7 @@
    "gh:anthropics/claude-code:v2.1.328",
    "gh:anthropics/claude-code:v2.1.329",
    "gh:anthropics/claude-code:v2.1.330",
+   "gh:anthropics/claude-code:v2.1.331",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -2782,14 +2793,17 @@
    "web:https://claude.com/resources/articles/claude-for-manufacturing",
    "web:https://claude.com/resources/articles/claude-meetings",
    "web:https://claude.com/resources/articles/claude-tag-guide-for-startups",
+   "web:https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
    "web:https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
    "web:https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
    "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
    "web:https://claude.com/resources/articles/interactive-connectors-full-tool",
    "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+   "web:https://claude.com/resources/articles/introducing-claude-ship",
    "web:https://claude.com/resources/articles/introducing-personal-finance-in-claude",
    "web:https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
    "web:https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+   "web:https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
    "web:https://claude.com/resources/articles/linked-billing-on-claude-platform",
    "web:https://claude.com/resources/articles/message-threads",
    "web:https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
@@ -2838,6 +2852,7 @@
    "web:https://claude.com/resources/articles/upgraded-anthropic-console",
    "web:https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context",
    "web:https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+   "web:https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
    "web:https://www.anthropic.com/news/expanding-partnership-gsa",
    "web:https://www.anthropic.com/news/projects",
    "web:https://www.anthropic.com/news/prompting-long-context",
@@ -2879,6 +2894,7 @@
    "yt:8nh1dcH4uJU",
    "yt:9GtcbnmldcY",
    "yt:A5SfzBD6M3o",
+   "yt:ANcPabMDH14",
    "yt:AQl5Q-0l7FQ",
    "yt:BQJRLZ2q_Ns",
    "yt:BlbxhsItZPg",
@@ -2890,6 +2906,7 @@
    "yt:DSS1Yqb6-qE",
    "yt:DdCEmlAydcw",
    "yt:Esh-w8QVCpE",
+   "yt:EuOg5f_Egns",
    "yt:FMbXUxn_nBw",
    "yt:FUj0a5B6bVk",
    "yt:Fb-68zqcSVs",
@@ -2903,6 +2920,7 @@
    "yt:IeW7DDQeTgU",
    "yt:JDsFHmq9hlA",
    "yt:JFoMJ17MOOA",
+   "yt:MkeKXJzJo98",
    "yt:MnW6mm_dHpM",
    "yt:N6FkmdL0Lg0",
    "yt:N9TUbGO6Kr4",
@@ -2920,6 +2938,7 @@
    "yt:SvXR3bNktMA",
    "yt:T2sogF_YacI",
    "yt:TD0VZSWmUoQ",
+   "yt:TqsT28sRag8",
    "yt:UTubvRLX2j4",
    "yt:Up_Z9sVQdy0",
    "yt:UxJZrCFzTHY",
@@ -2969,6 +2988,7 @@
    "yt:omihvjf0A2k",
    "yt:p2xvJAbF-i4",
    "yt:pjYntsza2FA",
+   "yt:qQ6M5neU2ew",
    "yt:qh4vLlit97I",
    "yt:rKV5JcALQoQ",
    "yt:sUsfO3dm8m4",
@@ -2983,7 +3003,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-22T21:56:38.889322+00:00"
+  "last_run": "2026-11-24T02:59:27.900508+00:00"
  },
- "generated": "2026-11-22T21:56:38.889322+00:00"
+ "generated": "2026-11-24T02:59:27.900508+00:00"
 }

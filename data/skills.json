@@ -288,7 +288,7 @@
   },
   {
    "id": "marketplace:airwallex",
-   "name": "airwallex",
+   "name": "Airwallex",
    "origin": "marketplace",
    "description": "Airwallex CLI-plug-in voor Claude - skills voor betalingen, facturering, facturatie, aanmaken van begunstigden, kaartvoorziening, een...",
    "category": "Overig",
@@ -393,9 +393,9 @@
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/alloydb-omni",
    "source": "https://github.com/gemini-cli-extensions/alloydb-omni",
-   "verified": false,
+   "verified": true,
    "installs": 244,
-   "maker": "Google LLC",
+   "maker": "",
    "about": [
     "Create, connect, and interact with an AlloyDB Omni database and data."
    ],
@@ -795,16 +795,16 @@
    "id": "marketplace:atlassian-twg-cli",
    "name": "Atlassian Teamwork Graph CLI",
    "origin": "marketplace",
-   "description": "Teamwork Graph CLI: Atlassian agent-eerste interface voor Jira, Confluence, Bitbucket. Voor Claude Code. Voer /twg-setup uit.",
-   "category": "Ontwikkeling",
+   "description": "Teamwork Graph CLI is de agent-eerste interface van Atlassian voor uw volledige werkcontext: Jira-problemen, Confluence-pagina's, Bitbucket PR's, samen met uw verbonden gegevensbronnen van derden. Speciaal gebouwd voor codeeragenten zoals Claude Code (terminal of desktop), en mogelijk gemaakt door de contextgrafiek van Atlassian. Probeer: \"maak een Jira-uitgave van deze PR en koppel deze aan het epos.\" Claude Code gebruiken in de browser? Installeer in plaats daarvan de Atlassian Rovo MCP-plug-in. Voer /twg-setup uit na de installatie om verbinding te maken met Atlassian Teamwork",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/atlassian-twg-cli",
    "source": "https://github.com/atlassian-labs/twg-plugins",
-   "verified": false,
+   "verified": true,
    "installs": 0,
-   "maker": "Atlassian",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Teamwork Graph CLI: Atlassian agent-first interface for Jira, Confluence, Bitbucket. For Claude Code. Run /twg-setup."
+   "descriptionOriginal": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources. Purpose-built for coding agents like Claude Code (terminal or desktop), and powered by Atlassian's context graph. Try: \"draft a Jira issue from this PR and link it to the epic.\" Using Claude Code in the browser? Install the Atlassian Rovo MCP plugin instead. Run /twg-setup after install to connect Atlassian Teamwork"
   },
   {
    "id": "marketplace:atomic-agents",
@@ -856,6 +856,23 @@
    ],
    "descriptionOriginal": "Code review agent detecting vulnerabilities, quality issues, secrets. 5,000+ analyzers for CVEs.",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:aws-agents",
+   "name": "AWS Agents",
+   "origin": "marketplace",
+   "description": "Bouw, implementeer en gebruik AI-agents op AWS. Skills voor steigeragenten met Amazon Bedrock AgentCore (Strands, LangGraph), tools verbinden via Gateway en MCP, multi-agent en A2A-orkestratie, geheugen, Cedar-beleid, evaluatie, waarneembaarheid, foutopsporing in sporen en logboeken, en productieverharding (inkomende auth, IAM, snelheidsbeperking, afstemming bij koude start).",
+   "category": "Code review & testen",
+   "url": "https://claude.com/marketplace/plugins/aws-agents",
+   "source": "https://github.com/aws/agent-toolkit-for-aws/tree/5bcc9580235709f56e929c7c1fb57fb99bff20af/plugins/aws-agents",
+   "verified": true,
+   "installs": 2359,
+   "maker": "",
+   "about": [
+    "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore, connecting tools, memory, policies, evaluation, debugging, and production hardening."
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore (Strands, LangGraph), connecting tools via Gateway and MCP, multi-agent and A2A orchestration, memory, Cedar policies, evaluation, observability, debugging traces and logs, and production hardening (inbound auth, IAM, rate limiting, cold-start tuning)."
   },
   {
    "id": "marketplace:aws-agents-for-devsecops",
@@ -1004,23 +1021,6 @@
    "descriptionOriginal": "Modernize codebases to AWS: .NET→8/10, COBOL→Java, VMware→EC2, SQL Server→Aurora, runtime & SDK upgrades."
   },
   {
-   "id": "marketplace:aws-agents",
-   "name": "aws-agents",
-   "origin": "marketplace",
-   "description": "Bouw, implementeer en gebruik AI-agenten op AWS. Skills voor steigerbouwers met Amazon Bedrock AgentCore, verbinden ...",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/aws-agents",
-   "source": "https://github.com/aws/agent-toolkit-for-aws",
-   "verified": false,
-   "installs": 2359,
-   "maker": "Amazon Web Services",
-   "about": [
-    "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore, connecting tools, memory, policies, evaluation, debugging, and production hardening."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore, connecting ..."
-  },
-  {
    "id": "community:aws-skills",
    "name": "aws-skills",
    "origin": "community",
@@ -1100,7 +1100,7 @@
   },
   {
    "id": "marketplace:azure-sql-developer",
-   "name": "azure-sql-developer",
+   "name": "Azure SQL Developer",
    "origin": "marketplace",
    "description": "Agentvaardigheden voor Azure SQL Developer, de Azure SQL Database-engine die lokaal in een container wordt uitgevoerd. Leert uw agent...",
    "category": "Data & analyse",
@@ -1544,7 +1544,7 @@
    "description": "C#-taalserver voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/csharp-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/df9699a55c56707e9948a32951ea356638ea8519/plugins/csharp-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/7b7a29e0458e3fd9417b0f46e403843b52958a83/plugins/csharp-lsp",
    "verified": true,
    "installs": 43741,
    "maker": "",
@@ -1554,8 +1554,8 @@
     "After installing the plugin and the csharp-ls language server (via",
     "dotnet tool install --global csharp-ls"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "C# language server for code intelligence"
+   "descriptionOriginal": "C# language server for code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:canva",
@@ -1666,7 +1666,7 @@
    "description": "Carta Investors-plug-in - skills met schrijfmogelijkheden voor het opvragen en bijwerken van beleggersgegevens, prestatiebenchmarks, rapportage over regelgeving, het genereren van AGM-decks, merkextractie en meer via de Carta MCP-server",
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/carta-investors",
-   "source": "https://github.com/carta/plugins/tree/39d22594a11bc3ec405ded589db1e43839e0d9db/plugins/carta-investors",
+   "source": "https://github.com/carta/plugins/tree/c665c188d99f88304fc2d8c44ebf51c68ee4ac78/plugins/carta-investors",
    "verified": true,
    "installs": 484,
    "maker": "",
@@ -2269,6 +2269,23 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:code-modernization",
+   "name": "Code Modernization",
+   "origin": "marketplace",
+   "description": "Moderniseer verouderde codebases (COBOL, verouderde Java/C++/.NET, monolith-webapps) met een gestructureerde preflight/beoordeling/kaart/extract-rules/briefing/(reimagine | transformeren | uplift)/verharden/status workflow. Cross-stack herschrijvingen, greenfield reimagining en upgrades van versies van dezelfde stack (bijv. .NET Framework → .NET 8); een interactieve topologieviewer; gespecialiseerde agenten; en optionele dynamische workflow-orkestratie met vijandige verificatie.",
+   "category": "Schrijven & communicatie",
+   "url": "https://claude.com/marketplace/plugins/code-modernization",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/ca08d5e47d6402db586d37780c559a0c4c7ded9a/plugins/code-modernization",
+   "verified": true,
+   "installs": 5860,
+   "maker": "",
+   "about": [
+    "Modernize legacy codebases (COBOL, legacy Java/C++, monolith web apps) with a structured assess / map / extract-rules / reimagine / transform / harden workflow and specialist review agents"
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Modernize legacy codebases (COBOL, legacy Java/C++/.NET, monolith web apps) with a structured preflight / assess / map / extract-rules / brief / (reimagine | transform | uplift) / harden / status workflow. Cross-stack rewrites, greenfield reimagining, and same-stack version uplifts (e.g. .NET Framework → .NET 8); an interactive topology viewer; specialist agents; and optional dynamic-workflow orchestration with adversarial verification."
+  },
+  {
    "id": "marketplace:code-review",
    "name": "Code Review",
    "origin": "marketplace",
@@ -2305,23 +2322,6 @@
    ],
    "descriptionOriginal": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
    "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:code-modernization",
-   "name": "code-modernization",
-   "origin": "marketplace",
-   "description": "Moderniseer verouderde codebases (COBOL, verouderde Java/C++, monolith-webapps) met een gestructureerde beoordelings- / kaart- / extractieregels...",
-   "category": "Ontwikkeling",
-   "url": "https://claude.com/marketplace/plugins/code-modernization",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization",
-   "verified": true,
-   "installs": 5860,
-   "maker": "Anthropic",
-   "about": [
-    "Modernize legacy codebases (COBOL, legacy Java/C++, monolith web apps) with a structured assess / map / extract-rules / reimagine / transform / harden workflow and specialist review agents"
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Modernize legacy codebases (COBOL, legacy Java/C++, monolith web apps) with a structured assess / map / extract-rules..."
   },
   {
    "id": "marketplace:coderabbit",
@@ -2392,12 +2392,12 @@
   },
   {
    "id": "marketplace:commit-commands",
-   "name": "commit-commands",
+   "name": "Commit Commands",
    "origin": "marketplace",
    "description": "Stroomlijn je git-workflow met eenvoudige opdrachten voor het committen, pushen en maken van pull-aanvragen",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/commit-commands",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/commit-commands",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/1331242ea877583fc40794a535514bd9591cf20c/plugins/commit-commands",
    "verified": true,
    "installs": 171244,
    "maker": "",
@@ -2407,8 +2407,8 @@
     "to automatically stage changes and create a commit with an AI-generated message. Use",
     "for a complete workflow that commits, pushes to a feature branch, and creates a pull request in one step. Run"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests"
+   "descriptionOriginal": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:common-room",
@@ -2577,7 +2577,7 @@
   },
   {
    "id": "marketplace:convex-backend",
-   "name": "convex-backend",
+   "name": "Convex Backend",
    "origin": "marketplace",
    "description": "Convexe backend-skill voor het bouwen van reactieve, typeveilige backends van productiekwaliteit. Helpt Claude bij het ontwerpen van schema's, server...",
    "category": "Design & media",
@@ -2688,6 +2688,26 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:crowdstrike-falcon-foundry",
+   "name": "CrowdStrike Falcon Foundry",
+   "origin": "marketplace",
+   "description": "CrowdStrike Falcon Foundry-ontwikkelingsvaardigheden voor het bouwen van cyberbeveiligingsapplicaties op het Falcon-platform. Inclusief UI-ontwikkeling, verzamelingen, functies, workflows, API-integratie, beveiligingspatronen en foutopsporingsworkflows. De specificaties van Swagger 2.0 worden automatisch geconverteerd naar OpenAPI 3.0 via npx swagger2openapi (vereist Node.js; netwerkoproep naar npm-register).",
+   "category": "Security",
+   "url": "https://claude.com/marketplace/plugins/crowdstrike-falcon-foundry",
+   "source": "https://github.com/crowdstrike/foundry-skills",
+   "verified": true,
+   "installs": 1273,
+   "maker": "",
+   "about": [
+    "Build Falcon Foundry apps from a natural language prompt. Describe what you want, and Claude scaffolds the entire app with the Foundry CLI, imports OpenAPI specs for API integrations, creates Falcon Fusion SOAR workflows in YAML, writes serverless Go or Python functions, builds React or Vue UI pages with the Falcon Shoelace design system, and models collection schemas. Ten specialized skills cover the full app lifecycle from scaffolding through deployment and end-to-end testing.",
+    "The plugin enforces platform-specific patterns that are difficult to learn from documentation alone. A CLI guard hook validates commands to prevent common failures like missing --no-prompt flags or manually creating directories that bypass the manifest. A skill router detects Foundry-related intent and loads the right skill before Claude starts working.",
+    "Describe the app you want to build. For example: \"Create a Falcon Foundry app with an Okta API integration. Share its listUsers endpoint with Falcon Fusion SOAR. Create a workflow to list users on demand, and a UI extension that displays the results.\" Claude breaks this into capabilities, scaffolds each one with the Foundry CLI, delegates implementation to the appropriate skill, validates the manifest, and deploys to the Falcon console. Each skill includes reference implementations from CrowdStrike's open-source sample apps.",
+    "The plugin also covers cross-cutting concerns: OAuth scope hardening and input validation via security patterns, systematic troubleshooting for deploy and manifest errors, and correct patterns for calling Falcon platform APIs from serverless functions using CrowdStrike's gofalcon and FalconPy SDKs."
+   ],
+   "descriptionOriginal": "CrowdStrike Falcon Foundry development skills for building cybersecurity applications on the Falcon platform. Includes UI development, collections, functions, workflows, API integration, security patterns, and debugging workflows. Swagger 2.0 specs are auto-converted to OpenAPI 3.0 via npx swagger2openapi (requires Node.js; network call to npm registry).",
+   "firstSeen": "2000-01-01"
+  },
+  {
    "id": "marketplace:crowdstrike-falcon-fusion",
    "name": "CrowdStrike Falcon Fusion",
    "origin": "marketplace",
@@ -2701,26 +2721,6 @@
    "about": [],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "CrowdStrike Falcon Fusion skills for authoring, deploying, and executing Fusion workflows. Includes live action discovery, YAML authoring with schema validation, workflow import and release, execution monitoring, and Falcon Next-Gen SIEM lookup files."
-  },
-  {
-   "id": "marketplace:crowdstrike-falcon-foundry",
-   "name": "crowdstrike-falcon-foundry",
-   "origin": "marketplace",
-   "description": "CrowdStrike Falcon Foundry-ontwikkelingsvaardigheden voor het bouwen van cyberbeveiligingsapplicaties op het Falcon-platform. Inclusief UI-ontwikkeling, verzamelingen, functies, workflows, API-integratie, beveiligingspatronen en foutopsporingsworkflows. De specificaties van Swagger 2.0 worden automatisch geconverteerd naar OpenAPI 3.0 via npx swagger2openapi (vereist Node.js; netwerkoproep naar npm-register).",
-   "category": "Security",
-   "url": "https://claude.com/marketplace/plugins/crowdstrike-falcon-foundry",
-   "source": "https://github.com/crowdstrike/foundry-skills",
-   "verified": true,
-   "installs": 965,
-   "maker": "",
-   "about": [
-    "Build Falcon Foundry apps from a natural language prompt. Describe what you want, and Claude scaffolds the entire app with the Foundry CLI, imports OpenAPI specs for API integrations, creates Falcon Fusion SOAR workflows in YAML, writes serverless Go or Python functions, builds React or Vue UI pages with the Falcon Shoelace design system, and models collection schemas. Ten specialized skills cover the full app lifecycle from scaffolding through deployment and end-to-end testing.",
-    "The plugin enforces platform-specific patterns that are difficult to learn from documentation alone. A CLI guard hook validates commands to prevent common failures like missing --no-prompt flags or manually creating directories that bypass the manifest. A skill router detects Foundry-related intent and loads the right skill before Claude starts working.",
-    "Describe the app you want to build. For example: \"Create a Falcon Foundry app with an Okta API integration. Share its listUsers endpoint with Falcon Fusion SOAR. Create a workflow to list users on demand, and a UI extension that displays the results.\" Claude breaks this into capabilities, scaffolds each one with the Foundry CLI, delegates implementation to the appropriate skill, validates the manifest, and deploys to the Falcon console. Each skill includes reference implementations from CrowdStrike's open-source sample apps.",
-    "The plugin also covers cross-cutting concerns: OAuth scope hardening and input validation via security patterns, systematic troubleshooting for deploy and manifest errors, and correct patterns for calling Falcon platform APIs from serverless functions using CrowdStrike's gofalcon and FalconPy SDKs."
-   ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CrowdStrike Falcon Foundry development skills for building cybersecurity applications on the Falcon platform. Includes UI development, collections, functions, workflows, API integration, security patterns, and debugging workflows. Swagger 2.0 specs are auto-converted to OpenAPI 3.0 via npx swagger2openapi (requires Node.js; network call to npm registry)."
   },
   {
    "id": "community:csv-data-summarizer",
@@ -4797,7 +4797,7 @@
    "description": "Bouw QuickBooks-integraties met het Intuit Developer Platform – werkruimte- en app-installatie, sandboxbeheer, browser OAuth en genereer geverifieerde QuickBooks API-aanroepen via het Intuit Developer Platform.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/intuit-developer",
-   "source": "https://github.com/intuit/intuit-plugins-official/tree/f9281f7a156ab7bc24f3c03d67b22b1d9bae4ffc/plugins/intuit-developer",
+   "source": "https://github.com/intuit/intuit-plugins-official/tree/83c2aab7e06d9a5e015ce59ef1cf7a2298242c2f/plugins/intuit-developer",
    "verified": true,
    "installs": 0,
    "maker": "Intuit",
@@ -5006,9 +5006,9 @@
    "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/knowledge-catalog",
    "source": "https://github.com/gemini-cli-extensions/knowledge-catalog",
-   "verified": false,
+   "verified": true,
    "installs": 619,
-   "maker": "Google LLC",
+   "maker": "",
    "about": [
     "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform"
    ],
@@ -5464,20 +5464,20 @@
   },
   {
    "id": "marketplace:looker",
-   "name": "looker",
+   "name": "Looker",
    "origin": "marketplace",
    "description": "Maak verbinding met Looker en communiceer met uw gegevens met LookML.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/looker",
    "source": "https://github.com/gemini-cli-extensions/looker",
-   "verified": false,
+   "verified": true,
    "installs": 365,
-   "maker": "Google LLC",
+   "maker": "",
    "about": [
     "Connect to Looker and interact with your data using LookML."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect to Looker and interact with your data using LookML."
+   "descriptionOriginal": "Connect to Looker and interact with your data using LookML.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:lovable",
@@ -6770,8 +6770,8 @@
    "about": [
     "Output.ai workflow development toolkit for Claude Code. Adds 5 specialist agents (planner, builder, debugger, prompt writer, quality reviewer), 40+ slash-command skills covering scaffolding, debugging, evaluation, and credential management, plus a SessionStart hook that auto-loads Output SDK conventions so Claude understands the framework before the first prompt."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Workflow development tools"
+   "descriptionOriginal": "Workflow development tools",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:overkill",
@@ -7731,8 +7731,8 @@
     "The plugin follows a CLI-first approach, using the",
     "CLI with JSON output for reliable automation, and falls back to Railway's GraphQL API for advanced operations. A built-in hook auto-approves Railway CLI and API commands so you don't need to manually confirm each one. Destructive actions still require explicit confirmation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Railway agent skills and hosted MCP server for deploying, configuring, monitoring, and troubleshooting apps and infrastructure on Railway from Claude Code. Manage services, environments, deployments, databases, object storage, networking, and observability."
+   "descriptionOriginal": "Railway agent skills and hosted MCP server for deploying, configuring, monitoring, and troubleshooting apps and infrastructure on Railway from Claude Code. Manage services, environments, deployments, databases, object storage, networking, and observability.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:ralph-loop",
@@ -7771,20 +7771,20 @@
   },
   {
    "id": "marketplace:receipts",
-   "name": "receipts",
+   "name": "Receipts",
    "origin": "marketplace",
-   "description": "Genereer een persoonlijk Claude Code-impactrapport op basis van uw lokale ~/.claude/projects-transcripties, waarnaar wordt verwezen met...",
-   "category": "Ontwikkeling",
+   "description": "Een persoonlijk Claude Code-impactrapport ter rechtvaardiging van uw gebruik tegenover een manager of een zelfbeoordeling: wat u heeft verzonden, naar welke projecten het is gegaan en het aandeel van elk project in uw gebruik. Leest je ~/.claude/projects transcripties en voert lokaal alleen-lezen git uit; Er worden alleen tellingen en projectnamen verzonden om het op te schrijven, en het rapport blijft op uw computer staan.",
+   "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/receipts",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/receipts",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/7b7a29e0458e3fd9417b0f46e403843b52958a83/plugins/receipts",
    "verified": true,
    "installs": 195,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "Generate a personal Claude Code impact report from your local ~/.claude/projects transcripts, cross-referenced against your local git history — what you shipped, which projects it went to, and each project's share of your usage — for justifying usage to a manager or a self-review. Reads your session transcripts and runs read-only git commands in the projects they mention; mining is local and only a small aggregate summary (counts and project names) is sent to write the report, which is saved to your home directory and published nowhere."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Generate a personal Claude Code impact report from your local ~/.claude/projects transcripts, cross-referenced agains..."
+   "descriptionOriginal": "A personal Claude Code impact report for justifying your usage to a manager or a self-review: what you shipped, which projects it went to, and each project's share of your usage. Reads your ~/.claude/projects transcripts and runs read-only git locally; only counts and project names are sent to write it up, and the report stays on your machine."
   },
   {
    "id": "marketplace:reco",
@@ -8463,7 +8463,7 @@
   },
   {
    "id": "marketplace:sentry",
-   "name": "sentry",
+   "name": "Sentry",
    "origin": "marketplace",
    "description": "Sentry-plug-in voor Claude Code om te helpen bij het opsporen van fouten, inclusief MCP- en vaardigheidsmogelijkheden.",
    "category": "Code review & testen",
@@ -9036,7 +9036,7 @@
    "description": "Stripe-ontwikkelingsplug-in voor Claude",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/stripe",
-   "source": "https://github.com/stripe/ai/tree/b3ab9149225f837894b7de08c1b14650d7cc64eb/providers/claude/plugin",
+   "source": "https://github.com/stripe/ai/tree/72e7e79e08e245063e87d61f60340e55e54c68f4/providers/claude/plugin",
    "verified": true,
    "installs": 61066,
    "maker": "",
@@ -10492,13 +10492,18 @@
   "marketplace:csharp-lsp",
   "marketplace:statement-auditor",
   "marketplace:duende-skills",
-  "marketplace:content-studio"
+  "marketplace:content-studio",
+  "marketplace:knowledge-catalog"
  ],
- "updated": "2026-11-22T21:56:57.301955+00:00",
+ "updated": "2026-11-24T02:59:53.657890+00:00",
  "tonight": {
-  "date": "2026-11-22",
-  "id": "marketplace:content-studio",
-  "text": [],
-  "textOriginal": []
+  "date": "2026-11-24",
+  "id": "marketplace:knowledge-catalog",
+  "text": [
+   "Maak verbinding met Knowledge Catalog om gegevens en AI-artefacten op uw dataplatform te ontdekken, beheren, monitoren en beheren"
+  ],
+  "textOriginal": [
+   "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform"
+  ]
  }
 }
