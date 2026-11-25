@@ -233,6 +233,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:ai-producer-by-opusclip",
+   "name": "AI Producer by OpusClip",
+   "origin": "marketplace",
+   "description": "Maak een bewerkbare video met pratende hoofden in de chat. Upload beeldmateriaal, directe fragmenten, ondertitels, herkadering en bewegende beelden en open vervolgens het AI Producer-voorbeeld om te verfijnen of te exporteren.",
+   "category": "Code review & testen",
+   "url": "https://claude.com/marketplace/plugins/ai-producer-by-opusclip",
+   "source": "https://github.com/opus-pro/ai-producer-plugin/tree/b83d207d79c5678a4b0330318852b9ec18bd3579/plugins/aip",
+   "verified": true,
+   "installs": 0,
+   "maker": "OpusClip",
+   "about": [],
+   "firstSeen": "2026-11-25",
+   "descriptionOriginal": "Create an editable talking-head video in chat. Upload footage, direct cuts, captions, reframing, and motion graphics, then open the AI Producer preview to refine or export."
+  },
+  {
    "id": "marketplace:ai-firstify",
    "name": "AI-Firstify",
    "origin": "marketplace",
@@ -910,6 +925,21 @@
    ],
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions."
+  },
+  {
+   "id": "marketplace:aws-context",
+   "name": "AWS Context",
+   "origin": "marketplace",
+   "description": "Zorg ervoor dat codeeragenten bekend zijn in de kennis van uw organisatie met AWS Context: haal de contextgrafiek van uw agent op, corrigeer of breid deze uit, en neem sessies op.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/aws-context",
+   "source": "https://github.com/aws/agent-toolkit-for-aws/tree/24b0e244c91ab0c64fb3202b568236e1ec6430ad/plugins/aws-context",
+   "verified": true,
+   "installs": 0,
+   "maker": "Amazon Web Services",
+   "about": [],
+   "firstSeen": "2026-11-25",
+   "descriptionOriginal": "Ground coding agents in your organization's knowledge with AWS Context: retrieve from your agent context graph, correct or extend it, and record sessions."
   },
   {
    "id": "marketplace:aws-continuum",
@@ -1922,7 +1952,7 @@
    "description": "C/C++ taalserver (clangd) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/clangd-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/plugins/clangd-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/clangd-lsp",
    "verified": true,
    "installs": 29851,
    "maker": "",
@@ -1931,8 +1961,8 @@
     "Code intelligence with IntelliSense and symbol navigation, real-time diagnostics and linting, automatic code formatting, and background indexing for improved performance on large codebases.",
     "Once installed, the language server activates automatically when you open C or C++ files. Claude will have access to enhanced code understanding, allowing you to ask questions like \"What's wrong with this function?\" or \"Find all references to this struct.\" The plugin requires clangd to be installed on your system — use"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "C/C++ language server (clangd) for code intelligence"
+   "descriptionOriginal": "C/C++ language server (clangd) for code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:claude-code-setup",
@@ -1941,7 +1971,7 @@
    "description": "Analyseer codebases en adviseer op maat gemaakte Claude Code-automatiseringen, zoals hooks, skills, MCP-servers en subagenten.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/claude-code-setup",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/plugins/claude-code-setup",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/claude-code-setup",
    "verified": true,
    "installs": 195067,
    "maker": "",
@@ -2498,7 +2528,7 @@
   },
   {
    "id": "marketplace:consensus",
-   "name": "consensus",
+   "name": "Consensus",
    "origin": "marketplace",
    "description": "Consensus MCP-server voor AI-aangedreven zoeken in peer-reviewed wetenschappelijke onderzoeksartikelen",
    "category": "Code review & testen",
@@ -2716,11 +2746,16 @@
    "url": "https://claude.com/marketplace/plugins/crowdstrike-falcon-fusion",
    "source": "https://github.com/crowdstrike/fusion-skills",
    "verified": true,
-   "installs": 0,
+   "installs": 212,
    "maker": "",
-   "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "CrowdStrike Falcon Fusion skills for authoring, deploying, and executing Fusion workflows. Includes live action discovery, YAML authoring with schema validation, workflow import and release, execution monitoring, and Falcon Next-Gen SIEM lookup files."
+   "about": [
+    "Build Falcon Fusion workflows from a natural language prompt. Describe what you want to automate, and Claude discovers real action IDs from the live API, authors workflow YAML with correct schema and CEL expressions, validates against the Charlotte JSON schema, imports the workflow to your CID, releases it, and triggers execution. Five specialized skills cover the full lifecycle: orchestration, authoring, deployment, execution, and lookup file management.",
+    "The plugin enforces discipline that prevents common failures. Action IDs are hex values only discoverable via live API search. The plugin never uses placeholders or guessed values. Every action gets a version constraint. YAML is validated locally before import, catching errors that would otherwise surface only at deploy time. A skill router hook detects workflow intent and loads the correct skill before Claude starts working.",
+    "Describe the workflow you want to build. For example: \"Generate a Falcon Fusion workflow that will trigger from a Falcon Next-Gen SIEM detection. The workflow should hydrate the detection using an event query to get the full details of the detection. If a user, host, domain, url, file indicator, or ip indicator is found, enrich each in parallel using HTTP calls to VirusTotal or DomainTools. Summarize the enrichment across all the threat intelligence providers using an LLM completion action and then send an email formatted in HTML.\" Claude searches the action catalog for the right platform actions, resolves their IDs and parameters, authors the YAML with correct trigger configuration and CEL expressions, validates it, imports it to your CID, and releases it for execution. The plugin includes 25 production-grade example workflows from CrowdStrike's Content Library as reference implementations.",
+    "The plugin also handles adjacent concerns: HTTP actions that call external APIs (VirusTotal, Slack, PagerDuty) with credential config references, inline Python scripts that run directly in the workflow engine, schemaless event queries using CQL/FQL, loop and conditional patterns, and Falcon Next-Gen SIEM lookup files for threat hunting enrichment via CQL match() queries."
+   ],
+   "descriptionOriginal": "CrowdStrike Falcon Fusion skills for authoring, deploying, and executing Fusion workflows. Includes live action discovery, YAML authoring with schema validation, workflow import and release, execution monitoring, and Falcon Next-Gen SIEM lookup files.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:csv-data-summarizer",
@@ -2771,20 +2806,20 @@
   },
   {
    "id": "marketplace:cwc-makers",
-   "name": "cwc-makers",
+   "name": "CWC Makers",
    "origin": "marketplace",
    "description": "Naadloze onboarding voor de Code-with-Claude Makers Cardputer: één /maker-setup-opdracht kloont de build-with-claude-repository, flasht UIFlow-firmware en installeert de Claude Buddy-appbundel op een nieuw aangesloten M5Stack Cardputer-Adv.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/cwc-makers",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/cwc-makers",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/cwc-makers",
    "verified": true,
    "installs": 731,
    "maker": "",
    "about": [
     "Onboard a Code-with-Claude Makers Cardputer with one /maker-setup command — clones the build-with-claude repo, flashes UIFlow firmware, and installs the Claude Buddy app bundle."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Seamless onboarding for the Code-with-Claude Makers Cardputer: one /maker-setup command clones the build-with-claude repo, flashes UIFlow firmware, and installs the Claude Buddy app bundle onto a freshly-plugged-in M5Stack Cardputer-Adv."
+   "descriptionOriginal": "Seamless onboarding for the Code-with-Claude Makers Cardputer: one /maker-setup command clones the build-with-claude repo, flashes UIFlow firmware, and installs the Claude Buddy app bundle onto a freshly-plugged-in M5Stack Cardputer-Adv.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:cypress",
@@ -3775,6 +3810,21 @@
    "descriptionOriginal": "Secure file deletion and data sanitization methods."
   },
   {
+   "id": "marketplace:finaloop",
+   "name": "Finaloop",
+   "origin": "marketplace",
+   "description": "Verbind meer dan 1000 bronnen – Shopify, Amazon, Stripe, Meta, Google, banken, salarisadministratie, inventaris – en run uw bedrijf vanuit een gesprek met uw AI-assistent op basis van boekhoudgegevens op transactiebasis. Vraag alles: omzet en winst, gemengde ROAS, echte SKU-marge, cash runway, afwijkingen. Bouw dashboards en plan rapporten in eenvoudig Engels. Elk antwoord is tot op de cent nauwkeurig: cijfers die u tijdens een bestuursvergadering kunt verdedigen.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/finaloop",
+   "source": "https://github.com/finaloop/finaloop-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Finaloop",
+   "about": [],
+   "firstSeen": "2026-11-25",
+   "descriptionOriginal": "Connect 1,000+ sources — Shopify, Amazon, Stripe, Meta, Google, banks, payroll, inventory — and run your business from a conversation with your AI assistant on accrual-grade accounting data. Ask anything: sales and profits, blended ROAS, true SKU margin, cash runway, anomalies. Build dashboards and schedule reports in plain English. Every answer is reconciled to the penny — numbers you can defend in a board meeting."
+  },
+  {
    "id": "marketplace:finance",
    "name": "Finance",
    "origin": "marketplace",
@@ -4266,7 +4316,7 @@
   },
   {
    "id": "marketplace:glean-dev-docs",
-   "name": "glean-dev-docs",
+   "name": "Glean Dev Docs",
    "origin": "marketplace",
    "description": "Zoek in de openbare Glean-ontwikkelaarsdocumentatie: API's, SDK's, MCP en integratiehandleidingen voor het bouwen met Glean.",
    "category": "Documenten",
@@ -5364,7 +5414,7 @@
    "description": "Lineaire integratie van probleemtracking. Creëer problemen, beheer projecten, update statussen, zoek in werkruimten en stroomlijn uw softwareontwikkelingsworkflow met de moderne probleemtracker van Linear.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/linear",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/external_plugins/linear",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/5cec6716767283f4675a05f5f8855b5b49c81783/external_plugins/linear",
    "verified": true,
    "installs": 48038,
    "maker": "",
@@ -5521,7 +5571,7 @@
    "description": "Lua-taalserver voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/lua-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/lua-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/lua-lsp",
    "verified": true,
    "installs": 15595,
    "maker": "",
@@ -5581,6 +5631,21 @@
    "about": [],
    "descriptionOriginal": "Lusha Talent Sourcing: Find best-fit talent, get verified contact details, and see who may be open to a move.",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:make",
+   "name": "Make",
+   "origin": "marketplace",
+   "description": "Verander terugkerend werk dat u in Claude tegenkomt in maak automatiseringen en AI-agenten die in de cloud blijven draaien. Bouw, voer en beheer ze vanuit Claude Chat, Cowork of Claude Code, verbonden met de apps en gegevens die ze nodig hebben. Alles blijft zichtbaar in het visuele landschap van Make, zodat je het op elk moment kunt bekijken en wijzigen.",
+   "category": "Data & analyse",
+   "url": "https://claude.com/marketplace/plugins/make",
+   "source": "https://github.com/integromat/make-skills/tree/cccba41e03406e49f9802b48292e6d14588b1779/plugins/make-skills-claude",
+   "verified": true,
+   "installs": 0,
+   "maker": "Make",
+   "about": [],
+   "firstSeen": "2026-11-25",
+   "descriptionOriginal": "Turn recurring work you spot in Claude into Make automations and AI Agents that keep running in the cloud. Build, run, and manage them from Claude Chat, Cowork, or Claude Code, connected to the apps and data they need. Everything stays visible in Make's visual landscape, so you can inspect and change it anytime."
   },
   {
    "id": "marketplace:mapbox",
@@ -6623,8 +6688,8 @@
     "to perform a risk-focused review of your system design. Use",
     "to scan for vulnerabilities and secrets across your codebase. Run"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Opsera DevSecOps Agent — AI-powered architecture analysis, security scanning, compliance auditing, and SQL security for your codebase. Free trial included."
+   "descriptionOriginal": "Opsera DevSecOps Agent — AI-powered architecture analysis, security scanning, compliance auditing, and SQL security for your codebase. Free trial included.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:optibot",
@@ -6932,7 +6997,7 @@
    "description": "PHP-taalserver (Intelefense) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/php-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/099387b7a2ea02022bb850becca750246ae12562/plugins/php-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/php-lsp",
    "verified": true,
    "installs": 32856,
    "maker": "",
@@ -7736,12 +7801,12 @@
   },
   {
    "id": "marketplace:ralph-loop",
-   "name": "ralph-loop",
+   "name": "Ralph Loop",
    "origin": "marketplace",
    "description": "Continue zelfreferentiële AI-loops voor interactieve iteratieve ontwikkeling, waarbij de Ralph Wiggum-techniek wordt geïmplementeerd. Voer Claude uit in een while-true-lus met dezelfde prompt totdat de taak is voltooid.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/ralph-loop",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/f8c5e7a1dcb71b10cb74586224b5401f3de5db28/plugins/ralph-loop",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/ralph-loop",
    "verified": true,
    "installs": 196527,
    "maker": "",
@@ -7751,8 +7816,8 @@
     "Start an iterative session with",
     "/ralph-loop \"your prompt here\" --max-iterations 10 --completion-promise \"DONE\""
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task completion."
+   "descriptionOriginal": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task completion.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:realize-plugin",
@@ -8165,8 +8230,8 @@
    "about": [
     "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI."
+   "descriptionOriginal": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sales",
@@ -8175,7 +8240,7 @@
    "description": "Bereid telefoongesprekken voor, vat ze samen en volg ze op, onderzoek accounts, bekijk deals en pijplijn, en schrijf de prognose, met behulp van de CRM-, e-mail-, agenda- en chattools die uw team al gebruikt, of geüploade bestanden. Werkt documenten bij, stelt e-mail op of verzendt deze, plaatst berichten in de chat en boekt vergaderingen wanneer u daarom vraagt.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/sales",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e91a134584eb798bac7fb0379358006a2b63b965/sales",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/sales",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -8395,13 +8460,13 @@
    "id": "marketplace:security-guidance",
    "name": "Security Guidance",
    "origin": "marketplace",
-   "description": "Security hook waarschuwt voor opdrachtinjectie, XSS en onveilige codepatronen bij het bewerken van bestanden",
+   "description": "Beveiligingsbeoordeling voor door Claude gegenereerde code. Op patronen gebaseerde waarschuwingen bij bewerkingen, door LLM aangedreven diff-beoordeling bij Stop en een agentische commit-recensent die injectie, XSS, SSRF, hardgecodeerde geheimen en meer dan 25 andere kwetsbaarheidsklassen onderschept.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/security-guidance",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/security-guidance",
    "verified": true,
    "installs": 241800,
-   "maker": "Anthropic",
+   "maker": "",
    "about": [
     "A security reminder hook that automatically warns about potential security vulnerabilities when Claude edits files. The plugin intercepts Write, Edit, and MultiEdit operations and scans code for dangerous patterns before changes are applied.",
     "The plugin detects eight major vulnerability categories including command injection in GitHub Actions workflows, unsafe child_process.exec() calls, eval() and new Function() usage, XSS vectors like dangerouslySetInnerHTML and innerHTML, Python pickle deserialization risks, and os.system() command injection.",
@@ -8409,7 +8474,7 @@
     "Example warnings you might see:"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Security hook warns about command injection, XSS, and unsafe code patterns when editing files"
+   "descriptionOriginal": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardcoded secrets, and 25+ other vulnerability classes."
   },
   {
    "id": "marketplace:semgrep",
@@ -8429,21 +8494,6 @@
     "/semgrep-plugin:setup_semgrep_plugin"
    ],
    "descriptionOriginal": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
-   "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:semgrep-guardian",
-   "name": "Semgrep Guardian",
-   "origin": "marketplace",
-   "description": "Semgrep Guardian: Scant door agenten gegenereerde code op beveiligingsproblemen.",
-   "category": "Security",
-   "url": "https://claude.com/marketplace/plugins/semgrep-guardian",
-   "source": "https://github.com/semgrep/mcp-marketplace/tree/add751c2638c473830c79a2f004b48ba17961be4/plugin",
-   "verified": true,
-   "installs": 0,
-   "maker": "",
-   "about": [],
-   "descriptionOriginal": "Semgrep Guardian: Scans agent-generated code for security vulnerabilities.",
    "firstSeen": "2000-01-01"
   },
   {
@@ -8726,6 +8776,21 @@
    "verified": true,
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack."
+  },
+  {
+   "id": "marketplace:slideworks",
+   "name": "Slideworks",
+   "origin": "marketplace",
+   "description": "Bouw PowerPoint-decks van advieskwaliteit vanuit de beheerde lay-outbibliotheek van Slideworks: bladert door de bibliotheek met adviesdia's voor elke dia, rendert het deck op de Slideworks-master en voegt het één keer in.",
+   "category": "Documenten",
+   "url": "https://claude.com/marketplace/plugins/slideworks",
+   "source": "https://github.com/slideworks-io/slideworks-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Slideworks",
+   "about": [],
+   "firstSeen": "2026-11-25",
+   "descriptionOriginal": "Build consulting-grade PowerPoint decks from Slideworks' curated layout library: browses its library of consulting slides for each slide, renders the deck on the Slideworks master, inserts it once."
   },
   {
    "id": "marketplace:slint-ai-plugins",
@@ -9316,20 +9381,20 @@
   },
   {
    "id": "marketplace:teamcity-cli",
-   "name": "teamcity-cli",
+   "name": "TeamCity CLI",
    "origin": "marketplace",
-   "description": "Agentvaardigheid voor interactie met TeamCity CI/CD met behulp van de teamcity CLI. Hiermee kan Claude builds verkennen, logs bekijken, ...",
-   "category": "Ontwikkeling",
+   "description": "Agentvaardigheid voor interactie met TeamCity CI/CD met behulp van de teamcity CLI. Hiermee kan Claude builds verkennen, logbestanden bekijken, taken starten, wachtrijen, agenten beheren en meer.",
+   "category": "Design & media",
    "url": "https://claude.com/marketplace/plugins/teamcity-cli",
-   "source": "https://github.com/JetBrains/teamcity-cli",
-   "verified": false,
+   "source": "https://github.com/jetbrains/teamcity-cli",
+   "verified": true,
    "installs": 531,
-   "maker": "JetBrains",
+   "maker": "",
    "about": [
     "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI. Enables Claude to explore builds, view logs, start jobs, manage queues, agents, and more."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI. Enables Claude to explore builds, view logs, ..."
+   "descriptionOriginal": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI. Enables Claude to explore builds, view logs, start jobs, manage queues, agents, and more."
   },
   {
    "id": "marketplace:telegram",
@@ -9503,8 +9568,8 @@
    "about": [
     "Agent Skills for Together AI platform — inference, training, embeddings, audio, video, images, function calling, and infrastructure. Covers serverless chat completions, image/video generation, fine-tuning, batch inference, evaluations, sandboxes, dedicated endpoints, and GPU clusters."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agent Skills for Together AI platform — inference, training, embeddings, audio, video, images, function calling, and infrastructure"
+   "descriptionOriginal": "Agent Skills for Together AI platform — inference, training, embeddings, audio, video, images, function calling, and infrastructure",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:tooluniverse",
@@ -10389,8 +10454,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Seven skills for financial advisors, built exclusively on Zocks' structured meeting intelligence: behavioral profiles and relationship temperature, attrition-risk ranking, a held-away asset pipeline, client journey dossiers, annual review packs, next-best-action analysis, and a two-horizon tax opportunity scan. Every skill requires the Zocks MCP connection and refuses to run without it — no transcript uploads or other connectors can substitute."
+   "descriptionOriginal": "Seven skills for financial advisors, built exclusively on Zocks' structured meeting intelligence: behavioral profiles and relationship temperature, attrition-risk ranking, a held-away asset pipeline, client journey dossiers, annual review packs, next-best-action analysis, and a two-horizon tax opportunity scan. Every skill requires the Zocks MCP connection and refuses to run without it — no transcript uploads or other connectors can substitute.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:zoom-plugin",
@@ -10493,17 +10558,14 @@
   "marketplace:statement-auditor",
   "marketplace:duende-skills",
   "marketplace:content-studio",
-  "marketplace:knowledge-catalog"
+  "marketplace:knowledge-catalog",
+  "marketplace:regulatory-legal"
  ],
- "updated": "2026-11-24T02:59:53.657890+00:00",
+ "updated": "2026-11-25T00:59:23.920364+00:00",
  "tonight": {
-  "date": "2026-11-24",
-  "id": "marketplace:knowledge-catalog",
-  "text": [
-   "Maak verbinding met Knowledge Catalog om gegevens en AI-artefacten op uw dataplatform te ontdekken, beheren, monitoren en beheren"
-  ],
-  "textOriginal": [
-   "Connect to Knowledge Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform"
-  ]
+  "date": "2026-11-25",
+  "id": "marketplace:regulatory-legal",
+  "text": [],
+  "textOriginal": []
  }
 }

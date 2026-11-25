@@ -1,6 +1,100 @@
 {
  "editions": [
   {
+   "date": "2026-11-25",
+   "items": [
+    {
+     "id": "web:https://claude.com/resources/articles/install-as-app",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "Verander artefacten in Mac- en Windows-apps",
+     "url": "https://claude.com/resources/articles/install-as-app",
+     "published": "2026-11-24T00:00:00+00:00",
+     "summary": "Open de artefacten die u elke dag gebruikt, zoals elke andere app, en laat ze meer doen op uw computer. Uitrol als bètaversie in Claude voor Mac en Windows.",
+     "image": "https://claude.com/resources/articles/install-as-app/opengraph-image/og",
+     "titleOriginal": "Turn artifacts into Mac and Windows apps",
+     "lang": "nl"
+    },
+    {
+     "id": "web:https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+     "kind": "claude-blog",
+     "source": "Claude blog",
+     "title": "MCP-servers kunnen nu skills verzenden, taken uitvoeren en meer met Claude",
+     "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+     "published": "2026-11-24T00:00:00+00:00",
+     "summary": "Skills via MCP bevinden zich in de publieke bètafase in Claude, dus MCP-servers kunnen naast hun tools ook skills verzenden. Taken en elicitatie zijn nu algemeen beschikbaar en bestandsuploads worden binnenkort uitgerold.",
+     "image": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more/opengraph-image/og",
+     "titleOriginal": "MCP servers can now ship skills, run tasks, and more with Claude",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:8Aoq6mJeAXI",
+     "kind": "video-official",
+     "source": "Claude",
+     "title": "Lessen van bouwagenten op het Claude Platform",
+     "url": "https://www.youtube.com/watch?v=8Aoq6mJeAXI",
+     "published": "2026-11-24T17:01:50+00:00",
+     "summary": "Anthropic bouwde de infrastructuur achter Claude Managed Agents drie keer voordat hij er een platform voor klanten van maakte. Jess Yan (Product Manager, Claude Managed Agents), Michael Cohen (lid van de technische staf, Claude Managed Agents) en Lance Martin (lid van de technische…",
+     "image": "https://i.ytimg.com/vi/8Aoq6mJeAXI/hqdefault.jpg",
+     "videoId": "8Aoq6mJeAXI",
+     "titleOriginal": "Lessons from building agents on the Claude Platform",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50627836",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Anthropic breekt onder de IPO-prijs van $ 83",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+     "published": "2026-11-24T13:23:47+00:00",
+     "summary": "332 punten · 661 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50627836",
+     "score": 332,
+     "titleOriginal": "Anthropic breaks below $83 IPO price",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50630809",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Vraag het aan HN: Anthropic beschuldigt mijn bedrijf van distilleren. Hoe kan ik bewijzen dat ik dat niet ben?",
+     "url": "https://news.ycombinator.com/item?id=50630809",
+     "published": "2026-11-24T16:45:44+00:00",
+     "summary": "220 punten · 163 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50630809",
+     "score": 220,
+     "titleOriginal": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:O_-QoxNBDX0",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Claude Artefacts heeft zojuist een enorme upgrade gekregen",
+     "url": "https://www.youtube.com/watch?v=O_-QoxNBDX0",
+     "published": "2026-11-25T00:23:51+00:00",
+     "summary": "GRATIS AI OS-sjabloon: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=claude-artifacts-apps&sl=yt_claude-artifacts-apps Hoe ik een AI-bureau opbouwde van 0 tot meer dan $1 miljoen per jaar:…",
+     "image": "https://i.ytimg.com/vi/O_-QoxNBDX0/hqdefault.jpg",
+     "videoId": "O_-QoxNBDX0",
+     "titleOriginal": "Claude Artifacts Just Got a Huge Upgrade",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:80fV5H-Wc_4",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Claude Code heeft zojuist stilletjes een goedkopere modus uitgebracht",
+     "url": "https://www.youtube.com/watch?v=80fV5H-Wc_4",
+     "published": "2026-11-24T13:48:56+00:00",
+     "summary": "GRATIS AI OS-sjabloon: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=claude-code-code-mode&sl=yt_claude-code-code-mode Hoe ik een AI-bureau opbouwde van 0 tot meer dan $1 miljoen per jaar:…",
+     "image": "https://i.ytimg.com/vi/80fV5H-Wc_4/hqdefault.jpg",
+     "videoId": "80fV5H-Wc_4",
+     "titleOriginal": "Claude Code Just Silently Released a Cheaper Mode",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-24",
    "items": [
     {
@@ -1654,161 +1748,6 @@
      "lang": "nl"
     }
    ]
-  },
-  {
-   "date": "2026-11-03",
-   "items": [
-    {
-     "id": "web:https://claude.com/resources/articles/message-threads",
-     "kind": "claude-blog",
-     "source": "Claude blog",
-     "title": "Maak langlopende agenten sneller met berichtenthreads",
-     "url": "https://claude.com/resources/articles/message-threads",
-     "published": "2026-11-02T00:00:00+00:00",
-     "summary": "Nieuw in de Berichten-API: stuur uw gesprek één keer en de API ontvangt elke beurt alleen wat nieuw is.",
-     "image": "https://claude.com/resources/articles/message-threads/opengraph-image/og",
-     "titleOriginal": "Make long-running agents faster with message threads",
-     "lang": "nl"
-    },
-    {
-     "id": "hn:50339494",
-     "kind": "hn",
-     "source": "Hacker News",
-     "title": "Het interne AI-gebruik van Anthropic, tegen verkoopprijzen, overschrijdt nu het loon van de werknemers",
-     "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-     "published": "2026-11-02T16:40:29+00:00",
-     "summary": "276 punten · 231 reacties",
-     "discussion": "https://news.ycombinator.com/item?id=50339494",
-     "score": 276,
-     "titleOriginal": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-     "lang": "nl"
-    },
-    {
-     "id": "hn:50337439",
-     "kind": "hn",
-     "source": "Hacker News",
-     "title": "Anthropic rapporteert een omzet van $17 miljard in het derde kwartaal, met toezeggingen van $895 miljard in de herziene S-1",
-     "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-     "published": "2026-11-02T14:38:45+00:00",
-     "summary": "226 punten · 257 reacties",
-     "discussion": "https://news.ycombinator.com/item?id=50337439",
-     "score": 226,
-     "titleOriginal": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xlkghv",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Opus 5.5 overleeft de hele AI-releasecyclus van oktober 😂",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlkghv/opus_55_surviving_the_entire_october_ai_release/",
-     "published": "2026-11-02T01:36:54+00:00",
-     "summary": "Ik ben benieuwd wat jullie ervan vinden. Voor degenen die Claude Code regelmatig gebruiken: is Opus 5.5 nog steeds uw favoriete model? Of is uw ervaring de afgelopen maand veranderd? Credit: video gedeeld door TekonBurns op X. ingediend door /u/Disastrous-Fee9734 [link] [opmerkingen]",
-     "image": "https://external-preview.redd.it/OWdxMGJobzhzM3poMdxjX-GahTXJ19uxJOTzbS5B9K2crQer2XNiKUd00dBv.png?width=640&crop=smart&auto=webp&s=4f5c93a1fbe89f2dc190a66c9b537515483f4e7c",
-     "score": 100,
-     "titleOriginal": "Opus 5.5 surviving the entire October AI release cycle 😂",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xllzsf",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "“Repareer nu alle fouten die je hebt gemaakt”",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xllzsf/now_fix_all_mistakes_youve_made/",
-     "published": "2026-11-02T02:53:15+00:00",
-     "summary": "Maar serieus, ik begon heel voorzichtig te zijn, maar Opus5.5 blijft het goed doen, ik kan het niet helpen, maar ik vertrouw er meer op dan zou moeten. Zijn er meer mensen die in dit patroon vervallen? ingediend door /u/HarshNoiseX [link] [opmerkingen]",
-     "image": "https://external-preview.redd.it/azlhbWp1d3Q1NHpoMbFbbKwiA0QDr91GYoAKnLdpwLW6iyyRS1A9vy3WO8nh.png?width=640&crop=smart&auto=webp&s=9f32f419f11333ca4abfe156abaf8a3b5efd47ff",
-     "score": 99,
-     "titleOriginal": "“Now fix all mistakes you’ve made”",
-     "lang": "nl"
-    },
-    {
-     "id": "gh:anthropics/claude-code:v2.1.317",
-     "kind": "release",
-     "source": "claude-code",
-     "title": "claude-code v2.1.317",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-     "published": "2026-11-03T01:25:46+00:00",
-     "summary": "Een waarschuwing toegevoegd aan `/schedule` wanneer een nieuwe geplande cloudtaak connectoren krijgt waar je niet om hebt gevraagd, met hoe je deze kunt verwijderen · Een vinkje toegevoegd dat vraagt voordat een web- of shell-toolaanroep het e-mailadres van je account naar het netwerk stuurt · `onFailure: \"block\"` toegevoegd voor Agent SDK-hook...",
-     "bullets": [
-      "Een waarschuwing toegevoegd aan `/schedule` wanneer een nieuwe, in de cloud geplande taak connectoren krijgt waar je niet om hebt gevraagd, met informatie over hoe je deze kunt verwijderen",
-      "Er is een controle toegevoegd die vraagt voordat een web- of shell-tooloproep het e-mailadres van uw account naar het netwerk verzendt",
-      "`onFailure: \"block\"` toegevoegd voor agent SDK hook-callbacks, dus een callback die mislukt, blokkeert de actie in plaats van deze uit te voeren",
-      "Er is een melding toegevoegd op het tabblad Code van Claude Desktop wanneer de op afstand beheerde instellingen van uw organisatie niet zijn geladen voor de sessie, en een andere zodra dit wel het geval is",
-      "Er is een melding toegevoegd wanneer de controle in de automatische modus geen antwoord geeft op de tooloproep van een subagent, waardoor er voorheen niets in de hoofdweergave achterbleef",
-      "`anthropic.plan`, `anthropic.seat_type`, `anthropic.provider` en `anthropic.custom_base_url` toegevoegd aan OTel-statistieken, gebeurtenissen en spans",
-      "Een kostenrapport toegevoegd aan de Claude Apps Gateway admin API, `GET /v1/organizations/analytics/cost`, voor het lezen van eerdere uitgaven over een totaal datumbereik, per...",
-      "Een dagelijks overzicht toegevoegd van de IdP-groepen van elke ontwikkelaar op Claude-app-gateways met `admin:` ingesteld, bewaard gedurende `admin.identity_retention_days`, waarvan de kosten worden gerapporteerd..."
-     ],
-     "titleOriginal": "claude-code v2.1.317",
-     "lang": "nl"
-    },
-    {
-     "id": "hn:50344919",
-     "kind": "hn",
-     "source": "Hacker News",
-     "title": "De SEC moet de beursintroductie van Anthropic blokkeren om het publiek te beschermen",
-     "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-     "published": "2026-11-02T22:30:47+00:00",
-     "summary": "393 punten · 311 reacties",
-     "discussion": "https://news.ycombinator.com/item?id=50344919",
-     "score": 393,
-     "titleOriginal": "The SEC Should Block Anthropic's IPO to Protect the Public",
-     "lang": "nl"
-    },
-    {
-     "id": "hn:50344958",
-     "kind": "hn",
-     "source": "Hacker News",
-     "title": "De groei van Anthropic is zojuist afgevlakt",
-     "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-     "published": "2026-11-02T22:33:20+00:00",
-     "summary": "227 punten · 263 reacties",
-     "discussion": "https://news.ycombinator.com/item?id=50344958",
-     "score": 227,
-     "titleOriginal": "Anthropic's growth just flattened",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xmcwbt",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Opus 5.5 medium met blender mcp is waanzinnig met de juiste aanwijzingen",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmcwbt/opus_55_medium_with_blender_mcp_is_insane_with/",
-     "published": "2026-11-02T23:21:35+00:00",
-     "summary": "Ik heb geëxperimenteerd met Opus 5.5 Medium en Blender voor een middeleeuws game-ontwikkelingsproject waar ik aan werk, en de resultaten zijn fantastisch. Ik heb in het verleden Blender met Claude geprobeerd en was niet echt onder de indruk, maar ik ontdekte dat het geheim is dat alles in hapklare brokken wordt opgedeeld...",
-     "image": "https://preview.redd.it/95i9r8sp7azh1.jpeg?width=140&height=87&auto=webp&s=11a269cc326ac09b2cf44d88e90c286365d1d432",
-     "score": 100,
-     "titleOriginal": "Opus 5.5 medium with blender mcp is insane with the right prompting",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xmtptd",
-     "kind": "reddit",
-     "source": "r/ClaudeCode",
-     "title": "Als je aan het douchen bent en Claude om toestemming vraagt",
-     "url": "https://www.reddit.com/r/ClaudeCode/comments/1xmtptd/when_youre_taking_a_shower_and_claude_asks_for/",
-     "published": "2026-11-03T14:01:53+00:00",
-     "summary": "ingediend door /u/Icy-Care-353 [link] [opmerkingen]",
-     "image": "https://preview.redd.it/umxxpcn3mezh1.jpeg?width=320&crop=smart&auto=webp&s=e77bccf706129d0924f653210901ccd20e473446",
-     "score": 100,
-     "titleOriginal": "When you're taking a shower and Claude asks for permission",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xmzcjz",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Niemand anders lijkt het zo moeilijk te hebben met Claude als ik. Ik wil gewoon begrijpen waarom Claude mij haat.",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xmzcjz/nobody_else_seems_to_have_as_hard_of_a_time_with/",
-     "published": "2026-11-03T17:32:58+00:00",
-     "summary": "ingediend door /u/takenorinvalid [link] [opmerkingen]",
-     "image": "https://preview.redd.it/l1axtscnnfzh1.png?width=320&crop=smart&auto=webp&s=24c6d1c33cf2e82a58b1b70f1c58aa462d946003",
-     "score": 99,
-     "titleOriginal": "Nobody else seems to have as hard of a time with Claude as I do. I just want to understand why Claude hates me.",
-     "lang": "nl"
-    }
-   ]
   }
  ],
  "state": {
@@ -2292,6 +2231,7 @@
     "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering",
     "https://claude.com/resources/articles/improving-frontend-design-through-skills",
     "https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills",
+    "https://claude.com/resources/articles/install-as-app",
     "https://claude.com/resources/articles/integrate-apis-seamlessly",
     "https://claude.com/resources/articles/integrations",
     "https://claude.com/resources/articles/interactive-connectors-full-tool",
@@ -2348,6 +2288,7 @@
     "https://claude.com/resources/articles/sheets-whiteboards-data",
     "https://claude.com/resources/articles/skills",
     "https://claude.com/resources/articles/skills-explained",
+    "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
     "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
     "https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more",
     "https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform",
@@ -2481,6 +2422,12 @@
    "hn:50574383",
    "hn:50578794",
    "hn:50597612",
+   "hn:50618513",
+   "hn:50627836",
+   "hn:50628932",
+   "hn:50630809",
+   "hn:50631210",
+   "hn:50632756",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -2797,6 +2744,7 @@
    "web:https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
    "web:https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
    "web:https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+   "web:https://claude.com/resources/articles/install-as-app",
    "web:https://claude.com/resources/articles/interactive-connectors-full-tool",
    "web:https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
    "web:https://claude.com/resources/articles/introducing-claude-ship",
@@ -2830,6 +2778,7 @@
    "web:https://claude.com/resources/articles/sheets-whiteboards-data",
    "web:https://claude.com/resources/articles/skills",
    "web:https://claude.com/resources/articles/skills-explained",
+   "web:https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
    "web:https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
    "web:https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more",
    "web:https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform",
@@ -2890,6 +2839,8 @@
    "yt:5tnMvn6nvtM",
    "yt:6DT8Cy2rnd0",
    "yt:6a1QSJlsYpU",
+   "yt:80fV5H-Wc_4",
+   "yt:8Aoq6mJeAXI",
    "yt:8Pg6G5h05hk",
    "yt:8nh1dcH4uJU",
    "yt:9GtcbnmldcY",
@@ -2910,6 +2861,7 @@
    "yt:FMbXUxn_nBw",
    "yt:FUj0a5B6bVk",
    "yt:Fb-68zqcSVs",
+   "yt:Fp1P03610wM",
    "yt:G3i2k6DdI0o",
    "yt:GnFFcLnmWuQ",
    "yt:Gy1jSeSzAhk",
@@ -2927,6 +2879,7 @@
    "yt:NZq88JAJSag",
    "yt:NmN6jn6IiMA",
    "yt:OTfS65T70L8",
+   "yt:O_-QoxNBDX0",
    "yt:OawSCIZdZmU",
    "yt:P1zBiAQU1IA",
    "yt:ROF2Nv_KjOM",
@@ -3003,7 +2956,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-24T02:59:27.900508+00:00"
+  "last_run": "2026-11-25T00:58:54.108897+00:00"
  },
- "generated": "2026-11-24T02:59:27.900508+00:00"
+ "generated": "2026-11-25T00:58:54.108897+00:00"
 }
