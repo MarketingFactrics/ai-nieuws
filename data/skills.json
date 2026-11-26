@@ -147,8 +147,8 @@
    "installs": 0,
    "maker": "Adspirer",
    "about": [],
-   "firstSeen": "2026-11-20",
-   "descriptionOriginal": "Run Google Ads, Meta (Facebook and Instagram) Ads, TikTok Ads, LinkedIn Ads, Microsoft Advertising (Bing), Amazon Ads, Walmart Connect and ChatGPT Ads from Claude through Adspirer's hosted MCP server. Research keywords with live CPC and search volume, launch and optimize PPC, paid social and retail media campaigns, track ROAS, ACoS, CPA, CTR and cost per lead, find wasted spend, audit conversion tracking, and write on-brand ad copy. It can also read Google Analytics 4, Search Console and Tag"
+   "descriptionOriginal": "Run Google Ads, Meta (Facebook and Instagram) Ads, TikTok Ads, LinkedIn Ads, Microsoft Advertising (Bing), Amazon Ads, Walmart Connect and ChatGPT Ads from Claude through Adspirer's hosted MCP server. Research keywords with live CPC and search volume, launch and optimize PPC, paid social and retail media campaigns, track ROAS, ACoS, CPA, CTR and cost per lead, find wasted spend, audit conversion tracking, and write on-brand ad copy. It can also read Google Analytics 4, Search Console and Tag",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "marketplace:agent-sdk-dev",
@@ -1589,12 +1589,12 @@
   },
   {
    "id": "marketplace:canva",
-   "name": "canva",
+   "name": "Canva",
    "origin": "marketplace",
    "description": "Creëer, bewerk, beoordeel, wijzig het formaat en controleer Canva-ontwerpen met de Canva MCP-server.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/canva",
-   "source": "https://github.com/canva-sdks/canva-skills/tree/906e8e0b0808e7146b998a48179abef281be57ca/plugins/canva",
+   "source": "https://github.com/canva-sdks/canva-skills/tree/e3102902d13ac3e14f37c9cd36c79430af83194e/plugins/canva",
    "verified": true,
    "installs": 1094,
    "maker": "",
@@ -2902,7 +2902,7 @@
    "description": "Schrijf SQL, verken datasets en genereer sneller inzichten. Bouw visualisaties en dashboards en zet ruwe data om in duidelijke verhalen voor belanghebbenden.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/data",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/0e0fcacddcc892eb92a1b7873ff9d68159c47571/data",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/data",
    "verified": true,
    "installs": 7655,
    "maker": "",
@@ -2912,8 +2912,8 @@
     "to profile a dataset's shape and quality,",
     "for optimized SQL with best practices,"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders."
+   "descriptionOriginal": "Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:data-agent-kit-starter-pack",
@@ -3020,7 +3020,7 @@
   },
   {
    "id": "marketplace:datahub-skills",
-   "name": "datahub-skills",
+   "name": "DataHub Skills",
    "origin": "marketplace",
    "description": "DataHub-ontwikkelings- en interactietoolkit met connectorplanning, PR-beoordeling, zoeken in catalogi, verrijking van metagegevens, tracering van afstammingen, beheer van gegevenskwaliteit en skills voor het opzetten van verbindingen",
    "category": "Code review & testen",
@@ -3032,8 +3032,8 @@
    "about": [
     "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, lineage tracing, data quality management, and connection setup skills"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, lineage tracing, data quality management, and connection setup skills"
+   "descriptionOriginal": "DataHub development and interaction toolkit with connector planning, PR review, catalog search, metadata enrichment, lineage tracing, data quality management, and connection setup skills",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:dataiku-headless",
@@ -3052,20 +3052,20 @@
   },
   {
    "id": "marketplace:dataproc",
-   "name": "dataproc",
+   "name": "Dataproc",
    "origin": "marketplace",
    "description": "Beheer Dataproc-clusters en -taken.",
    "category": "Data & analyse",
    "url": "https://claude.com/marketplace/plugins/dataproc",
    "source": "https://github.com/gemini-cli-extensions/dataproc",
-   "verified": false,
+   "verified": true,
    "installs": 247,
-   "maker": "Google LLC",
+   "maker": "",
    "about": [
     "Manage Dataproc clusters and jobs."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Manage Dataproc clusters and jobs."
+   "descriptionOriginal": "Manage Dataproc clusters and jobs.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:datarobot-agent-skills",
@@ -3202,7 +3202,7 @@
    "description": "DevExpress Office File API-skills: spreadsheet, tekstverwerking, oudere PDF, nieuwe PDF (CTP), presentatie, streepjescode, eenheidconversie, Excel-export, zip en AI-aangedreven extensies voor headless .NET-documentautomatisering.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/devexpress-office-pdf-file-api",
-   "source": "https://github.com/devexpress/agent-skills/tree/5146b8d3b707699889a52902082a35ba8296dcb7/plugins/dx-office-file-api",
+   "source": "https://github.com/devexpress/agent-skills/tree/b6d1f053ada41ec61a9e10911eaaa2ac5baee572/plugins/dx-office-file-api",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -3404,16 +3404,16 @@
    "id": "marketplace:dynatrace",
    "name": "Dynatrace",
    "origin": "marketplace",
-   "description": "Dynatrace-observatievaardigheden: DQL-querypatronen, applicatie- en infrastructuurmonitoring, loganalyse, probleemonderzoek en workflows voor incidentrespons, met de Dynatrace MCP-server voor live platformtoegang.",
-   "category": "Ontwikkeling",
+   "description": "Verbind Claude Code met uw Dynatrace-omgeving en onderzoek productieproblemen, bekijk implementaties en controleer op kwetsbaarheden met behulp van echte gegevens die rechtstreeks in uw sessie worden opgehaald: details van de hoofdoorzaak, logboeken, statistieken, sporen en CPU-/geheugenprofilering. Vraag het in duidelijke taal en krijg antwoorden die gebaseerd zijn op wat er feitelijk in uw omgeving gebeurt, en niet alleen op samenvattingen van de documentatie. Gebruik Dynatrace Skills, naast de MCP-server, om uw omgeving te doorzoeken zonder Claude Code te verlaten. Om ook",
+   "category": "Security",
    "url": "https://claude.com/marketplace/plugins/dynatrace",
-   "source": "https://github.com/Dynatrace/dynatrace-for-ai",
-   "verified": false,
+   "source": "https://github.com/dynatrace/dynatrace-for-ai",
+   "verified": true,
    "installs": 0,
-   "maker": "Dynatrace",
+   "maker": "",
    "about": [],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Dynatrace observability skills: DQL query patterns, application and infrastructure monitoring, log analysis, problem investigation, and incident response workflows, with the Dynatrace MCP server for live platform access."
+   "descriptionOriginal": "Connect Claude Code to your Dynatrace environment and investigate production issues, review deployments, and check for vulnerabilities using real data pulled directly into your session: root cause details, logs, metrics, traces, and CPU/memory profiling. Ask in plain language and get answers grounded in what's actually happening in your environment, not just documentation summaries. Use Dynatrace Skills, alongside the MCP server, query your environment without leaving Claude Code. To also"
   },
   {
    "id": "marketplace:earnings-reviewer",
@@ -3762,8 +3762,8 @@
     "Development skills help you scaffold custom FiftyOne plugins with operators and panels, build UIs with the VOODO design system, generate Jupyter notebooks, enforce FiftyOne code style conventions, and troubleshoot common issues like persistence, connections, and performance.",
     "After installing, ask naturally for what you need. Try prompts like: \"Import my dataset from /path/to/data into FiftyOne\", \"Find and remove duplicate images in my dataset\", \"Run object detection on my dataset using a Zoo model\", \"Evaluate my model predictions against ground truth\", \"Curate my dataset for training\", \"Create an embeddings visualization of my dataset\", or \"Scaffold a new FiftyOne plugin\". The plugin requires the FiftyOne MCP Server ("
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Build high-quality datasets and computer vision models. Visualize datasets, analyze models, find duplicates, run infe..."
+   "descriptionOriginal": "Build high-quality datasets and computer vision models. Visualize datasets, analyze models, find duplicates, run infe...",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:figma",
@@ -4381,6 +4381,26 @@
    "descriptionOriginal": "Suite of Google Workspace integrations: Gmail, Calendar, Chat, Docs, Sheets, Slides, and Drive with cross-platform OAuth."
   },
   {
+   "id": "marketplace:grafana-mcp",
+   "name": "Grafana (self-hosted)",
+   "origin": "marketplace",
+   "description": "Voor zelf-gehoste Grafana, of elke Grafana met een serviceaccounttoken: dashboards, Prometheus, Loki, waarschuwingen, incidenten en OnCall via de Grafana MCP-server, draaien lokaal in Docker.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/grafana-mcp",
+   "source": "https://github.com/grafana/ai-marketplace/tree/77a6f1a277c35d3205dc34abf78d85e49ca5ccf1/plugins/grafana-mcp",
+   "verified": true,
+   "installs": 821,
+   "maker": "",
+   "about": [
+    "Connects Claude Code to a live Grafana instance via the official Grafana MCP server, adding 40+ tools for AI-assisted observability workflows. Manage dashboards, datasources, alerting rules, incidents, and on-call schedules directly from your editor. Query Prometheus metrics and Loki logs, create and patch dashboards, manage contact points, and deep-link to specific panels — all through natural language.",
+    "Docker image and covers nine major tool categories: Dashboards (search, summarize, patch), Datasources (list, retrieve), Prometheus (query execution, metric exploration), Loki (log and metric analysis), Alerting (rule and contact point management), Incidents (creation and activity tracking), OnCall (schedule and shift visibility), Navigation (deep linking), and Annotations (CRUD and tag management).",
+    "Requires Docker and a Grafana service account token. Viewer role provides read access; Editor role enables write operations. Works with both self-hosted Grafana and Grafana Cloud instances.",
+    "After installing and configuring your Grafana URL and service account token, try prompts like:"
+   ],
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "For self-hosted Grafana, or any Grafana with a service-account token: dashboards, Prometheus, Loki, alerting, incidents, and OnCall via the Grafana MCP server, run locally in Docker."
+  },
+  {
    "id": "marketplace:grafana-cloud-mcp",
    "name": "Grafana Cloud MCP",
    "origin": "marketplace",
@@ -4395,26 +4415,6 @@
     "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required."
    ],
    "descriptionOriginal": "Hosted MCP server for AI-assisted Grafana Cloud observability — no local installation required.",
-   "firstSeen": "2000-01-01"
-  },
-  {
-   "id": "marketplace:grafana-mcp",
-   "name": "Grafana MCP",
-   "origin": "marketplace",
-   "description": "MCP-server voor AI-ondersteund Grafana-dashboard, gegevensbron, waarschuwingen en incidentbeheer.",
-   "category": "Data & analyse",
-   "url": "https://claude.com/marketplace/plugins/grafana-mcp",
-   "source": "https://github.com/grafana/ai-marketplace/tree/12be5634a492f73c189d466c5449d09b853ad7a4/plugins/grafana-mcp",
-   "verified": true,
-   "installs": 821,
-   "maker": "",
-   "about": [
-    "Connects Claude Code to a live Grafana instance via the official Grafana MCP server, adding 40+ tools for AI-assisted observability workflows. Manage dashboards, datasources, alerting rules, incidents, and on-call schedules directly from your editor. Query Prometheus metrics and Loki logs, create and patch dashboards, manage contact points, and deep-link to specific panels — all through natural language.",
-    "Docker image and covers nine major tool categories: Dashboards (search, summarize, patch), Datasources (list, retrieve), Prometheus (query execution, metric exploration), Loki (log and metric analysis), Alerting (rule and contact point management), Incidents (creation and activity tracking), OnCall (schedule and shift visibility), Navigation (deep linking), and Annotations (CRUD and tag management).",
-    "Requires Docker and a Grafana service account token. Viewer role provides read access; Editor role enables write operations. Works with both self-hosted Grafana and Grafana Cloud instances.",
-    "After installing and configuring your Grafana URL and service account token, try prompts like:"
-   ],
-   "descriptionOriginal": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
    "firstSeen": "2000-01-01"
   },
   {
@@ -6708,8 +6708,8 @@
     "Optibot also includes authentication management and CI/CD integration. You can log in interactively with OAuth or use API keys for headless environments like GitHub Actions, making it easy to add automated code review to your deployment pipeline.",
     "Ask Claude to review your code naturally — try prompts like"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "AI code review that catches production bugs, business logic issues & security vulnerabilities in Claude Code."
+   "descriptionOriginal": "AI code review that catches production bugs, business logic issues & security vulnerabilities in Claude Code.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:oracle-ai-data-platform-workbench-databricks-migrator",
@@ -7533,8 +7533,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Create, send, and track agreements for e-signature — generate documents from templates, place signature fields, route for signing, and monitor status."
+   "descriptionOriginal": "Create, send, and track agreements for e-signature — generate documents from templates, place signature fields, route for signing, and monitor status.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:pubmed",
@@ -8300,8 +8300,8 @@
    "installs": 0,
    "maker": "Workday",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Use Sana in Claude to get answers and act in Workday without switching tools. Check time-off balances and submit requests, review pay, find policies, file expenses, or approve transactions. HR and finance self-service are live, with more as admins enable agents. Sana respects each person’s Workday permissions and approval chains. Requires a Workday UMSA. Beta: admins can apply for access here: https://forms.gle/pz138pmAUE8x92B46"
+   "descriptionOriginal": "Use Sana in Claude to get answers and act in Workday without switching tools. Check time-off balances and submit requests, review pay, find policies, file expenses, or approve transactions. HR and finance self-service are live, with more as admins enable agents. Sana respects each person’s Workday permissions and approval chains. Requires a Workday UMSA. Beta: admins can apply for access here: https://forms.gle/pz138pmAUE8x92B46",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:sanity",
@@ -8814,7 +8814,7 @@
    "description": "Vooraf gebouwde workflows voor kleine bedrijven waarmee u uw bedrijf kunt runnen en laten groeien. Ondersteunt een groot deel van de tools die u al gebruikt. Je keurt elke stap goed die geld of klanten raakt. Installeer het programma en vraag Claude om u te helpen aan boord te komen.",
    "category": "Productiviteit",
    "url": "https://claude.com/marketplace/plugins/small-business",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/e605d8ddbfb688da57dfaaceebd93f12a64ef1d3/small-business",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/small-business",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -9420,7 +9420,7 @@
    "description": "De Terraform MCP Server biedt naadloze integratie met het Terraform-ecosysteem, waardoor geavanceerde automatiserings- en interactiemogelijkheden voor de ontwikkeling van Infrastructure as Code (IaC) mogelijk zijn.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/terraform",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/df9699a55c56707e9948a32951ea356638ea8519/external_plugins/terraform",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/external_plugins/terraform",
    "verified": true,
    "installs": 10280,
    "maker": "",
@@ -10163,6 +10163,21 @@
    "descriptionOriginal": "Plan, start and polish websites with WeInc from Claude: write a full brief, start the build, and run a pre-launch check."
   },
   {
+   "id": "marketplace:whenever",
+   "name": "Whenever",
+   "origin": "marketplace",
+   "description": "Bouw en beheer When-workflowautomatiseringen van Claude.",
+   "category": "Productiviteit",
+   "url": "https://claude.com/marketplace/plugins/whenever",
+   "source": "https://github.com/wix-incubator/whenever-claude-plugin",
+   "verified": true,
+   "installs": 0,
+   "maker": "Wix.com Ltd.",
+   "about": [],
+   "firstSeen": "2026-11-26",
+   "descriptionOriginal": "Build and manage Whenever workflow automations from Claude."
+  },
+  {
    "id": "marketplace:wiley-scholar-gateway",
    "name": "Wiley Scholar Gateway",
    "origin": "marketplace",
@@ -10559,12 +10574,13 @@
   "marketplace:duende-skills",
   "marketplace:content-studio",
   "marketplace:knowledge-catalog",
-  "marketplace:regulatory-legal"
+  "marketplace:regulatory-legal",
+  "marketplace:noibu"
  ],
- "updated": "2026-11-25T00:59:23.920364+00:00",
+ "updated": "2026-11-26T00:35:55.881143+00:00",
  "tonight": {
-  "date": "2026-11-25",
-  "id": "marketplace:regulatory-legal",
+  "date": "2026-11-26",
+  "id": "marketplace:noibu",
   "text": [],
   "textOriginal": []
  }

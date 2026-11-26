@@ -1,6 +1,84 @@
 {
  "editions": [
   {
+   "date": "2026-11-26",
+   "items": [
+    {
+     "id": "gh:anthropics/claude-code:v2.1.332",
+     "kind": "release",
+     "source": "claude-code",
+     "title": "claude-code v2.1.332",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+     "published": "2026-11-25T01:32:14+00:00",
+     "summary": "Skills toegevoegd van MCP-servers (bèta). Ze worden weergegeven als `server:skill` in het `/` menu; andere skills behouden hun naam · Een 'PreSkillShellCommand' hook-gebeurtenis toegevoegd die de inline shell-opdrachten van een skill of commando kan weigeren terwijl deze wordt geladen; op 2.1.331 en ouder, een instellingenbestand met de naam… ·…",
+     "bullets": [
+      "Skills toegevoegd van MCP-servers (bèta). Ze worden weergegeven als `server:skill` in het `/` menu; andere skills behouden hun naam",
+      "Een `PreSkillShellCommand` hook-gebeurtenis toegevoegd die de inline shell-opdrachten van een skill of commando kan weigeren terwijl deze wordt geladen; op 2.1.331 en ouder, een instellingenbestand met de naam ...",
+      "\"Altijd bezorgen\" toegevoegd aan de prompt voor vastgehouden berichten uit andere sessies",
+      "Een voettekstregel toegevoegd die blijft staan zolang een gemarkeerd bericht uw sessie op een ander model heeft, totdat u er een kiest met `/model`",
+      "Een OpenTelemetry `assistant_response`-gebeurtenis toegevoegd voor tekst die Claude verzendt via SendUserMessage of de berichtentool van Cowork, wanneer het loggen van reacties is ingeschakeld",
+      "Een waarschuwing toegevoegd op het tabblad Code van VS Code en Desktop wanneer een deel van een sessie niet kon worden opgeslagen, waarin wordt aangegeven hoe dit kan worden opgeslagen met `/compact`",
+      "Er is een melding toegevoegd op het tabblad Code van VS Code en Desktop wanneer de eerdere berichten van een hervatte sessie niet waren geladen, zoals de terminal al laat zien",
+      "Uw toegangsniveau voor het Cyber Verificatieprogramma is toegevoegd aan de opstartkop, naast de modelnaam wanneer uw niveau van toepassing is op dat model en u bent aangemeld met een..."
+     ],
+     "titleOriginal": "claude-code v2.1.332",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50648050",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Veel kortere versie van GRH Lean-verificatie van Anthropic",
+     "url": "https://github.com/lsernau/grh-lean",
+     "published": "2026-11-25T21:48:10+00:00",
+     "summary": "218 punten · 98 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50648050",
+     "score": 218,
+     "titleOriginal": "Much shorter version of GRH Lean verification from Anthropic",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:Mrl_jKJ3VtA",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Ik heb 9 manieren getest om Claude Code gratis te gebruiken",
+     "url": "https://www.youtube.com/watch?v=Mrl_jKJ3VtA",
+     "published": "2026-11-25T21:48:24+00:00",
+     "summary": "",
+     "image": "https://i.ytimg.com/vi/Mrl_jKJ3VtA/hqdefault.jpg",
+     "videoId": "Mrl_jKJ3VtA",
+     "titleOriginal": "I Tested 9 Ways to Use Claude Code for Free",
+     "lang": "nl"
+    },
+    {
+     "id": "hn:50634426",
+     "kind": "hn",
+     "source": "Hacker News",
+     "title": "Lancering HN: Versine (YC F26) – MCP om geld te verzenden en te ontvangen",
+     "url": "https://news.ycombinator.com/item?id=50634426",
+     "published": "2026-11-24T20:44:15+00:00",
+     "summary": "103 punten · 101 reacties",
+     "discussion": "https://news.ycombinator.com/item?id=50634426",
+     "score": 103,
+     "titleOriginal": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+     "lang": "nl"
+    },
+    {
+     "id": "yt:YHRCFtHD5yo",
+     "kind": "video",
+     "source": "Nate Herk",
+     "title": "Ik heb 9 manieren getest om Claude Code gratis te gebruiken (3 zijn de moeite waard)",
+     "url": "https://www.youtube.com/watch?v=YHRCFtHD5yo",
+     "published": "2026-11-25T18:52:36+00:00",
+     "summary": "Hostinger VPS-code NATEHERK voor 10% korting op jaarabonnementen: https://hostinger.com/nateherk10 GRATIS installatiehandleiding: https://www.skool.com/ai-automation-society/about?el=claude-code-free&hcategory=youtube-videos&utm_campaign=free-group Mijn tools💻 GRATIS MAAND voice-to-text:…",
+     "image": "https://i.ytimg.com/vi/YHRCFtHD5yo/hqdefault.jpg",
+     "videoId": "YHRCFtHD5yo",
+     "titleOriginal": "I Tested 9 Ways to Use Claude Code for Free (3 are worth it)",
+     "lang": "nl"
+    }
+   ]
+  },
+  {
    "date": "2026-11-25",
    "items": [
     {
@@ -1659,95 +1737,6 @@
      "lang": "nl"
     }
    ]
-  },
-  {
-   "date": "2026-11-04",
-   "items": [
-    {
-     "id": "gh:anthropics/claude-code:v2.1.318",
-     "kind": "release",
-     "source": "claude-code",
-     "title": "claude-code v2.1.318",
-     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
-     "published": "2026-11-04T00:01:03+00:00",
-     "summary": "Een record van uw antwoord toegevoegd wanneer Claude Code vraagt om de mods die het in een sessie schrijft in te schakelen · `assume_role` toegevoegd op `mantel` stroomopwaarts van de Claude Apps-gateway, voor een rol in een ander AWS-account en voor AWS-kostentoerekening per ontwikkelaar · Een `effort`-optie toegevoegd aan een...",
-     "bullets": [
-      "Een record van uw antwoord toegevoegd wanneer Claude Code vraagt om de mods die het in een sessie schrijft in te schakelen",
-      "`assume_role` toegevoegd aan `mantel` upstreams van de Claude apps-gateway, voor een rol in een ander AWS-account en voor AWS-kostentoeschrijving per ontwikkelaar",
-      "Een `effort` optie toegevoegd aan `$.model.fork` van een mod, zodat een snelle bijbaan op `laag` kan draaien, ongeacht de inspanning die de sessie kost; het resultaat geeft de verzonden inspanning weer",
-      "De datum waarop een opgeslagen claude.ai-aanmelding eindigt, is toegevoegd aan `claude auth status` (`loginExpiresAt`) en aan `claude -p` JSON-resultaten (`credential_expires_at`)",
-      "Een stderr-waarschuwing van één regel toegevoegd aan de tekstuitvoer `claude -p`, beginnend 10 dagen voordat een opgeslagen claude.ai-aanmelding eindigt",
-      "Probleem opgelost waarbij '--continu' soms het eerdere gesprek verloor nadat de nieuwe pogingen van een verkeerd ingedeelde tooloproep waren afgelopen (regressie in 2.1.314)",
-      "Een oplossing voor macOS-sessies waarbij veel actieve Bash-opdrachten vastliepen terwijl het geheugen groeide",
-      "Probleem opgelost dat toestemmingsprompts werden beantwoord door toetsen die werden getypt vlak na het verzenden van een bericht, of voordat een langzame prompt verscheen"
-     ],
-     "titleOriginal": "claude-code v2.1.318",
-     "lang": "nl"
-    },
-    {
-     "id": "web:https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
-     "kind": "claude-blog",
-     "source": "Claude blog",
-     "title": "Nieuwe agenten en producten op Claude Marketplace",
-     "url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
-     "published": "2026-11-04T00:00:00+00:00",
-     "summary": "Ontdek nieuwe agenten en producten op Claude Marketplace die teams helpen met beveiliging, ontwikkelaarsinfrastructuur, creatief werk en productiviteit.",
-     "image": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace/opengraph-image/og",
-     "titleOriginal": "New agents and products on Claude Marketplace",
-     "lang": "nl"
-    },
-    {
-     "id": "yt:kJA3fQnntpY",
-     "kind": "video-official",
-     "source": "Claude",
-     "title": "Werk samen aan artefacten in Claude",
-     "url": "https://www.youtube.com/watch?v=kJA3fQnntpY",
-     "published": "2026-11-04T18:18:25+00:00",
-     "summary": "Maak en deel artefacten in Claude, zodat uw team samen documenten, trackers en dashboards kan bewerken, rechtstreeks vanuit een chat. Deze walkthrough laat zien hoe u de toegangsniveaus voor elke teamgenoot kunt instellen, van kijker tot redacteur, en hoe de rollen van commentator en bijdrager werken op gedeelde trackers. Wanneer…",
-     "image": "https://i.ytimg.com/vi/kJA3fQnntpY/hqdefault.jpg",
-     "videoId": "kJA3fQnntpY",
-     "titleOriginal": "Collaborate on artifacts in Claude",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xnnqkg",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Laat me Claude Code-projecten zien die er NIET vibecoded uitzien",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
-     "published": "2026-11-04T13:06:41+00:00",
-     "summary": "aangezien iedereen hier vraagt welke tools, skills of MCP's ervoor zorgen dat de gebruikersinterface er minder \"door AI gegenereerd\" uitziet. Kunnen jullie mij voorbeelden geven van apps/websites die er dan niet zo uitzien? Wat proberen mensen zelfs hier te bereiken? Als er dit soort apps/websites zijn, waarom…",
-     "score": 100,
-     "titleOriginal": "Show me Claude Code projects that DON’T look vibecoded",
-     "lang": "nl"
-    },
-    {
-     "id": "reddit:t3_1xn7jti",
-     "kind": "reddit",
-     "source": "r/ClaudeAI",
-     "title": "Van een notitieboekjeschets tot een geanimeerde Godot-baas: 3D AI + Opus 5.5",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xn7jti/from_a_notebook_sketch_to_an_animated_godot_boss/",
-     "published": "2026-11-03T22:40:11+00:00",
-     "summary": "Na mijn eerste post over After the Wind bleef ik in contact met de ontwikkelaar en vroeg hoe hij zijn personages maakt. Hij deelde het proces achter deze pinguïnbaas, van twee notitieboekjeschetsen tot een opgetuigd personage met 22 animaties. De stapel Claude Opus 5.5 + Blender —…",
-     "image": "https://external-preview.redd.it/bmd5aGR3ZGk1aHpoMXPkUATUGVmX00BplUI5h6QuJBgeJO4UfF4mxgl-gNFo.png?width=640&crop=smart&auto=webp&s=bf8760c6701ccdd7cf10915fa4557f1881c5f1e7",
-     "score": 99,
-     "titleOriginal": "From a notebook sketch to an animated Godot boss — 3D AI + Opus 5.5",
-     "lang": "nl"
-    },
-    {
-     "id": "yt:ep4psgAFOqc",
-     "kind": "video",
-     "source": "Matt Wolfe",
-     "title": "Hoe ik Claude mijn video's laat bewerken (geen code nodig)",
-     "url": "https://www.youtube.com/watch?v=ep4psgAFOqc",
-     "published": "2026-11-04T16:40:16+00:00",
-     "summary": "Probeer vidIQ voor slechts $ 1 https://vidiq.com/mattwolfe/ Leer hoe u video's bewerkt met Claude AI, werkt met Premiere Pro en uw beeldmateriaal omzet in korte inhoud. In deze handleiding laat ik zien hoe je Claude kunt gebruiken om te helpen met videobewerking, van het werken met je bestaande beeldmateriaal...",
-     "image": "https://i.ytimg.com/vi/ep4psgAFOqc/hqdefault.jpg",
-     "videoId": "ep4psgAFOqc",
-     "titleOriginal": "How I Get Claude To Edit My Videos (No Code Needed)",
-     "lang": "nl"
-    }
-   ]
   }
  ],
  "state": {
@@ -2361,6 +2350,7 @@
    "gh:anthropics/claude-code:v2.1.329",
    "gh:anthropics/claude-code:v2.1.330",
    "gh:anthropics/claude-code:v2.1.331",
+   "gh:anthropics/claude-code:v2.1.332",
    "hn:50170021",
    "hn:50171966",
    "hn:50175779",
@@ -2428,6 +2418,8 @@
    "hn:50630809",
    "hn:50631210",
    "hn:50632756",
+   "hn:50634426",
+   "hn:50648050",
    "reddit:t3_1xg18vv",
    "reddit:t3_1xg1mov",
    "reddit:t3_1xg1q97",
@@ -2874,6 +2866,7 @@
    "yt:JFoMJ17MOOA",
    "yt:MkeKXJzJo98",
    "yt:MnW6mm_dHpM",
+   "yt:Mrl_jKJ3VtA",
    "yt:N6FkmdL0Lg0",
    "yt:N9TUbGO6Kr4",
    "yt:NZq88JAJSag",
@@ -2904,6 +2897,7 @@
    "yt:Xm_Sf2qxRW4",
    "yt:Xt_pAY0Mg4Q",
    "yt:Y9Wz2PV404E",
+   "yt:YHRCFtHD5yo",
    "yt:YUYeHMsqbmY",
    "yt:YewAJPawE7I",
    "yt:_Ui4ZkYm4ho",
@@ -2944,6 +2938,7 @@
    "yt:qQ6M5neU2ew",
    "yt:qh4vLlit97I",
    "yt:rKV5JcALQoQ",
+   "yt:reRtVTuXbNc",
    "yt:sUsfO3dm8m4",
    "yt:sof3vW4mHTs",
    "yt:t2Zo3YAJdj4",
@@ -2956,7 +2951,7 @@
    "yt:z7cNbsr3b5s",
    "yt:zTfpVoIT03s"
   ],
-  "last_run": "2026-11-25T00:58:54.108897+00:00"
+  "last_run": "2026-11-26T00:35:33.097178+00:00"
  },
- "generated": "2026-11-25T00:58:54.108897+00:00"
+ "generated": "2026-11-26T00:35:33.097178+00:00"
 }
