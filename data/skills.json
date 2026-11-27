@@ -286,7 +286,7 @@
   },
   {
    "id": "marketplace:airtable",
-   "name": "airtable",
+   "name": "Airtable",
    "origin": "marketplace",
    "description": "Airtable is de database- en operationele laag voor uw agenten, of ze nu product-, marketing-, verkoop-, operationele, HR- of een aangepaste zakelijke app uitvoeren. Het combineert gestructureerde gegevens met visuele multiplayer-oppervlakken (raster, kanban, kalender, galerij, tijdlijn) die mensen en agenten delen – plus synchronisatie-integraties met Jira, Salesforce, Zendesk, Google Drive en Databricks. Maakt Claude vloeiend in Airtable: bases en schema, records en gebruikersinterface voor samenwerking. Bundles the official Airtable MCP server.",
    "category": "Design & media",
@@ -298,8 +298,8 @@
    "about": [
     "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, Databricks, and the rest of your stack, all backed by enterprise governance. This plugin makes Claude fluent in Airtable: creating bases and schema, working with records, and sharing UI for collaboration. Bundles the official Airtable MCP server."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, and Databricks. Makes Claude fluent in Airtable: bases and schema, records, and collaboration UI. Bundles the official Airtable MCP server."
+   "descriptionOriginal": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, and Databricks. Makes Claude fluent in Airtable: bases and schema, records, and collaboration UI. Bundles the official Airtable MCP server.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:airwallex",
@@ -852,8 +852,8 @@
    "about": [
     "Add authentication to any app with Auth0. This plugin detects your framework, scaffolds the right Auth0 SDK integration, and guides you through login, logout, sessions, and protected routes — using current SDK patterns."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Essential Auth0 skills including quickstarts, migration from other providers, and Multi-Factor Authentication (MFA)."
+   "descriptionOriginal": "Essential Auth0 skills including quickstarts, migration from other providers, and Multi-Factor Authentication (MFA).",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:autofix-bot",
@@ -1443,13 +1443,13 @@
    "description": "Ontdek uw merkstem uit bestaande documenten en gesprekken, genereer afdwingbare richtlijnen en valideer door AI gegenereerde inhoud aan de hand van uw gevestigde toon en positionering.",
    "category": "Documenten",
    "url": "https://claude.com/marketplace/plugins/brand-voice",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/0e0fcacddcc892eb92a1b7873ff9d68159c47571/partner-built/brand-voice",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/partner-built/brand-voice",
    "verified": true,
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Discover your brand voice from existing documents and conversations, generate enforceable guidelines, and validate AI-generated content against your established tone and positioning."
+   "descriptionOriginal": "Discover your brand voice from existing documents and conversations, generate enforceable guidelines, and validate AI-generated content against your established tone and positioning.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "official:brand-guidelines",
@@ -1708,20 +1708,20 @@
   },
   {
    "id": "marketplace:catalyst-by-zoho",
-   "name": "catalyst-by-zoho",
+   "name": "Catalyst by Zoho",
    "origin": "marketplace",
-   "description": "Officiële Claude Code-plug-in voor Catalyst van Zoho – full-stack serverloos cloudplatform. Met skills die alle...",
+   "description": "Officiële Claude Code-plug-in voor Catalyst van Zoho – full-stack serverloos cloudplatform. Met skills die alle services, SDK's, CLI, architectuurpatronen, prijzen, migratiehandleidingen en op Zoho MCP-tools gebaseerd resourcebeheer omvatten.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/catalyst-by-zoho",
    "source": "https://github.com/catalystbyzoho/claude-plugin",
-   "verified": false,
+   "verified": true,
    "installs": 25,
-   "maker": "Catalyst by Zoho",
+   "maker": "",
    "about": [
     "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. With Skills that covers all services, SDKs, CLI, architecture patterns, pricing, migration guides, and Zoho MCP tool-based resource management."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. With Skills that covers all ..."
+   "descriptionOriginal": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. With Skills that covers all services, SDKs, CLI, architecture patterns, pricing, migration guides, and Zoho MCP tool-based resource management."
   },
   {
    "id": "marketplace:cds-mcp",
@@ -1781,6 +1781,21 @@
    "raw": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/changelog-generator/SKILL.md",
    "firstSeen": "2000-01-01",
    "descriptionOriginal": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes."
+  },
+  {
+   "id": "marketplace:chattermill",
+   "name": "Chattermill",
+   "origin": "marketplace",
+   "description": "Koppel uw AI-agent aan de feedback van Chattermill-klanten. Omvat de Chattermill MCP-server (meld u aan met uw Chattermill-account) en de chattermill-best-practices-skill, die ontdekking, filters en deep links naar de app omvat.",
+   "category": "Ontwikkeling",
+   "url": "https://claude.com/marketplace/plugins/chattermill",
+   "source": "https://github.com/chattermill/agent-plugins",
+   "verified": true,
+   "installs": 0,
+   "maker": "Chattermill",
+   "about": [],
+   "firstSeen": "2026-11-27",
+   "descriptionOriginal": "Connect your AI agent to Chattermill customer feedback. Includes the Chattermill MCP server (sign in with your Chattermill account) and the chattermill-best-practices skill, which covers discovery, filters and deep links back into the app."
   },
   {
    "id": "marketplace:chdb",
@@ -4119,8 +4134,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2026-11-20",
-   "descriptionOriginal": "FullEnrich MCP search, enrichment, and CSV/JSON export for AI agents. Find prospects, enrich verified emails and phone numbers via waterfall enrichment (25+ data providers), and export results. Includes 9 guided skills for prospecting, CSV enrichment, outreach, sequences, meeting prep, talent sourcing, lookalikes, org charts, and optional orchestration of a separately connected CRM MCP."
+   "descriptionOriginal": "FullEnrich MCP search, enrichment, and CSV/JSON export for AI agents. Find prospects, enrich verified emails and phone numbers via waterfall enrichment (25+ data providers), and export results. Includes 9 guided skills for prospecting, CSV enrichment, outreach, sequences, meeting prep, talent sourcing, lookalikes, org charts, and optional orchestration of a separately connected CRM MCP.",
+   "firstSeen": "2026-11-20"
   },
   {
    "id": "marketplace:fullstory",
@@ -4262,8 +4277,8 @@
     "Powered by the GitKraken MCP server, the plugin gives Claude access to cross-platform Git data so you can query project status, review history, and track work items without switching tools. It's built by the team behind GitKraken Desktop, GitLens, and the GitKraken CLI — trusted by over 50 million developers.",
     "Once installed, ask Claude questions about your repositories and project management data. Try prompts like:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "This plugin gives Claude access to your real Git and project context: commits, branches, pull requests, and issues across every repo you work in. Ask the agent a question about your work, and it answers from what's actually in your history and your trackers, not what it can guess from the open file. Works with GitHub, GitLab, Azure DevOps, Bitbucket, and Jira."
+   "descriptionOriginal": "This plugin gives Claude access to your real Git and project context: commits, branches, pull requests, and issues across every repo you work in. Ask the agent a question about your work, and it answers from what's actually in your history and your trackers, not what it can guess from the open file. Works with GitHub, GitLab, Azure DevOps, Bitbucket, and Jira.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:gitlab",
@@ -4569,7 +4584,7 @@
    "description": "Creëer eenvoudig haken om ongewenst gedrag te voorkomen door gesprekspatronen te analyseren",
    "category": "Overig",
    "url": "https://claude.com/marketplace/plugins/hookify",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/73c8cf3ea7e296057b467990f2f5d61b4c922260/plugins/hookify",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/hookify",
    "verified": true,
    "installs": 60376,
    "maker": "",
@@ -4609,7 +4624,7 @@
    "description": "HubSpot-verkoopworkflows: contactimport, oproepvoorbereiding, dagelijkse briefing, vervolgopstelling, oproepregistratie, opzoeken van contacten en pijplijnoverzicht",
    "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/hubspot-sales",
-   "source": "https://github.com/hubspot/hubspot-mcp-plugins/tree/a0c59600fc1ddcf03ceca71aebf0c28aa55f49e3/HubSpot-Sales",
+   "source": "https://github.com/hubspot/hubspot-mcp-plugins/tree/032d294bc91577cb1b9c4a61372567266ca8524e/HubSpot-Sales",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -4946,7 +4961,7 @@
    "description": "Java-taalserver (Eclipse JDT.LS) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/jdtls-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/d7d32797e7e02708d0bb00ffe8b8f2397dc1aea6/plugins/jdtls-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/jdtls-lsp",
    "verified": true,
    "installs": 33734,
    "maker": "",
@@ -6408,7 +6423,7 @@
    "description": "Ontwikkel NetSuite SuiteCloud-oplossingen met SuiteScript, SDF en best practices.",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/netsuite-suitecloud",
-   "source": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/23793a10a9bb557c684c5cb8a97f926eb3463f12/anthropic/netsuite-suitecloud",
+   "source": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/d2190aa97f11ac9efd0fb945cd15fcaa47e874ff/anthropic/netsuite-suitecloud",
    "verified": true,
    "installs": 1102,
    "maker": "",
@@ -6997,7 +7012,7 @@
    "description": "PHP-taalserver (Intelefense) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/php-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/php-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/php-lsp",
    "verified": true,
    "installs": 32856,
    "maker": "",
@@ -7461,7 +7476,7 @@
    "description": "Beheer taken, plan uw dag en bouw een geheugen op voor belangrijke context over uw werk. Synchroniseert met uw agenda, e-mail en chat om alles georganiseerd en op het goede spoor te houden.",
    "category": "Schrijven & communicatie",
    "url": "https://claude.com/marketplace/plugins/productivity",
-   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/b4c9a4e1de4b42868b74a6fe30ac766f64e43a3e/productivity",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/5e504ae11498f2b8daa30d86b7dab97b2ecd8092/productivity",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -7518,8 +7533,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Connect PropertyMe to Claude to access deeper insights and get more from your portfolios. Connected data includes properties, jobs, tasks, inspections, contacts and more."
+   "descriptionOriginal": "Connect PropertyMe to Claude to access deeper insights and get more from your portfolios. Connected data includes properties, jobs, tasks, inspections, contacts and more.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:propper",
@@ -7700,8 +7715,8 @@
    "about": [
     "Agentic engineering skills for Qt software development — Qt C++/QML code review, QML coding, and Qt C++/QML code documentation."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Agentic engineering skills for Qt software development, including Qt C++/QML code review, QML coding, and Qt C++/QML code documentation. These skills use AI and can make mistakes. Always double-check the output carefully."
+   "descriptionOriginal": "Agentic engineering skills for Qt software development, including Qt C++/QML code review, QML coding, and Qt C++/QML code documentation. These skills use AI and can make mistakes. Always double-check the output carefully.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:quality-supervisor",
@@ -8463,7 +8478,7 @@
    "description": "Beveiligingsbeoordeling voor door Claude gegenereerde code. Op patronen gebaseerde waarschuwingen bij bewerkingen, door LLM aangedreven diff-beoordeling bij Stop en een agentische commit-recensent die injectie, XSS, SSRF, hardgecodeerde geheimen en meer dan 25 andere kwetsbaarheidsklassen onderschept.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/security-guidance",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/6985b2d88dc08b4a0d202f5f0301f02e360b9cb1/plugins/security-guidance",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/security-guidance",
    "verified": true,
    "installs": 241800,
    "maker": "",
@@ -8473,8 +8488,8 @@
     "The plugin runs automatically as a pre-tool hook - no commands needed. When Claude attempts to write code containing potentially unsafe patterns, you'll see a warning with specific remediation advice before the edit proceeds. Warnings are session-scoped so you only see each one once.",
     "Example warnings you might see:"
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardcoded secrets, and 25+ other vulnerability classes."
+   "descriptionOriginal": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardcoded secrets, and 25+ other vulnerability classes.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:semgrep",
@@ -9208,6 +9223,21 @@
    "about": [],
    "descriptionOriginal": "Design or redesign frontend UI, presentations, and marketing graphics on the Superdesign infinite canvas. Uses approved slide outlines, project context, and branchable drafts you refine.",
    "firstSeen": "2000-01-01"
+  },
+  {
+   "id": "marketplace:superme",
+   "name": "SuperMe",
+   "origin": "marketplace",
+   "description": "Denk er goed over na met de mensen die het werk hebben gedaan. SuperMe brengt perspectieven van topoperatorprofielen op het gebied van product, groei en marketing. Vraag om advies, ideeën of feedback, en je zult constructieve pushback, belangrijke context en relevante afwegingen zien die in realtime worden besproken door de daadwerkelijke mensen die het werk hebben gedaan – en niet slechts één enkele, samengevatte chatreactie.",
+   "category": "Marketing & business",
+   "url": "https://claude.com/marketplace/plugins/superme",
+   "source": "https://github.com/superme-ai/superme-plugins",
+   "verified": true,
+   "installs": 0,
+   "maker": "SuperMe",
+   "about": [],
+   "firstSeen": "2026-11-27",
+   "descriptionOriginal": "Think it through with the people who’ve done the work. SuperMe brings perspectives from top operator profiles across product, growth, and marketing. Ask for advice, ideas, or feedback, and you’ll see constructive pushback, key context, and relevant trade-offs debated in real time by the actual people who’ve done the work—not just a single, summarized chat response."
   },
   {
    "id": "marketplace:supermetrics",
@@ -10575,13 +10605,18 @@
   "marketplace:content-studio",
   "marketplace:knowledge-catalog",
   "marketplace:regulatory-legal",
-  "marketplace:noibu"
+  "marketplace:noibu",
+  "marketplace:catalyst-by-zoho"
  ],
- "updated": "2026-11-26T00:35:55.881143+00:00",
+ "updated": "2026-11-27T00:44:18.398581+00:00",
  "tonight": {
-  "date": "2026-11-26",
-  "id": "marketplace:noibu",
-  "text": [],
-  "textOriginal": []
+  "date": "2026-11-27",
+  "id": "marketplace:catalyst-by-zoho",
+  "text": [
+   "Officiële Claude Code-plug-in voor Catalyst van Zoho – full-stack serverloos cloudplatform. Met skills die alle services, SDK's, CLI, architectuurpatronen, prijzen, migratiehandleidingen en op Zoho MCP-tools gebaseerd resourcebeheer omvatten."
+  ],
+  "textOriginal": [
+   "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. With Skills that covers all services, SDKs, CLI, architecture patterns, pricing, migration guides, and Zoho MCP tool-based resource management."
+  ]
  }
 }
