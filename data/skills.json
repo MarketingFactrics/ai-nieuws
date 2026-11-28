@@ -1034,13 +1034,13 @@
    "id": "marketplace:aws-transform",
    "name": "AWS Transform",
    "origin": "marketplace",
-   "description": "Moderniseer codebases naar AWS: .NET → 8/10, COBOL → Java, VMware → EC2, SQL Server → Aurora, runtime- en SDK-upgrades.",
-   "category": "Data & analyse",
+   "description": "Migreer, moderniseer en upgrade codebases naar AWS. Transformeert .NET Framework naar .NET 8/10, mainframe COBOL naar Java, VMware VM's naar EC2, SQL Server naar Aurora, en upgrades van Java/Python/Node.js-versies en AWS SDK's. AWS Transform - continue modernisering analyseert codebases op technische schulden, beveiligingsproblemen en upgrademogelijkheden, en herstelt deze vervolgens.",
+   "category": "Security",
    "url": "https://claude.com/marketplace/plugins/aws-transform",
-   "source": "https://github.com/awslabs/agent-plugins",
-   "verified": false,
+   "source": "https://github.com/awslabs/agent-plugins/tree/097fe8ad56d8a1d5e2c81d7880adf145553cf244/plugins/aws-transform",
+   "verified": true,
    "installs": 378,
-   "maker": "Amazon Web Services",
+   "maker": "",
    "about": [
     "Migrate, modernize, and upgrade codebases to AWS with guided, multi-phase workflows. AWS Transform handles .NET Framework to .NET 8/10, mainframe COBOL to Java, VMware VMs to EC2, SQL Server to Aurora, and language/SDK version upgrades for Java, Python, and Node.js. It connects to the AWS Transform MCP server to run assessments, generate migration plans, and execute transformations — all with human-in-the-loop checkpoints at every stage.",
     "The plugin also provides continuous modernization analysis: scan your repositories for tech debt, security vulnerabilities, and upgrade opportunities, then remediate them directly. Each transformation follows a strict assess → plan → transform → validate workflow so nothing is skipped, and state is persisted between sessions so you can resume where you left off.",
@@ -1048,7 +1048,7 @@
     "migrate .NET Framework to .NET 8"
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Modernize codebases to AWS: .NET→8/10, COBOL→Java, VMware→EC2, SQL Server→Aurora, runtime & SDK upgrades."
+   "descriptionOriginal": "Migrate, modernize, and upgrade codebases to AWS. Transforms .NET Framework to .NET 8/10, mainframe COBOL to Java, VMware VMs to EC2, SQL Server to Aurora, and upgrades Java/Python/Node.js versions and AWS SDKs. AWS Transform - continuous modernization analyzes codebases for tech debt, security issues, and upgrade opportunities, then remediates them."
   },
   {
    "id": "community:aws-skills",
@@ -1901,8 +1901,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Portfolio monitoring and analytics for private capital LP teams. Cashflow forecasting, commitment pacing, look-through exposure scans, and GP-meeting prep against your Chronograph data."
+   "descriptionOriginal": "Portfolio monitoring and analytics for private capital LP teams. Cashflow forecasting, commitment pacing, look-through exposure scans, and GP-meeting prep against your Chronograph data.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:circle-skills",
@@ -2072,12 +2072,12 @@
   },
   {
    "id": "marketplace:claude-security",
-   "name": "Claude Security",
+   "name": "Claude Security plugin",
    "origin": "marketplace",
-   "description": "Diepgaande kwetsbaarheidsscans van uw eigen code, volledig uitgevoerd binnen uw Claude Code-sessie op een gekozen inspanningsniveau, waarbij elke bevinding wordt uitgedaagd voordat deze wordt gerapporteerd en het verificatiecijfer in code wordt berekend. Zet overgebleven bevindingen om in gerichte patches, elk geverifieerd door een panel van agenten, die u kunt toepassen wanneer u maar wilt. Zie de plug-in README voor de lagen, het rapportformaat en het vertrouwensmodel.",
+   "description": "Vind en repareer kwetsbaarheden voordat aanvallers deze misbruiken. Een team van agenten brengt uw code in kaart, gaat op zoek naar exploiteerbare fouten en daagt elke vondst uit, zodat u uw tijd kunt besteden aan echte bugs. Laat patches analyseren door een panel van agenten en pas ze toe wanneer u maar wilt. Beoordeel de resultaten van andere scanners, bouw een bedreigingsmodel, bekijk pull-aanvragen met een GitHub-actie en bekijk uw gehoste Claude Security-bevindingen.",
    "category": "Security",
    "url": "https://claude.com/marketplace/plugins/claude-security",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/c447c3207a425bc4e2a0d068435f64b0477ae981/plugins/claude-security",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/claude-security",
    "verified": true,
    "installs": 8580,
    "maker": "",
@@ -2087,8 +2087,8 @@
     "Install the plugin, run /claude-security, and choose an option.",
     "covers the whole repository, including code you didn't write"
    ],
-   "descriptionOriginal": "Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort tier, with every finding challenged before it is reported and the verification tally computed in code. Turns surviving findings into targeted patches, each verified by a panel of agents, that you apply when you choose. See the plugin README for the tiers, the report format, and the trust model.",
-   "firstSeen": "2000-01-01"
+   "firstSeen": "2000-01-01",
+   "descriptionOriginal": "Find and fix vulnerabilities before attackers exploit them. A team of agents maps your code, hunts for exploitable flaws and challenges every finding, so you spend your time on real bugs. Get patches analyzed by a panel of agents, and apply them when you choose. Triage other scanners' results, build a threat model, review pull requests with a GitHub Action, and see your hosted Claude Security findings."
   },
   {
    "id": "official:claude-api",
@@ -3125,8 +3125,8 @@
    "about": [
     "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications."
+   "descriptionOriginal": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:deploy-on-aws",
@@ -3836,8 +3836,8 @@
    "installs": 0,
    "maker": "Finaloop",
    "about": [],
-   "firstSeen": "2026-11-25",
-   "descriptionOriginal": "Connect 1,000+ sources — Shopify, Amazon, Stripe, Meta, Google, banks, payroll, inventory — and run your business from a conversation with your AI assistant on accrual-grade accounting data. Ask anything: sales and profits, blended ROAS, true SKU margin, cash runway, anomalies. Build dashboards and schedule reports in plain English. Every answer is reconciled to the penny — numbers you can defend in a board meeting."
+   "descriptionOriginal": "Connect 1,000+ sources — Shopify, Amazon, Stripe, Meta, Google, banks, payroll, inventory — and run your business from a conversation with your AI assistant on accrual-grade accounting data. Ask anything: sales and profits, blended ROAS, true SKU margin, cash runway, anomalies. Build dashboards and schedule reports in plain English. Every answer is reconciled to the penny — numbers you can defend in a board meeting.",
+   "firstSeen": "2026-11-25"
   },
   {
    "id": "marketplace:finance",
@@ -4545,7 +4545,7 @@
   },
   {
    "id": "marketplace:helius",
-   "name": "helius",
+   "name": "Helius",
    "origin": "marketplace",
    "description": "Bouw voort op Solana met Helius: live blockchain-tools, deskundige codeerpatronen en autonome accountaanmelding",
    "category": "Overig",
@@ -8697,7 +8697,7 @@
    "description": "Creëer nieuwe skills, verbeter bestaande skills en meet de prestaties van skills. Gebruik dit wanneer gebruikers een skill helemaal opnieuw willen creëren, een bestaande skill willen bijwerken of optimaliseren, evaluaties willen uitvoeren om een skill te testen of de prestaties van skills willen benchmarken met variantieanalyse.",
    "category": "Code review & testen",
    "url": "https://claude.com/marketplace/plugins/skill-creator",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/a2e251d9b97b909bf728b3e84fc8d17e6aba0063/plugins/skill-creator",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/skill-creator",
    "verified": true,
    "installs": 0,
    "maker": "",
@@ -9095,6 +9095,21 @@
    "firstSeen": "2000-01-01"
   },
   {
+   "id": "marketplace:steadybit",
+   "name": "Steadybit",
+   "origin": "marketplace",
+   "description": "Verken uw systemen, beoordeel de betrouwbaarheid van de service, ontwerp en voer chaos-experimenten uit, en leg experimenten uit in Steadybit.",
+   "category": "Design & media",
+   "url": "https://claude.com/marketplace/plugins/steadybit",
+   "source": "https://github.com/steadybit/ai-plugin-claude",
+   "verified": true,
+   "installs": 0,
+   "maker": "Steadybit",
+   "about": [],
+   "firstSeen": "2026-11-28",
+   "descriptionOriginal": "Explore your systems, assess service reliability, design and run chaos experiments, and explain experiment runs in Steadybit."
+  },
+  {
    "id": "marketplace:streaming-skills-plugin",
    "name": "Streaming Skills Plugin",
    "origin": "marketplace",
@@ -9296,7 +9311,7 @@
    "description": "Swift-taalserver (SourceKit-LSP) voor code-intelligentie",
    "category": "Ontwikkeling",
    "url": "https://claude.com/marketplace/plugins/swift-lsp",
-   "source": "https://github.com/anthropics/claude-plugins-official/tree/e6143c9807a001832badb63e89d58ffe25d542ec/plugins/swift-lsp",
+   "source": "https://github.com/anthropics/claude-plugins-official/tree/0fbfda5a91f4adc311daca25acc99132f40f0b6e/plugins/swift-lsp",
    "verified": true,
    "installs": 23378,
    "maker": "",
@@ -9305,8 +9320,8 @@
     "The plugin works with Swift Package Manager projects and provides cross-language support for Swift and C-based languages. SourceKit-LSP comes bundled with the Swift toolchain, so no separate installation is required beyond having Swift installed on your system.",
     "Simply install Swift on your system (via Xcode on macOS or from swift.org on Linux), then open any Swift project. The language server activates automatically when you work with .swift files, providing intelligent code assistance as you develop."
    ],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Swift language server (SourceKit-LSP) for code intelligence"
+   "descriptionOriginal": "Swift language server (SourceKit-LSP) for code intelligence",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "community:swiftui-design-skill",
@@ -9322,7 +9337,7 @@
   },
   {
    "id": "marketplace:synapse",
-   "name": "synapse",
+   "name": "Synapse",
    "origin": "marketplace",
    "description": "Synapse.org MCP-server van Sage Bionetworks voor gezamenlijk beheer van onderzoeksgegevens",
    "category": "Data & analyse",
@@ -9332,8 +9347,8 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Synapse.org MCP server by Sage Bionetworks for collaborative research data management"
+   "descriptionOriginal": "Synapse.org MCP server by Sage Bionetworks for collaborative research data management",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:synthflow",
@@ -9658,25 +9673,25 @@
    "installs": 0,
    "maker": "",
    "about": [],
-   "firstSeen": "2000-01-01",
-   "descriptionOriginal": "TwelveLabs video AI integration. Index, search, and analyze videos using TwelveLabs' multimodal AI platform."
+   "descriptionOriginal": "TwelveLabs video AI integration. Index, search, and analyze videos using TwelveLabs' multimodal AI platform.",
+   "firstSeen": "2000-01-01"
   },
   {
    "id": "marketplace:twilio-developer-kit",
-   "name": "twilio-developer-kit",
+   "name": "Twilio Developer Kit",
    "origin": "marketplace",
-   "description": "Twilio Skills biedt procedurele kennis voor AI-codeeragenten",
-   "category": "Ontwikkeling",
+   "description": "Twilio Skills biedt procedurele kennis voor AI-codeeragenten: welke API's ze moeten gebruiken, in welke volgorde en wat ze moeten vermijden. Omvat SMS, Voice, WhatsApp, Verify, SendGrid, Compliance en meer dan 30 producten.",
+   "category": "Marketing & business",
    "url": "https://claude.com/marketplace/plugins/twilio-developer-kit",
-   "source": "",
-   "verified": false,
+   "source": "https://github.com/twilio/ai",
+   "verified": true,
    "installs": 1776,
-   "maker": "Twilio",
+   "maker": "",
    "about": [
     "Twilio Skills provide procedural knowledge for AI coding agents — which APIs to use, in what order, and what to avoid. Covers SMS, Voice, WhatsApp, Verify, SendGrid, Compliance, and 30+ products."
    ],
    "firstSeen": "2000-01-01",
-   "descriptionOriginal": "Twilio Skills provide procedural knowledge for AI coding agents"
+   "descriptionOriginal": "Twilio Skills provide procedural knowledge for AI coding agents — which APIs to use, in what order, and what to avoid. Covers SMS, Voice, WhatsApp, Verify, SendGrid, Compliance, and 30+ products."
   },
   {
    "id": "community:twitter-algorithm-optimizer",
@@ -10606,17 +10621,14 @@
   "marketplace:knowledge-catalog",
   "marketplace:regulatory-legal",
   "marketplace:noibu",
-  "marketplace:catalyst-by-zoho"
+  "marketplace:catalyst-by-zoho",
+  "marketplace:document-skills"
  ],
- "updated": "2026-11-27T00:44:18.398581+00:00",
+ "updated": "2026-11-28T00:10:54.887051+00:00",
  "tonight": {
-  "date": "2026-11-27",
-  "id": "marketplace:catalyst-by-zoho",
-  "text": [
-   "Officiële Claude Code-plug-in voor Catalyst van Zoho – full-stack serverloos cloudplatform. Met skills die alle services, SDK's, CLI, architectuurpatronen, prijzen, migratiehandleidingen en op Zoho MCP-tools gebaseerd resourcebeheer omvatten."
-  ],
-  "textOriginal": [
-   "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. With Skills that covers all services, SDKs, CLI, architecture patterns, pricing, migration guides, and Zoho MCP tool-based resource management."
-  ]
+  "date": "2026-11-28",
+  "id": "marketplace:document-skills",
+  "text": [],
+  "textOriginal": []
  }
 }
